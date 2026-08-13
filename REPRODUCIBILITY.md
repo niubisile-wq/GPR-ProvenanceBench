@@ -4,6 +4,8 @@ This file describes how to interpret and rerun the repository materials.
 
 Versioned archive DOI: https://doi.org/10.5281/zenodo.21910757.
 
+GitHub repository: https://github.com/niubisile-wq/GPR-ProvenanceBench.
+
 ## What Is Included
 
 The repository includes the lightweight components needed to inspect the study logic:

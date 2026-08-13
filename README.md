@@ -20,6 +20,8 @@ This repository is intended to support manuscript review and reproducibility. It
 
 The versioned manuscript reproducibility package is archived on Zenodo: https://doi.org/10.5281/zenodo.21910757.
 
+GitHub repository: https://github.com/niubisile-wq/GPR-ProvenanceBench.
+
 Raw third-party GPR files are not redistributed here. They should be obtained from their original providers under the applicable provider licences. The archive and repository include manuscript source, figure files, sample manifests, split definitions, protocol records, audit artifacts, figure source tables, and lightweight result summaries. Additional analysis code and protocol records are available from the corresponding author upon reasonable request.
 
 ## Main Files
@@ -42,6 +44,8 @@ See `REPRODUCIBILITY.md` for a practical rerun guide.
 
 Versioned manuscript reproducibility package: https://doi.org/10.5281/zenodo.21910757.
 
+GitHub repository: https://github.com/niubisile-wq/GPR-ProvenanceBench.
+
 Raw third-party GPR data are not redistributed by the authors. Derived metadata, file hashes, split assignments, result summaries, source-data tables, and audit records are retained to support reproducibility without redistributing restricted source files.
 
 Additional analysis code and protocol records are available from the corresponding author upon reasonable request.
@@ -50,4 +54,4 @@ Additional analysis code and protocol records are available from the correspondi
 
 If using these materials, please cite the associated manuscript once available and the archived repository record:
 
-Liu, Z. & Xiong, W. GPR-ProvenanceBench. Zenodo. https://doi.org/10.5281/zenodo.21910757.
+Liu, Z. & Xiong, W. GPR-ProvenanceBench. Zenodo. https://doi.org/10.5281/zenodo.21910757. GitHub: https://github.com/niubisile-wq/GPR-ProvenanceBench.
