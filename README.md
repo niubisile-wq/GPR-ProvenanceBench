@@ -18,7 +18,9 @@ This repository is intended to support manuscript review and reproducibility. It
 - sample manifests and split definitions;
 - lightweight result summaries, source-data tables, and audit artifacts.
 
-Raw third-party GPR files are not redistributed here. They should be obtained from their original providers under the applicable provider licences. Source-data tables, sample manifests, split definitions, protocol records, audit artifacts, figure source tables, and analysis code are available from the corresponding author upon reasonable request.
+The versioned manuscript reproducibility package is archived on Zenodo: https://doi.org/10.5281/zenodo.21910757.
+
+Raw third-party GPR files are not redistributed here. They should be obtained from their original providers under the applicable provider licences. The archive and repository include manuscript source, figure files, sample manifests, split definitions, protocol records, audit artifacts, figure source tables, and lightweight result summaries. Additional analysis code and protocol records are available from the corresponding author upon reasonable request.
 
 ## Main Files
 
@@ -38,10 +40,14 @@ See `REPRODUCIBILITY.md` for a practical rerun guide.
 
 ## Data and Code Availability
 
+Versioned manuscript reproducibility package: https://doi.org/10.5281/zenodo.21910757.
+
 Raw third-party GPR data are not redistributed by the authors. Derived metadata, file hashes, split assignments, result summaries, source-data tables, and audit records are retained to support reproducibility without redistributing restricted source files.
 
-The analysis code and additional protocol records are available from the corresponding author upon reasonable request.
+Additional analysis code and protocol records are available from the corresponding author upon reasonable request.
 
 ## Citation
 
-If using these materials, please cite the associated manuscript once available.
+If using these materials, please cite the associated manuscript once available and the archived repository record:
+
+Liu, Z. & Xiong, W. GPR-ProvenanceBench. Zenodo. https://doi.org/10.5281/zenodo.21910757.

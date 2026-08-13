@@ -16,4 +16,4 @@ This release includes:
 
 Raw third-party GPR data, model checkpoints, local caches, and bulky intermediate artifacts are not redistributed in this repository. They are excluded from the release package and should be obtained from original providers or requested from the corresponding author where appropriate.
 
-Recommended citation metadata should be finalized in Zenodo after the archive DOI is minted.
+Zenodo archive DOI: https://doi.org/10.5281/zenodo.21910757.
