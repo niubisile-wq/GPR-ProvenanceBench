@@ -22,7 +22,7 @@ The versioned manuscript reproducibility package is archived on Zenodo: https://
 
 GitHub repository: https://github.com/niubisile-wq/GPR-ProvenanceBench.
 
-Raw third-party GPR files are not redistributed here. They should be obtained from their original providers under the applicable provider licences. The archive and repository include manuscript source, figure files, sample manifests, split definitions, protocol records, audit artifacts, figure source tables, and lightweight result summaries. Additional analysis code and protocol records are available from the corresponding author upon reasonable request.
+Raw third-party GPR files are not redistributed here. They should be obtained from their original providers under the applicable provider licences. The archive and repository include manuscript source, figure files, analysis scripts and run wrappers, sample manifests, split definitions, protocol records, audit artifacts, figure source tables, and lightweight result summaries. Additional local execution records and protocol materials that are not included in the public archive are available from the corresponding author upon reasonable request.
 
 ## Main Files
 
@@ -46,9 +46,9 @@ Versioned manuscript reproducibility package: https://doi.org/10.5281/zenodo.219
 
 GitHub repository: https://github.com/niubisile-wq/GPR-ProvenanceBench.
 
-Raw third-party GPR data are not redistributed by the authors. Derived metadata, file hashes, split assignments, result summaries, source-data tables, and audit records are retained to support reproducibility without redistributing restricted source files.
+Raw third-party GPR data are not redistributed by the authors. Derived metadata, file hashes, split assignments, result summaries, source-data tables, audit records, analysis scripts and run wrappers are retained to support reproducibility without redistributing restricted source files.
 
-Additional analysis code and protocol records are available from the corresponding author upon reasonable request.
+Additional local execution records and protocol materials that are not included in the public archive are available from the corresponding author upon reasonable request.
 
 ## Citation
 
