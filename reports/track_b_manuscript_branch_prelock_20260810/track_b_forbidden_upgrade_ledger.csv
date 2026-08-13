@@ -1,0 +1,8 @@
+no_go_id,forbidden_statement,reason,track_b_replacement
+TB-NG01,Completed blind external validation,Contradicts current hard-gate status.,Use bounded/open-gate wording from the Track B branch lock matrix.
+TB-NG02,Data/code are deposited under DOI,Contradicts current hard-gate status.,Use bounded/open-gate wording from the Track B branch lock matrix.
+TB-NG03,Final figures and Source Data are ready,Contradicts current hard-gate status.,Use bounded/open-gate wording from the Track B branch lock matrix.
+TB-NG04,Final Reporting Summary is ready,Contradicts current hard-gate status.,Use bounded/open-gate wording from the Track B branch lock matrix.
+TB-NG05,Final numbered references are complete,Contradicts current hard-gate status.,Use bounded/open-gate wording from the Track B branch lock matrix.
+TB-NG99A,The benchmark demonstrates deployment robustness across GPR settings.,No completed blind external validation exists.,The benchmark exposes environment-transfer fragility within the current executable evidence boundary.
+TB-NG99B,All source data and code are publicly available under DOI.,"Repository DOI, code DOI, licence and rights clearance are not complete.",Availability statements remain prelock until identifiers and rights are resolved.

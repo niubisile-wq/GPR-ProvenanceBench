@@ -1,0 +1,7 @@
+stop_id,rule
+STOP-001,Do not mark author email_sent=true until a real manual send record exists.
+STOP-002,Do not choose backend/scope on behalf of authors; recommendations are not selected values.
+STOP-003,Do not treat external-blind templates or dry runs as real external validation.
+STOP-004,"Do not select licences, create DOI records or clear rights without author/rights evidence."
+STOP-005,Do not finalize Reporting Summary while author confirmations and upstream gates are open.
+STOP-006,"Do not replace [P#] markers before final prose, figure/table calls and reference order are stable."

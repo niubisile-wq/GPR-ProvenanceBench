@@ -1,0 +1,1 @@
+In GPR recognition benchmarking, we show that provenance- and environment-aware evaluation exposes brittle Res-SAM transfer across five model families using auditable local manifests, model-family contrasts and stress-test boundaries, while blind external validation remains open.

@@ -1,0 +1,6 @@
+guard,current,required,passes_now
+intake_allows_writeback,False,true,no
+five_candidates_present,0,5,no
+all_candidates_complete,0,5,no
+candidate_ids_exact,,EDS-001;EDS-002;EDS-003;EDS-004;EDS-005,no
+explicit_execute_flag,False,true for real writeback,no

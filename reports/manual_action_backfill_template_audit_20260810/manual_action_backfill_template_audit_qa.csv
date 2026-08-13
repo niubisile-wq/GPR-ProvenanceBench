@@ -1,0 +1,5 @@
+check,result,detail
+all five forms have required field templates,PASS,forms=5
+all required fields are represented per form,PASS,template_rows=50
+current forms remain incomplete,PASS,currently_complete_forms=0
+route snapshot still allows no commands,PASS,allowed_commands_now=0

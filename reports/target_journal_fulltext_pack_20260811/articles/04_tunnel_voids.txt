@@ -1,0 +1,15 @@
+Title: Automatic recognition for tunnel lining voids in GPR images based on SC-PGGAN and bidirectional ...
+DOI: 10.1080/10589759.2025.2595524
+Source URL: https://www.tandfonline.com/doi/full/10.1080/10589759.2025.2595524
+Page title: Just a moment...
+H1: www.tandfonline.com
+Status: short_text
+
+www.tandfonline.com
+Performing security verification
+
+This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.
+
+Ray ID: a29af1911c515b5f
+Performance and Security by Cloudflare
+Privacy

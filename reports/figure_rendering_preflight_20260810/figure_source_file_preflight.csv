@@ -1,0 +1,7 @@
+figure_id,source_file_count,missing_source_files,source_status,boundary
+Figure 1,2,,all_sources_present,"Protocol/asset map only, not a performance result."
+Figure 2,2,,all_sources_present,Scope is Mojahid and Res-SAM only; no blind external validation claim.
+Figure 3,3,,all_sources_present,Directional but modest/model-dependent split effect; not universal leakage proof.
+Figure 4,2,,all_sources_present,"Stress-test evidence, not final causal proof or main confirmation."
+Figure 5,1,,all_sources_present,"Gate/failure-mode result; supports study design decisions, not model superiority."
+Figure 6,2,,all_sources_present,Open-gate placeholder only; no completed blind external validation.

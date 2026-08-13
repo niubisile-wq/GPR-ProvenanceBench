@@ -1,0 +1,4 @@
+dataset,contrast,directional_support,material_support,mean_delta_balanced_accuracy,claim_status,interpretation_boundary
+Mojahid,Mojahid: random - grouped,5/5,1/5,0.0406,directional_only,Directional but modest/model-dependent split effect; do not frame as a universal inflation result.
+Res-SAM,Res-SAM: within real - real->synthetic,5/5,5/5,0.4239,supported,Strong material support for real-to-synthetic environment-transfer fragility.
+Res-SAM,Res-SAM: within synthetic - synthetic->real,4/5,4/5,0.3743,supported,"Strong material support for synthetic-to-real environment-transfer fragility, with one model-family exception."

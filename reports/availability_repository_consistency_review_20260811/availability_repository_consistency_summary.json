@@ -1,0 +1,23 @@
+{
+  "package": "availability_repository_consistency_review_20260811",
+  "consistency_rows": 7,
+  "review_ready_rows": 7,
+  "final_ready_rows": 0,
+  "prefill_ready_fields": 5,
+  "blocked_fields": 4,
+  "upload_queue_files": 37,
+  "rights_decision_rows": 4,
+  "availability_access_routes": 5,
+  "release_blockers": 5,
+  "repository_doi_created": false,
+  "code_doi_created": false,
+  "licence_selected": false,
+  "third_party_rights_cleared": false,
+  "public_release_ready": false,
+  "submission_ready": false,
+  "qa_rows": 5,
+  "qa_pass": true,
+  "desktop_report": "C:\\Users\\刘子轩\\Desktop\\NatComms_20260811_availability_repository_consistency_review.md",
+  "status": "availability_repository_consistency_review_ready_not_final",
+  "desktop_plan_updated": true
+}

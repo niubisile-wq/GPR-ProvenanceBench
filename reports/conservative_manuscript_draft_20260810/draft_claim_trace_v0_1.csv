@@ -1,0 +1,4 @@
+draft_section,claim_ids_used,guardrail_source,status
+Abstract,"R1,R2,R3,R4,R6",abstract_claim_guardrails.csv,bounded_draft_only
+Results,"R1,R2,R3,R4,R5,R6",manuscript_claim_readiness_audit.csv,bounded_draft_only
+Discussion,"R2,R3,R4,R5,R6",forbidden_claims_ledger.csv,bounded_draft_only

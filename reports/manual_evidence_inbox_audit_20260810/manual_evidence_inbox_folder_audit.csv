@@ -1,0 +1,7 @@
+dispatch_id,linked_gate,inbox_folder,folder_exists,total_files,scaffold_files,candidate_evidence_files,tracker_entry_allowed_now,reason
+MD-001,Real blind external validation,manual_evidence_inbox_20260810/MD-001_real_blind_external_validation,True,1,1,0,no,No validated returned evidence has passed intake.
+MD-002,Main figure rendering,manual_evidence_inbox_20260810/MD-002_main_figure_rendering,True,1,1,0,no,No validated returned evidence has passed intake.
+MD-003,Repository identifiers,manual_evidence_inbox_20260810/MD-003_repository_identifiers,True,1,1,0,no,No validated returned evidence has passed intake.
+MD-004,Reporting Summary,manual_evidence_inbox_20260810/MD-004_reporting_summary,True,1,1,0,no,No validated returned evidence has passed intake.
+MD-005,Third-party rights,manual_evidence_inbox_20260810/MD-005_third_party_rights,True,1,1,0,no,No validated returned evidence has passed intake.
+MD-006,Final reference numbering,manual_evidence_inbox_20260810/MD-006_final_reference_numbering,True,1,1,0,no,No validated returned evidence has passed intake.

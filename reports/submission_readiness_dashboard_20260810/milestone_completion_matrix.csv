@@ -1,0 +1,5 @@
+milestone,status,completed_assets,not_completed
+Evidence package,partially_ready,"Mojahid, 4TU, Res-SAM local manifests; five-model Mojahid/Res-SAM synthesis; 4TU stress-test source packages.",TIGPR restoration; real blind external asset; full Res-SAM SAM checkpoint/runtime replication.
+Writing package,draft_ready_not_final,"Results/Methods skeletons, submission skeleton, narrative v1 cited/anchored drafts.","Final prose, final numbered references, figure/table final callouts."
+Figure/table package,tables_ready_figures_not_rendered,Figure/table anchor lock and Table 1-3 drafts.,"Figure rendering, visual QA, panel-level source-data mapping."
+Companion/release package,skeleton_ready_not_submission_ready,"Data/code availability skeletons, source-data deposit skeleton, release audit, sanitized staging preview.","Data DOI, code DOI, licence, third-party rights and final Reporting Summary."

@@ -1,0 +1,8 @@
+receipt_id,route_id,receipt_row_complete,writeback_permission_recorded,rb002_ready,ready_for_transition_validation,blocker
+RB002-WB-001,RTE-001,no,no,no,no,receipt incomplete or writeback permission absent
+RB002-WB-002,RTE-002,no,no,no,no,receipt incomplete or writeback permission absent
+RB002-WB-003,RTE-003,no,no,no,no,receipt incomplete or writeback permission absent
+RB002-WB-004,RTE-004,no,no,no,no,receipt incomplete or writeback permission absent
+RB002-WB-005,RTE-005,no,no,no,no,receipt incomplete or writeback permission absent
+RB002-WB-006,RTE-006,no,no,no,no,receipt incomplete or writeback permission absent
+RB002-WB-007,RTE-007,no,no,no,no,receipt incomplete or writeback permission absent

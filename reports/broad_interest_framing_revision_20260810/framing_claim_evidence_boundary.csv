@@ -1,0 +1,6 @@
+claim,evidence,status,boundary
+GPR benchmark performance can be shaped by provenance and environment structure.,Res-SAM environment-transfer drops across five model families; Mojahid directional split sensitivity; 4TU stress-test boundaries.,supported_bounded,Does not prove universal GPR model failure or completed external validation.
+"The broad-interest frame is benchmark trust under environment shift, not only GPR dataset curation.",Reviewer-risk audit identified interdisciplinary readership as possible but needing sharper framing.,framing_revision,Requires final schematic and references before submission-final use.
+Res-SAM is the lead current result.,Real-to-synthetic mean balanced-accuracy delta 0.4239; synthetic-to-real mean delta 0.3743.,supported_current_main_result,"Bounded to current local matrix, not blind external validation."
+Mojahid and 4TU provide secondary constraints.,Mojahid material support 1/5; 4TU fixed-split signal weakens under project-level repeated splits.,supported_secondary,Do not use as universal leakage or main confirmation claims.
+Blind external validation remains open.,"No real held-label asset, strict SHA manifest, frozen prediction submission, label unlock and locked evaluation.",open_gate,Must remain an open gate until real evidence exists.

@@ -1,0 +1,6 @@
+check,result,detail
+upload_queue_matches_locked_manifest,PASS,upload_rows=37; locked_rows=37
+metadata_blockers_preserved,PASS,"creators, licence, related identifiers and access rights remain blocked until real decisions exist."
+rights_action_register_complete,PASS,rights_actions=4; rights_rows=4
+release_delta_sync_imported,PASS,tracked_delta_artifacts=5
+no_doi_or_public_release_claimed,PASS,This handoff prepares forms and upload queue only; DOI creation and public release remain false.

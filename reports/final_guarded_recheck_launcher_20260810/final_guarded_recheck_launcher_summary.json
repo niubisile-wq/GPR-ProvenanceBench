@@ -1,0 +1,16 @@
+{
+  "package": "final_guarded_recheck_launcher_20260810",
+  "guarded_recheck_allowed": false,
+  "launcher_will_execute_recheck": false,
+  "receipt_rows": 6,
+  "complete_receipt_rows": 0,
+  "incomplete_receipt_rows": 6,
+  "blocked_receipt_rows": 6,
+  "system_command_execution_allowed": false,
+  "portal_upload_allowed": false,
+  "submission_ready": false,
+  "qa_rows": 4,
+  "qa_pass": true,
+  "status": "final_guarded_recheck_launcher_ready_refuses_current_state",
+  "desktop_plan_updated": true
+}

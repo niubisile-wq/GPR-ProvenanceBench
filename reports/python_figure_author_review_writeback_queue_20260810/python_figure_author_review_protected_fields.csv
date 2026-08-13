@@ -1,0 +1,8 @@
+target_file,protected_field,reason,overwrite_allowed
+reports/python_figure_author_review_packet_20260810/python_figure_author_review_form.csv,figure_id,"Changing this field would alter the figure claim, source path, boundary or allowed-value contract rather than record author review.",no
+reports/python_figure_author_review_packet_20260810/python_figure_author_review_form.csv,preview_file_png,"Changing this field would alter the figure claim, source path, boundary or allowed-value contract rather than record author review.",no
+reports/python_figure_author_review_packet_20260810/python_figure_author_review_form.csv,preview_file_pdf,"Changing this field would alter the figure claim, source path, boundary or allowed-value contract rather than record author review.",no
+reports/python_figure_author_review_packet_20260810/python_figure_author_review_form.csv,core_conclusion,"Changing this field would alter the figure claim, source path, boundary or allowed-value contract rather than record author review.",no
+reports/python_figure_author_review_packet_20260810/python_figure_author_review_form.csv,required_boundary,"Changing this field would alter the figure claim, source path, boundary or allowed-value contract rather than record author review.",no
+reports/python_figure_author_review_packet_20260810/python_figure_author_review_form.csv,current_visual_status,"Changing this field would alter the figure claim, source path, boundary or allowed-value contract rather than record author review.",no
+reports/python_figure_author_review_packet_20260810/python_figure_author_review_form.csv,allowed_values,"Changing this field would alter the figure claim, source path, boundary or allowed-value contract rather than record author review.",no

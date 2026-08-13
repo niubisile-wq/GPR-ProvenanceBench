@@ -1,0 +1,19 @@
+{
+  "run_id": "20260811_E37_zenodo_mcg_gpr_download",
+  "record_id": "14270869",
+  "doi": "10.5281/zenodo.14270869",
+  "file_name": "MCG_GPR_dataset.zip",
+  "download_url": "https://zenodo.org/api/records/14270869/files/MCG_GPR_dataset.zip/content",
+  "archive_path": "D:\\百度网盘拉取包\\CNS1\\external_assets\\zenodo_mcg_gpr_14270869\\MCG_GPR_dataset.zip",
+  "archive_size_bytes": 1385387968,
+  "expected_md5": "b43fd0e8840930f36b1003368736f936",
+  "observed_md5": "b43fd0e8840930f36b1003368736f936",
+  "md5_verified": true,
+  "extract_dir": "D:\\百度网盘拉取包\\CNS1\\external_assets\\zenodo_mcg_gpr_14270869\\extracted",
+  "extracted_file_count": 9067,
+  "image_file_count": 9066,
+  "mask_file_count": 0,
+  "extracted_bytes": 1395090638,
+  "blind_external_eligible": false,
+  "status": "complete_public_mcg_gpr_download_verified_extracted"
+}

@@ -1,0 +1,10 @@
+platform_field,prefill_value,source,deposit_status,blocking_note
+title,GPR-ProvenanceBench: source-aware evaluation artifacts for ground-penetrating radar recognition,doi_metadata_predeposit_lock.csv,prefill_ready,
+upload_type,dataset,repository_metadata_package/zenodo_metadata_draft.json,prefill_ready,
+creators,"Liu, Zixuan; collaborators to be added before deposit",doi_metadata_predeposit_lock.csv,blocked,"Confirm complete author list, order, affiliations and ORCID fields before deposit."
+description,"Derived manifests, source-data tables, protocol files and audit artifacts supporting a provenance-aware GPR recognition benchmark checkpoint.",doi_metadata_predeposit_lock.csv,prefill_ready,
+keywords,ground-penetrating radar; provenance-aware evaluation; environment transfer; data leakage; benchmark; source data,doi_metadata_predeposit_lock.csv,prefill_ready,
+version,2026-08-10-predeposit,doi_metadata_predeposit_lock.csv,prefill_ready,
+license,TBD; candidate permissive licence for code and CC-BY/CC0-compatible licence for derived metadata only after rights review,rights_and_licence_release_blockers.csv,blocked,Select software and derived-data licences after author and third-party rights review.
+related_identifiers,Manuscript DOI/preprint DOI to be added after submission or preprint; data/code DOI missing,doi_metadata_predeposit_lock.csv,blocked,"Add manuscript, preprint, data DOI and code DOI only after they exist."
+access_right,open for derived artifacts only after third-party rights review; restricted for raw third-party GPR files,availability_release_crosswalk.csv,blocked,Open only derived artifacts that pass rights review; exclude raw third-party data by default.

@@ -1,0 +1,8 @@
+route_id,command,mapped_gate_id,command_currently_allowed,transition_allowed_now,bridge_execution_allowed,reason
+RTE-001,py scripts\build_natcomms_author_response_log_validator.py,FM-001,no,no,no,Blocked by RB-002 entry bridge or post-writeback transition guard.
+RTE-002,py scripts\build_natcomms_author_reply_ingestion_validator.py,FM-001,no,no,no,Blocked by RB-002 entry bridge or post-writeback transition guard.
+RTE-003,py scripts\build_figure_backend_decision_validator.py,FM-003,no,no,no,Blocked by RB-002 entry bridge or post-writeback transition guard.
+RTE-004,py scripts\build_rights_licence_completion_handoff.py,FM-004,no,no,no,Blocked by RB-002 entry bridge or post-writeback transition guard.
+RTE-005,py scripts\build_reporting_summary_completion_handoff.py,FM-005,no,no,no,Blocked by RB-002 entry bridge or post-writeback transition guard.
+RTE-006,py scripts\build_reference_completion_handoff.py,FM-006,no,no,no,Blocked by RB-002 entry bridge or post-writeback transition guard.
+RTE-007,py scripts/build_natcomms_submission_final_lock_validator.py,FM-008,no,no,no,Blocked by RB-002 entry bridge or post-writeback transition guard.

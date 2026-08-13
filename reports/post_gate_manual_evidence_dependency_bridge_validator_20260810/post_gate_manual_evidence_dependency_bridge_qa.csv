@@ -1,0 +1,6 @@
+check,result,detail
+all upstream summaries loaded,PASS,"gate bridge, post-dispatch, worksheet, entry preflight, rerun guard and runbook summaries loaded."
+19.43 gate bridge remains blocking,PASS,gate_bridge_allows_manual_closeout=False
+manual evidence remains absent,PASS,manual_evidence_ready=False
+safe rerun remains blocked,PASS,safe_rerun_allowed=False
+submission remains false,PASS,submission_ready=False

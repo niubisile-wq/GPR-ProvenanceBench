@@ -1,0 +1,6 @@
+check,result,detail
+send log rows present,PASS,rows=5
+v2 fingerprint hashes match,PASS,report_hash=7b64c7f43f10c909a8f77ed940ea8a8e92eb31b102686cb0f7998779fa8e5c36; desktop_hash=7b64c7f43f10c909a8f77ed940ea8a8e92eb31b102686cb0f7998779fa8e5c36
+send log has no stale v1 references,PASS,stale_rows=0
+tracker summary matches v2,PASS,summary_sha=7b64c7f43f10c909a8f77ed940ea8a8e92eb31b102686cb0f7998779fa8e5c36
+downstream validators remain guarded,PASS,manual sendout and RB-001 drop must remain blocked.

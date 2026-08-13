@@ -1,0 +1,9 @@
+recipient_role,attachment_count,attachment_ids,recommended_bundle,send_status_now,required_real_world_action
+all_recipients,4,GUIDE-001;GUIDE-004;GUIDE-005;GUIDE-006,<LOCAL_DESKTOP>\\NatComms_author_sendout_bundle_v2_20260810.zip,not_sent,"Confirm person/email/channel, send manually, then record timestamp and sender in send log."
+analysis,1,LOG-004,<LOCAL_DESKTOP>\\NatComms_author_sendout_bundle_v2_20260810.zip,not_sent,"Confirm person/email/channel, send manually, then record timestamp and sender in send log."
+analysis_reference_lead,1,ATT-007,<LOCAL_DESKTOP>\\NatComms_author_sendout_bundle_v2_20260810.zip,not_sent,"Confirm person/email/channel, send manually, then record timestamp and sender in send log."
+author_advisor,1,ATT-004,<LOCAL_DESKTOP>\\NatComms_author_sendout_bundle_v2_20260810.zip,not_sent,"Confirm person/email/channel, send manually, then record timestamp and sender in send log."
+author_analysis,2,ATT-005;GUIDE-003,<LOCAL_DESKTOP>\\NatComms_author_sendout_bundle_v2_20260810.zip,not_sent,"Confirm person/email/channel, send manually, then record timestamp and sender in send log."
+corresponding_author,5,ATT-001;ATT-002;ATT-003;ATT-008;GUIDE-002,<LOCAL_DESKTOP>\\NatComms_author_sendout_bundle_v2_20260810.zip,not_sent,"Confirm person/email/channel, send manually, then record timestamp and sender in send log."
+repository_lead,1,ATT-006,<LOCAL_DESKTOP>\\NatComms_author_sendout_bundle_v2_20260810.zip,not_sent,"Confirm person/email/channel, send manually, then record timestamp and sender in send log."
+sender,4,GUIDE-007;LOG-001;LOG-002;LOG-003,<LOCAL_DESKTOP>\\NatComms_author_sendout_bundle_v2_20260810.zip,not_sent,"Confirm person/email/channel, send manually, then record timestamp and sender in send log."

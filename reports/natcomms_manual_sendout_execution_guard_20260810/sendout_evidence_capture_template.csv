@@ -1,0 +1,6 @@
+record_id,field,allowed_value_or_rule,manual_owner,when_to_fill,current_value
+EVID-001,sent_zip_path,<LOCAL_DESKTOP>\\NatComms_author_sendout_bundle_v2_20260810.zip,sender,after real manual sendout,
+EVID-002,sent_datetime_local,"ISO-like local datetime, e.g. 2026-08-10 21:30 Asia/Shanghai",sender,after real manual sendout,
+EVID-003,recipient_list_confirmed,corresponding_author; author_analysis; repository_or_institutional_admin; reporting_summary_owner,sender,before send,
+EVID-004,email_body_boundary_checked,yes only after checking no final-readiness claims,sender,before send,
+EVID-005,all_returned_files_stored,yes only when every required reply form has a local returned path,sender,after return intake,

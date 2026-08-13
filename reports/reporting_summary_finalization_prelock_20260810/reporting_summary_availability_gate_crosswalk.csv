@@ -1,0 +1,6 @@
+availability_gate,required_evidence,current_state,reporting_summary_field_impact
+data_repository_identifier,"Repository DOI/accession resolves to a landing page with title, creators, file list, README, licence and version.",open,Data availability
+code_repository_identifier,"Public repository URL, release tag, software licence and archive DOI.",open,Software and code availability
+third_party_rights,Provider licence review and explicit exclusion or redistribution permission for raw GPR files.,open,Data availability; sample handling
+figure_source_data,Rendered figures and panel-level source-data mapping.,open,Study design; Data availability
+blind_external_data,"Data-holder agreement, manifest, label-holdout route and aggregate sharability decision.",open,Blinding; External validation

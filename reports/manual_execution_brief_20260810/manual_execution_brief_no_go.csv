@@ -1,0 +1,5 @@
+rule_id,do_not_do,reason
+MEB-NOGO-001,Do not run any --execute-writeback command.,ready_for_writeback_rows=0
+MEB-NOGO-002,Do not run downstream validators from incomplete forms.,ready_for_downstream_validator_rows=0
+MEB-NOGO-003,Do not run guarded recheck.,complete_receipt_rows=0
+MEB-NOGO-004,Do not upload portal files or mark submitted.,submission_ready=false

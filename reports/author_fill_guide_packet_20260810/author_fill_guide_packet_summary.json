@@ -1,0 +1,15 @@
+{
+  "package": "author_fill_guide_packet_20260810",
+  "core_author_fields": 12,
+  "backend_decision_rows": 2,
+  "ancillary_fill_rows": 23,
+  "send_return_rows": 2,
+  "owner_task_rows": 6,
+  "prohibited_reply_rows": 5,
+  "manual_preservation_targets_imported": 9,
+  "qa_pass": true,
+  "author_replies_collected": false,
+  "backend_selected": false,
+  "submission_ready": false,
+  "status": "author_fill_guide_packet_ready_for_manual_completion"
+}

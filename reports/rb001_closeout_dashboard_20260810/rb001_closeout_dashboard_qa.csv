@@ -1,0 +1,6 @@
+check,result,detail
+all_preparation_layers_summarized,PASS,prepared_rows=6
+blockers_preserved,PASS,blockers=6; rb001_closed=False
+no_false_writeback_entry,PASS,writeback_preflight_entry_allowed=False
+manual_next_action_present,PASS,Place real returned files in the correct route folders under final_return_evidence_inbox_20260810.
+submission_guard_preserved,PASS,submission_ready=False

@@ -1,0 +1,5 @@
+check,result,detail
+worksheet_and_rerun_guard_imported,PASS,worksheet_rows=7; branch_rows=7
+desktop_runbook_created,PASS,<LOCAL_DESKTOP>\\NatComms_人工证据填写与重跑说明_20260810.md
+runbook_preserves_not_ready_state,PASS,evidence_rows_passed=0
+no_manual_evidence_written,PASS,Runbook is documentation only.

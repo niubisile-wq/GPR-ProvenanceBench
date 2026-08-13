@@ -1,0 +1,5 @@
+check,result,detail
+six_inbox_folders_audited,PASS,folder_rows=6
+no_sensitive_return_files_present,PASS,sensitive_rows=0
+empty_inbox_state_preserved,PASS,candidate_evidence_files=0
+no_validator_pass_claim,PASS,evidence_rows_passed=0

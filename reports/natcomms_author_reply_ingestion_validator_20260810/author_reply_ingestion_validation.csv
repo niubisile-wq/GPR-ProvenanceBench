@@ -1,0 +1,13 @@
+field_id,decision_area,author_reply_blank,required_to_close_gate,ingestion_status,closure_allowed,reason
+AFR-001,corresponding_author_identity,yes,FM-001; FM-008,missing_author_reply,no,Author reply is blank.
+AFR-002,author_order_and_affiliations,yes,FM-001,missing_author_reply,no,Author reply is blank.
+AFR-003,author_contributions,yes,FM-001,missing_author_reply,no,Author reply is blank.
+AFR-004,competing_interests,yes,FM-001,missing_author_reply,no,Author reply is blank.
+AFR-005,funding_acknowledgements,yes,FM-001,missing_author_reply,no,Author reply is blank.
+AFR-006,ethics_consent_governance,yes,FM-001; FM-005,missing_author_reply,no,Author reply is blank.
+AFR-007,manuscript_branch,yes,FM-002,missing_author_reply,no,Author reply is blank.
+AFR-008,figure_backend,yes,FM-003,missing_author_reply,no,Author reply is blank.
+AFR-009,licence_rights_repository,yes,FM-004,missing_author_reply,no,Author reply is blank.
+AFR-010,reviewer_editorial_policy,yes,FM-001; FM-008,missing_author_reply,no,Author reply is blank.
+AFR-011,reporting_summary_confirmation,yes,FM-005,missing_author_reply,no,Author reply is blank.
+AFR-012,final_submission_author_approval,yes,FM-007; FM-008,missing_author_reply,no,Author reply is blank.

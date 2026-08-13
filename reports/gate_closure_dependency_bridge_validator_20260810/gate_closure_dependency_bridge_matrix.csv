@@ -1,0 +1,8 @@
+dependency,source,current,required,passes_now
+transition_bridge_allows_gate_closure,19.42 post-writeback transition dependency bridge,False,true,no
+binder_allows_gate_closure,NatComms gate closure evidence binder,False,true and open_evidence_requirements=0,no
+execution_board_allows_gate_closure,gate closure execution board,False,true and portal_upload_ready=true,no
+final_lock_allows_submission,NatComms submission final lock validator,False,true with open_master_gates=0,no
+gate_closure_allowed,19.43 bridge decision,False,true only after all upstream gates pass,no
+portal_upload_ready,19.43 bridge decision,False,false in current blocked state,yes
+submission_ready,19.43 bridge boundary,False,false in current blocked state,yes

@@ -1,0 +1,18 @@
+{
+  "package": "rb001_diagnostic_only_runner_20260810",
+  "runner_script": "D:\\\u767e\u5ea6\u7f51\u76d8\u62c9\u53d6\u5305\\CNS1\\GPR-ProvenanceBench\\reports\\rb001_diagnostic_only_runner_20260810\\run_rb001_diagnostic_only.ps1",
+  "runner_script_exists": true,
+  "runner_returncode": 0,
+  "command_rows": 6,
+  "diagnostic_commands_included": 3,
+  "forbidden_commands_excluded": true,
+  "qa_rows": 5,
+  "qa_pass": true,
+  "candidate_return_files": 0,
+  "writeback_allowed_rows": 0,
+  "commands_allowed_now": 0,
+  "open_master_gates": 8,
+  "submission_ready": false,
+  "status": "rb001_diagnostic_only_runner_ready_diagnostic_passed_blocked_state_preserved",
+  "desktop_plan_updated": true
+}

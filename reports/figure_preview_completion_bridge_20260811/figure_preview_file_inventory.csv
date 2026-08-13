@@ -1,0 +1,7 @@
+figure_id,preview_pdf_exists,preview_svg_exists,preview_png_exists,preview_tiff_exists,preview_export_count,preview_status,final_status,submission_boundary
+Figure 1,True,True,True,True,4,preview_complete,blocked_pending_author_approval_final_export_qa_and_source_data_lock,preview-only; not portal-ready final figure
+Figure 2,True,True,True,True,4,preview_complete,blocked_pending_author_approval_final_export_qa_and_source_data_lock,preview-only; not portal-ready final figure
+Figure 3,True,True,True,True,4,preview_complete,blocked_pending_author_approval_final_export_qa_and_source_data_lock,preview-only; not portal-ready final figure
+Figure 4,True,True,True,True,4,preview_complete,blocked_pending_author_approval_final_export_qa_and_source_data_lock,preview-only; not portal-ready final figure
+Figure 5,True,True,True,True,4,preview_complete,blocked_pending_author_approval_final_export_qa_and_source_data_lock,preview-only; not portal-ready final figure
+Figure 6,True,True,True,True,4,preview_complete,blocked_pending_author_approval_final_export_qa_and_source_data_lock,preview-only; not portal-ready final figure

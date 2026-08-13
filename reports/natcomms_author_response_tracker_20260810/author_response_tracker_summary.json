@@ -1,0 +1,20 @@
+{
+  "package": "natcomms_author_response_tracker_20260810",
+  "send_log_rows": 5,
+  "return_tracker_rows": 8,
+  "validation_plan_rows": 5,
+  "post_reply_rerun_commands": 4,
+  "stop_rules": 5,
+  "bundle_zip_sha256": "7b64c7f43f10c909a8f77ed940ea8a8e92eb31b102686cb0f7998779fa8e5c36",
+  "qa_pass": true,
+  "email_sent": false,
+  "all_replies_received": false,
+  "author_replies_collected": false,
+  "backend_selected": false,
+  "submission_ready": false,
+  "status": "natcomms_author_response_tracker_ready_waiting_manual_sendout",
+  "bundle_zip": "reports\\natcomms_author_sendout_bundle_v2_20260810\\NatComms_author_sendout_bundle_v2_20260810.zip",
+  "bundle_zip_source": "natcomms_author_sendout_bundle_v2_20260810",
+  "canonical_send_log_overlay_applied": true,
+  "canonical_send_log_overlay_status": "v2_bundle_reference_applied_not_sent"
+}

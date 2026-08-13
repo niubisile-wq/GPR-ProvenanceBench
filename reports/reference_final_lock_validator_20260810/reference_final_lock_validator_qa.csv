@@ -1,0 +1,6 @@
+check,result,detail
+replacement_rows_blocked,PASS,replacement_rows=5; replacements_allowed=0
+manual_checks_open,PASS,manual_rows=8; manual_closed=0
+metadata_verified_but_not_final,PASS,metadata_failures=0; public_ready=0
+support_guards_active,PASS,guard_rows=4
+final_references_not_ready,PASS,handoff_final=False; support_final=False

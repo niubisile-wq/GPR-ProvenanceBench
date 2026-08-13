@@ -1,0 +1,6 @@
+check,result,detail
+watcher covers five manual evidence locations,PASS,watched_locations=5
+current state has no candidate files,PASS,candidate_files_detected=0
+current forms are still blank,PASS,forms_with_any_fill=0
+handoff acceptance remains ready but unexecuted,PASS,handoff_acceptance_ready=True; manual_actions_executed=False
+form validation remains blocked,PASS,validated_form_rows=0

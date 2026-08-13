@@ -1,0 +1,20 @@
+{
+  "package": "post_dispatch_evidence_intake_validator_20260810",
+  "evidence_rows": 7,
+  "evidence_rows_passed": 0,
+  "evidence_rows_missing": 7,
+  "next_validation_commands": 7,
+  "next_validation_commands_blocked": 7,
+  "qa_rows": 5,
+  "qa_pass": true,
+  "email_sent": false,
+  "author_replies_collected": false,
+  "backend_selected": false,
+  "external_asset_acquired": false,
+  "third_party_rights_cleared": false,
+  "final_reporting_summary_ready": false,
+  "final_references_ready": false,
+  "submission_ready": false,
+  "status": "post_dispatch_evidence_intake_ready_waiting_manual_evidence",
+  "desktop_plan_updated": true
+}

@@ -1,0 +1,18 @@
+{
+  "package": "next_human_execution_handoff_bundle_20260810",
+  "manifest_rows": 12,
+  "zip_members": 12,
+  "desktop_zip": "C:\\Users\\刘子轩\\Desktop\\NatComms_下一步人工执行handoff_20260810.zip",
+  "desktop_zip_exists": true,
+  "local_zip": "D:\\百度网盘拉取包\\CNS1\\GPR-ProvenanceBench\\reports\\next_human_execution_handoff_bundle_20260810\\NatComms_next_human_execution_handoff_20260810.zip",
+  "qa_rows": 4,
+  "qa_pass": true,
+  "manual_actions_executed": false,
+  "candidate_evidence_files": 0,
+  "writeback_allowed_rows": 0,
+  "evidence_rows_passed": 0,
+  "gate_closure_allowed": false,
+  "submission_ready": false,
+  "status": "next_human_execution_handoff_ready_not_executed",
+  "desktop_plan_updated": true
+}

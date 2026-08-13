@@ -1,0 +1,5 @@
+check,result,detail
+19.58 writeback summary imported,PASS,writeback_executed=False
+commands are not auto-executed,PASS,command_rows=4
+current no-go state preserved,PASS,fmr001_unlock_allowed_after_revalidation=False
+submission remains false,PASS,portal_upload_allowed=false; submission_ready=false

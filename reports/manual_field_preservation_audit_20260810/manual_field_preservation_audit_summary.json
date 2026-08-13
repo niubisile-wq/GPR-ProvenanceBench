@@ -1,0 +1,11 @@
+{
+  "package": "manual_field_preservation_audit_20260810",
+  "manual_field_targets": 9,
+  "protected_targets": 9,
+  "risk_rows": 0,
+  "sendout_stage_rows": 7,
+  "filled_manual_rows": 0,
+  "qa_pass": true,
+  "submission_ready": false,
+  "status": "manual_field_preservation_audit_ready_all_targets_protected"
+}

@@ -1,0 +1,6 @@
+check,result,detail
+export_rows_indexed,PASS,export_rows=6
+source_rows_indexed,PASS,source_rows=6
+caption_rows_indexed,PASS,caption_rows=6
+final_export_qa_blocked_now,PASS,final_candidate_generation_allowed=True
+figure6_boundary_preserved,PASS,Open-gate placeholder only; no completed blind external validation.

@@ -1,0 +1,8 @@
+form_id,primary_fmr,command_or_action,allowed_now,why_not_command,writeback_allowed_now
+MOF-001,FMR-001,"Complete the real manual action, place real evidence, fill form fields, record SHA256 and pass sensitive-content check.",manual_only,form is incomplete or evidence is missing,no
+MOF-002,FMR-002,"Complete the real manual action, place real evidence, fill form fields, record SHA256 and pass sensitive-content check.",manual_only,form is incomplete or evidence is missing,no
+MOF-003,FMR-003,"Complete the real manual action, place real evidence, fill form fields, record SHA256 and pass sensitive-content check.",manual_only,form is incomplete or evidence is missing,no
+MOF-004,FMR-004,"Complete the real manual action, place real evidence, fill form fields, record SHA256 and pass sensitive-content check.",manual_only,form is incomplete or evidence is missing,no
+MOF-005,FMR-005,"Complete the real manual action, place real evidence, fill form fields, record SHA256 and pass sensitive-content check.",manual_only,form is incomplete or evidence is missing,no
+GLOBAL,FMR-001..FMR-006,any --execute-writeback,no,no preflight-approved FMR candidate exists,no
+GLOBAL,all,portal upload or submission,no,submission_ready=false,no

@@ -1,0 +1,3 @@
+blocker,evidence,blocks
+EDS writeback not executed,writeback_executed=False; real_eds_template_modified=False,19.54/19.55 post-writeback revalidation sequence
+final manual receipts incomplete,complete_receipt_rows=0; guarded_recheck_allowed=False,final guarded recheck and final master re-entry

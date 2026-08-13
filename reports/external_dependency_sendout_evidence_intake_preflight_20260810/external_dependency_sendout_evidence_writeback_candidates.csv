@@ -1,0 +1,1 @@
+send_receipt_id,receipt_id,owner,required_send_evidence,sent_datetime_local,sender,recipient_or_channel,sent_message_path,sent_message_sha256,current_status,unlock_if_valid

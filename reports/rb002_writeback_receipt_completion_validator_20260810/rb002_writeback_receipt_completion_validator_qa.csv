@@ -1,0 +1,6 @@
+check,result,detail
+all_receipt_rows_validated,PASS,validation_rows=7
+empty_template_not_complete,PASS,complete_rows=0
+no_transition_without_writeback_permission,PASS,transition_entry_allowed=False
+writeback_block_preserved,PASS,writeback_allowed_rows=0; rb002_ready=False
+transition_guard_preserved,PASS,transition_allowed_rows=0

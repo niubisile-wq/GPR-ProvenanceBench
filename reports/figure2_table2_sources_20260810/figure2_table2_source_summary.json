@@ -1,0 +1,10 @@
+{
+  "run_id": "20260810_figure2_table2_sources",
+  "figure2_rows": 15,
+  "table2_rows": 3,
+  "source_inputs": [
+    "D:\\百度网盘拉取包\\CNS1\\GPR-ProvenanceBench\\reports\\five_model_synthesis_20260810\\five_model_synthesis_model_rows.csv",
+    "D:\\百度网盘拉取包\\CNS1\\GPR-ProvenanceBench\\reports\\five_model_synthesis_20260810\\five_model_synthesis_claim_summary.csv"
+  ],
+  "boundary": "Source data only; no rendered figure yet and no blind external validation claim."
+}

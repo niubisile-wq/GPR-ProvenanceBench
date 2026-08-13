@@ -1,0 +1,17 @@
+{
+  "package": "rb001_return_evidence_hash_reconciliation_20260810",
+  "scanner_file_rows": 0,
+  "register_template_rows": 7,
+  "filled_register_rows": 0,
+  "reconciled_rows": 0,
+  "missing_source_register_rows": 0,
+  "hash_mismatch_rows": 0,
+  "command_rows": 4,
+  "qa_rows": 5,
+  "qa_pass": true,
+  "candidate_return_files": 0,
+  "writeback_allowed_rows": 0,
+  "submission_ready": false,
+  "status": "rb001_return_evidence_hash_reconciliation_ready_empty_no_writeback",
+  "desktop_plan_updated": true
+}

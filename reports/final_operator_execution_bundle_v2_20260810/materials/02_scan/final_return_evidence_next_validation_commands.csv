@@ -1,0 +1,8 @@
+sequence,route_id,run_when,command,currently_allowed,reason
+1,RTE-001,after candidate files are manually inspected and mapped to protected fields,py scripts/build_post_dispatch_evidence_intake_validator.py,no,No automatic writeback is allowed from raw returned files.
+2,RTE-002,after candidate files are manually inspected and mapped to protected fields,py scripts/build_natcomms_author_reply_ingestion_validator.py,no,No automatic writeback is allowed from raw returned files.
+3,RTE-003,after candidate files are manually inspected and mapped to protected fields,py scripts/build_python_figure_author_review_intake_validator.py,no,No automatic writeback is allowed from raw returned files.
+4,RTE-004,after candidate files are manually inspected and mapped to protected fields,py scripts/build_availability_repository_finalization_validator.py,no,No automatic writeback is allowed from raw returned files.
+5,RTE-005,after candidate files are manually inspected and mapped to protected fields,py scripts/build_reporting_summary_final_lock_validator.py,no,No automatic writeback is allowed from raw returned files.
+6,RTE-006,after candidate files are manually inspected and mapped to protected fields,py scripts/build_reference_final_lock_validator.py,no,No automatic writeback is allowed from raw returned files.
+7,RTE-007,after candidate files are manually inspected and mapped to protected fields,py scripts/build_natcomms_submission_final_lock_validator.py,no,No automatic writeback is allowed from raw returned files.

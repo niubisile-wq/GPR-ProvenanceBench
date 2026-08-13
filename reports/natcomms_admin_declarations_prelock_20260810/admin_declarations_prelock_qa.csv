@@ -1,0 +1,7 @@
+check,result,detail
+Official admin sources recorded,PASS,3 official/publisher source rows.
+Title page does not invent authors,PASS,Author and affiliation fields remain placeholders.
+Author contribution intake exists,PASS,8 contribution rows.
+Declarations remain non-final,PASS,No declaration is marked final.
+Reviewer suggestion intake exists,PASS,4 reviewer/exclusion rows.
+Scientific gates not upgraded,PASS,Text and SI preassemblies remain submission_ready=false.

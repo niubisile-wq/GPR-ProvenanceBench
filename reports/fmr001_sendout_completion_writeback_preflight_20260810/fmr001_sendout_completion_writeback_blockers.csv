@@ -1,0 +1,3 @@
+blocker,evidence,blocks
+EDS send receipts incomplete,sent_receipt_rows=0; missing_send_receipts=5,FMR-001 writeback candidate
+post-writeback revalidation not complete,fmr001_unlock_allowed_after_revalidation=False,FMR-001 writeback candidate

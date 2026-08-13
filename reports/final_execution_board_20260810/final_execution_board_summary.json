@@ -1,0 +1,17 @@
+{
+  "package": "final_execution_board_20260810",
+  "execution_steps": 8,
+  "open_execution_steps": 5,
+  "blocked_execution_steps": 3,
+  "unlock_rows": 6,
+  "no_go_rules": 4,
+  "allowed_commands_now": 0,
+  "complete_receipt_rows": 0,
+  "candidate_evidence_files": 0,
+  "portal_upload_allowed": false,
+  "submission_ready": false,
+  "qa_rows": 5,
+  "qa_pass": true,
+  "status": "final_execution_board_ready_manual_only_submission_blocked",
+  "desktop_plan_updated": true
+}

@@ -1,0 +1,17 @@
+{
+  "package": "experiment_completion_audit_20260811",
+  "weighted_experiment_completion_percent": 74.0,
+  "submission_grade_experiment_completion_percent": 50.0,
+  "internal_analysis_completion_band": "70-75%",
+  "submission_grade_completion_band": "50-55%",
+  "module_rows": 8,
+  "critical_blockers": 1,
+  "locally_startable_next_actions": 2,
+  "qa_rows": 4,
+  "qa_pass": true,
+  "formal_submission_ready": false,
+  "submission_ready": false,
+  "desktop_report": "C:\\Users\\刘子轩\\Desktop\\NatComms_20260811_experiment_completion_audit.md",
+  "status": "experiment_completion_audit_ready_submission_not_ready",
+  "desktop_plan_updated": true
+}

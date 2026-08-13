@@ -1,0 +1,3875 @@
+{
+  "run_id": "20260810_E00_4tu_group_feasibility_audit",
+  "task_manifest": "GPR-ProvenanceBench\\reports\\4tu_p4v2_multitarget_20260810\\4tu_p4v2_task_labels_20260810.csv",
+  "targets": [
+    {
+      "target": "Land type",
+      "status": "usable_with_caution",
+      "sample_count": 93,
+      "project_count": 9,
+      "label_counts": {
+        "Greenery": 24,
+        "Pedestrian/parking area": 11,
+        "Sidewalk": 44,
+        "Street/Cycling road": 14
+      },
+      "label_project_support": {
+        "Greenery": 5,
+        "Pedestrian/parking area": 4,
+        "Sidewalk": 7,
+        "Street/Cycling road": 5
+      },
+      "rare_labels_project_support_lt3": {},
+      "singleton_labels": {},
+      "project_rows": [
+        {
+          "project_id": "010",
+          "n_samples": 24,
+          "n_labels": 4,
+          "labels": {
+            "Greenery": 11,
+            "Pedestrian/parking area": 3,
+            "Sidewalk": 6,
+            "Street/Cycling road": 4
+          }
+        },
+        {
+          "project_id": "011",
+          "n_samples": 17,
+          "n_labels": 3,
+          "labels": {
+            "Pedestrian/parking area": 1,
+            "Sidewalk": 13,
+            "Street/Cycling road": 3
+          }
+        },
+        {
+          "project_id": "02",
+          "n_samples": 7,
+          "n_labels": 3,
+          "labels": {
+            "Greenery": 3,
+            "Sidewalk": 2,
+            "Street/Cycling road": 2
+          }
+        },
+        {
+          "project_id": "04",
+          "n_samples": 8,
+          "n_labels": 1,
+          "labels": {
+            "Sidewalk": 8
+          }
+        },
+        {
+          "project_id": "05",
+          "n_samples": 10,
+          "n_labels": 2,
+          "labels": {
+            "Greenery": 5,
+            "Pedestrian/parking area": 5
+          }
+        },
+        {
+          "project_id": "06",
+          "n_samples": 6,
+          "n_labels": 1,
+          "labels": {
+            "Sidewalk": 6
+          }
+        },
+        {
+          "project_id": "07",
+          "n_samples": 4,
+          "n_labels": 1,
+          "labels": {
+            "Greenery": 4
+          }
+        },
+        {
+          "project_id": "08",
+          "n_samples": 8,
+          "n_labels": 4,
+          "labels": {
+            "Greenery": 1,
+            "Pedestrian/parking area": 2,
+            "Sidewalk": 3,
+            "Street/Cycling road": 2
+          }
+        },
+        {
+          "project_id": "09",
+          "n_samples": 9,
+          "n_labels": 2,
+          "labels": {
+            "Sidewalk": 6,
+            "Street/Cycling road": 3
+          }
+        }
+      ],
+      "split_grid": {
+        "test1_val1": {
+          "attempted": 72,
+          "feasible": 30,
+          "examples": [
+            {
+              "train_projects": [
+                "02",
+                "04",
+                "05",
+                "06",
+                "07",
+                "08",
+                "09"
+              ],
+              "val_projects": [
+                "011"
+              ],
+              "test_projects": [
+                "010"
+              ],
+              "train_labels": [
+                "Greenery",
+                "Pedestrian/parking area",
+                "Sidewalk",
+                "Street/Cycling road"
+              ],
+              "val_labels": [
+                "Pedestrian/parking area",
+                "Sidewalk",
+                "Street/Cycling road"
+              ],
+              "test_labels": [
+                "Greenery",
+                "Pedestrian/parking area",
+                "Sidewalk",
+                "Street/Cycling road"
+              ]
+            },
+            {
+              "train_projects": [
+                "011",
+                "04",
+                "05",
+                "06",
+                "07",
+                "08",
+                "09"
+              ],
+              "val_projects": [
+                "02"
+              ],
+              "test_projects": [
+                "010"
+              ],
+              "train_labels": [
+                "Greenery",
+                "Pedestrian/parking area",
+                "Sidewalk",
+                "Street/Cycling road"
+              ],
+              "val_labels": [
+                "Greenery",
+                "Sidewalk",
+                "Street/Cycling road"
+              ],
+              "test_labels": [
+                "Greenery",
+                "Pedestrian/parking area",
+                "Sidewalk",
+                "Street/Cycling road"
+              ]
+            },
+            {
+              "train_projects": [
+                "011",
+                "02",
+                "04",
+                "06",
+                "07",
+                "08",
+                "09"
+              ],
+              "val_projects": [
+                "05"
+              ],
+              "test_projects": [
+                "010"
+              ],
+              "train_labels": [
+                "Greenery",
+                "Pedestrian/parking area",
+                "Sidewalk",
+                "Street/Cycling road"
+              ],
+              "val_labels": [
+                "Greenery",
+                "Pedestrian/parking area"
+              ],
+              "test_labels": [
+                "Greenery",
+                "Pedestrian/parking area",
+                "Sidewalk",
+                "Street/Cycling road"
+              ]
+            },
+            {
+              "train_projects": [
+                "011",
+                "02",
+                "04",
+                "05",
+                "06",
+                "07",
+                "09"
+              ],
+              "val_projects": [
+                "08"
+              ],
+              "test_projects": [
+                "010"
+              ],
+              "train_labels": [
+                "Greenery",
+                "Pedestrian/parking area",
+                "Sidewalk",
+                "Street/Cycling road"
+              ],
+              "val_labels": [
+                "Greenery",
+                "Pedestrian/parking area",
+                "Sidewalk",
+                "Street/Cycling road"
+              ],
+              "test_labels": [
+                "Greenery",
+                "Pedestrian/parking area",
+                "Sidewalk",
+                "Street/Cycling road"
+              ]
+            },
+            {
+              "train_projects": [
+                "011",
+                "02",
+                "04",
+                "05",
+                "06",
+                "07",
+                "08"
+              ],
+              "val_projects": [
+                "09"
+              ],
+              "test_projects": [
+                "010"
+              ],
+              "train_labels": [
+                "Greenery",
+                "Pedestrian/parking area",
+                "Sidewalk",
+                "Street/Cycling road"
+              ],
+              "val_labels": [
+                "Sidewalk",
+                "Street/Cycling road"
+              ],
+              "test_labels": [
+                "Greenery",
+                "Pedestrian/parking area",
+                "Sidewalk",
+                "Street/Cycling road"
+              ]
+            }
+          ]
+        },
+        "test1_val2": {
+          "attempted": 252,
+          "feasible": 162,
+          "examples": [
+            {
+              "train_projects": [
+                "04",
+                "05",
+                "06",
+                "07",
+                "08",
+                "09"
+              ],
+              "val_projects": [
+                "011",
+                "02"
+              ],
+              "test_projects": [
+                "010"
+              ],
+              "train_labels": [
+                "Greenery",
+                "Pedestrian/parking area",
+                "Sidewalk",
+                "Street/Cycling road"
+              ],
+              "val_labels": [
+                "Greenery",
+                "Pedestrian/parking area",
+                "Sidewalk",
+                "Street/Cycling road"
+              ],
+              "test_labels": [
+                "Greenery",
+                "Pedestrian/parking area",
+                "Sidewalk",
+                "Street/Cycling road"
+              ]
+            },
+            {
+              "train_projects": [
+                "02",
+                "05",
+                "06",
+                "07",
+                "08",
+                "09"
+              ],
+              "val_projects": [
+                "011",
+                "04"
+              ],
+              "test_projects": [
+                "010"
+              ],
+              "train_labels": [
+                "Greenery",
+                "Pedestrian/parking area",
+                "Sidewalk",
+                "Street/Cycling road"
+              ],
+              "val_labels": [
+                "Pedestrian/parking area",
+                "Sidewalk",
+                "Street/Cycling road"
+              ],
+              "test_labels": [
+                "Greenery",
+                "Pedestrian/parking area",
+                "Sidewalk",
+                "Street/Cycling road"
+              ]
+            },
+            {
+              "train_projects": [
+                "02",
+                "04",
+                "06",
+                "07",
+                "08",
+                "09"
+              ],
+              "val_projects": [
+                "011",
+                "05"
+              ],
+              "test_projects": [
+                "010"
+              ],
+              "train_labels": [
+                "Greenery",
+                "Pedestrian/parking area",
+                "Sidewalk",
+                "Street/Cycling road"
+              ],
+              "val_labels": [
+                "Greenery",
+                "Pedestrian/parking area",
+                "Sidewalk",
+                "Street/Cycling road"
+              ],
+              "test_labels": [
+                "Greenery",
+                "Pedestrian/parking area",
+                "Sidewalk",
+                "Street/Cycling road"
+              ]
+            },
+            {
+              "train_projects": [
+                "02",
+                "04",
+                "05",
+                "07",
+                "08",
+                "09"
+              ],
+              "val_projects": [
+                "011",
+                "06"
+              ],
+              "test_projects": [
+                "010"
+              ],
+              "train_labels": [
+                "Greenery",
+                "Pedestrian/parking area",
+                "Sidewalk",
+                "Street/Cycling road"
+              ],
+              "val_labels": [
+                "Pedestrian/parking area",
+                "Sidewalk",
+                "Street/Cycling road"
+              ],
+              "test_labels": [
+                "Greenery",
+                "Pedestrian/parking area",
+                "Sidewalk",
+                "Street/Cycling road"
+              ]
+            },
+            {
+              "train_projects": [
+                "02",
+                "04",
+                "05",
+                "06",
+                "08",
+                "09"
+              ],
+              "val_projects": [
+                "011",
+                "07"
+              ],
+              "test_projects": [
+                "010"
+              ],
+              "train_labels": [
+                "Greenery",
+                "Pedestrian/parking area",
+                "Sidewalk",
+                "Street/Cycling road"
+              ],
+              "val_labels": [
+                "Greenery",
+                "Pedestrian/parking area",
+                "Sidewalk",
+                "Street/Cycling road"
+              ],
+              "test_labels": [
+                "Greenery",
+                "Pedestrian/parking area",
+                "Sidewalk",
+                "Street/Cycling road"
+              ]
+            }
+          ]
+        },
+        "test2_val1": {
+          "attempted": 252,
+          "feasible": 162,
+          "examples": [
+            {
+              "train_projects": [
+                "04",
+                "05",
+                "06",
+                "07",
+                "08",
+                "09"
+              ],
+              "val_projects": [
+                "02"
+              ],
+              "test_projects": [
+                "010",
+                "011"
+              ],
+              "train_labels": [
+                "Greenery",
+                "Pedestrian/parking area",
+                "Sidewalk",
+                "Street/Cycling road"
+              ],
+              "val_labels": [
+                "Greenery",
+                "Sidewalk",
+                "Street/Cycling road"
+              ],
+              "test_labels": [
+                "Greenery",
+                "Pedestrian/parking area",
+                "Sidewalk",
+                "Street/Cycling road"
+              ]
+            },
+            {
+              "train_projects": [
+                "02",
+                "04",
+                "06",
+                "07",
+                "08",
+                "09"
+              ],
+              "val_projects": [
+                "05"
+              ],
+              "test_projects": [
+                "010",
+                "011"
+              ],
+              "train_labels": [
+                "Greenery",
+                "Pedestrian/parking area",
+                "Sidewalk",
+                "Street/Cycling road"
+              ],
+              "val_labels": [
+                "Greenery",
+                "Pedestrian/parking area"
+              ],
+              "test_labels": [
+                "Greenery",
+                "Pedestrian/parking area",
+                "Sidewalk",
+                "Street/Cycling road"
+              ]
+            },
+            {
+              "train_projects": [
+                "02",
+                "04",
+                "05",
+                "06",
+                "07",
+                "09"
+              ],
+              "val_projects": [
+                "08"
+              ],
+              "test_projects": [
+                "010",
+                "011"
+              ],
+              "train_labels": [
+                "Greenery",
+                "Pedestrian/parking area",
+                "Sidewalk",
+                "Street/Cycling road"
+              ],
+              "val_labels": [
+                "Greenery",
+                "Pedestrian/parking area",
+                "Sidewalk",
+                "Street/Cycling road"
+              ],
+              "test_labels": [
+                "Greenery",
+                "Pedestrian/parking area",
+                "Sidewalk",
+                "Street/Cycling road"
+              ]
+            },
+            {
+              "train_projects": [
+                "02",
+                "04",
+                "05",
+                "06",
+                "07",
+                "08"
+              ],
+              "val_projects": [
+                "09"
+              ],
+              "test_projects": [
+                "010",
+                "011"
+              ],
+              "train_labels": [
+                "Greenery",
+                "Pedestrian/parking area",
+                "Sidewalk",
+                "Street/Cycling road"
+              ],
+              "val_labels": [
+                "Sidewalk",
+                "Street/Cycling road"
+              ],
+              "test_labels": [
+                "Greenery",
+                "Pedestrian/parking area",
+                "Sidewalk",
+                "Street/Cycling road"
+              ]
+            },
+            {
+              "train_projects": [
+                "04",
+                "05",
+                "06",
+                "07",
+                "08",
+                "09"
+              ],
+              "val_projects": [
+                "011"
+              ],
+              "test_projects": [
+                "010",
+                "02"
+              ],
+              "train_labels": [
+                "Greenery",
+                "Pedestrian/parking area",
+                "Sidewalk",
+                "Street/Cycling road"
+              ],
+              "val_labels": [
+                "Pedestrian/parking area",
+                "Sidewalk",
+                "Street/Cycling road"
+              ],
+              "test_labels": [
+                "Greenery",
+                "Pedestrian/parking area",
+                "Sidewalk",
+                "Street/Cycling road"
+              ]
+            }
+          ]
+        },
+        "test2_val2": {
+          "attempted": 756,
+          "feasible": 708,
+          "examples": [
+            {
+              "train_projects": [
+                "05",
+                "06",
+                "07",
+                "08",
+                "09"
+              ],
+              "val_projects": [
+                "02",
+                "04"
+              ],
+              "test_projects": [
+                "010",
+                "011"
+              ],
+              "train_labels": [
+                "Greenery",
+                "Pedestrian/parking area",
+                "Sidewalk",
+                "Street/Cycling road"
+              ],
+              "val_labels": [
+                "Greenery",
+                "Sidewalk",
+                "Street/Cycling road"
+              ],
+              "test_labels": [
+                "Greenery",
+                "Pedestrian/parking area",
+                "Sidewalk",
+                "Street/Cycling road"
+              ]
+            },
+            {
+              "train_projects": [
+                "04",
+                "06",
+                "07",
+                "08",
+                "09"
+              ],
+              "val_projects": [
+                "02",
+                "05"
+              ],
+              "test_projects": [
+                "010",
+                "011"
+              ],
+              "train_labels": [
+                "Greenery",
+                "Pedestrian/parking area",
+                "Sidewalk",
+                "Street/Cycling road"
+              ],
+              "val_labels": [
+                "Greenery",
+                "Pedestrian/parking area",
+                "Sidewalk",
+                "Street/Cycling road"
+              ],
+              "test_labels": [
+                "Greenery",
+                "Pedestrian/parking area",
+                "Sidewalk",
+                "Street/Cycling road"
+              ]
+            },
+            {
+              "train_projects": [
+                "04",
+                "05",
+                "07",
+                "08",
+                "09"
+              ],
+              "val_projects": [
+                "02",
+                "06"
+              ],
+              "test_projects": [
+                "010",
+                "011"
+              ],
+              "train_labels": [
+                "Greenery",
+                "Pedestrian/parking area",
+                "Sidewalk",
+                "Street/Cycling road"
+              ],
+              "val_labels": [
+                "Greenery",
+                "Sidewalk",
+                "Street/Cycling road"
+              ],
+              "test_labels": [
+                "Greenery",
+                "Pedestrian/parking area",
+                "Sidewalk",
+                "Street/Cycling road"
+              ]
+            },
+            {
+              "train_projects": [
+                "04",
+                "05",
+                "06",
+                "08",
+                "09"
+              ],
+              "val_projects": [
+                "02",
+                "07"
+              ],
+              "test_projects": [
+                "010",
+                "011"
+              ],
+              "train_labels": [
+                "Greenery",
+                "Pedestrian/parking area",
+                "Sidewalk",
+                "Street/Cycling road"
+              ],
+              "val_labels": [
+                "Greenery",
+                "Sidewalk",
+                "Street/Cycling road"
+              ],
+              "test_labels": [
+                "Greenery",
+                "Pedestrian/parking area",
+                "Sidewalk",
+                "Street/Cycling road"
+              ]
+            },
+            {
+              "train_projects": [
+                "04",
+                "05",
+                "06",
+                "07",
+                "09"
+              ],
+              "val_projects": [
+                "02",
+                "08"
+              ],
+              "test_projects": [
+                "010",
+                "011"
+              ],
+              "train_labels": [
+                "Greenery",
+                "Pedestrian/parking area",
+                "Sidewalk",
+                "Street/Cycling road"
+              ],
+              "val_labels": [
+                "Greenery",
+                "Pedestrian/parking area",
+                "Sidewalk",
+                "Street/Cycling road"
+              ],
+              "test_labels": [
+                "Greenery",
+                "Pedestrian/parking area",
+                "Sidewalk",
+                "Street/Cycling road"
+              ]
+            }
+          ]
+        },
+        "test3_val2": {
+          "attempted": 1260,
+          "feasible": 1155,
+          "examples": [
+            {
+              "train_projects": [
+                "06",
+                "07",
+                "08",
+                "09"
+              ],
+              "val_projects": [
+                "04",
+                "05"
+              ],
+              "test_projects": [
+                "010",
+                "011",
+                "02"
+              ],
+              "train_labels": [
+                "Greenery",
+                "Pedestrian/parking area",
+                "Sidewalk",
+                "Street/Cycling road"
+              ],
+              "val_labels": [
+                "Greenery",
+                "Pedestrian/parking area",
+                "Sidewalk"
+              ],
+              "test_labels": [
+                "Greenery",
+                "Pedestrian/parking area",
+                "Sidewalk",
+                "Street/Cycling road"
+              ]
+            },
+            {
+              "train_projects": [
+                "05",
+                "06",
+                "08",
+                "09"
+              ],
+              "val_projects": [
+                "04",
+                "07"
+              ],
+              "test_projects": [
+                "010",
+                "011",
+                "02"
+              ],
+              "train_labels": [
+                "Greenery",
+                "Pedestrian/parking area",
+                "Sidewalk",
+                "Street/Cycling road"
+              ],
+              "val_labels": [
+                "Greenery",
+                "Sidewalk"
+              ],
+              "test_labels": [
+                "Greenery",
+                "Pedestrian/parking area",
+                "Sidewalk",
+                "Street/Cycling road"
+              ]
+            },
+            {
+              "train_projects": [
+                "05",
+                "06",
+                "07",
+                "09"
+              ],
+              "val_projects": [
+                "04",
+                "08"
+              ],
+              "test_projects": [
+                "010",
+                "011",
+                "02"
+              ],
+              "train_labels": [
+                "Greenery",
+                "Pedestrian/parking area",
+                "Sidewalk",
+                "Street/Cycling road"
+              ],
+              "val_labels": [
+                "Greenery",
+                "Pedestrian/parking area",
+                "Sidewalk",
+                "Street/Cycling road"
+              ],
+              "test_labels": [
+                "Greenery",
+                "Pedestrian/parking area",
+                "Sidewalk",
+                "Street/Cycling road"
+              ]
+            },
+            {
+              "train_projects": [
+                "05",
+                "06",
+                "07",
+                "08"
+              ],
+              "val_projects": [
+                "04",
+                "09"
+              ],
+              "test_projects": [
+                "010",
+                "011",
+                "02"
+              ],
+              "train_labels": [
+                "Greenery",
+                "Pedestrian/parking area",
+                "Sidewalk",
+                "Street/Cycling road"
+              ],
+              "val_labels": [
+                "Sidewalk",
+                "Street/Cycling road"
+              ],
+              "test_labels": [
+                "Greenery",
+                "Pedestrian/parking area",
+                "Sidewalk",
+                "Street/Cycling road"
+              ]
+            },
+            {
+              "train_projects": [
+                "04",
+                "07",
+                "08",
+                "09"
+              ],
+              "val_projects": [
+                "05",
+                "06"
+              ],
+              "test_projects": [
+                "010",
+                "011",
+                "02"
+              ],
+              "train_labels": [
+                "Greenery",
+                "Pedestrian/parking area",
+                "Sidewalk",
+                "Street/Cycling road"
+              ],
+              "val_labels": [
+                "Greenery",
+                "Pedestrian/parking area",
+                "Sidewalk"
+              ],
+              "test_labels": [
+                "Greenery",
+                "Pedestrian/parking area",
+                "Sidewalk",
+                "Street/Cycling road"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "target": "Land use",
+      "status": "not_viable_for_group_holdout",
+      "sample_count": 93,
+      "project_count": 9,
+      "label_counts": {
+        "Commercial and industrial": 12,
+        "High density residental - land-high rise, town and city centre with high population": 53,
+        "Public institutions and service": 10,
+        "Residential - quiet suburbia": 14,
+        "Rural residential - small farm allotments, increased population": 4
+      },
+      "label_project_support": {
+        "Commercial and industrial": 1,
+        "High density residental - land-high rise, town and city centre with high population": 5,
+        "Public institutions and service": 1,
+        "Residential - quiet suburbia": 2,
+        "Rural residential - small farm allotments, increased population": 1
+      },
+      "rare_labels_project_support_lt3": {
+        "Commercial and industrial": 1,
+        "Public institutions and service": 1,
+        "Residential - quiet suburbia": 2,
+        "Rural residential - small farm allotments, increased population": 1
+      },
+      "singleton_labels": {
+        "Commercial and industrial": 1,
+        "Public institutions and service": 1,
+        "Rural residential - small farm allotments, increased population": 1
+      },
+      "project_rows": [
+        {
+          "project_id": "010",
+          "n_samples": 24,
+          "n_labels": 2,
+          "labels": {
+            "Commercial and industrial": 12,
+            "High density residental - land-high rise, town and city centre with high population": 12
+          }
+        },
+        {
+          "project_id": "011",
+          "n_samples": 17,
+          "n_labels": 1,
+          "labels": {
+            "High density residental - land-high rise, town and city centre with high population": 17
+          }
+        },
+        {
+          "project_id": "02",
+          "n_samples": 7,
+          "n_labels": 1,
+          "labels": {
+            "High density residental - land-high rise, town and city centre with high population": 7
+          }
+        },
+        {
+          "project_id": "04",
+          "n_samples": 8,
+          "n_labels": 1,
+          "labels": {
+            "Residential - quiet suburbia": 8
+          }
+        },
+        {
+          "project_id": "05",
+          "n_samples": 10,
+          "n_labels": 1,
+          "labels": {
+            "Public institutions and service": 10
+          }
+        },
+        {
+          "project_id": "06",
+          "n_samples": 6,
+          "n_labels": 1,
+          "labels": {
+            "Residential - quiet suburbia": 6
+          }
+        },
+        {
+          "project_id": "07",
+          "n_samples": 4,
+          "n_labels": 1,
+          "labels": {
+            "Rural residential - small farm allotments, increased population": 4
+          }
+        },
+        {
+          "project_id": "08",
+          "n_samples": 8,
+          "n_labels": 1,
+          "labels": {
+            "High density residental - land-high rise, town and city centre with high population": 8
+          }
+        },
+        {
+          "project_id": "09",
+          "n_samples": 9,
+          "n_labels": 1,
+          "labels": {
+            "High density residental - land-high rise, town and city centre with high population": 9
+          }
+        }
+      ],
+      "split_grid": {
+        "test1_val1": {
+          "attempted": 72,
+          "feasible": 0,
+          "examples": []
+        },
+        "test1_val2": {
+          "attempted": 252,
+          "feasible": 0,
+          "examples": []
+        },
+        "test2_val1": {
+          "attempted": 252,
+          "feasible": 0,
+          "examples": []
+        },
+        "test2_val2": {
+          "attempted": 756,
+          "feasible": 0,
+          "examples": []
+        },
+        "test3_val2": {
+          "attempted": 1260,
+          "feasible": 0,
+          "examples": []
+        }
+      }
+    },
+    {
+      "target": "Land cover",
+      "status": "weak_due_to_single_project_labels",
+      "sample_count": 93,
+      "project_count": 9,
+      "label_counts": {
+        "Asphalt": 3,
+        "Brick road concrete": 32,
+        "Concrete surfacing": 34,
+        "Grass / vegetation": 24
+      },
+      "label_project_support": {
+        "Asphalt": 1,
+        "Brick road concrete": 7,
+        "Concrete surfacing": 5,
+        "Grass / vegetation": 5
+      },
+      "rare_labels_project_support_lt3": {
+        "Asphalt": 1
+      },
+      "singleton_labels": {
+        "Asphalt": 1
+      },
+      "project_rows": [
+        {
+          "project_id": "010",
+          "n_samples": 24,
+          "n_labels": 3,
+          "labels": {
+            "Asphalt": 3,
+            "Brick road concrete": 10,
+            "Grass / vegetation": 11
+          }
+        },
+        {
+          "project_id": "011",
+          "n_samples": 17,
+          "n_labels": 2,
+          "labels": {
+            "Brick road concrete": 4,
+            "Concrete surfacing": 13
+          }
+        },
+        {
+          "project_id": "02",
+          "n_samples": 7,
+          "n_labels": 3,
+          "labels": {
+            "Brick road concrete": 2,
+            "Concrete surfacing": 2,
+            "Grass / vegetation": 3
+          }
+        },
+        {
+          "project_id": "04",
+          "n_samples": 8,
+          "n_labels": 1,
+          "labels": {
+            "Concrete surfacing": 8
+          }
+        },
+        {
+          "project_id": "05",
+          "n_samples": 10,
+          "n_labels": 2,
+          "labels": {
+            "Brick road concrete": 5,
+            "Grass / vegetation": 5
+          }
+        },
+        {
+          "project_id": "06",
+          "n_samples": 6,
+          "n_labels": 1,
+          "labels": {
+            "Brick road concrete": 6
+          }
+        },
+        {
+          "project_id": "07",
+          "n_samples": 4,
+          "n_labels": 1,
+          "labels": {
+            "Grass / vegetation": 4
+          }
+        },
+        {
+          "project_id": "08",
+          "n_samples": 8,
+          "n_labels": 3,
+          "labels": {
+            "Brick road concrete": 2,
+            "Concrete surfacing": 5,
+            "Grass / vegetation": 1
+          }
+        },
+        {
+          "project_id": "09",
+          "n_samples": 9,
+          "n_labels": 2,
+          "labels": {
+            "Brick road concrete": 3,
+            "Concrete surfacing": 6
+          }
+        }
+      ],
+      "split_grid": {
+        "test1_val1": {
+          "attempted": 72,
+          "feasible": 20,
+          "examples": [
+            {
+              "train_projects": [
+                "010",
+                "04",
+                "05",
+                "06",
+                "07",
+                "08",
+                "09"
+              ],
+              "val_projects": [
+                "02"
+              ],
+              "test_projects": [
+                "011"
+              ],
+              "train_labels": [
+                "Asphalt",
+                "Brick road concrete",
+                "Concrete surfacing",
+                "Grass / vegetation"
+              ],
+              "val_labels": [
+                "Brick road concrete",
+                "Concrete surfacing",
+                "Grass / vegetation"
+              ],
+              "test_labels": [
+                "Brick road concrete",
+                "Concrete surfacing"
+              ]
+            },
+            {
+              "train_projects": [
+                "010",
+                "02",
+                "04",
+                "06",
+                "07",
+                "08",
+                "09"
+              ],
+              "val_projects": [
+                "05"
+              ],
+              "test_projects": [
+                "011"
+              ],
+              "train_labels": [
+                "Asphalt",
+                "Brick road concrete",
+                "Concrete surfacing",
+                "Grass / vegetation"
+              ],
+              "val_labels": [
+                "Brick road concrete",
+                "Grass / vegetation"
+              ],
+              "test_labels": [
+                "Brick road concrete",
+                "Concrete surfacing"
+              ]
+            },
+            {
+              "train_projects": [
+                "010",
+                "02",
+                "04",
+                "05",
+                "06",
+                "07",
+                "09"
+              ],
+              "val_projects": [
+                "08"
+              ],
+              "test_projects": [
+                "011"
+              ],
+              "train_labels": [
+                "Asphalt",
+                "Brick road concrete",
+                "Concrete surfacing",
+                "Grass / vegetation"
+              ],
+              "val_labels": [
+                "Brick road concrete",
+                "Concrete surfacing",
+                "Grass / vegetation"
+              ],
+              "test_labels": [
+                "Brick road concrete",
+                "Concrete surfacing"
+              ]
+            },
+            {
+              "train_projects": [
+                "010",
+                "02",
+                "04",
+                "05",
+                "06",
+                "07",
+                "08"
+              ],
+              "val_projects": [
+                "09"
+              ],
+              "test_projects": [
+                "011"
+              ],
+              "train_labels": [
+                "Asphalt",
+                "Brick road concrete",
+                "Concrete surfacing",
+                "Grass / vegetation"
+              ],
+              "val_labels": [
+                "Brick road concrete",
+                "Concrete surfacing"
+              ],
+              "test_labels": [
+                "Brick road concrete",
+                "Concrete surfacing"
+              ]
+            },
+            {
+              "train_projects": [
+                "010",
+                "04",
+                "05",
+                "06",
+                "07",
+                "08",
+                "09"
+              ],
+              "val_projects": [
+                "011"
+              ],
+              "test_projects": [
+                "02"
+              ],
+              "train_labels": [
+                "Asphalt",
+                "Brick road concrete",
+                "Concrete surfacing",
+                "Grass / vegetation"
+              ],
+              "val_labels": [
+                "Brick road concrete",
+                "Concrete surfacing"
+              ],
+              "test_labels": [
+                "Brick road concrete",
+                "Concrete surfacing",
+                "Grass / vegetation"
+              ]
+            }
+          ]
+        },
+        "test1_val2": {
+          "attempted": 252,
+          "feasible": 105,
+          "examples": [
+            {
+              "train_projects": [
+                "010",
+                "05",
+                "06",
+                "07",
+                "08",
+                "09"
+              ],
+              "val_projects": [
+                "02",
+                "04"
+              ],
+              "test_projects": [
+                "011"
+              ],
+              "train_labels": [
+                "Asphalt",
+                "Brick road concrete",
+                "Concrete surfacing",
+                "Grass / vegetation"
+              ],
+              "val_labels": [
+                "Brick road concrete",
+                "Concrete surfacing",
+                "Grass / vegetation"
+              ],
+              "test_labels": [
+                "Brick road concrete",
+                "Concrete surfacing"
+              ]
+            },
+            {
+              "train_projects": [
+                "010",
+                "04",
+                "06",
+                "07",
+                "08",
+                "09"
+              ],
+              "val_projects": [
+                "02",
+                "05"
+              ],
+              "test_projects": [
+                "011"
+              ],
+              "train_labels": [
+                "Asphalt",
+                "Brick road concrete",
+                "Concrete surfacing",
+                "Grass / vegetation"
+              ],
+              "val_labels": [
+                "Brick road concrete",
+                "Concrete surfacing",
+                "Grass / vegetation"
+              ],
+              "test_labels": [
+                "Brick road concrete",
+                "Concrete surfacing"
+              ]
+            },
+            {
+              "train_projects": [
+                "010",
+                "04",
+                "05",
+                "07",
+                "08",
+                "09"
+              ],
+              "val_projects": [
+                "02",
+                "06"
+              ],
+              "test_projects": [
+                "011"
+              ],
+              "train_labels": [
+                "Asphalt",
+                "Brick road concrete",
+                "Concrete surfacing",
+                "Grass / vegetation"
+              ],
+              "val_labels": [
+                "Brick road concrete",
+                "Concrete surfacing",
+                "Grass / vegetation"
+              ],
+              "test_labels": [
+                "Brick road concrete",
+                "Concrete surfacing"
+              ]
+            },
+            {
+              "train_projects": [
+                "010",
+                "04",
+                "05",
+                "06",
+                "08",
+                "09"
+              ],
+              "val_projects": [
+                "02",
+                "07"
+              ],
+              "test_projects": [
+                "011"
+              ],
+              "train_labels": [
+                "Asphalt",
+                "Brick road concrete",
+                "Concrete surfacing",
+                "Grass / vegetation"
+              ],
+              "val_labels": [
+                "Brick road concrete",
+                "Concrete surfacing",
+                "Grass / vegetation"
+              ],
+              "test_labels": [
+                "Brick road concrete",
+                "Concrete surfacing"
+              ]
+            },
+            {
+              "train_projects": [
+                "010",
+                "04",
+                "05",
+                "06",
+                "07",
+                "09"
+              ],
+              "val_projects": [
+                "02",
+                "08"
+              ],
+              "test_projects": [
+                "011"
+              ],
+              "train_labels": [
+                "Asphalt",
+                "Brick road concrete",
+                "Concrete surfacing",
+                "Grass / vegetation"
+              ],
+              "val_labels": [
+                "Brick road concrete",
+                "Concrete surfacing",
+                "Grass / vegetation"
+              ],
+              "test_labels": [
+                "Brick road concrete",
+                "Concrete surfacing"
+              ]
+            }
+          ]
+        },
+        "test2_val1": {
+          "attempted": 252,
+          "feasible": 105,
+          "examples": [
+            {
+              "train_projects": [
+                "010",
+                "04",
+                "06",
+                "07",
+                "08",
+                "09"
+              ],
+              "val_projects": [
+                "05"
+              ],
+              "test_projects": [
+                "011",
+                "02"
+              ],
+              "train_labels": [
+                "Asphalt",
+                "Brick road concrete",
+                "Concrete surfacing",
+                "Grass / vegetation"
+              ],
+              "val_labels": [
+                "Brick road concrete",
+                "Grass / vegetation"
+              ],
+              "test_labels": [
+                "Brick road concrete",
+                "Concrete surfacing",
+                "Grass / vegetation"
+              ]
+            },
+            {
+              "train_projects": [
+                "010",
+                "04",
+                "05",
+                "06",
+                "07",
+                "09"
+              ],
+              "val_projects": [
+                "08"
+              ],
+              "test_projects": [
+                "011",
+                "02"
+              ],
+              "train_labels": [
+                "Asphalt",
+                "Brick road concrete",
+                "Concrete surfacing",
+                "Grass / vegetation"
+              ],
+              "val_labels": [
+                "Brick road concrete",
+                "Concrete surfacing",
+                "Grass / vegetation"
+              ],
+              "test_labels": [
+                "Brick road concrete",
+                "Concrete surfacing",
+                "Grass / vegetation"
+              ]
+            },
+            {
+              "train_projects": [
+                "010",
+                "04",
+                "05",
+                "06",
+                "07",
+                "08"
+              ],
+              "val_projects": [
+                "09"
+              ],
+              "test_projects": [
+                "011",
+                "02"
+              ],
+              "train_labels": [
+                "Asphalt",
+                "Brick road concrete",
+                "Concrete surfacing",
+                "Grass / vegetation"
+              ],
+              "val_labels": [
+                "Brick road concrete",
+                "Concrete surfacing"
+              ],
+              "test_labels": [
+                "Brick road concrete",
+                "Concrete surfacing",
+                "Grass / vegetation"
+              ]
+            },
+            {
+              "train_projects": [
+                "010",
+                "05",
+                "06",
+                "07",
+                "08",
+                "09"
+              ],
+              "val_projects": [
+                "02"
+              ],
+              "test_projects": [
+                "011",
+                "04"
+              ],
+              "train_labels": [
+                "Asphalt",
+                "Brick road concrete",
+                "Concrete surfacing",
+                "Grass / vegetation"
+              ],
+              "val_labels": [
+                "Brick road concrete",
+                "Concrete surfacing",
+                "Grass / vegetation"
+              ],
+              "test_labels": [
+                "Brick road concrete",
+                "Concrete surfacing"
+              ]
+            },
+            {
+              "train_projects": [
+                "010",
+                "02",
+                "06",
+                "07",
+                "08",
+                "09"
+              ],
+              "val_projects": [
+                "05"
+              ],
+              "test_projects": [
+                "011",
+                "04"
+              ],
+              "train_labels": [
+                "Asphalt",
+                "Brick road concrete",
+                "Concrete surfacing",
+                "Grass / vegetation"
+              ],
+              "val_labels": [
+                "Brick road concrete",
+                "Grass / vegetation"
+              ],
+              "test_labels": [
+                "Brick road concrete",
+                "Concrete surfacing"
+              ]
+            }
+          ]
+        },
+        "test2_val2": {
+          "attempted": 756,
+          "feasible": 420,
+          "examples": [
+            {
+              "train_projects": [
+                "010",
+                "06",
+                "07",
+                "08",
+                "09"
+              ],
+              "val_projects": [
+                "04",
+                "05"
+              ],
+              "test_projects": [
+                "011",
+                "02"
+              ],
+              "train_labels": [
+                "Asphalt",
+                "Brick road concrete",
+                "Concrete surfacing",
+                "Grass / vegetation"
+              ],
+              "val_labels": [
+                "Brick road concrete",
+                "Concrete surfacing",
+                "Grass / vegetation"
+              ],
+              "test_labels": [
+                "Brick road concrete",
+                "Concrete surfacing",
+                "Grass / vegetation"
+              ]
+            },
+            {
+              "train_projects": [
+                "010",
+                "05",
+                "07",
+                "08",
+                "09"
+              ],
+              "val_projects": [
+                "04",
+                "06"
+              ],
+              "test_projects": [
+                "011",
+                "02"
+              ],
+              "train_labels": [
+                "Asphalt",
+                "Brick road concrete",
+                "Concrete surfacing",
+                "Grass / vegetation"
+              ],
+              "val_labels": [
+                "Brick road concrete",
+                "Concrete surfacing"
+              ],
+              "test_labels": [
+                "Brick road concrete",
+                "Concrete surfacing",
+                "Grass / vegetation"
+              ]
+            },
+            {
+              "train_projects": [
+                "010",
+                "05",
+                "06",
+                "08",
+                "09"
+              ],
+              "val_projects": [
+                "04",
+                "07"
+              ],
+              "test_projects": [
+                "011",
+                "02"
+              ],
+              "train_labels": [
+                "Asphalt",
+                "Brick road concrete",
+                "Concrete surfacing",
+                "Grass / vegetation"
+              ],
+              "val_labels": [
+                "Concrete surfacing",
+                "Grass / vegetation"
+              ],
+              "test_labels": [
+                "Brick road concrete",
+                "Concrete surfacing",
+                "Grass / vegetation"
+              ]
+            },
+            {
+              "train_projects": [
+                "010",
+                "05",
+                "06",
+                "07",
+                "09"
+              ],
+              "val_projects": [
+                "04",
+                "08"
+              ],
+              "test_projects": [
+                "011",
+                "02"
+              ],
+              "train_labels": [
+                "Asphalt",
+                "Brick road concrete",
+                "Concrete surfacing",
+                "Grass / vegetation"
+              ],
+              "val_labels": [
+                "Brick road concrete",
+                "Concrete surfacing",
+                "Grass / vegetation"
+              ],
+              "test_labels": [
+                "Brick road concrete",
+                "Concrete surfacing",
+                "Grass / vegetation"
+              ]
+            },
+            {
+              "train_projects": [
+                "010",
+                "05",
+                "06",
+                "07",
+                "08"
+              ],
+              "val_projects": [
+                "04",
+                "09"
+              ],
+              "test_projects": [
+                "011",
+                "02"
+              ],
+              "train_labels": [
+                "Asphalt",
+                "Brick road concrete",
+                "Concrete surfacing",
+                "Grass / vegetation"
+              ],
+              "val_labels": [
+                "Brick road concrete",
+                "Concrete surfacing"
+              ],
+              "test_labels": [
+                "Brick road concrete",
+                "Concrete surfacing",
+                "Grass / vegetation"
+              ]
+            }
+          ]
+        },
+        "test3_val2": {
+          "attempted": 1260,
+          "feasible": 550,
+          "examples": [
+            {
+              "train_projects": [
+                "010",
+                "07",
+                "08",
+                "09"
+              ],
+              "val_projects": [
+                "05",
+                "06"
+              ],
+              "test_projects": [
+                "011",
+                "02",
+                "04"
+              ],
+              "train_labels": [
+                "Asphalt",
+                "Brick road concrete",
+                "Concrete surfacing",
+                "Grass / vegetation"
+              ],
+              "val_labels": [
+                "Brick road concrete",
+                "Grass / vegetation"
+              ],
+              "test_labels": [
+                "Brick road concrete",
+                "Concrete surfacing",
+                "Grass / vegetation"
+              ]
+            },
+            {
+              "train_projects": [
+                "010",
+                "06",
+                "08",
+                "09"
+              ],
+              "val_projects": [
+                "05",
+                "07"
+              ],
+              "test_projects": [
+                "011",
+                "02",
+                "04"
+              ],
+              "train_labels": [
+                "Asphalt",
+                "Brick road concrete",
+                "Concrete surfacing",
+                "Grass / vegetation"
+              ],
+              "val_labels": [
+                "Brick road concrete",
+                "Grass / vegetation"
+              ],
+              "test_labels": [
+                "Brick road concrete",
+                "Concrete surfacing",
+                "Grass / vegetation"
+              ]
+            },
+            {
+              "train_projects": [
+                "010",
+                "06",
+                "07",
+                "09"
+              ],
+              "val_projects": [
+                "05",
+                "08"
+              ],
+              "test_projects": [
+                "011",
+                "02",
+                "04"
+              ],
+              "train_labels": [
+                "Asphalt",
+                "Brick road concrete",
+                "Concrete surfacing",
+                "Grass / vegetation"
+              ],
+              "val_labels": [
+                "Brick road concrete",
+                "Concrete surfacing",
+                "Grass / vegetation"
+              ],
+              "test_labels": [
+                "Brick road concrete",
+                "Concrete surfacing",
+                "Grass / vegetation"
+              ]
+            },
+            {
+              "train_projects": [
+                "010",
+                "06",
+                "07",
+                "08"
+              ],
+              "val_projects": [
+                "05",
+                "09"
+              ],
+              "test_projects": [
+                "011",
+                "02",
+                "04"
+              ],
+              "train_labels": [
+                "Asphalt",
+                "Brick road concrete",
+                "Concrete surfacing",
+                "Grass / vegetation"
+              ],
+              "val_labels": [
+                "Brick road concrete",
+                "Concrete surfacing",
+                "Grass / vegetation"
+              ],
+              "test_labels": [
+                "Brick road concrete",
+                "Concrete surfacing",
+                "Grass / vegetation"
+              ]
+            },
+            {
+              "train_projects": [
+                "010",
+                "05",
+                "08",
+                "09"
+              ],
+              "val_projects": [
+                "06",
+                "07"
+              ],
+              "test_projects": [
+                "011",
+                "02",
+                "04"
+              ],
+              "train_labels": [
+                "Asphalt",
+                "Brick road concrete",
+                "Concrete surfacing",
+                "Grass / vegetation"
+              ],
+              "val_labels": [
+                "Brick road concrete",
+                "Grass / vegetation"
+              ],
+              "test_labels": [
+                "Brick road concrete",
+                "Concrete surfacing",
+                "Grass / vegetation"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "target": "Utility crossing",
+      "status": "usable_with_caution",
+      "sample_count": 84,
+      "project_count": 9,
+      "label_counts": {
+        "No": 78,
+        "Yes": 6
+      },
+      "label_project_support": {
+        "No": 9,
+        "Yes": 4
+      },
+      "rare_labels_project_support_lt3": {},
+      "singleton_labels": {},
+      "project_rows": [
+        {
+          "project_id": "010",
+          "n_samples": 18,
+          "n_labels": 2,
+          "labels": {
+            "No": 16,
+            "Yes": 2
+          }
+        },
+        {
+          "project_id": "011",
+          "n_samples": 17,
+          "n_labels": 2,
+          "labels": {
+            "No": 15,
+            "Yes": 2
+          }
+        },
+        {
+          "project_id": "02",
+          "n_samples": 7,
+          "n_labels": 1,
+          "labels": {
+            "No": 7
+          }
+        },
+        {
+          "project_id": "04",
+          "n_samples": 8,
+          "n_labels": 1,
+          "labels": {
+            "No": 8
+          }
+        },
+        {
+          "project_id": "05",
+          "n_samples": 7,
+          "n_labels": 2,
+          "labels": {
+            "No": 6,
+            "Yes": 1
+          }
+        },
+        {
+          "project_id": "06",
+          "n_samples": 6,
+          "n_labels": 1,
+          "labels": {
+            "No": 6
+          }
+        },
+        {
+          "project_id": "07",
+          "n_samples": 4,
+          "n_labels": 1,
+          "labels": {
+            "No": 4
+          }
+        },
+        {
+          "project_id": "08",
+          "n_samples": 8,
+          "n_labels": 2,
+          "labels": {
+            "No": 7,
+            "Yes": 1
+          }
+        },
+        {
+          "project_id": "09",
+          "n_samples": 9,
+          "n_labels": 1,
+          "labels": {
+            "No": 9
+          }
+        }
+      ],
+      "split_grid": {
+        "test1_val1": {
+          "attempted": 72,
+          "feasible": 12,
+          "examples": [
+            {
+              "train_projects": [
+                "02",
+                "04",
+                "05",
+                "06",
+                "07",
+                "08",
+                "09"
+              ],
+              "val_projects": [
+                "011"
+              ],
+              "test_projects": [
+                "010"
+              ],
+              "train_labels": [
+                "No",
+                "Yes"
+              ],
+              "val_labels": [
+                "No",
+                "Yes"
+              ],
+              "test_labels": [
+                "No",
+                "Yes"
+              ]
+            },
+            {
+              "train_projects": [
+                "011",
+                "02",
+                "04",
+                "06",
+                "07",
+                "08",
+                "09"
+              ],
+              "val_projects": [
+                "05"
+              ],
+              "test_projects": [
+                "010"
+              ],
+              "train_labels": [
+                "No",
+                "Yes"
+              ],
+              "val_labels": [
+                "No",
+                "Yes"
+              ],
+              "test_labels": [
+                "No",
+                "Yes"
+              ]
+            },
+            {
+              "train_projects": [
+                "011",
+                "02",
+                "04",
+                "05",
+                "06",
+                "07",
+                "09"
+              ],
+              "val_projects": [
+                "08"
+              ],
+              "test_projects": [
+                "010"
+              ],
+              "train_labels": [
+                "No",
+                "Yes"
+              ],
+              "val_labels": [
+                "No",
+                "Yes"
+              ],
+              "test_labels": [
+                "No",
+                "Yes"
+              ]
+            },
+            {
+              "train_projects": [
+                "02",
+                "04",
+                "05",
+                "06",
+                "07",
+                "08",
+                "09"
+              ],
+              "val_projects": [
+                "010"
+              ],
+              "test_projects": [
+                "011"
+              ],
+              "train_labels": [
+                "No",
+                "Yes"
+              ],
+              "val_labels": [
+                "No",
+                "Yes"
+              ],
+              "test_labels": [
+                "No",
+                "Yes"
+              ]
+            },
+            {
+              "train_projects": [
+                "010",
+                "02",
+                "04",
+                "06",
+                "07",
+                "08",
+                "09"
+              ],
+              "val_projects": [
+                "05"
+              ],
+              "test_projects": [
+                "011"
+              ],
+              "train_labels": [
+                "No",
+                "Yes"
+              ],
+              "val_labels": [
+                "No",
+                "Yes"
+              ],
+              "test_labels": [
+                "No",
+                "Yes"
+              ]
+            }
+          ]
+        },
+        "test1_val2": {
+          "attempted": 252,
+          "feasible": 72,
+          "examples": [
+            {
+              "train_projects": [
+                "04",
+                "05",
+                "06",
+                "07",
+                "08",
+                "09"
+              ],
+              "val_projects": [
+                "011",
+                "02"
+              ],
+              "test_projects": [
+                "010"
+              ],
+              "train_labels": [
+                "No",
+                "Yes"
+              ],
+              "val_labels": [
+                "No",
+                "Yes"
+              ],
+              "test_labels": [
+                "No",
+                "Yes"
+              ]
+            },
+            {
+              "train_projects": [
+                "02",
+                "05",
+                "06",
+                "07",
+                "08",
+                "09"
+              ],
+              "val_projects": [
+                "011",
+                "04"
+              ],
+              "test_projects": [
+                "010"
+              ],
+              "train_labels": [
+                "No",
+                "Yes"
+              ],
+              "val_labels": [
+                "No",
+                "Yes"
+              ],
+              "test_labels": [
+                "No",
+                "Yes"
+              ]
+            },
+            {
+              "train_projects": [
+                "02",
+                "04",
+                "06",
+                "07",
+                "08",
+                "09"
+              ],
+              "val_projects": [
+                "011",
+                "05"
+              ],
+              "test_projects": [
+                "010"
+              ],
+              "train_labels": [
+                "No",
+                "Yes"
+              ],
+              "val_labels": [
+                "No",
+                "Yes"
+              ],
+              "test_labels": [
+                "No",
+                "Yes"
+              ]
+            },
+            {
+              "train_projects": [
+                "02",
+                "04",
+                "05",
+                "07",
+                "08",
+                "09"
+              ],
+              "val_projects": [
+                "011",
+                "06"
+              ],
+              "test_projects": [
+                "010"
+              ],
+              "train_labels": [
+                "No",
+                "Yes"
+              ],
+              "val_labels": [
+                "No",
+                "Yes"
+              ],
+              "test_labels": [
+                "No",
+                "Yes"
+              ]
+            },
+            {
+              "train_projects": [
+                "02",
+                "04",
+                "05",
+                "06",
+                "08",
+                "09"
+              ],
+              "val_projects": [
+                "011",
+                "07"
+              ],
+              "test_projects": [
+                "010"
+              ],
+              "train_labels": [
+                "No",
+                "Yes"
+              ],
+              "val_labels": [
+                "No",
+                "Yes"
+              ],
+              "test_labels": [
+                "No",
+                "Yes"
+              ]
+            }
+          ]
+        },
+        "test2_val1": {
+          "attempted": 252,
+          "feasible": 72,
+          "examples": [
+            {
+              "train_projects": [
+                "02",
+                "04",
+                "06",
+                "07",
+                "08",
+                "09"
+              ],
+              "val_projects": [
+                "05"
+              ],
+              "test_projects": [
+                "010",
+                "011"
+              ],
+              "train_labels": [
+                "No",
+                "Yes"
+              ],
+              "val_labels": [
+                "No",
+                "Yes"
+              ],
+              "test_labels": [
+                "No",
+                "Yes"
+              ]
+            },
+            {
+              "train_projects": [
+                "02",
+                "04",
+                "05",
+                "06",
+                "07",
+                "09"
+              ],
+              "val_projects": [
+                "08"
+              ],
+              "test_projects": [
+                "010",
+                "011"
+              ],
+              "train_labels": [
+                "No",
+                "Yes"
+              ],
+              "val_labels": [
+                "No",
+                "Yes"
+              ],
+              "test_labels": [
+                "No",
+                "Yes"
+              ]
+            },
+            {
+              "train_projects": [
+                "04",
+                "05",
+                "06",
+                "07",
+                "08",
+                "09"
+              ],
+              "val_projects": [
+                "011"
+              ],
+              "test_projects": [
+                "010",
+                "02"
+              ],
+              "train_labels": [
+                "No",
+                "Yes"
+              ],
+              "val_labels": [
+                "No",
+                "Yes"
+              ],
+              "test_labels": [
+                "No",
+                "Yes"
+              ]
+            },
+            {
+              "train_projects": [
+                "011",
+                "04",
+                "06",
+                "07",
+                "08",
+                "09"
+              ],
+              "val_projects": [
+                "05"
+              ],
+              "test_projects": [
+                "010",
+                "02"
+              ],
+              "train_labels": [
+                "No",
+                "Yes"
+              ],
+              "val_labels": [
+                "No",
+                "Yes"
+              ],
+              "test_labels": [
+                "No",
+                "Yes"
+              ]
+            },
+            {
+              "train_projects": [
+                "011",
+                "04",
+                "05",
+                "06",
+                "07",
+                "09"
+              ],
+              "val_projects": [
+                "08"
+              ],
+              "test_projects": [
+                "010",
+                "02"
+              ],
+              "train_labels": [
+                "No",
+                "Yes"
+              ],
+              "val_labels": [
+                "No",
+                "Yes"
+              ],
+              "test_labels": [
+                "No",
+                "Yes"
+              ]
+            }
+          ]
+        },
+        "test2_val2": {
+          "attempted": 756,
+          "feasible": 360,
+          "examples": [
+            {
+              "train_projects": [
+                "04",
+                "06",
+                "07",
+                "08",
+                "09"
+              ],
+              "val_projects": [
+                "02",
+                "05"
+              ],
+              "test_projects": [
+                "010",
+                "011"
+              ],
+              "train_labels": [
+                "No",
+                "Yes"
+              ],
+              "val_labels": [
+                "No",
+                "Yes"
+              ],
+              "test_labels": [
+                "No",
+                "Yes"
+              ]
+            },
+            {
+              "train_projects": [
+                "04",
+                "05",
+                "06",
+                "07",
+                "09"
+              ],
+              "val_projects": [
+                "02",
+                "08"
+              ],
+              "test_projects": [
+                "010",
+                "011"
+              ],
+              "train_labels": [
+                "No",
+                "Yes"
+              ],
+              "val_labels": [
+                "No",
+                "Yes"
+              ],
+              "test_labels": [
+                "No",
+                "Yes"
+              ]
+            },
+            {
+              "train_projects": [
+                "02",
+                "06",
+                "07",
+                "08",
+                "09"
+              ],
+              "val_projects": [
+                "04",
+                "05"
+              ],
+              "test_projects": [
+                "010",
+                "011"
+              ],
+              "train_labels": [
+                "No",
+                "Yes"
+              ],
+              "val_labels": [
+                "No",
+                "Yes"
+              ],
+              "test_labels": [
+                "No",
+                "Yes"
+              ]
+            },
+            {
+              "train_projects": [
+                "02",
+                "05",
+                "06",
+                "07",
+                "09"
+              ],
+              "val_projects": [
+                "04",
+                "08"
+              ],
+              "test_projects": [
+                "010",
+                "011"
+              ],
+              "train_labels": [
+                "No",
+                "Yes"
+              ],
+              "val_labels": [
+                "No",
+                "Yes"
+              ],
+              "test_labels": [
+                "No",
+                "Yes"
+              ]
+            },
+            {
+              "train_projects": [
+                "02",
+                "04",
+                "07",
+                "08",
+                "09"
+              ],
+              "val_projects": [
+                "05",
+                "06"
+              ],
+              "test_projects": [
+                "010",
+                "011"
+              ],
+              "train_labels": [
+                "No",
+                "Yes"
+              ],
+              "val_labels": [
+                "No",
+                "Yes"
+              ],
+              "test_labels": [
+                "No",
+                "Yes"
+              ]
+            }
+          ]
+        },
+        "test3_val2": {
+          "attempted": 1260,
+          "feasible": 720,
+          "examples": [
+            {
+              "train_projects": [
+                "06",
+                "07",
+                "08",
+                "09"
+              ],
+              "val_projects": [
+                "04",
+                "05"
+              ],
+              "test_projects": [
+                "010",
+                "011",
+                "02"
+              ],
+              "train_labels": [
+                "No",
+                "Yes"
+              ],
+              "val_labels": [
+                "No",
+                "Yes"
+              ],
+              "test_labels": [
+                "No",
+                "Yes"
+              ]
+            },
+            {
+              "train_projects": [
+                "05",
+                "06",
+                "07",
+                "09"
+              ],
+              "val_projects": [
+                "04",
+                "08"
+              ],
+              "test_projects": [
+                "010",
+                "011",
+                "02"
+              ],
+              "train_labels": [
+                "No",
+                "Yes"
+              ],
+              "val_labels": [
+                "No",
+                "Yes"
+              ],
+              "test_labels": [
+                "No",
+                "Yes"
+              ]
+            },
+            {
+              "train_projects": [
+                "04",
+                "07",
+                "08",
+                "09"
+              ],
+              "val_projects": [
+                "05",
+                "06"
+              ],
+              "test_projects": [
+                "010",
+                "011",
+                "02"
+              ],
+              "train_labels": [
+                "No",
+                "Yes"
+              ],
+              "val_labels": [
+                "No",
+                "Yes"
+              ],
+              "test_labels": [
+                "No",
+                "Yes"
+              ]
+            },
+            {
+              "train_projects": [
+                "04",
+                "06",
+                "08",
+                "09"
+              ],
+              "val_projects": [
+                "05",
+                "07"
+              ],
+              "test_projects": [
+                "010",
+                "011",
+                "02"
+              ],
+              "train_labels": [
+                "No",
+                "Yes"
+              ],
+              "val_labels": [
+                "No",
+                "Yes"
+              ],
+              "test_labels": [
+                "No",
+                "Yes"
+              ]
+            },
+            {
+              "train_projects": [
+                "04",
+                "06",
+                "07",
+                "08"
+              ],
+              "val_projects": [
+                "05",
+                "09"
+              ],
+              "test_projects": [
+                "010",
+                "011",
+                "02"
+              ],
+              "train_labels": [
+                "No",
+                "Yes"
+              ],
+              "val_labels": [
+                "No",
+                "Yes"
+              ],
+              "test_labels": [
+                "No",
+                "Yes"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "target": "Construction workers",
+      "status": "not_viable_for_group_holdout",
+      "sample_count": 69,
+      "project_count": 8,
+      "label_counts": {
+        "New installation of utilities": 51,
+        "Replacement and new installation of utilities": 10,
+        "Replacement of utilities": 8
+      },
+      "label_project_support": {
+        "New installation of utilities": 6,
+        "Replacement and new installation of utilities": 1,
+        "Replacement of utilities": 1
+      },
+      "rare_labels_project_support_lt3": {
+        "Replacement and new installation of utilities": 1,
+        "Replacement of utilities": 1
+      },
+      "singleton_labels": {
+        "Replacement and new installation of utilities": 1,
+        "Replacement of utilities": 1
+      },
+      "project_rows": [
+        {
+          "project_id": "011",
+          "n_samples": 17,
+          "n_labels": 1,
+          "labels": {
+            "New installation of utilities": 17
+          }
+        },
+        {
+          "project_id": "02",
+          "n_samples": 7,
+          "n_labels": 1,
+          "labels": {
+            "New installation of utilities": 7
+          }
+        },
+        {
+          "project_id": "04",
+          "n_samples": 8,
+          "n_labels": 1,
+          "labels": {
+            "New installation of utilities": 8
+          }
+        },
+        {
+          "project_id": "05",
+          "n_samples": 10,
+          "n_labels": 1,
+          "labels": {
+            "Replacement and new installation of utilities": 10
+          }
+        },
+        {
+          "project_id": "06",
+          "n_samples": 6,
+          "n_labels": 1,
+          "labels": {
+            "New installation of utilities": 6
+          }
+        },
+        {
+          "project_id": "07",
+          "n_samples": 4,
+          "n_labels": 1,
+          "labels": {
+            "New installation of utilities": 4
+          }
+        },
+        {
+          "project_id": "08",
+          "n_samples": 8,
+          "n_labels": 1,
+          "labels": {
+            "Replacement of utilities": 8
+          }
+        },
+        {
+          "project_id": "09",
+          "n_samples": 9,
+          "n_labels": 1,
+          "labels": {
+            "New installation of utilities": 9
+          }
+        }
+      ],
+      "split_grid": {
+        "test1_val1": {
+          "attempted": 56,
+          "feasible": 0,
+          "examples": []
+        },
+        "test1_val2": {
+          "attempted": 168,
+          "feasible": 0,
+          "examples": []
+        },
+        "test2_val1": {
+          "attempted": 168,
+          "feasible": 0,
+          "examples": []
+        },
+        "test2_val2": {
+          "attempted": 420,
+          "feasible": 0,
+          "examples": []
+        },
+        "test3_val2": {
+          "attempted": 560,
+          "feasible": 0,
+          "examples": []
+        }
+      }
+    },
+    {
+      "target": "Relative groundwater level",
+      "status": "weak_due_to_single_project_labels",
+      "sample_count": 93,
+      "project_count": 9,
+      "label_counts": {
+        "Below utility range": 71,
+        "Partially within utility range": 18,
+        "Within utility range": 4
+      },
+      "label_project_support": {
+        "Below utility range": 9,
+        "Partially within utility range": 3,
+        "Within utility range": 1
+      },
+      "rare_labels_project_support_lt3": {
+        "Within utility range": 1
+      },
+      "singleton_labels": {
+        "Within utility range": 1
+      },
+      "project_rows": [
+        {
+          "project_id": "010",
+          "n_samples": 24,
+          "n_labels": 3,
+          "labels": {
+            "Below utility range": 15,
+            "Partially within utility range": 5,
+            "Within utility range": 4
+          }
+        },
+        {
+          "project_id": "011",
+          "n_samples": 17,
+          "n_labels": 2,
+          "labels": {
+            "Below utility range": 10,
+            "Partially within utility range": 7
+          }
+        },
+        {
+          "project_id": "02",
+          "n_samples": 7,
+          "n_labels": 1,
+          "labels": {
+            "Below utility range": 7
+          }
+        },
+        {
+          "project_id": "04",
+          "n_samples": 8,
+          "n_labels": 1,
+          "labels": {
+            "Below utility range": 8
+          }
+        },
+        {
+          "project_id": "05",
+          "n_samples": 10,
+          "n_labels": 1,
+          "labels": {
+            "Below utility range": 10
+          }
+        },
+        {
+          "project_id": "06",
+          "n_samples": 6,
+          "n_labels": 1,
+          "labels": {
+            "Below utility range": 6
+          }
+        },
+        {
+          "project_id": "07",
+          "n_samples": 4,
+          "n_labels": 1,
+          "labels": {
+            "Below utility range": 4
+          }
+        },
+        {
+          "project_id": "08",
+          "n_samples": 8,
+          "n_labels": 2,
+          "labels": {
+            "Below utility range": 2,
+            "Partially within utility range": 6
+          }
+        },
+        {
+          "project_id": "09",
+          "n_samples": 9,
+          "n_labels": 1,
+          "labels": {
+            "Below utility range": 9
+          }
+        }
+      ],
+      "split_grid": {
+        "test1_val1": {
+          "attempted": 72,
+          "feasible": 2,
+          "examples": [
+            {
+              "train_projects": [
+                "010",
+                "02",
+                "04",
+                "05",
+                "06",
+                "07",
+                "09"
+              ],
+              "val_projects": [
+                "08"
+              ],
+              "test_projects": [
+                "011"
+              ],
+              "train_labels": [
+                "Below utility range",
+                "Partially within utility range",
+                "Within utility range"
+              ],
+              "val_labels": [
+                "Below utility range",
+                "Partially within utility range"
+              ],
+              "test_labels": [
+                "Below utility range",
+                "Partially within utility range"
+              ]
+            },
+            {
+              "train_projects": [
+                "010",
+                "02",
+                "04",
+                "05",
+                "06",
+                "07",
+                "09"
+              ],
+              "val_projects": [
+                "011"
+              ],
+              "test_projects": [
+                "08"
+              ],
+              "train_labels": [
+                "Below utility range",
+                "Partially within utility range",
+                "Within utility range"
+              ],
+              "val_labels": [
+                "Below utility range",
+                "Partially within utility range"
+              ],
+              "test_labels": [
+                "Below utility range",
+                "Partially within utility range"
+              ]
+            }
+          ]
+        },
+        "test1_val2": {
+          "attempted": 252,
+          "feasible": 12,
+          "examples": [
+            {
+              "train_projects": [
+                "010",
+                "04",
+                "05",
+                "06",
+                "07",
+                "09"
+              ],
+              "val_projects": [
+                "02",
+                "08"
+              ],
+              "test_projects": [
+                "011"
+              ],
+              "train_labels": [
+                "Below utility range",
+                "Partially within utility range",
+                "Within utility range"
+              ],
+              "val_labels": [
+                "Below utility range",
+                "Partially within utility range"
+              ],
+              "test_labels": [
+                "Below utility range",
+                "Partially within utility range"
+              ]
+            },
+            {
+              "train_projects": [
+                "010",
+                "02",
+                "05",
+                "06",
+                "07",
+                "09"
+              ],
+              "val_projects": [
+                "04",
+                "08"
+              ],
+              "test_projects": [
+                "011"
+              ],
+              "train_labels": [
+                "Below utility range",
+                "Partially within utility range",
+                "Within utility range"
+              ],
+              "val_labels": [
+                "Below utility range",
+                "Partially within utility range"
+              ],
+              "test_labels": [
+                "Below utility range",
+                "Partially within utility range"
+              ]
+            },
+            {
+              "train_projects": [
+                "010",
+                "02",
+                "04",
+                "06",
+                "07",
+                "09"
+              ],
+              "val_projects": [
+                "05",
+                "08"
+              ],
+              "test_projects": [
+                "011"
+              ],
+              "train_labels": [
+                "Below utility range",
+                "Partially within utility range",
+                "Within utility range"
+              ],
+              "val_labels": [
+                "Below utility range",
+                "Partially within utility range"
+              ],
+              "test_labels": [
+                "Below utility range",
+                "Partially within utility range"
+              ]
+            },
+            {
+              "train_projects": [
+                "010",
+                "02",
+                "04",
+                "05",
+                "07",
+                "09"
+              ],
+              "val_projects": [
+                "06",
+                "08"
+              ],
+              "test_projects": [
+                "011"
+              ],
+              "train_labels": [
+                "Below utility range",
+                "Partially within utility range",
+                "Within utility range"
+              ],
+              "val_labels": [
+                "Below utility range",
+                "Partially within utility range"
+              ],
+              "test_labels": [
+                "Below utility range",
+                "Partially within utility range"
+              ]
+            },
+            {
+              "train_projects": [
+                "010",
+                "02",
+                "04",
+                "05",
+                "06",
+                "09"
+              ],
+              "val_projects": [
+                "07",
+                "08"
+              ],
+              "test_projects": [
+                "011"
+              ],
+              "train_labels": [
+                "Below utility range",
+                "Partially within utility range",
+                "Within utility range"
+              ],
+              "val_labels": [
+                "Below utility range",
+                "Partially within utility range"
+              ],
+              "test_labels": [
+                "Below utility range",
+                "Partially within utility range"
+              ]
+            }
+          ]
+        },
+        "test2_val1": {
+          "attempted": 252,
+          "feasible": 12,
+          "examples": [
+            {
+              "train_projects": [
+                "010",
+                "04",
+                "05",
+                "06",
+                "07",
+                "09"
+              ],
+              "val_projects": [
+                "08"
+              ],
+              "test_projects": [
+                "011",
+                "02"
+              ],
+              "train_labels": [
+                "Below utility range",
+                "Partially within utility range",
+                "Within utility range"
+              ],
+              "val_labels": [
+                "Below utility range",
+                "Partially within utility range"
+              ],
+              "test_labels": [
+                "Below utility range",
+                "Partially within utility range"
+              ]
+            },
+            {
+              "train_projects": [
+                "010",
+                "02",
+                "05",
+                "06",
+                "07",
+                "09"
+              ],
+              "val_projects": [
+                "08"
+              ],
+              "test_projects": [
+                "011",
+                "04"
+              ],
+              "train_labels": [
+                "Below utility range",
+                "Partially within utility range",
+                "Within utility range"
+              ],
+              "val_labels": [
+                "Below utility range",
+                "Partially within utility range"
+              ],
+              "test_labels": [
+                "Below utility range",
+                "Partially within utility range"
+              ]
+            },
+            {
+              "train_projects": [
+                "010",
+                "02",
+                "04",
+                "06",
+                "07",
+                "09"
+              ],
+              "val_projects": [
+                "08"
+              ],
+              "test_projects": [
+                "011",
+                "05"
+              ],
+              "train_labels": [
+                "Below utility range",
+                "Partially within utility range",
+                "Within utility range"
+              ],
+              "val_labels": [
+                "Below utility range",
+                "Partially within utility range"
+              ],
+              "test_labels": [
+                "Below utility range",
+                "Partially within utility range"
+              ]
+            },
+            {
+              "train_projects": [
+                "010",
+                "02",
+                "04",
+                "05",
+                "07",
+                "09"
+              ],
+              "val_projects": [
+                "08"
+              ],
+              "test_projects": [
+                "011",
+                "06"
+              ],
+              "train_labels": [
+                "Below utility range",
+                "Partially within utility range",
+                "Within utility range"
+              ],
+              "val_labels": [
+                "Below utility range",
+                "Partially within utility range"
+              ],
+              "test_labels": [
+                "Below utility range",
+                "Partially within utility range"
+              ]
+            },
+            {
+              "train_projects": [
+                "010",
+                "02",
+                "04",
+                "05",
+                "06",
+                "09"
+              ],
+              "val_projects": [
+                "08"
+              ],
+              "test_projects": [
+                "011",
+                "07"
+              ],
+              "train_labels": [
+                "Below utility range",
+                "Partially within utility range",
+                "Within utility range"
+              ],
+              "val_labels": [
+                "Below utility range",
+                "Partially within utility range"
+              ],
+              "test_labels": [
+                "Below utility range",
+                "Partially within utility range"
+              ]
+            }
+          ]
+        },
+        "test2_val2": {
+          "attempted": 756,
+          "feasible": 60,
+          "examples": [
+            {
+              "train_projects": [
+                "010",
+                "05",
+                "06",
+                "07",
+                "09"
+              ],
+              "val_projects": [
+                "04",
+                "08"
+              ],
+              "test_projects": [
+                "011",
+                "02"
+              ],
+              "train_labels": [
+                "Below utility range",
+                "Partially within utility range",
+                "Within utility range"
+              ],
+              "val_labels": [
+                "Below utility range",
+                "Partially within utility range"
+              ],
+              "test_labels": [
+                "Below utility range",
+                "Partially within utility range"
+              ]
+            },
+            {
+              "train_projects": [
+                "010",
+                "04",
+                "06",
+                "07",
+                "09"
+              ],
+              "val_projects": [
+                "05",
+                "08"
+              ],
+              "test_projects": [
+                "011",
+                "02"
+              ],
+              "train_labels": [
+                "Below utility range",
+                "Partially within utility range",
+                "Within utility range"
+              ],
+              "val_labels": [
+                "Below utility range",
+                "Partially within utility range"
+              ],
+              "test_labels": [
+                "Below utility range",
+                "Partially within utility range"
+              ]
+            },
+            {
+              "train_projects": [
+                "010",
+                "04",
+                "05",
+                "07",
+                "09"
+              ],
+              "val_projects": [
+                "06",
+                "08"
+              ],
+              "test_projects": [
+                "011",
+                "02"
+              ],
+              "train_labels": [
+                "Below utility range",
+                "Partially within utility range",
+                "Within utility range"
+              ],
+              "val_labels": [
+                "Below utility range",
+                "Partially within utility range"
+              ],
+              "test_labels": [
+                "Below utility range",
+                "Partially within utility range"
+              ]
+            },
+            {
+              "train_projects": [
+                "010",
+                "04",
+                "05",
+                "06",
+                "09"
+              ],
+              "val_projects": [
+                "07",
+                "08"
+              ],
+              "test_projects": [
+                "011",
+                "02"
+              ],
+              "train_labels": [
+                "Below utility range",
+                "Partially within utility range",
+                "Within utility range"
+              ],
+              "val_labels": [
+                "Below utility range",
+                "Partially within utility range"
+              ],
+              "test_labels": [
+                "Below utility range",
+                "Partially within utility range"
+              ]
+            },
+            {
+              "train_projects": [
+                "010",
+                "04",
+                "05",
+                "06",
+                "07"
+              ],
+              "val_projects": [
+                "08",
+                "09"
+              ],
+              "test_projects": [
+                "011",
+                "02"
+              ],
+              "train_labels": [
+                "Below utility range",
+                "Partially within utility range",
+                "Within utility range"
+              ],
+              "val_labels": [
+                "Below utility range",
+                "Partially within utility range"
+              ],
+              "test_labels": [
+                "Below utility range",
+                "Partially within utility range"
+              ]
+            }
+          ]
+        },
+        "test3_val2": {
+          "attempted": 1260,
+          "feasible": 120,
+          "examples": [
+            {
+              "train_projects": [
+                "010",
+                "06",
+                "07",
+                "09"
+              ],
+              "val_projects": [
+                "05",
+                "08"
+              ],
+              "test_projects": [
+                "011",
+                "02",
+                "04"
+              ],
+              "train_labels": [
+                "Below utility range",
+                "Partially within utility range",
+                "Within utility range"
+              ],
+              "val_labels": [
+                "Below utility range",
+                "Partially within utility range"
+              ],
+              "test_labels": [
+                "Below utility range",
+                "Partially within utility range"
+              ]
+            },
+            {
+              "train_projects": [
+                "010",
+                "05",
+                "07",
+                "09"
+              ],
+              "val_projects": [
+                "06",
+                "08"
+              ],
+              "test_projects": [
+                "011",
+                "02",
+                "04"
+              ],
+              "train_labels": [
+                "Below utility range",
+                "Partially within utility range",
+                "Within utility range"
+              ],
+              "val_labels": [
+                "Below utility range",
+                "Partially within utility range"
+              ],
+              "test_labels": [
+                "Below utility range",
+                "Partially within utility range"
+              ]
+            },
+            {
+              "train_projects": [
+                "010",
+                "05",
+                "06",
+                "09"
+              ],
+              "val_projects": [
+                "07",
+                "08"
+              ],
+              "test_projects": [
+                "011",
+                "02",
+                "04"
+              ],
+              "train_labels": [
+                "Below utility range",
+                "Partially within utility range",
+                "Within utility range"
+              ],
+              "val_labels": [
+                "Below utility range",
+                "Partially within utility range"
+              ],
+              "test_labels": [
+                "Below utility range",
+                "Partially within utility range"
+              ]
+            },
+            {
+              "train_projects": [
+                "010",
+                "05",
+                "06",
+                "07"
+              ],
+              "val_projects": [
+                "08",
+                "09"
+              ],
+              "test_projects": [
+                "011",
+                "02",
+                "04"
+              ],
+              "train_labels": [
+                "Below utility range",
+                "Partially within utility range",
+                "Within utility range"
+              ],
+              "val_labels": [
+                "Below utility range",
+                "Partially within utility range"
+              ],
+              "test_labels": [
+                "Below utility range",
+                "Partially within utility range"
+              ]
+            },
+            {
+              "train_projects": [
+                "010",
+                "06",
+                "07",
+                "09"
+              ],
+              "val_projects": [
+                "04",
+                "08"
+              ],
+              "test_projects": [
+                "011",
+                "02",
+                "05"
+              ],
+              "train_labels": [
+                "Below utility range",
+                "Partially within utility range",
+                "Within utility range"
+              ],
+              "val_labels": [
+                "Below utility range",
+                "Partially within utility range"
+              ],
+              "test_labels": [
+                "Below utility range",
+                "Partially within utility range"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "existing_group_result": {
+    "path": "GPR-ProvenanceBench\\reports\\4tu_counterfactual_hog_group_splits_20260810\\hog_group_split_summary.json",
+    "target": "Land type",
+    "n_metric_rows": 120,
+    "split_seeds": [
+      20260810,
+      20260811,
+      20260812,
+      20260813,
+      20260814
+    ],
+    "selected_models_by_run": [
+      "rbf_svm",
+      "dummy_majority",
+      "extra_trees",
+      "extra_trees",
+      "rbf_svm"
+    ],
+    "log_clip_aggregate": [
+      {
+        "model": "dummy_majority",
+        "n_splits": 1,
+        "original_BA_mean": null,
+        "log_clip_BA_mean": 0.3333333333333333,
+        "log_clip_delta_mean": 0.0,
+        "flip_mean": 0.0
+      },
+      {
+        "model": "extra_trees",
+        "n_splits": 2,
+        "original_BA_mean": null,
+        "log_clip_BA_mean": 0.24559294871794873,
+        "log_clip_delta_mean": -0.042181776556776546,
+        "flip_mean": 0.46927803379416283
+      },
+      {
+        "model": "rbf_svm",
+        "n_splits": 2,
+        "original_BA_mean": null,
+        "log_clip_BA_mean": 0.29166666666666663,
+        "log_clip_delta_mean": 0.0,
+        "flip_mean": 0.0
+      }
+    ]
+  }
+}

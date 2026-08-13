@@ -1,0 +1,10 @@
+platform_field,deposit_status,prefill_value,blocking_note,blocks_fmr005_now
+title,prefill_ready,GPR-ProvenanceBench: source-aware evaluation artifacts for ground-penetrating radar recognition,,no
+upload_type,prefill_ready,dataset,,no
+creators,blocked,"Liu, Zixuan; collaborators to be added before deposit","Confirm complete author list, order, affiliations and ORCID fields before deposit.",yes
+description,prefill_ready,"Derived manifests, source-data tables, protocol files and audit artifacts supporting a provenance-aware GPR recognition benchmark checkpoint.",,no
+keywords,prefill_ready,ground-penetrating radar; provenance-aware evaluation; environment transfer; data leakage; benchmark; source data,,no
+version,prefill_ready,2026-08-10-predeposit,,no
+license,blocked,TBD; candidate permissive licence for code and CC-BY/CC0-compatible licence for derived metadata only after rights review,Select software and derived-data licences after author and third-party rights review.,yes
+related_identifiers,blocked,Manuscript DOI/preprint DOI to be added after submission or preprint; data/code DOI missing,"Add manuscript, preprint, data DOI and code DOI only after they exist.",yes
+access_right,blocked,open for derived artifacts only after third-party rights review; restricted for raw third-party GPR files,Open only derived artifacts that pass rights review; exclude raw third-party data by default.,yes

@@ -1,0 +1,6 @@
+check,result,detail
+FMR-005 row imported,PASS,fmr005_rows=1
+repository metadata rows imported,PASS,metadata_rows=9; expected=9
+TBD metadata does not unlock writeback,PASS,metadata_has_tbd=True; fmr005_writeback_allowed=False
+candidate generation follows repository-rights gates,PASS,candidate_rows=0; fmr005_writeback_allowed=False
+submission remains false,PASS,guarded_recheck_allowed=false; portal_upload_allowed=false; submission_ready=false

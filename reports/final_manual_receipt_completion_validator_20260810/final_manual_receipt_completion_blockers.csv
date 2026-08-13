@@ -1,0 +1,7 @@
+blocker,evidence,blocks
+FMR-001,current_status=missing; placeholder_value=FILL_AFTER_SEND,guarded recheck and final master re-entry
+FMR-002,current_status=missing; placeholder_value=FILL_AFTER_REPLY,guarded recheck and final master re-entry
+FMR-003,current_status=missing; placeholder_value=FILL_AFTER_DROP,guarded recheck and final master re-entry
+FMR-004,current_status=missing; placeholder_value=FILL_AFTER_FIGURE_REVIEW,guarded recheck and final master re-entry
+FMR-005,current_status=missing; placeholder_value=FILL_AFTER_RIGHTS_DOI,guarded recheck and final master re-entry
+FMR-006,current_status=waiting_for_FMR_001_to_FMR_005; placeholder_value=FILL_AFTER_RECHECK,guarded recheck and final master re-entry

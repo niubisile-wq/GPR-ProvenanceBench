@@ -1,0 +1,6 @@
+check,result,detail
+open_gate_count_preserved,PASS,ledger_open_gates=6; dashboard_open_gates=6
+finalization_commands_remain_blocked,PASS,blocked=8; total=8
+gate_binder_keeps_all_requirements_open,PASS,open=16; total=16
+dispatch_packet_ready_but_not_done,PASS,dispatch_actions=6; email_sent=False
+submission_not_claimed_ready,PASS,submission_ready=False

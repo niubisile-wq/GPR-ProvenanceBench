@@ -1,0 +1,10 @@
+upload_item,current_status,upload_ready,blocking_gate_or_artifact,dashboard_action
+,preassembled_text_not_final,no,,Keep blocked until linked finalization gate is closed.
+,si_preassembled_not_final,no,,Keep blocked until linked finalization gate is closed.
+,cover_letter_prelocked_not_final,no,,Keep blocked until linked finalization gate is closed.
+,admin_prelocked_not_final,no,,Keep blocked until linked finalization gate is closed.
+,inputs_locked_figures_not_rendered,no,,Keep blocked until linked finalization gate is closed.
+,derived_source_data_ready_for_audit_not_final,no,,Keep blocked until linked finalization gate is closed.
+,prelock_not_final,no,,Keep blocked until linked finalization gate is closed.
+,sentence_support_mapped_not_final,no,,Keep blocked until linked finalization gate is closed.
+,predeposit_manifest_locked_release_not_public,no,,Keep blocked until linked finalization gate is closed.

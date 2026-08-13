@@ -1,0 +1,6 @@
+check,result,detail
+review_rows_imported,PASS,review_rows=6; packet_rows=6
+allowed_values_enforced,PASS,invalid_status_rows=0
+all_figures_approved_recorded,PASS,blank=0; approved=6; revision=0; rejected=0
+finalization_queue_still_blocked,PASS,finalization_rows=6
+final_candidate_gate_unlocked,PASS,all_approved=True

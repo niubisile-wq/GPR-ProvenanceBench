@@ -1,0 +1,17 @@
+{
+  "package": "today_manual_action_minipack_20260810",
+  "action_rows": 6,
+  "can_execute_today_rows": 5,
+  "deferred_rows": 1,
+  "evidence_capture_rows": 5,
+  "stop_rules": 5,
+  "desktop_guide": "C:\\Users\\刘子轩\\Desktop\\NatComms_今日人工动作最小包_20260810.md",
+  "desktop_guide_exists": true,
+  "qa_rows": 4,
+  "qa_pass": true,
+  "manual_actions_executed": false,
+  "email_sent": false,
+  "submission_ready": false,
+  "status": "today_manual_action_minipack_ready_not_executed",
+  "desktop_plan_updated": true
+}

@@ -1,0 +1,15 @@
+{
+  "package": "inbox_to_tracker_writeback_queue_20260810",
+  "writeback_rows": 7,
+  "risk_rows": 7,
+  "command_rows": 4,
+  "qa_rows": 4,
+  "qa_pass": true,
+  "writeback_allowed_rows": 0,
+  "tracker_write_performed": false,
+  "manual_evidence_written": false,
+  "evidence_rows_passed": 0,
+  "submission_ready": false,
+  "status": "inbox_to_tracker_writeback_queue_ready_waiting_evidence",
+  "desktop_plan_updated": true
+}

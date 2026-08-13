@@ -1,0 +1,6 @@
+guard,current,required,passes_now
+single_FMR_004_row_present,1,1,yes
+six_required_figure_review_rows_present,6,6,yes
+all_figures_explicitly_approved,approved=0; blank=6; invalid=0; revision=0; rejected=0,approved=6; blank=0; invalid=0; revision=0; rejected=0,no
+writeback_queue_has_real_return_evidence,candidate_return_files=0; writeback_allowed_rows=0; manual_writeback_performed=False,candidate_return_files>0; writeback_allowed_rows=6; manual_writeback_performed=true,no
+final_candidate_generation_allowed_and_ready,intake_allowed=False; final_candidate_allowed=False; final_figures_ready=False,all true,no

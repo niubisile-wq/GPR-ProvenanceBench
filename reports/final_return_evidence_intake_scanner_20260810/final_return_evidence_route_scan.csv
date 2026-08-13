@@ -1,0 +1,8 @@
+route_id,closeout_action,canonical_folder,canonical_location,folder_exists,candidate_files,accepted_extension_files,rejected_extension_files,writeback_allowed_now,route_status
+RTE-001,HEC-001,01_author_sendout,<REPO_ROOT>\final_return_evidence_inbox_20260810\01_author_sendout,yes,0,0,0,no,ready_empty
+RTE-002,HEC-002,02_author_replies,<REPO_ROOT>\final_return_evidence_inbox_20260810\02_author_replies,yes,0,0,0,no,ready_empty
+RTE-003,HEC-003,03_figure_review,<REPO_ROOT>\final_return_evidence_inbox_20260810\03_figure_review,yes,0,0,0,no,ready_empty
+RTE-004,HEC-004,04_repository_rights_doi,<REPO_ROOT>\final_return_evidence_inbox_20260810\04_repository_rights_doi,yes,0,0,0,no,ready_empty
+RTE-005,HEC-005,05_reporting_summary,<REPO_ROOT>\final_return_evidence_inbox_20260810\05_reporting_summary,yes,0,0,0,no,ready_empty
+RTE-006,HEC-006,06_references,<REPO_ROOT>\final_return_evidence_inbox_20260810\06_references,yes,0,0,0,no,ready_empty
+RTE-007,HEC-007,07_submission_portal,<REPO_ROOT>\final_return_evidence_inbox_20260810\07_submission_portal,yes,0,0,0,no,ready_empty

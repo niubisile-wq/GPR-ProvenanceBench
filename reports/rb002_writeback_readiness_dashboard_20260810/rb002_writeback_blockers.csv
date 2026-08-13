@@ -1,0 +1,7 @@
+blocker,current,required,effect
+RB001_not_closed,False,true,No RB-002 writeback can proceed.
+candidate_files_absent,0,>0,No route has real evidence for protected writeback.
+writeback_allowed_rows_zero,0,>0,No protected target can be written.
+transition_allowed_rows_zero,0,>0 after writeback,No gate transition can be triggered.
+guarded_commands_zero,0,>0 after transitions,Guarded execution runner remains refusing commands.
+submission_not_ready,False,true after all gates close,No upload or submission.

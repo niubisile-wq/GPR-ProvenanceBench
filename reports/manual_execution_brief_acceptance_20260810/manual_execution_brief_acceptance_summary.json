@@ -1,0 +1,15 @@
+{
+  "package": "manual_execution_brief_acceptance_20260810",
+  "acceptance_rows": 7,
+  "accepted_rows": 7,
+  "handoff_rows": 3,
+  "handoff_acceptance_ready": true,
+  "manual_actions_executed": false,
+  "allowed_commands_now": 0,
+  "portal_upload_allowed": false,
+  "submission_ready": false,
+  "qa_rows": 3,
+  "qa_pass": true,
+  "status": "manual_execution_brief_acceptance_ready_handoff_only",
+  "desktop_plan_updated": true
+}

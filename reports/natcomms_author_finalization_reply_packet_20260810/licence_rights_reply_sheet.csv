@@ -1,0 +1,5 @@
+item_id,item,recommended_route,author_reply,blocks
+LIC-001,Analysis code,MIT or BSD-3-Clause,,code DOI; Code Availability
+LIC-002,Derived figure/source tables,CC BY 4.0 if rights review permits,,Source Data deposit; Data Availability
+LIC-003,Third-party or restricted source data,Exclude raw restricted files; publish derived non-identifying summaries only if allowed,,repository DOI; portal upload
+LIC-004,Zenodo/GitHub repository release,Create only after author/institution rights clearance,,final Data/Code Availability; Reporting Summary

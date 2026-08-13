@@ -1,0 +1,6 @@
+check,result,detail
+board covers end-to-end remaining route,PASS,execution_steps=8
+all six FMR receipts have unlock rows,PASS,unlock_rows=6
+no system commands are allowed now,PASS,allowed_commands_now=0
+manual receipt completion remains blocked,PASS,complete_receipt_rows=0
+portal upload and submission remain blocked,PASS,portal_upload_ready=False; submission_ready=False

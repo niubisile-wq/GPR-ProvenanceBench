@@ -1,0 +1,8 @@
+check,result,detail
+progress blind gate remains no-go,PASS,blind=NO-GO; submission_ready=False
+readiness gate remains no-go with zero ready tracks,PASS,gate=NO-GO; ready_tracks=[]
+hidden-eval candidate audit has no eligible candidate,PASS,status=complete_hidden_eval_candidate_audit_no_eligible_candidate; eligible=0; gate=NO-GO
+synthetic freeze regression stays non-eligible despite passing,PASS,freeze=complete_synthetic_blind_freeze_regression; precedes=True; eligible=False; intake=PASS; locked=PASS
+deepmask collision prevents independent evidence promotion,PASS,collision=complete_local_cross_asset_collision_audit; clusters=4; overlap=True; eligible=False
+public raw candidate cannot close blind gate,PASS,"decision=A public raw-GPR candidate has been downloaded, checksum-verified, extracted and manifested for Track C-style non-blind stress testing. It cannot close the hard blind external gate.; candidate_eligible=False"
+public MCG candidate cannot close blind gate,PASS,download=complete_public_mcg_gpr_download_verified_extracted; rows=8100; annotated=966; baseline=complete_public_mcg_gpr_nonblind_baseline; split_stress=complete_public_mcg_gpr_split_stress; eligible=False

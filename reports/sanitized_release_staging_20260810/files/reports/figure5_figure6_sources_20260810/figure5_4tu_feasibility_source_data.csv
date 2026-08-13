@@ -1,0 +1,7 @@
+panel,target,status,sample_count,project_count,n_labels,test2_val2_attempted,test2_val2_feasible,test2_val2_feasible_fraction,singleton_labels,rare_labels_project_support_lt3,interpretation
+Figure 5,Land type,usable_with_caution,93,9,4,756,708,0.9365,,,usable with caution; still not main confirmation alone
+Figure 5,Land use,not_viable_for_group_holdout,93,9,5,756,0,0.0,"Commercial and industrial; Public institutions and service; Rural residential - small farm allotments, increased population","Commercial and industrial; Public institutions and service; Residential - quiet suburbia; Rural residential - small farm allotments, increased population",not viable for grouped holdout
+Figure 5,Land cover,weak_due_to_single_project_labels,93,9,4,756,420,0.5556,Asphalt,Asphalt,weak because labels are concentrated in too few projects
+Figure 5,Utility crossing,usable_with_caution,84,9,2,756,360,0.4762,,,usable with caution; still not main confirmation alone
+Figure 5,Construction workers,not_viable_for_group_holdout,69,8,3,420,0,0.0,Replacement and new installation of utilities; Replacement of utilities,Replacement and new installation of utilities; Replacement of utilities,not viable for grouped holdout
+Figure 5,Relative groundwater level,weak_due_to_single_project_labels,93,9,3,756,60,0.0794,Within utility range,Within utility range,weak because labels are concentrated in too few projects

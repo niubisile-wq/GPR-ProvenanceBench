@@ -1,0 +1,6 @@
+check,result,detail
+worksheet_and_validator_commands_imported,PASS,worksheet_rows=7; validator_commands=7
+all_branch_commands_blocked_now,PASS,evidence_rows_passed=0
+manual_preservation_rerun_order_imported,PASS,manual_rerun_rows=5
+post_send_queue_imported,PASS,post_send_rows=6
+no_downstream_gate_claimed,PASS,This guard outputs order only; it does not execute commands or close gates.

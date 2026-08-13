@@ -1,0 +1,4 @@
+decision,selected_value,meaning,change_trigger
+current_manuscript_branch,TRACK-B,Track B: benchmark/resource plus evidence-boundary framing; external validation remains open.,Switch to Track A only after real blind external validation is completed.
+current_submission_state,not_submission_ready,Author-review manuscript and prelock packages are usable for internal review only.,All hard gates close and final checks pass.
+current_figure_backend,Python,Formal figure rendering follows the current Python-based evidence pipeline and source-data tooling.,Switch only if the author explicitly re-routes the full figure pipeline to R.

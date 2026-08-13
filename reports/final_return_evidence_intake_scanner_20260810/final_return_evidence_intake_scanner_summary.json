@@ -1,0 +1,17 @@
+{
+  "package": "final_return_evidence_intake_scanner_20260810",
+  "routes_scanned": 7,
+  "candidate_return_files": 0,
+  "accepted_extension_files": 0,
+  "rejected_extension_files": 0,
+  "validation_commands": 7,
+  "qa_rows": 5,
+  "qa_pass": true,
+  "manual_actions_executed": false,
+  "evidence_writeback_performed": false,
+  "writeback_allowed_routes": 0,
+  "gate_closure_allowed": false,
+  "submission_ready": false,
+  "status": "final_return_evidence_intake_scanner_ready_empty_no_writeback",
+  "desktop_plan_updated": true
+}

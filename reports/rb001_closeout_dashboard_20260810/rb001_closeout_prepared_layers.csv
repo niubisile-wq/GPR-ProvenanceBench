@@ -1,0 +1,7 @@
+item,status,evidence
+canonical_drop_locations,ready,route_rows=7
+hash_source_register_template,ready,register_template_rows=7
+post_drop_dry_run_gate,ready,sequence_rows=6; guard_rows=8
+diagnostic_only_runner,ready,runner_returncode=0; forbidden_commands_excluded=True
+manual_execution_receipt_template,ready_template_only,receipt_template_rows=7
+receipt_completion_validator,ready_blocking_empty_state,receipt_rows_validated=7

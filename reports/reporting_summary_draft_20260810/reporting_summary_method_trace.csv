@@ -1,0 +1,9 @@
+reporting_item,method_modules,trace_status
+Study design,M1;M2;M6,has_method_anchor
+Sample size and exclusions,M1,has_method_anchor
+Randomization and split strategy,M2;M4,has_method_anchor
+Blinding,M6,has_method_anchor
+Statistical analysis,M3;M4;M5,has_method_anchor
+Software and code availability,M7,has_method_anchor
+Data availability,not_method_specific,uses_report_or_gate_artifact
+External validation,not_method_specific,uses_report_or_gate_artifact

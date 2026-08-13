@@ -1,0 +1,7 @@
+dispatch_id,owner,packet_material,acceptance_evidence,current_status
+MD-001,corresponding author / coauthors,attachments/author_sendout,"send log completed with timestamp, sender and recipient route; returned forms tracked later.",ready_not_sent
+MD-002,corresponding author / analysis lead,attachments/backend_scope,"backend validator reports backend_selected=true, scope_confirmed=true and rendering_allowed=true.",ready_waiting_choice
+MD-003,advisor / collaborator / third-party data holder,attachments/external_asset,"real unlabeled asset, strict-SHA manifest, sealed labels and rights statement are returned.",ready_not_sent
+MD-004,repository/rights lead,attachments/rights_licence,"licence_selected=true, third_party_rights_cleared=true or raw-data exclusion finalized.",ready_waiting_rights_review
+MD-005,corresponding author / statistics reviewer / rights lead,attachments/reporting_summary,four author confirmation rows completed and Reporting Summary completion handoff rerun.,ready_waiting_author_confirmations
+MD-006,writing lead,attachments/references,"manual verification complete, final marker replacement allowed, final RIS/ENW regenerated.",blocked_until_final_prose

@@ -1,0 +1,6 @@
+check,result,detail
+all_residual_blockers_mapped,PASS,closure_rows=8; residual_blockers=8
+all_rows_have_validation_commands,PASS,one command per blocker
+no_false_closure,PASS,ready_to_close_now remains no for every blocker
+manual_evidence_absence_preserved,PASS,candidate_return_files=0; writeback_allowed_rows=0
+submission_guard_preserved,PASS,submission_ready=False; open_master_gates=8

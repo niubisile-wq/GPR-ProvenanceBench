@@ -1,0 +1,5 @@
+check,result,detail
+all_canonical_folders_exist,PASS,folders=7
+all_folder_readmes_exist,PASS,readmes=7
+all_handoff_routes_mapped,PASS,canonical_routes=7; handoff_routes=7
+inbox_ready_but_empty,PASS,candidate_files=0; submission_ready=False

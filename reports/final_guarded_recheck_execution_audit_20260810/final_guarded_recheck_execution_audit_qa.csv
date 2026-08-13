@@ -1,0 +1,5 @@
+check,result,detail
+launcher summary imported,PASS,status=final_guarded_recheck_launcher_ready_refuses_current_state
+current expected decision is refusal,PASS,expected_decision=refuse
+blocked receipt rows preserved,PASS,blockers=6; incomplete=6
+command gate keeps recheck blocked,PASS,command gate reviewed

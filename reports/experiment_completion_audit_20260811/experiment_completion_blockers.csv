@@ -1,0 +1,5 @@
+blocker,severity,current_status,can_be_solved_locally,effect_on_completion
+Blind external validation,critical,NO-GO,no,Prevents strong external-generalization claim and formal experiment closure.
+Final figure rendering and visual QA,major,not_rendered,yes,Prevents submission-grade experiment presentation and panel-level Source Data lock.
+"Repository DOI, licence and rights",major,missing_external_identifiers,partly,Prevents final Data/Code Availability and source-data deposit claim.
+Reporting Summary finalization,major,prelock_not_final,partly,Prevents NatComms submission package closure.

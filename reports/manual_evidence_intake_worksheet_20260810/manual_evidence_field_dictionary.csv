@@ -1,0 +1,7 @@
+field,meaning,valid_examples,invalid_examples
+send_status,Real send status for each recipient.,sent,ready; planned; not_sent
+sent_datetime_local,Local timestamp of real manual send.,2026-08-10 15:30,TBD; tomorrow
+returned_file_path,Path to actual returned attachment.,reports/returned_author_forms/<file>.csv,email received but no file
+current_choice,Author-selected backend/scope or decision value.,Python; Figure 1-Figure 6,either; recommended
+author_reply,Substantive author confirmation.,Confirm descriptive metrics only; no inferential tests.,yes; ok; noted
+current_decision,Rights/reference decision backed by evidence.,MIT selected with author confirmation; exclude_by_default_not_public_release,open; maybe

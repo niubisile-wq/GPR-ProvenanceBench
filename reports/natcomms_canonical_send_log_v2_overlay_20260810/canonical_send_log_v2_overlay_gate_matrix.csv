@@ -1,0 +1,9 @@
+gate,current,required,passes_now
+canonical_send_log_exists,True,true,yes
+v2_desktop_hash_available,True,true,yes
+no_stale_v1_rows_after_overlay,0,0,yes
+all_rows_reference_v2_after_overlay,5,5,yes
+manual_status_preserved,True,true,yes
+tracker_summary_sha_matches_v2,True,true,yes
+manual_send_state_not_asserted,True,true unless already manually sent before overlay,yes
+submission_ready,False,false,yes

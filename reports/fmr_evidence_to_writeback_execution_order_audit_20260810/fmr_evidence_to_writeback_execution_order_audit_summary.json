@@ -1,0 +1,18 @@
+{
+  "package": "fmr_evidence_to_writeback_execution_order_audit_20260810",
+  "ordered_fmr_rows": 6,
+  "commands_allowed_now": 0,
+  "writeback_executed_rows": 0,
+  "real_fmr_template_modified_rows": 0,
+  "receipt_completion_allowed": false,
+  "guarded_recheck_allowed": false,
+  "launcher_execution_allowed": false,
+  "recheck_executed": false,
+  "blocker_rows": 6,
+  "qa_rows": 5,
+  "qa_pass": true,
+  "portal_upload_allowed": false,
+  "submission_ready": false,
+  "status": "fmr_evidence_to_writeback_execution_order_audit_ready_all_current_commands_blocked",
+  "desktop_plan_updated": true
+}

@@ -1,0 +1,5 @@
+qa_check,status,evidence
+submission_ready_preserved_false,pass,dashboard submission_ready=false
+track_b_currently_applicable,pass,TRACK-B
+hard_blockers_present,pass,blocker_rows=5
+no_final_submission_claim,pass,blocked items remain in submission assembly table

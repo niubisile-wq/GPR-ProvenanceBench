@@ -1,0 +1,6 @@
+order,command,run_now,purpose
+1,Place returned file in reports\python_figure_author_review_return_inbox_20260810\returned_author_review_files,manual_only,Receive author-returned review form.
+2,py scripts\build_python_figure_author_review_return_inbox.py,yes,Audit returned file presence and checksums.
+3,Manually transcribe only author_approval_status and author_comment into python_figure_author_review_form.csv,no,Write canonical review state after a real returned file is inspected.
+4,py scripts\build_python_figure_author_review_intake_validator.py,no,Validate allowed values and decide next figure action.
+5,py scripts\build_python_figure_author_review_writeback_queue.py,yes,Refresh this queue after inbox or review-form state changes.

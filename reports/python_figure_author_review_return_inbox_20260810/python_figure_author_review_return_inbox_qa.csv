@@ -1,0 +1,6 @@
+check,result,detail
+packet_ready_imported,PASS,figures_included=6; packet_qa=True
+intake_waiting_approvals,PASS,blank_rows=6; approved_rows=0
+canonical_review_form_blank,PASS,review_rows=6
+return_inbox_empty,PASS,candidate_return_files=0
+final_gate_not_closed,PASS,final_candidate_generation_allowed=False

@@ -1,0 +1,6 @@
+check,result,detail
+availability_gates_open,PASS,open_availability_gates=5
+rights_not_cleared_truthful,PASS,licence_selected=False; third_party_rights_cleared=False
+repository_not_created_truthful,PASS,repository_record_created=False; repository_doi_created=False
+upload_queue_blocked,PASS,queued_uploads=37; upload_queue_files=37
+final_availability_not_ready,PASS,availability_submission_ready=False; public_release_ready=False

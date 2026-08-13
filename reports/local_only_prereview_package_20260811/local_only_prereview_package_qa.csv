@@ -1,0 +1,5 @@
+check,result,detail
+preassemblable items are included,PASS,included=3; expected=3
+blocked formal submission items are excluded,PASS,excluded=7; expected=7
+external manual blocker is preserved,PASS,goal_complete=False
+package files copied,PASS,copied_files=3

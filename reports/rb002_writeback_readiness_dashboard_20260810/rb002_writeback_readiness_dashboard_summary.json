@@ -1,0 +1,21 @@
+{
+  "package": "rb002_writeback_readiness_dashboard_20260810",
+  "writeback_routes": 7,
+  "editable_targets": 5,
+  "schema_or_portal_blocked_targets": 2,
+  "rb002_ready_rows": 0,
+  "blockers": 6,
+  "next_actions": 5,
+  "qa_rows": 5,
+  "qa_pass": true,
+  "rb001_closed": false,
+  "candidate_return_files": 0,
+  "writeback_allowed_rows": 0,
+  "transition_allowed_rows": 0,
+  "commands_allowed_now": 0,
+  "rb002_ready": false,
+  "submission_ready": false,
+  "desktop_dashboard": "C:\\Users\\\u5218\u5b50\u8f69\\Desktop\\RB002_writeback_readiness_dashboard_20260810.md",
+  "status": "rb002_writeback_readiness_dashboard_ready_blocked_by_rb001",
+  "desktop_plan_updated": true
+}

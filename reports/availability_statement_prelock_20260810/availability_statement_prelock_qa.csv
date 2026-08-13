@@ -1,0 +1,6 @@
+check,result,detail
+repository_identifier_not_claimed,PASS,repository_identifier_created=False
+code_doi_not_claimed,PASS,code_doi_created=False
+source_data_identifier_not_claimed,PASS,source_repository_identifier=None
+public_release_not_claimed,PASS,public_release_ready=False
+release_readiness_boundary_preserved,PASS,release_ready=False

@@ -1,0 +1,7 @@
+dependency,source,current,required,passes_now
+figure_portal_bridge_allows_closeout,19.45 figure/portal final dependency bridge,False,true,no
+author_decisions_closed,author decision closure packet v2,False,all author decisions resolved and accepted,no
+human_closeout_closed,final human execution closeout board,False,"all human actions closed, open_master_gates=0",no
+residual_blockers_closed,final residual blocker closure packet,False,all residual blockers ready to close and validation commands unblocked,no
+author_final_closeout_allowed,19.46 bridge decision,False,true only after all upstream closeout gates pass,no
+submission_ready,19.46 bridge boundary,False,false in current blocked state,yes

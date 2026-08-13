@@ -1,0 +1,6 @@
+check,result,detail
+Execution tasks exist,PASS,6 tasks.
+Dashboard remains blocked,PASS,8 blocked dashboard rows.
+Author replies still blank,PASS,12 blank reply fields.
+Active no-go rows imported,PASS,5 active no-go rows.
+Stop rules active,PASS,5 stop rules.

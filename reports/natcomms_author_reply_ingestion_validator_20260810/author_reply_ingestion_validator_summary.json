@@ -1,0 +1,17 @@
+{
+  "run_id": "20260810_natcomms_author_reply_ingestion_validator",
+  "author_reply_fields_audited": 12,
+  "blank_author_reply_fields": 12,
+  "master_gates_evaluated": 8,
+  "gates_with_missing_replies": 7,
+  "ancillary_sources_audited": 6,
+  "ancillary_blank_rows": 25,
+  "evidence_rules": 5,
+  "qa_rows": 5,
+  "qa_pass": true,
+  "author_replies_ingested": false,
+  "gate_closure_allowed": false,
+  "submission_ready": false,
+  "status": "natcomms_author_reply_ingestion_validator_ready_no_replies_ingested",
+  "boundary": "Validator audits reply completeness only; blank or recommended-default replies cannot close any finalization gate."
+}

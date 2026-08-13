@@ -1,0 +1,6 @@
+check,result,detail
+all consistency components review-ready,PASS,review_ready=7
+final submission remains blocked,PASS,no component is marked final-submission ready
+metadata blocked fields preserved,PASS,blocked_metadata=4
+upload queue preserved,PASS,upload_rows=37
+rights/licence blockers preserved,PASS,public_release_ready=False

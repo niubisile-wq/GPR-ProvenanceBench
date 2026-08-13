@@ -1,0 +1,10 @@
+display_order,item_id,citation_label,anchor_class,role,status,rendered_artifact_status,manuscript_use,boundary
+1,Figure 1,Fig. 1,main_figure,Study design and evidence gates,ready_for_schematic,not_rendered_yet,main_text,"This figure is a protocol/asset map, not a performance result."
+2,Table 1,Table 1,main_table,Dataset and asset audit,ready_for_table,table_source_ready,main_text,"Counts are local executable rows, not global dataset sizes."
+3,Figure 2,Fig. 2,main_figure,Five-model cross-model result matrix,ready_for_plot,not_rendered_yet,main_text,Scope is Mojahid and Res-SAM only; 4TU and blind external assets are not included in this matrix.
+4,Table 2,Table 2,main_table,Model-family support summary,ready_for_table,table_source_ready,main_text,Summary excludes 4TU and true blind external validation.
+5,Figure 3,Fig. 3,secondary_or_extended_figure,Mojahid split inflation baseline,ready_with_caution,not_rendered_yet,secondary_or_supplement_pending,Do not frame as a universal leakage effect; only 1/5 model families reaches material support.
+6,Figure 4,Fig. 4,stress_test_figure,4TU raw-trace counterfactual stress test,ready_with_caution,not_rendered_yet,secondary_or_supplement_pending,"This is stress-test and feasibility-boundary evidence, not final causal proof, main confirmation or blind external validation."
+7,Figure 5,Fig. 5,feasibility_or_extended_figure,4TU feasibility and failure-mode map,ready_for_table_or_supplement,not_rendered_yet,secondary_or_supplement_pending,"This is a gate/failure-mode result; it supports study design decisions, not model superiority."
+8,Figure 6,Fig. 6,open_gate_placeholder,External blind validation gate,gate_open_not_result,not_rendered_yet,secondary_or_supplement_pending,The locked evaluation is template dry-run only; no manuscript claim can call it real blind external validation.
+9,Table 3,Table 3,internal_or_supplement_table,Gate status and remaining requirements,ready_for_internal_decision_table,table_source_ready,secondary_or_supplement_pending,May be internal planning material unless the manuscript is framed as a benchmark/resource paper.

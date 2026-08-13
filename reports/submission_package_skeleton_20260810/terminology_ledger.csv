@@ -1,0 +1,7 @@
+canonical_term,first_use,variants_to_avoid,decision
+ground-penetrating radar (GPR),ground-penetrating radar (GPR),GPR only at first use; ground penetrating radar without hyphen,"Spell out once in abstract/main text, then use GPR."
+GPR-ProvenanceBench,GPR-ProvenanceBench,GPR provenance benchmark; provenance bench,Use as the benchmark/workflow name only after the paper framing is finalized.
+environment transfer,environment transfer,domain transfer unless explicitly defined; external validation,Use for Res-SAM real-world/synthetic transfer contrasts.
+balanced accuracy,balanced accuracy,BA before definition; accuracy when classes are imbalanced,Use balanced accuracy for all reported deltas in current skeleton.
+material support,material support,significant support; strong proof,Use only for the predeclared delta >= 0.05 threshold.
+blind external validation,blind external validation,external validation for template dry runs; blind test if labels were visible,"Use only for a future strict-SHA, label-held, one-shot evaluation; current status is open gate."

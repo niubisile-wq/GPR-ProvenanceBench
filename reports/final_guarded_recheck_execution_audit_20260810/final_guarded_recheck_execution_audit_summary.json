@@ -1,0 +1,19 @@
+{
+  "package": "final_guarded_recheck_execution_audit_20260810",
+  "expected_launcher_decision": "refuse",
+  "expected_exit_code": "0_refusal",
+  "launcher_execution_allowed": false,
+  "audit_rows": 4,
+  "run_log_template_rows": 1,
+  "no_go_rows": 4,
+  "complete_receipt_rows": 0,
+  "blocked_receipt_rows": 6,
+  "recheck_executed": false,
+  "system_command_execution_allowed": false,
+  "portal_upload_allowed": false,
+  "submission_ready": false,
+  "qa_rows": 4,
+  "qa_pass": true,
+  "status": "final_guarded_recheck_execution_audit_ready_expected_refusal",
+  "desktop_plan_updated": true
+}

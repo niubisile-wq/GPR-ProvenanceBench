@@ -1,0 +1,6 @@
+gate,current,required,passes_now
+all_receipts_complete,False,true,no
+19.47_still_blocks_submission_before_recheck,False,false before real recheck,yes
+guarded_recheck_allowed,False,true only after all receipts complete,no
+portal_upload_allowed,False,false in receipt validator,yes
+submission_ready,False,false in receipt validator,yes

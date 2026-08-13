@@ -1,0 +1,8 @@
+condition,next_command,blocked_now
+real_author_sendout pass,py scripts\build_natcomms_author_response_log_validator.py,yes
+returned_author_reply_files pass,py scripts\build_natcomms_author_reply_ingestion_validator.py,yes
+backend_and_scope_choice pass,py scripts\build_figure_backend_decision_validator.py,yes
+external_blind_asset_payload pass,py scripts\validate_external_blind_intake.py --strict-sha,yes
+rights_licence_decisions pass,py scripts\build_rights_licence_completion_handoff.py,yes
+reporting_summary_author_replies pass,py scripts\build_reporting_summary_completion_handoff.py,yes
+reference_replacement_authorized pass,py scripts\build_reference_completion_handoff.py,yes

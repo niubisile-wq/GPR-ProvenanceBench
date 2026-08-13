@@ -1,0 +1,8 @@
+folder,route_id,exists,readme_exists,placeholder_exists
+<REPO_ROOT>\final_return_evidence_inbox_20260810\01_author_sendout,RTE-001,True,True,True
+<REPO_ROOT>\final_return_evidence_inbox_20260810\02_author_replies,RTE-002,True,True,True
+<REPO_ROOT>\final_return_evidence_inbox_20260810\03_figure_review,RTE-003,True,True,True
+<REPO_ROOT>\final_return_evidence_inbox_20260810\04_repository_rights_doi,RTE-004,True,True,True
+<REPO_ROOT>\final_return_evidence_inbox_20260810\05_reporting_summary,RTE-005,True,True,True
+<REPO_ROOT>\final_return_evidence_inbox_20260810\06_references,RTE-006,True,True,True
+<REPO_ROOT>\final_return_evidence_inbox_20260810\07_submission_portal,RTE-007,True,True,True

@@ -1,0 +1,7 @@
+guard,current,required,passes_now
+single_FMR_005_row_present,1,1,yes
+repository_record_and_data_doi_created,repository_record_created=False; repository_doi_created=False,both true,no
+code_doi_created,False,true,no
+licence_and_third_party_rights_cleared,licence_selected=False; third_party_rights_cleared=False; metadata_license=TBD,licence_selected=true; third_party_rights_cleared=true; no TBD metadata,no
+availability_finalization_ready,final_availability_ready=False; public_release_ready=False; open_availability_gates=5,final_availability_ready=true; public_release_ready=true; open_availability_gates=0,no
+no_metadata_or_release_blockers,blocked_metadata_fields=4; release_blocker_rows=4; upload_queue_files=37,blocked_metadata_fields=0; release_blocker_rows=0,no

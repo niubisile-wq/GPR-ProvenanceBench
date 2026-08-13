@@ -1,0 +1,6 @@
+check,result,detail
+receipt template imported,PASS,receipt_rows=6
+all receipts correctly remain incomplete,PASS,incomplete_receipt_rows=6
+19.49 summary agrees with zero completed receipts,PASS,completed_receipt_rows=0
+guarded recheck remains blocked,PASS,guarded_recheck_allowed=False
+submission remains false,PASS,submission_ready=False

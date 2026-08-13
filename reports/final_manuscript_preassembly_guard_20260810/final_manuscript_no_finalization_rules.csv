@@ -1,0 +1,6 @@
+rule_id,rule,current_evidence
+FINAL-GUARD-001,Do not mark manuscript text final while candidate reference markers remain.,blocked_reference_rows=5
+FINAL-GUARD-002,Do not mark figure calls final while rendered figures and visual QA are absent.,portal item display_figures upload_allowed_now=no
+FINAL-GUARD-003,Do not mark availability statements final before DOI/accession/licence evidence exists.,Data/code availability portal rows remain upload_allowed_now=no
+FINAL-GUARD-004,Do not remove open-gate limitations before real blind external validation is complete.,dashboard submission_ready=false; external validation gate open
+FINAL-GUARD-005,Do not treat M0-M2 pass as proof of final manuscript assembly.,portal_upload_allowed_rows=0; submission_ready=False

@@ -1,0 +1,5 @@
+gate,current,required,passes_now
+all_fmr_guarded_writeback_layers_covered,6,6,yes
+no_real_writeback_executed_before_evidence,writeback_executed_rows=0; real_fmr_template_modified_rows=0,both 0 in current blocked state,yes
+receipt_completion_allows_guarded_recheck,receipt_completion_allowed=False; guarded_recheck_allowed=False,both true before FMR-006 post-evidence recheck,no
+launcher_allows_and_recheck_executed,launcher_execution_allowed=False; recheck_executed=False,both true before final-master re-entry,no

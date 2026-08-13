@@ -1,0 +1,5 @@
+step,command,allowed_now,stop_rule
+1,Fill rb001_return_evidence_hash_manifest_template.csv only after real files exist.,manual_only_after_file_drop,Do not replace placeholders without a real file and SHA256.
+2,py scripts/build_final_return_evidence_intake_scanner.py,diagnostic_only,Do not treat scanner output alone as source authorization.
+3,py scripts/build_rb001_return_evidence_hash_reconciliation.py,diagnostic_only,Do not write back while missing_register_rows or hash_mismatch_rows are nonzero.
+4,py scripts/build_final_return_evidence_writeback_preflight.py,no,Do not run for closure until file hashes and source registrations reconcile.

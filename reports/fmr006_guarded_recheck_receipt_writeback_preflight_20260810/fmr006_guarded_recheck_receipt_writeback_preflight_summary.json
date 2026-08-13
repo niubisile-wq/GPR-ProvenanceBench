@@ -1,0 +1,30 @@
+{
+  "package": "fmr006_guarded_recheck_receipt_writeback_preflight_20260810",
+  "fmr006_rows": 1,
+  "prereq_receipts": 5,
+  "prereq_complete_receipts": 0,
+  "missing_prereq_receipts": [
+    "FMR-001",
+    "FMR-002",
+    "FMR-003",
+    "FMR-004",
+    "FMR-005"
+  ],
+  "receipt_completion_allowed": false,
+  "guarded_recheck_allowed": false,
+  "launcher_execution_allowed": false,
+  "recheck_executed": false,
+  "m0_m2_log_exists": true,
+  "m0_m2_pass_detected": false,
+  "m0_m2_log_sha256": "56c44dc4dc7b05fb468b5a1b8ffb2b2e658a7eb92796248cdf3a585466e3c749",
+  "fmr006_candidate_rows": 0,
+  "fmr006_writeback_allowed": false,
+  "real_fmr_template_modified": false,
+  "portal_upload_allowed": false,
+  "submission_ready": false,
+  "blocker_rows": 4,
+  "qa_rows": 5,
+  "qa_pass": true,
+  "status": "fmr006_guarded_recheck_receipt_writeback_preflight_ready_blocked_waiting_fmr001_to_fmr005",
+  "desktop_plan_updated": true
+}

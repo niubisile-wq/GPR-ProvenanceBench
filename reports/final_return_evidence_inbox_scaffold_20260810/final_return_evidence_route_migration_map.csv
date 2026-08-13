@@ -1,0 +1,8 @@
+route_id,old_drop_location,canonical_drop_location,migration_needed,reason
+RTE-001,<REPO_ROOT>\final_return_evidence_inbox_20260810\01_author_sendout,<REPO_ROOT>\final_return_evidence_inbox_20260810\01_author_sendout,no,Use canonical final_return_evidence_inbox_20260810 route for all new returned evidence.
+RTE-002,<REPO_ROOT>\final_return_evidence_inbox_20260810\02_author_replies,<REPO_ROOT>\final_return_evidence_inbox_20260810\02_author_replies,no,Use canonical final_return_evidence_inbox_20260810 route for all new returned evidence.
+RTE-003,<REPO_ROOT>\final_return_evidence_inbox_20260810\03_figure_review,<REPO_ROOT>\final_return_evidence_inbox_20260810\03_figure_review,no,Use canonical final_return_evidence_inbox_20260810 route for all new returned evidence.
+RTE-004,<REPO_ROOT>\final_return_evidence_inbox_20260810\04_repository_rights_doi,<REPO_ROOT>\final_return_evidence_inbox_20260810\04_repository_rights_doi,no,Use canonical final_return_evidence_inbox_20260810 route for all new returned evidence.
+RTE-005,<REPO_ROOT>\final_return_evidence_inbox_20260810\05_reporting_summary,<REPO_ROOT>\final_return_evidence_inbox_20260810\05_reporting_summary,no,Use canonical final_return_evidence_inbox_20260810 route for all new returned evidence.
+RTE-006,<REPO_ROOT>\final_return_evidence_inbox_20260810\06_references,<REPO_ROOT>\final_return_evidence_inbox_20260810\06_references,no,Use canonical final_return_evidence_inbox_20260810 route for all new returned evidence.
+RTE-007,<REPO_ROOT>\final_return_evidence_inbox_20260810\07_submission_portal,<REPO_ROOT>\final_return_evidence_inbox_20260810\07_submission_portal,no,Use canonical final_return_evidence_inbox_20260810 route for all new returned evidence.

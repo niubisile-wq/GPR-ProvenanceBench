@@ -1,0 +1,6 @@
+order,condition,action,allowed_now
+1,real sendout performed,Fill canonical send log sender and sent_datetime_local for all five recipient rows.,after_real_send_only
+2,returned files received,Fill returned_file_path and returned_datetime_local for all required return tracker rows.,after_real_returns_only
+3,return tracker complete,Copy each returned file into its mapped RB-001 canonical folder and fill hash manifest after SHA256 calculation.,manual_only_after_returns
+4,hash manifest complete,Run final return evidence scanner and hash reconciliation diagnostics only.,blocked_now
+5,scanner/reconciliation pass and manual receipt complete,Only then consider RB-001 closeout and downstream writeback preflight.,blocked_now

@@ -1,0 +1,6 @@
+gate_id,requirement,current_state,passes_now,blocking_reason
+MANUAL-FINAL-001,Author replies are complete,blank_author_reply_fields=12 of 12,no,All core author reply fields remain blank.
+MANUAL-FINAL-002,Post-dispatch evidence rows pass intake,passed=0 of 7,no,No real post-dispatch evidence has passed intake.
+MANUAL-FINAL-003,Branch commands are safe to rerun after manual entry,branch_commands_safe_to_run_now=0,no,"Manual evidence is absent, so branch commands remain unsafe."
+MANUAL-FINAL-004,Gate closure evidence requirements are closed,open_evidence_requirements=16 of 16,no,All artifact evidence requirements remain open.
+MANUAL-FINAL-005,Submission final lock is allowed,gate_closure_allowed=False; submission_ready=False,no,Submission final lock validator remains blocked.

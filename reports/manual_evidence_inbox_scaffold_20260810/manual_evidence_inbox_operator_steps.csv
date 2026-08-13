@@ -1,0 +1,4 @@
+manual_step,instruction,do_not_do
+1,Drop returned raw files into the matching dispatch inbox folder.,Do not rename files after recording checksums.
+2,Record only validated file paths and timestamps into the worksheet target trackers.,Do not paste evidence into fields outside the worksheet map.
+3,Run post-dispatch evidence intake before any branch validator.,Do not close gates from inbox file presence alone.

@@ -1,0 +1,6 @@
+blocker,evidence,blocks
+post-gate manual bridge blocks figure finalization,post_gate_manual_bridge_allowed=False,final figure candidate generation
+final candidates are not approved,approved_rows=6; blank_rows=0; final_candidate_generation_allowed=True,final figure assets
+final export QA is not allowed,final_export_qa_allowed_rows=6; source_data_panel_map_locked=True; captions_locked_final=True,portal-upload figure package
+source-data panel map is not locked,panel_map_lock_allowed_rows=6; source_data_panel_map_locked=True,source data and figure portal upload
+portal file preflight blocks upload,upload_allowed_now=False; portal_upload_ready=False,portal upload and submission-ready state

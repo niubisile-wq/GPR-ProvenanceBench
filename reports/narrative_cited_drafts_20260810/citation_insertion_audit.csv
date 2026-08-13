@@ -1,0 +1,9 @@
+insertion_id,section,segment_ids,candidate_ids,support_grade,status,boundary
+CI001,Introduction,S001,P1,strong background support,inserted_candidate_marker,P1 supports GPR/Res-SAM context; broader application scope may still need field-specific non-CNS citations.
+CI002,Introduction,S001,P1,strong background support,placeholder_resolved_to_candidate_marker,"The marker is candidate placement, not final formatted citation."
+CI003,Introduction,S002;S003,P4;P5;P6,partial to strong support,inserted_candidate_marker,P4/P5 support leakage and splitting risks; P6 is not inserted here because it is only acquisition-shift background.
+CI004,Introduction,S003;S004,P4;P5;P2,partial to strong support,placeholder_resolved_to_candidate_marker,External blind validation remains an internal protocol gate; this citation cluster supports evaluation rationale only.
+CI005,Discussion,S005;S007,P1,background support,inserted_internal_plus_context_marker,"The measured deltas must cite internal source data, not P1."
+CI006,Discussion,S006,P2;P3;P5,partial support,inserted_candidate_marker,Conceptual support only; P3 is non-GPR medical-AI shortcut-testing context.
+CI007,Discussion,S008,internal_artifacts,internal evidence needed,inserted_internal_marker,Do not cite literature for a repository/release claim before DOI and rights are closed.
+CI008,Conclusion,S009,P1;P4;P5,partial support,inserted_candidate_marker,Conclusion still preserves the NO-GO external-validation gate.

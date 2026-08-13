@@ -1,0 +1,4 @@
+gate,decision,evidence
+formal_figure_rendering_allowed,pass,"requires backend choice, scope choice, clean preflight and no missing sources"
+single_backend_policy,pass,"once selected, use the same backend for generation, preview, export and QA"
+submission_ready,blocked,backend validation cannot make submission ready

@@ -1,0 +1,7 @@
+blocker,current,required,next_action
+real_returned_files_absent,0,>0,Copy real returned files into final_return_evidence_inbox_20260810 route folders.
+source_hash_register_unfilled,0,>0 and one row per scanner file,Fill source/hash register after real files exist.
+manual_receipt_unfilled,0,>0 and matching scanner rows,Fill RB001_manual_execution_receipt_20260810.csv after file copy and diagnostic runner.
+receipt_not_complete,False,true,"Rerun receipt completion validator after scanner, hash reconciliation and receipt are populated."
+writeback_preflight_not_allowed,False,true,Do not run writeback for closure until receipt completion validator allows entry.
+submission_not_ready,False,true,Keep submission blocked until all master gates close.

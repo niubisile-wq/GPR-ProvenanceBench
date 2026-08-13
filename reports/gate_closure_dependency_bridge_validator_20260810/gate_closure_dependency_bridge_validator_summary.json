@@ -1,0 +1,19 @@
+{
+  "package": "gate_closure_dependency_bridge_validator_20260810",
+  "transition_bridge_allows_gate_closure": false,
+  "binder_allows_gate_closure": false,
+  "execution_board_allows_gate_closure": false,
+  "final_lock_allows_submission": false,
+  "gate_closure_dependency_ready": false,
+  "gate_closure_allowed": false,
+  "portal_upload_ready": false,
+  "submission_ready": false,
+  "open_master_gates": 8,
+  "open_evidence_requirements": 16,
+  "commands_allowed_now": 0,
+  "portal_file_upload_allowed_rows": 0,
+  "qa_rows": 5,
+  "qa_pass": true,
+  "status": "gate_closure_dependency_bridge_validator_ready_blocked",
+  "desktop_plan_updated": true
+}

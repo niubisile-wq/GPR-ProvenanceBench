@@ -1,0 +1,5 @@
+priority,action,can_run_locally,reason
+1,Acquire a true blind external asset.,no,This is the only route to closing the 20% blind external validation block.
+2,Treat strict non-transductive repair as currently unsupported unless a stronger method is added later.,partly,Per-image preprocessing and source-style augmentation both failed to provide stable non-transductive gains.
+3,Treat Zenodo raw-GPR results as non-blind Track C stress evidence and avoid promoting them to blind external validation.,done_for_current_baseline,"Candidate 10.5281/zenodo.14637589 is 3784747664 bytes and now has 914 manifested raw-trace rows, but its labels/provenance are public."
+4,"If continuing local-only work, explore a stronger train-time repair family rather than more feature-statistic alignment.",partly,Three local assets now bound the simple alignment result; more of the same is unlikely to close the experimental gate.

@@ -1,0 +1,6 @@
+rule_id,rule
+FIG-RETURN-STOP-001,Do not edit the canonical review form from files placed in this inbox without explicit manual writeback.
+FIG-RETURN-STOP-002,Do not treat a returned file as approval until the intake validator passes allowed values.
+FIG-RETURN-STOP-003,"Do not generate final candidates if any approval row is blank, revision or rejected."
+FIG-RETURN-STOP-004,Do not close final figure gate from inbox file presence alone.
+FIG-RETURN-STOP-005,Do not use Figure 6 approval as completed blind external validation.

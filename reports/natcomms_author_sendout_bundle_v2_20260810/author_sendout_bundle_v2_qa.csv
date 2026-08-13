@@ -1,0 +1,9 @@
+check,result,detail
+Original reply forms included,PASS,Eight reply-form attachments expected.
+Fill guides included,PASS,7 guide files expected.
+Lifecycle logs included,PASS,4 lifecycle files expected.
+Checksums generated,PASS,SHA256 recorded for every copied file.
+Zip created in report directory,PASS,<REPO_ROOT>\reports\natcomms_author_sendout_bundle_v2_20260810\NatComms_author_sendout_bundle_v2_20260810.zip
+Zip copied to Desktop,PASS,<LOCAL_DESKTOP>\\NatComms_author_sendout_bundle_v2_20260810.zip
+V2 zip fingerprint generated,PASS,External fingerprint avoids circular in-zip hash mutation.
+No send state asserted,PASS,email_sent remains false by design.

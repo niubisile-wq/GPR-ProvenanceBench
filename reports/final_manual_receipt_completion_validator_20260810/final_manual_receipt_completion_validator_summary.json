@@ -1,0 +1,16 @@
+{
+  "package": "final_manual_receipt_completion_validator_20260810",
+  "receipt_rows": 6,
+  "complete_receipt_rows": 0,
+  "incomplete_receipt_rows": 6,
+  "receipt_completion_allowed": false,
+  "guarded_recheck_allowed": false,
+  "final_master_reentry_allowed": false,
+  "system_command_execution_allowed": false,
+  "portal_upload_allowed": false,
+  "submission_ready": false,
+  "qa_rows": 5,
+  "qa_pass": true,
+  "status": "final_manual_receipt_completion_validator_ready_blocked_waiting_receipts",
+  "desktop_plan_updated": true
+}

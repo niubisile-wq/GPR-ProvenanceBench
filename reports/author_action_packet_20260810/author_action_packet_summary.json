@@ -1,0 +1,10 @@
+{
+  "run_id": "20260810_author_action_packet",
+  "decision_form_rows": 7,
+  "next_72h_actions": 4,
+  "email_drafts": 1,
+  "coauthor_checklists": 1,
+  "one_page_briefs": 1,
+  "status": "author_action_packet_ready",
+  "boundary": "Action packet supports author/external decisions only; it does not close figure, repository, external-validation or Reporting Summary gates."
+}

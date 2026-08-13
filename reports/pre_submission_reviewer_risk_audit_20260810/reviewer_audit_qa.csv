@@ -1,0 +1,6 @@
+check,result,detail
+three_reviewer_reports,PASS,"Reviewer 1, Reviewer 2 and Reviewer 3 sections are present."
+cross_review_synthesis,PASS,Cross-review synthesis section is present.
+risk_unsupported_claims,PASS,Risk / unsupported claims section is present.
+no_editorial_decision,PASS,No final accept/reject decision is stated.
+no_invented_reviewer_identity,PASS,Reports differ by emphasis only.

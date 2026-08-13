@@ -1,0 +1,18 @@
+{
+  "package": "fmr005_guarded_writeback_applier_20260810",
+  "candidate_rows": 0,
+  "candidate_complete": false,
+  "writeback_preflight_allowed": false,
+  "execute_flag_supplied": false,
+  "writeback_executed": false,
+  "real_fmr_template_modified": false,
+  "backup_path": "",
+  "receipt_completion_allowed": false,
+  "guarded_recheck_allowed": false,
+  "portal_upload_allowed": false,
+  "submission_ready": false,
+  "qa_rows": 4,
+  "qa_pass": true,
+  "status": "fmr005_guarded_writeback_applier_ready_refusing_current_state",
+  "desktop_plan_updated": true
+}

@@ -1,0 +1,6 @@
+check,result,detail
+all_author_reply_fields_blank,PASS,filled_author_rows=0; blank=12
+no_post_dispatch_evidence_passed,PASS,evidence_passed_rows=0; missing=7
+no_safe_branch_reruns,PASS,safe_rerun_rows=0; branch_safe=0
+gate_closure_requirements_open,PASS,closed_gate_rows=0; open_requirements=16
+submission_still_blocked,PASS,submission_ready=False; gate_closure_allowed=False

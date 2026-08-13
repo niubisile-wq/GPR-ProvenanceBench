@@ -1,0 +1,6 @@
+guard,current,required,passes_now
+single_FMR_006_row_present,1,1,yes
+FMR_001_to_FMR_005_complete,0,5,no
+receipt_completion_allows_guarded_recheck,receipt_completion_allowed=False; guarded_recheck_allowed=False,both true,no
+launcher_allowed_and_recheck_executed,launcher_execution_allowed=False; recheck_executed=False,both true,no
+M0_M2_pass_log_available,log_exists=True; pass_detected=False; sha256=56c44dc4dc7b05fb468b5a1b8ffb2b2e658a7eb92796248cdf3a585466e3c749,log_exists=true; pass_detected=true,no

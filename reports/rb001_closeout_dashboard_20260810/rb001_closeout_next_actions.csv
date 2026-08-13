@@ -1,0 +1,6 @@
+order,action,owner,allowed_now
+1,Place real returned files in the correct route folders under final_return_evidence_inbox_20260810.,operator_or_author,manual_only
+2,Run reports/rb001_diagnostic_only_runner_20260810/run_rb001_diagnostic_only.ps1.,operator,yes_diagnostic
+3,"Fill source/hash register and RB001_manual_execution_receipt_20260810.csv with real file names, SHA256 values, source identity and runner return code.",operator,after_real_files_exist
+4,Run py scripts/build_rb001_receipt_completion_validator.py.,operator,yes_diagnostic
+5,"Only if receipt_complete=true and writeback_preflight_entry_allowed=true, consider writeback preflight.",operator,no_currently_blocked

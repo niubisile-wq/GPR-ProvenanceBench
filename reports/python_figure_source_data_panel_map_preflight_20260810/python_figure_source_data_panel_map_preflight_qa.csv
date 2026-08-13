@@ -1,0 +1,6 @@
+check,result,detail
+six_figure_source_rows_indexed,PASS,map_rows=6
+source_files_present,PASS,missing_source_rows=0
+panel_map_lock_enabled,PASS,panel map lock enabled for all figures
+portal_source_data_upload_still_blocked,PASS,figure_portal_upload_allowed_rows=0
+final_source_data_locked,PASS,source_data_panel_map_locked=True

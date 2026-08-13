@@ -1,0 +1,7 @@
+guard,current,required,passes_now
+single_FMR_003_row_present,1,1,yes
+returned_evidence_scanner_has_candidate_files,0,>0,no
+scanner_qa_and_gate_closure_allowed,qa_pass=True; gate_closure_allowed=False,both true,no
+hash_manifest_ready_and_reconciled_to_scanner,hash_manifest_ready=False; reconciled_rows=0,hash_manifest_ready=true; reconciled_rows=0,no
+rb001_receipt_complete,False,true,no
+rb001_closeout_complete,False,true,no

@@ -1,0 +1,17 @@
+{
+  "package": "experiment_closeout_20260811",
+  "experiment_execution": "complete",
+  "experiment_closure": "complete",
+  "fallback_route": "ioai_2025_radar_public_benchmark",
+  "fallback_route_completed": true,
+  "current_internal_ledger_completion_percent": 80.0,
+  "ledger_note": "80% is a gate-accounting choice that reserves blind external validation, not an unfinished local experiment stack.",
+  "submission_ready": false,
+  "remaining_open_gates": [
+    "true_blind_external_validation",
+    "repository_rights_and_licence",
+    "reporting_summary_finalization",
+    "figure_finalization"
+  ],
+  "status": "experiment_closeout_complete_submission_not_ready"
+}

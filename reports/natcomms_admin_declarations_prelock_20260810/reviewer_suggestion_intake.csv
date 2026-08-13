@@ -1,0 +1,5 @@
+field,required_information,current_status
+Suggested reviewer 1,"Name, institution, institutional email, expertise, independence/no conflict",missing_author_input
+Suggested reviewer 2,"Name, institution, institutional email, expertise, independence/no conflict",missing_author_input
+Suggested reviewer 3,"Name, institution, institutional email, expertise, independence/no conflict",missing_author_input
+Excluded reviewer(s),"Name, institution, reason for exclusion if requested",optional_missing_author_input

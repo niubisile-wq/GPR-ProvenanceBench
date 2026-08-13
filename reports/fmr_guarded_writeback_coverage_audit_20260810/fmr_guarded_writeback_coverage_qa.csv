@@ -1,0 +1,6 @@
+check,result,detail
+all six FMR coverage rows present,PASS,coverage_rows=6
+all six FMR rows have complete guarded coverage,PASS,coverage_complete_rows=6
+all regressions pass,PASS,regression_pass_rows=6
+no real writeback executed in current state,PASS,writeback_executed_rows=0; real_fmr_template_modified_rows=0
+submission remains false in all guarded writeback layers,PASS,submission_ready_rows=0

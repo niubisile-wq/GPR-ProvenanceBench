@@ -1,0 +1,5 @@
+check,result,detail
+weights sum to 100,PASS,total_weight=100
+required evidence files exist,PASS,all module evidence paths checked
+external NO-GO preserved,PASS,external_gate=NO-GO
+formal submission remains not ready,PASS,submission_ready=False

@@ -1,0 +1,5 @@
+check,result,detail
+receipt blockers imported,PASS,blockers=6; incomplete=6
+external requests cover active FMR blockers,PASS,send_now_rows=5
+launcher remains refused,PASS,expected_launcher_decision=refuse
+submission remains false,PASS,submission_ready=False

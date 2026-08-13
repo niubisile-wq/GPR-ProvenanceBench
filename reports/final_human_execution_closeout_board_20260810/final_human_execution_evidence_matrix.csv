@@ -1,0 +1,8 @@
+evidence_id,gate,required_field_or_file,current_value,acceptable_now
+EV-001,author_sendout,email_sent and send evidence log,no,no
+EV-002,author_replies,12 author reply fields,blank=12,no
+EV-003,figure_approvals,Figure 1-Figure 6 approval decisions,approved=6; blank=0,no
+EV-004,repository_rights_doi,"DOI, licence and third-party rights proof",doi=no; rights=no,no
+EV-005,reporting_summary,all Reporting Summary items lockable,lockable=0,no
+EV-006,references,manual verification and final export,verification_closed=0; export_allowed=0,no
+EV-007,portal_submission,all portal upload rows ready,upload_ready=0; open_master_gates=8,no

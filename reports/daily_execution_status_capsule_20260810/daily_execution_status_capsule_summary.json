@@ -1,0 +1,16 @@
+{
+  "package": "daily_execution_status_capsule_20260810",
+  "capsule_items": 6,
+  "manual_action_queue_rows": 5,
+  "runnable_validation_rows": 0,
+  "blocked_command_rows": 7,
+  "complete_receipt_rows": 0,
+  "submission_ready": false,
+  "goal_complete": false,
+  "desktop_capsule": "C:\\Users\\刘子轩\\Desktop\\NatComms_19.90_daily_execution_status_capsule_20260810.md",
+  "desktop_capsule_exists": true,
+  "qa_rows": 4,
+  "qa_pass": true,
+  "status": "daily_execution_status_capsule_ready_manual_actions_only",
+  "desktop_plan_updated": true
+}

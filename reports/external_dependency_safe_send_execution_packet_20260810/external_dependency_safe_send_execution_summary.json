@@ -1,0 +1,19 @@
+{
+  "package": "external_dependency_safe_send_execution_packet_20260810",
+  "send_task_rows": 5,
+  "manual_send_allowed_rows": 5,
+  "automatic_send_allowed": false,
+  "sent_receipt_rows": 0,
+  "missing_send_receipts": 5,
+  "send_receipt_complete": false,
+  "fmr001_unlock_allowed": false,
+  "receipt_completion_allowed": false,
+  "portal_upload_allowed": false,
+  "submission_ready": false,
+  "desktop_guide": "C:\\Users\\刘子轩\\Desktop\\NatComms_19.55_external_dependency_safe_send_20260810.md",
+  "qa_rows": 4,
+  "qa_pass": true,
+  "status": "external_dependency_safe_send_execution_packet_ready_manual_send_only",
+  "desktop_guide_exists": true,
+  "desktop_plan_updated": true
+}

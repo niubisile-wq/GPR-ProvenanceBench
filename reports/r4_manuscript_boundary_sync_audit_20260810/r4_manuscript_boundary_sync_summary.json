@@ -1,0 +1,12 @@
+{
+  "package": "r4_manuscript_boundary_sync_audit_20260810",
+  "active_files_checked": 15,
+  "missing_files": 0,
+  "obsolete_marker_hits": 0,
+  "qa_rows": 4,
+  "qa_pass": true,
+  "current_r4_boundary": "4TU multi-layer counterfactual stress tests defined a feasibility-boundary layer rather than a main confirmation result.",
+  "submission_ready": false,
+  "status": "r4_manuscript_boundary_sync_ready_submission_not_ready",
+  "desktop_plan_updated": true
+}

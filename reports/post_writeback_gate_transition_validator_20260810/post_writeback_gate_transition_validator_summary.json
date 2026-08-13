@@ -1,0 +1,20 @@
+{
+  "package": "post_writeback_gate_transition_validator_20260810",
+  "route_transition_rows": 7,
+  "transition_allowed_rows": 0,
+  "gate_rows": 8,
+  "open_gate_rows": 8,
+  "final_sequence_rows": 6,
+  "no_go_rules": 4,
+  "qa_rows": 5,
+  "qa_pass": true,
+  "writeback_allowed_rows": 0,
+  "open_evidence_requirements": 16,
+  "blocked_dashboard_commands": 8,
+  "open_master_gates": 8,
+  "portal_upload_ready_rows": 0,
+  "gate_closure_allowed": false,
+  "submission_ready": false,
+  "status": "post_writeback_gate_transition_validator_ready_all_transitions_blocked",
+  "desktop_plan_updated": true
+}

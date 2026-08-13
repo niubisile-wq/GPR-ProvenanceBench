@@ -1,0 +1,6 @@
+check,result,detail
+Portal upload rows exist,PASS,9 portal upload rows.
+No upload-ready false positive,PASS,0 rows marked upload_ready=yes.
+Final blockers preserved,PASS,"Text, SI, admin, figures, Reporting Summary, references and repository release remain non-final."
+Official rule source rows exist,PASS,2 official Nature rows.
+Finalization order exists,PASS,6 finalization actions.

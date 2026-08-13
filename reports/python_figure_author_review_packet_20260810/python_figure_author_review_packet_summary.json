@@ -1,0 +1,19 @@
+{
+  "package": "python_figure_author_review_packet_20260810",
+  "figures_included": 6,
+  "copied_preview_files": 12,
+  "author_review_rows": 6,
+  "author_approvals_recorded": 0,
+  "stop_rules": 5,
+  "zip_members": 16,
+  "desktop_zip_exists": true,
+  "desktop_zip_name": "NatComms_python_figure_author_review_packet_20260810.zip",
+  "qa_rows": 5,
+  "qa_pass": true,
+  "finalization_blocked_rows": 6,
+  "rendered_figures_final": 0,
+  "final_figures_ready": false,
+  "submission_ready": false,
+  "status": "python_figure_author_review_packet_ready_not_approved",
+  "desktop_plan_updated": true
+}

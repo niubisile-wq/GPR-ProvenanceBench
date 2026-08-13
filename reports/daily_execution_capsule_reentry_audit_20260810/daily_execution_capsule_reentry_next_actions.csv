@@ -1,0 +1,4 @@
+priority,action,allowed_now,reason
+1,Open Desktop/NatComms_19.90_daily_execution_status_capsule_20260810.md,yes,single current-state handoff entry
+2,Execute the five real manual actions listed in the capsule,yes,only external/manual actions can produce missing evidence
+3,Run any validation/writeback/recheck/portal command,no,runnable_validation_rows=0 and complete_receipt_rows=0

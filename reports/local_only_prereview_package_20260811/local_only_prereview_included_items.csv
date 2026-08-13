@@ -1,0 +1,4 @@
+submission_item,source_artifact,current_status,local_use,formal_submission_boundary
+Main manuscript text,reports/author_review_manuscript_package_20260810/author_review_manuscript_v0_1.md,author_review_ready_not_final,include_for_internal_prereview,"Requires final figures, final references, final availability statements and final Reporting Summary alignment."
+Track B title and abstract,reports/track_b_manuscript_branch_prelock_20260810/track_b_manuscript_branch_prelock.md,track_b_prelocked,include_for_internal_prereview,Requires author route confirmation and final external-validation status.
+Cover letter,reports/submission_package_skeleton_20260810/cover_letter_skeleton.md,skeleton_ready,include_for_internal_prereview,"Needs final title, branch and significance framing."

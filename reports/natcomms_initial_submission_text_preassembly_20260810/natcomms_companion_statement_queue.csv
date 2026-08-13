@@ -1,0 +1,6 @@
+companion_item,current_action,final_status
+Data Availability,Use prelock variants only after DOI/licence/rights are known.,not_final
+Code Availability,"Wait for public repository URL, release tag, licence and archive DOI.",not_final
+Reporting Summary,"Keep prelock; finalize after Methods, figures, source data and validation status are locked.",not_final
+References,Keep candidate [P#] support locks; convert only after final figure/table calls and prose order are stable.,not_final
+Cover letter,Use prelock text as editor-pitch base; insert final author details later.,prelocked_not_final

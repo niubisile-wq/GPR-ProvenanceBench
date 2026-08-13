@@ -1,0 +1,6 @@
+check,result,detail
+dispatch_queue_imported,PASS,dispatch_rows=6
+all_current_evidence_missing_or_open,PASS,Current state should not show completed manual evidence unless user filled it.
+no_gate_effect_allowed,PASS,No downstream gate should open from empty evidence.
+next_commands_all_blocked,PASS,blocked_commands=7
+submission_not_claimed_ready,PASS,Evidence intake validator only; it does not close gates or submit.

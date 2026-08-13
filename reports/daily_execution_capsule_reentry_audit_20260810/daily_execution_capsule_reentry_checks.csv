@@ -1,0 +1,9 @@
+check_id,check,expected,observed,passes
+DCR-001,Desktop capsule exists,true,true,yes
+DCR-002,Capsule and route agree on manual action queue,5,5,yes
+DCR-003,Capsule and route agree on runnable validation queue,0,0,yes
+DCR-004,Capsule and route agree on blocked commands,7,7,yes
+DCR-005,Capsule text preserves no-command decision,"do not run system validation, writeback, recheck, portal upload or submission",present,yes
+DCR-006,Watcher still detects no candidate evidence,0,0,yes
+DCR-007,Receipt completion remains zero,0,0,yes
+DCR-008,Goal remains incomplete,false,false,yes

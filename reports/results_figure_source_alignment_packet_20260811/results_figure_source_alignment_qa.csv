@@ -1,0 +1,6 @@
+check,result,detail
+six Results paragraphs aligned,PASS,alignment_rows=6
+all figure links ready,PASS,figure_links_ready=6
+all Source Data review links ready,PASS,source_data_links_ready=6
+claim guardrails linked,PASS,claim_guardrail_links_ready=6
+final submission remains blocked,PASS,submission_ready=False

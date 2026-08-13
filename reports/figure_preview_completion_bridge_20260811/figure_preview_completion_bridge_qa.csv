@@ -1,0 +1,5 @@
+check,result,detail
+all six previews have PDF SVG PNG TIFF,PASS,preview_complete=6; preview_exports=24
+visual QA passes,PASS,qa_pass=True
+final figures remain blocked,PASS,final_figures_ready=False
+portal upload remains blocked,PASS,portal_upload_ready=False

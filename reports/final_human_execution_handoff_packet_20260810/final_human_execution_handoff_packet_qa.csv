@@ -1,0 +1,5 @@
+check,result,detail
+all_source_files_present,PASS,missing_sources=0
+all_closeout_routes_present,PASS,route_rows=7; action_rows=7
+packet_zip_created,PASS,local_zip=True; desktop_zip=True; zip_members=27
+packet_does_not_claim_execution,PASS,blocked_action_rows=7; submission_ready=False

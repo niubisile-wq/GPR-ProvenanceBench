@@ -1,0 +1,6 @@
+gate_id,requirement,current_state,passes_now,blocking_reason
+AVAIL-REPO-001,Repository DOI/accession exists and resolves,repository_doi_created=False; repository_record_created=False,no,No repository record or DOI/accession exists.
+AVAIL-REPO-002,Code DOI and software licence are selected,code_doi_created=False; licence_selected=False,no,Software licence and code archive DOI require author confirmation and repository release.
+AVAIL-REPO-003,Third-party rights and raw-data exclusion policy are closed,third_party_rights_cleared=False; raw_public_allowed=False,no,Third-party rights are not cleared; raw third-party GPR data remain excluded by default.
+AVAIL-REPO-004,Final rendered figure Source Data is available,final figure Source Data and panel-level mapping remain blocked by figure finalization,no,Final figures and panel-level Source Data are not locked.
+AVAIL-REPO-005,Final availability wording can be used,open_availability_gates=5; public_release_ready=False,no,"Availability wording remains draft while DOI, rights, licence, final Source Data and blind external data gates are open."

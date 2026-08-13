@@ -1,0 +1,8 @@
+dependency,source,current,required,passes_now
+gate_bridge_allows_manual_closeout,19.43 gate closure dependency bridge,False,true,no
+post_dispatch_ready,post-dispatch evidence intake validator,False,all evidence rows passed,no
+manual_evidence_ready,manual worksheet and entry preflight,False,manual evidence written and branch commands safe,no
+safe_rerun_allowed,post-evidence safe rerun guard,False,true,no
+operator_runbook_allows_execution,operator runbook after manual dispatch,False,manual evidence written and branch commands safe,no
+post_gate_manual_bridge_allowed,19.44 bridge decision,False,true only after all upstream evidence gates pass,no
+submission_ready,19.44 bridge boundary,False,false in current blocked state,yes

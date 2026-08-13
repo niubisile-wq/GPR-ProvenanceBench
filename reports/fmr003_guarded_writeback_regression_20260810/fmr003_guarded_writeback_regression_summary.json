@@ -1,0 +1,15 @@
+{
+  "package": "fmr003_guarded_writeback_regression_20260810",
+  "regression_cases": 3,
+  "default_refusal_verified": true,
+  "explicit_writeback_verified": true,
+  "no_candidate_refusal_verified": true,
+  "real_fmr_template_modified": false,
+  "portal_upload_allowed": false,
+  "submission_ready": false,
+  "qa_rows": 3,
+  "qa_pass": true,
+  "status": "fmr003_guarded_writeback_regression_passed",
+  "regression_pass": true,
+  "desktop_plan_updated": true
+}

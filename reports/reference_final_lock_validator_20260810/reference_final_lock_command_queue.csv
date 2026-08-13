@@ -1,0 +1,6 @@
+order,command,run_now,purpose
+1,py scripts\build_reference_public_verification.py,yes,Refresh public metadata prelock.
+2,py scripts\build_sentence_citation_support_lock.py,yes,Refresh sentence support prelock.
+3,py scripts\build_reference_completion_handoff.py,yes,Refresh replacement and manual verification queues.
+4,py scripts\build_reference_final_lock_validator.py,yes,Refresh this final-lock validator.
+5,Replace [P#] markers and export final numbered references,no,Allowed only after all final reference gates pass.

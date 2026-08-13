@@ -1,0 +1,6 @@
+rights_item,minimum_answer,reason,if_not_available
+Use for model evaluation,explicit yes,Blind external validation cannot proceed without permission to compute and report metrics.,Use only for internal dry run or exclude from manuscript claims.
+Use in manuscript figures/tables,yes or derived-summary-only,"Main text may need aggregate metrics, confusion matrices or example images.",Report only allowed aggregate metrics or omit examples.
+Public redistribution of raw files,explicit licence or no,Data Availability wording depends on redistribution permission.,State restricted access and provide contact/access procedure if allowed.
+Public release of derived metrics,explicit yes,Source Data deposit can usually include derived aggregate metrics if permitted.,Exclude derived rows from public deposit until cleared.
+Commercial or journal-publication use,compatible with journal publication,Nature Communications publication requires rights to publish the reported evidence.,Do not use asset in main submission.

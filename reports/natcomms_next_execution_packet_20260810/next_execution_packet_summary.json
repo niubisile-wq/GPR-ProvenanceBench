@@ -1,0 +1,18 @@
+{
+  "run_id": "20260810_natcomms_next_execution_packet",
+  "execution_tasks": 6,
+  "owner_packet_rows": 5,
+  "acceptance_tests": 5,
+  "stop_rules": 5,
+  "blank_author_reply_fields": 12,
+  "blocked_dashboard_rows": 8,
+  "critical_path_rows_imported": 5,
+  "active_no_go_rows": 5,
+  "qa_rows": 5,
+  "qa_pass": true,
+  "author_inputs_collected": false,
+  "backend_selected": false,
+  "submission_ready": false,
+  "status": "natcomms_next_execution_packet_ready_waiting_author_inputs",
+  "boundary": "Execution packet defines next actions only; it does not execute author replies, figure rendering, DOI creation, final assembly or submission."
+}

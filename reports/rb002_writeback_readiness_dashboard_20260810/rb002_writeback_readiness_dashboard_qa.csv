@@ -1,0 +1,6 @@
+check,result,detail
+all_writeback_routes_summarized,PASS,routes=7
+editable_targets_not_confused_with_writeback_permission,PASS,editable_targets=5; rb002_ready_rows=0
+rb001_blocker_preserved,PASS,rb001_closed=False
+writeback_still_blocked,PASS,rb002_ready=False; writeback_allowed_rows=0
+submission_guard_preserved,PASS,submission_ready=False

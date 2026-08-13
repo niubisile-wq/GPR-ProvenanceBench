@@ -1,0 +1,8 @@
+dependency,source,current,required,passes_now
+rb002_entry_allowed,19.41 RB-002 entry bridge,False,true,no
+post_writeback_transition_ready,post-writeback transition validator,False,true,no
+guarded_runner_ready,post-return guarded execution runner,False,true,no
+transition_bridge_allowed,bridge decision,False,true,no
+route_command_execution_allowed,bridge decision,False,true,no
+gate_closure_allowed,bridge decision,False,true,no
+submission_ready,bridge boundary,False,false in current state,yes

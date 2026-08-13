@@ -1,0 +1,16 @@
+panel,dataset,dataset_label,contrast,contrast_label,model_family,model_label,delta_mean_balanced_accuracy,directional_support,material_support,material_threshold,recommended_encoding
+Figure 2,mojahid,Mojahid,random_minus_grouped_balanced_accuracy,Mojahid: random - grouped,hog_rbf_svm,HOG + RBF-SVM,0.0976,yes,yes,0.05,bar_positive_material
+Figure 2,res_sam,Res-SAM,within_minus_transfer_synthetic_to_real_world,Res-SAM: within synthetic - synthetic->real,hog_rbf_svm,HOG + RBF-SVM,0.4117,yes,yes,0.05,bar_positive_material
+Figure 2,res_sam,Res-SAM,within_minus_transfer_real_world_to_synthetic,Res-SAM: within real - real->synthetic,hog_rbf_svm,HOG + RBF-SVM,0.5556,yes,yes,0.05,bar_positive_material
+Figure 2,mojahid,Mojahid,random_minus_grouped_balanced_accuracy,Mojahid: random - grouped,lbp_linear_svm,LBP + LinearSVM,0.0365,yes,no,0.05,bar_positive_directional_only
+Figure 2,res_sam,Res-SAM,within_minus_transfer_synthetic_to_real_world,Res-SAM: within synthetic - synthetic->real,lbp_linear_svm,LBP + LinearSVM,0.3083,yes,yes,0.05,bar_positive_material
+Figure 2,res_sam,Res-SAM,within_minus_transfer_real_world_to_synthetic,Res-SAM: within real - real->synthetic,lbp_linear_svm,LBP + LinearSVM,0.2356,yes,yes,0.05,bar_positive_material
+Figure 2,mojahid,Mojahid,random_minus_grouped_balanced_accuracy,Mojahid: random - grouped,tinycnn,TinyCNN,0.0098,yes,no,0.05,bar_positive_directional_only
+Figure 2,res_sam,Res-SAM,within_minus_transfer_synthetic_to_real_world,Res-SAM: within synthetic - synthetic->real,tinycnn,TinyCNN,-0.0103,no,no,0.05,bar_negative_or_unsupported
+Figure 2,res_sam,Res-SAM,within_minus_transfer_real_world_to_synthetic,Res-SAM: within real - real->synthetic,tinycnn,TinyCNN,0.2907,yes,yes,0.05,bar_positive_material
+Figure 2,mojahid,Mojahid,random_minus_grouped_balanced_accuracy,Mojahid: random - grouped,resnet18_embedding_linear_svm,ResNet18 emb. + LinearSVM,0.025,yes,no,0.05,bar_positive_directional_only
+Figure 2,res_sam,Res-SAM,within_minus_transfer_synthetic_to_real_world,Res-SAM: within synthetic - synthetic->real,resnet18_embedding_linear_svm,ResNet18 emb. + LinearSVM,0.5783,yes,yes,0.05,bar_positive_material
+Figure 2,res_sam,Res-SAM,within_minus_transfer_real_world_to_synthetic,Res-SAM: within real - real->synthetic,resnet18_embedding_linear_svm,ResNet18 emb. + LinearSVM,0.4289,yes,yes,0.05,bar_positive_material
+Figure 2,mojahid,Mojahid,random_minus_grouped_balanced_accuracy,Mojahid: random - grouped,efficientnet_b0_embedding_linear_svm,EfficientNetB0 emb. + LinearSVM,0.034,yes,no,0.05,bar_positive_directional_only
+Figure 2,res_sam,Res-SAM,within_minus_transfer_synthetic_to_real_world,Res-SAM: within synthetic - synthetic->real,efficientnet_b0_embedding_linear_svm,EfficientNetB0 emb. + LinearSVM,0.5833,yes,yes,0.05,bar_positive_material
+Figure 2,res_sam,Res-SAM,within_minus_transfer_real_world_to_synthetic,Res-SAM: within real - real->synthetic,efficientnet_b0_embedding_linear_svm,EfficientNetB0 emb. + LinearSVM,0.6089,yes,yes,0.05,bar_positive_material

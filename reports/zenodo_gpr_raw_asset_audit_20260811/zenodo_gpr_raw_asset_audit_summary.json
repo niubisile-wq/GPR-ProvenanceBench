@@ -1,0 +1,211 @@
+{
+  "run_id": "20260811_E17_zenodo_gpr_raw_asset_audit",
+  "archive": {
+    "local_path": "external_assets/zenodo_gpr_14637589/Data Set.zip",
+    "size_bytes": 3784747664,
+    "expected_md5": "a20da497549c01f7f079e68e46ed7c87",
+    "actual_md5": "a20da497549c01f7f079e68e46ed7c87",
+    "md5_verified": true
+  },
+  "extracted_root": "external_assets/zenodo_gpr_14637589/extracted/Data Set",
+  "inventory": {
+    "total_files": 4572,
+    "total_bytes": 6278129634,
+    "raw_trace_files": 914,
+    "raw_trace_bytes": 6184560850
+  },
+  "manifest_rows": 914,
+  "category_summary": {
+    "pipe": {
+      "all_files": 3081,
+      "all_bytes": 644582199,
+      "raw_trace_files": 553,
+      "raw_trace_bytes": 601177714
+    },
+    "rebar": {
+      "all_files": 1140,
+      "all_bytes": 944715545,
+      "raw_trace_files": 217,
+      "raw_trace_bytes": 937189212
+    },
+    "tunnel": {
+      "all_files": 351,
+      "all_bytes": 4688831890,
+      "raw_trace_files": 144,
+      "raw_trace_bytes": 4646193924
+    }
+  },
+  "extension_summary": {
+    ".txt": {
+      "count": 1297,
+      "bytes": 84461,
+      "role": "supporting_file"
+    },
+    ".dt": {
+      "count": 674,
+      "bytes": 2767638292,
+      "role": "raw_trace"
+    },
+    ".bkg": {
+      "count": 631,
+      "bytes": 3741626,
+      "role": "instrument_or_processing_metadata"
+    },
+    ".stc": {
+      "count": 631,
+      "bytes": 3633967,
+      "role": "instrument_or_processing_metadata"
+    },
+    ".ini": {
+      "count": 579,
+      "bytes": 3022424,
+      "role": "instrument_or_processing_metadata"
+    },
+    ".zon": {
+      "count": 187,
+      "bytes": 27089,
+      "role": "instrument_or_processing_metadata"
+    },
+    ".par": {
+      "count": 125,
+      "bytes": 408956,
+      "role": "instrument_or_processing_metadata"
+    },
+    ".dat": {
+      "count": 82,
+      "bytes": 510025656,
+      "role": "raw_trace"
+    },
+    ".rad": {
+      "count": 78,
+      "bytes": 38376,
+      "role": "instrument_or_processing_metadata"
+    },
+    ".rd3": {
+      "count": 78,
+      "bytes": 46825630,
+      "role": "raw_trace"
+    },
+    ".srd": {
+      "count": 76,
+      "bytes": 2851950592,
+      "role": "raw_trace"
+    },
+    ".jpg": {
+      "count": 44,
+      "bytes": 5571793,
+      "role": "supporting_file"
+    },
+    ".rep": {
+      "count": 43,
+      "bytes": 127656,
+      "role": "instrument_or_processing_metadata"
+    },
+    ".mis": {
+      "count": 14,
+      "bytes": 350,
+      "role": "instrument_or_processing_metadata"
+    },
+    ".sgy": {
+      "count": 4,
+      "bytes": 8120680,
+      "role": "raw_trace"
+    },
+    ".m": {
+      "count": 3,
+      "bytes": 11592,
+      "role": "supporting_file"
+    },
+    ".01r": {
+      "count": 2,
+      "bytes": 4392,
+      "role": "other_or_vendor_specific"
+    },
+    ".01t": {
+      "count": 2,
+      "bytes": 4651136,
+      "role": "other_or_vendor_specific"
+    },
+    ".02r": {
+      "count": 2,
+      "bytes": 4392,
+      "role": "other_or_vendor_specific"
+    },
+    ".02t": {
+      "count": 2,
+      "bytes": 4525114,
+      "role": "other_or_vendor_specific"
+    },
+    ".03r": {
+      "count": 2,
+      "bytes": 4392,
+      "role": "other_or_vendor_specific"
+    },
+    ".03t": {
+      "count": 2,
+      "bytes": 4525114,
+      "role": "other_or_vendor_specific"
+    },
+    ".04r": {
+      "count": 2,
+      "bytes": 4392,
+      "role": "other_or_vendor_specific"
+    },
+    ".04t": {
+      "count": 2,
+      "bytes": 4525114,
+      "role": "other_or_vendor_specific"
+    },
+    ".fil": {
+      "count": 2,
+      "bytes": 6,
+      "role": "other_or_vendor_specific"
+    },
+    ".00r": {
+      "count": 1,
+      "bytes": 2196,
+      "role": "other_or_vendor_specific"
+    },
+    ".00t": {
+      "count": 1,
+      "bytes": 2641596,
+      "role": "other_or_vendor_specific"
+    },
+    ".05r": {
+      "count": 1,
+      "bytes": 2196,
+      "role": "other_or_vendor_specific"
+    },
+    ".05t": {
+      "count": 1,
+      "bytes": 1883518,
+      "role": "other_or_vendor_specific"
+    },
+    ".autogain": {
+      "count": 1,
+      "bytes": 882,
+      "role": "other_or_vendor_specific"
+    },
+    ".dtp": {
+      "count": 1,
+      "bytes": 41716240,
+      "role": "other_or_vendor_specific"
+    },
+    ".mk2": {
+      "count": 1,
+      "bytes": 4777,
+      "role": "other_or_vendor_specific"
+    },
+    ".zip": {
+      "count": 1,
+      "bytes": 12405037,
+      "role": "supporting_file"
+    }
+  },
+  "outputs": {
+    "root_manifest": "manifest/zenodo_gpr_14637589_raw_manifest_20260811.csv",
+    "bench_manifest": "data_manifests/zenodo_gpr_14637589_raw_manifest_20260811.csv"
+  },
+  "blind_external_eligible": false,
+  "status": "downloaded_verified_extracted_manifested"
+}

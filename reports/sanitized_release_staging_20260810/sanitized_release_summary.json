@@ -1,0 +1,9 @@
+{
+  "run_id": "20260810_sanitized_release_staging",
+  "staged_files": 37,
+  "files_with_local_path_markers_after_staging": 0,
+  "files_with_placeholder_markers_after_staging": 0,
+  "staging_ready_after_licence": true,
+  "public_release_ready": false,
+  "boundary": "Sanitized staging preview only; licence, DOI, final figures and third-party rights review are still missing."
+}

@@ -1,0 +1,18 @@
+{
+  "package": "python_figure_author_review_writeback_queue_20260810",
+  "writeback_rows": 6,
+  "protected_fields": 7,
+  "command_rows": 5,
+  "candidate_return_files": 0,
+  "writeback_allowed_rows": 0,
+  "qa_rows": 5,
+  "qa_pass": true,
+  "manual_writeback_performed": false,
+  "approved_rows": 0,
+  "blank_rows": 6,
+  "final_candidate_generation_allowed": false,
+  "final_figures_ready": false,
+  "submission_ready": false,
+  "status": "python_figure_author_review_writeback_queue_ready_blocked_empty_inbox",
+  "desktop_plan_updated": true
+}

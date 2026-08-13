@@ -1,0 +1,24 @@
+{
+  "title": "GPR-ProvenanceBench: source-aware evaluation artifacts for ground-penetrating radar recognition",
+  "upload_type": "dataset",
+  "description": "Derived manifests, source-data tables, protocol files and audit artifacts for a provenance-aware GPR recognition benchmark checkpoint. Raw third-party GPR data are not redistributed in this draft package.",
+  "creators": [
+    {
+      "name": "Liu, Zixuan",
+      "affiliation": "TBD",
+      "orcid": "TBD"
+    }
+  ],
+  "keywords": [
+    "ground-penetrating radar",
+    "provenance-aware evaluation",
+    "environment transfer",
+    "data leakage",
+    "benchmark"
+  ],
+  "license": "TBD",
+  "version": "2026-08-10-predeposit",
+  "access_right": "open-after-rights-review",
+  "related_identifiers": [],
+  "notes": "Draft metadata only. Repository DOI/accession, code DOI, final figures, licence and third-party rights remain unresolved."
+}

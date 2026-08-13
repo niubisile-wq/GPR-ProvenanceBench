@@ -1,0 +1,22 @@
+action_id,action,source,upstream_allowed,bridge_allowed,reason
+,,post_dispatch_next_validation_commands,,no,Blocked until 19.43 gate bridge and manual evidence gates all pass.
+,,post_dispatch_next_validation_commands,,no,Blocked until 19.43 gate bridge and manual evidence gates all pass.
+,,post_dispatch_next_validation_commands,,no,Blocked until 19.43 gate bridge and manual evidence gates all pass.
+,,post_dispatch_next_validation_commands,,no,Blocked until 19.43 gate bridge and manual evidence gates all pass.
+,,post_dispatch_next_validation_commands,,no,Blocked until 19.43 gate bridge and manual evidence gates all pass.
+,,post_dispatch_next_validation_commands,,no,Blocked until 19.43 gate bridge and manual evidence gates all pass.
+,,post_dispatch_next_validation_commands,,no,Blocked until 19.43 gate bridge and manual evidence gates all pass.
+,,manual_evidence_target_preflight,,no,Blocked until real manual evidence has passed preflight.
+,,manual_evidence_target_preflight,,no,Blocked until real manual evidence has passed preflight.
+,,manual_evidence_target_preflight,,no,Blocked until real manual evidence has passed preflight.
+,,manual_evidence_target_preflight,,no,Blocked until real manual evidence has passed preflight.
+,,manual_evidence_target_preflight,,no,Blocked until real manual evidence has passed preflight.
+,,manual_evidence_target_preflight,,no,Blocked until real manual evidence has passed preflight.
+,,manual_evidence_target_preflight,,no,Blocked until real manual evidence has passed preflight.
+,,post_evidence_branch_rerun_matrix,no,no,Blocked until manual evidence is written and 19.43 permits closure.
+,,post_evidence_branch_rerun_matrix,no,no,Blocked until manual evidence is written and 19.43 permits closure.
+,,post_evidence_branch_rerun_matrix,no,no,Blocked until manual evidence is written and 19.43 permits closure.
+,,post_evidence_branch_rerun_matrix,no,no,Blocked until manual evidence is written and 19.43 permits closure.
+,,post_evidence_branch_rerun_matrix,no,no,Blocked until manual evidence is written and 19.43 permits closure.
+,,post_evidence_branch_rerun_matrix,no,no,Blocked until manual evidence is written and 19.43 permits closure.
+,,post_evidence_branch_rerun_matrix,no,no,Blocked until manual evidence is written and 19.43 permits closure.

@@ -1,0 +1,7 @@
+claim_id,track_b_role,allowed_wording,forbidden_upgrade,figure_or_table,track_b_status
+R1,asset/protocol boundary only,current executable evidence boundary,do not treat asset counts as performance evidence,Figure 1; Table 1,allowed_with_boundary
+R2,current executable evidence supports this as the lead result,Res-SAM environment-transfer fragility across five model families,do not describe this as blind external validation or universal GPR generalization,Figure 2; Table 2,allowed_with_boundary
+R3,directional secondary support only,directionally consistent but modest/model-dependent,do not call this universal leakage or a lead claim,Figure 3; Table 2,allowed_with_boundary
+R4,stress-test/feasibility-boundary support,multi-layer 4TU counterfactual stress test remains a feasibility boundary,"do not present as causal proof, main confirmation or blind external validation",Figure 4,allowed_with_boundary
+R5,feasibility/gate explanation,target-level feasibility boundary,do not present as model superiority or confirmation-matrix evidence,Figure 5,allowed_with_boundary
+R6,negative/readiness boundary only,blind external validation remains open/NO-GO,do not claim completed external validation or external generalization,Figure 6,open_gate_only

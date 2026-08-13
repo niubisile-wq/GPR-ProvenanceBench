@@ -1,0 +1,5 @@
+blocker_id,blocker,evidence,next_required_evidence
+MANUAL-BLOCK-001,no_real_sendout_record,sent_rows=0 and email_sent=false,"Real send log rows with sent status, timestamp and sender."
+MANUAL-BLOCK-002,no_returned_author_reply_files,returned_rows=0 and all core author reply fields blank,Returned reply files with file paths and validation status.
+MANUAL-BLOCK-003,backend_scope_not_selected,backend_valid=false and scope_valid=false,Allowed backend and figure scope choice from author/analysis lead.
+MANUAL-BLOCK-004,external_rights_reporting_reference_evidence_missing,"external asset, rights, Reporting Summary and reference authorization rows are missing","Strict-SHA external asset, rights decisions, Reporting Summary replies and reference replacement authorization."

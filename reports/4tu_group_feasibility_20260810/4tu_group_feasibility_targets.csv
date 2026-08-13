@@ -1,0 +1,7 @@
+target,status,sample_count,project_count,n_labels,singleton_labels,rare_labels_project_support_lt3,test2_val2_attempted,test2_val2_feasible
+Land type,usable_with_caution,93,9,4,,,756,708
+Land use,not_viable_for_group_holdout,93,9,5,"Commercial and industrial; Public institutions and service; Rural residential - small farm allotments, increased population","Commercial and industrial; Public institutions and service; Residential - quiet suburbia; Rural residential - small farm allotments, increased population",756,0
+Land cover,weak_due_to_single_project_labels,93,9,4,Asphalt,Asphalt,756,420
+Utility crossing,usable_with_caution,84,9,2,,,756,360
+Construction workers,not_viable_for_group_holdout,69,8,3,Replacement and new installation of utilities; Replacement of utilities,Replacement and new installation of utilities; Replacement of utilities,420,0
+Relative groundwater level,weak_due_to_single_project_labels,93,9,3,Within utility range,Within utility range,756,60

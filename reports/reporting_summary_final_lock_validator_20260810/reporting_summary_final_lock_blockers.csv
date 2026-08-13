@@ -1,0 +1,6 @@
+blocker_id,blocker,evidence,next_required_evidence
+RS-BLOCK-001,author_confirmations_missing,0 of 4 author confirmations collected,Returned author confirmation sheet with final figure/statistics/external/repository answers.
+RS-BLOCK-002,availability_repository_not_final,open_availability_gates=5,"Repository DOI/accession, code DOI, licence and rights clearance."
+RS-BLOCK-003,figures_source_data_not_final,final_figures_ready=False; source_data_panel_map_locked=False,"Final figure exports, visual QA and Source Data panel-map lock."
+RS-BLOCK-004,external_validation_or_track_b_not_author_confirmed,External validation remains open; Track B fallback is prelocked but not final author-confirmed.,Author/external holder decision preserving Track B open-gate wording or real external validation evidence.
+RS-BLOCK-005,references_not_final,final_references_ready=False,Final numbered references and manually verified support lock.

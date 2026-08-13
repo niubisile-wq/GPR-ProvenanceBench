@@ -1,0 +1,12 @@
+section,role,target_words,current_asset,status,boundary
+Title,Searchable finding-led title,15,submission_package_skeleton/title_candidates.csv,draft_ready,Retain environment-transfer framing unless future blind validation changes the hierarchy.
+Abstract,150-word unstructured Nat Commun abstract,150,submission_package_skeleton/title_abstract_significance.md,draft_ready_bounded,Current 115-word draft must not imply completed blind external validation.
+Introduction,"Field stake, evaluation bottleneck, provenance-aware gap, present study",700,not yet drafted,outline_needed,Do not overstate novelty before external validation closes.
+Results,Six claim-first paragraphs led by Res-SAM environment transfer,1800,results_section_skeleton_20260810,skeleton_ready,Mojahid is directional-only; 4TU is stress-test evidence; external validation is open.
+Methods,Seven reproducibility modules tied to Results claims,1800,methods_section_skeleton_20260810,skeleton_ready,No full Res-SAM model replication and no TIGPR executable asset yet.
+Discussion,"Interpret central advance, rival explanations, limits and next validation",700,not yet drafted,outline_needed,"Limitations must name external blind NO-GO, 4TU group weakening and third-party rights."
+Data Availability,Repository and accession statement,120,companion_artifacts_skeleton/data_availability_skeleton.md,blocked,Cannot be ready-to-paste until repository DOI/accession exists.
+Code Availability,Public code release statement,100,companion_artifacts_skeleton/code_availability_skeleton.md,blocked,"Cannot be complete until public repository URL, release tag, licence and DOI exist."
+Reporting Summary,"Study design, statistics, blinding, software and data checklist",0,companion_artifacts_skeleton/reporting_summary_checklist.csv,blocked,Checklist rows exist but final answers are incomplete.
+Figures and Source Data,"Six figures, three tables and source-data deposit mapping",0,figure/table source packages and source_data_deposit_package,source_ready_not_rendered,Actual figure rendering is not done and requires a selected plotting backend.
+Cover Letter,"Finding, novelty and cross-disciplinary relevance",180,submission_package_skeleton/cover_letter_skeleton.md,draft_ready_bounded,Must be revised if external validation or main figure hierarchy changes.

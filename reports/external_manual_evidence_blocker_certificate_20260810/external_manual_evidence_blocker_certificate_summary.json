@@ -1,0 +1,15 @@
+{
+  "package": "external_manual_evidence_blocker_certificate_20260810",
+  "blocker_rows": 5,
+  "missing_external_evidence_rows": 5,
+  "local_automation_blocked_by_policy": true,
+  "allowed_local_commands_now": 0,
+  "manual_action_queue_rows": 5,
+  "complete_receipt_rows": 0,
+  "submission_ready": false,
+  "goal_complete": false,
+  "qa_rows": 4,
+  "qa_pass": true,
+  "status": "external_manual_evidence_blocker_certified_waiting_human_actions",
+  "desktop_plan_updated": true
+}

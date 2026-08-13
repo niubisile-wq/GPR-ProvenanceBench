@@ -1,0 +1,17 @@
+{
+  "package": "fmr_guarded_writeback_coverage_audit_20260810",
+  "fmr_rows": 6,
+  "coverage_complete_rows": 6,
+  "regression_pass_rows": 6,
+  "writeback_allowed_rows": 0,
+  "writeback_executed_rows": 0,
+  "real_fmr_template_modified_rows": 0,
+  "submission_ready_rows": 0,
+  "blocker_rows": 0,
+  "qa_rows": 5,
+  "qa_pass": true,
+  "portal_upload_allowed": false,
+  "submission_ready": false,
+  "status": "fmr_guarded_writeback_coverage_audit_passed_all_layers_guarded",
+  "desktop_plan_updated": true
+}

@@ -1,0 +1,6 @@
+recipient,send_status,sent_datetime_local,sender,validation_status,issue
+analysis_reference_lead,not_sent,,,pass,
+author_advisor,not_sent,,,pass,
+author_analysis,not_sent,,,pass,
+corresponding_author,not_sent,,,pass,
+repository_lead,not_sent,,,pass,

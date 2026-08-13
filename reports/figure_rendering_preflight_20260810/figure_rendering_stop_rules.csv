@@ -1,0 +1,6 @@
+stop_rule,current_status
+Do not render formal figures before a single backend is selected.,active
+Do not call Figure 6 an external validation result; it remains an open-gate figure.,active
+Do not include 4TU or blind external rows in Figure 2.,active
+Do not treat generated previews as final figures until vector exports and visual QA pass.,active
+"Do not lock figure captions before manuscript branch, references and Source Data are locked.",active

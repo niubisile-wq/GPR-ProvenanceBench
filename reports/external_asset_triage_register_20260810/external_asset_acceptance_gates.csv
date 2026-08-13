@@ -1,0 +1,6 @@
+gate_id,requirement,minimum_evidence,pass_condition,current_status,no_go_if_missing
+EXT-ACCEPT-001,asset_independence,"Written confirmation that the asset was not used for model development, model selection, threshold tuning or figure selection.",confirmation_received_before_manifest_intake,missing,yes
+EXT-ACCEPT-002,unlabeled_analyst_manifest,"Manifest with sample_id, path, file_sha256, source_group, modality and target_task, but no label or label hint.",validate_external_blind_intake.py --strict-sha passes,missing,yes
+EXT-ACCEPT-003,sealed_labels_held_outside_analyst_workflow,"Label holder, sealed label-file hash and unlock authorization recorded without label values visible to analyst.",unlock occurs only after prediction file is frozen and hashed,missing,yes
+EXT-ACCEPT-004,one_shot_prediction_freeze,Frozen model/preprocessing/seeds/thresholds and one prediction CSV hash before label unlock.,exactly one main-claim prediction submission exists before labels are opened,missing,yes
+EXT-ACCEPT-005,rights_for_reporting,"Written permission for metric reporting, manuscript use, Source Data/public release boundaries and journal publication.",rights checklist has explicit compatible answers,missing,yes

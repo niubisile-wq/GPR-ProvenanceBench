@@ -1,0 +1,10 @@
+section,paragraph,job,claim_ids,word_target
+Abstract,A1,context/problem -> approach -> key result -> boundary,"R1,R2,R3,R4,R6",140-150
+Results,R1,system/workflow validation,R1,130-170
+Results,R2,main result,R2,150-190
+Results,R3,baseline comparison,R3,130-170
+Results,R4,stress test/failure mode,"R4,R5",180-230
+Results,R5,external-validation boundary,R6,120-160
+Discussion,D1,central advance,R2,120-160
+Discussion,D2,rival explanations and constraints,"R3,R4,R5",170-220
+Discussion,D3,reuse and open gates,"R1,R6",160-210

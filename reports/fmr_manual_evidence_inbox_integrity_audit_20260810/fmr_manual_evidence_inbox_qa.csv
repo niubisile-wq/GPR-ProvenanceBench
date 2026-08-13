@@ -1,0 +1,6 @@
+check,result,detail
+all six FMR inbox mappings present,PASS,fmr_rows=6
+primary inboxes exist or file evidence target exists,PASS,primary_inbox_present_rows=6
+upstream inbox audits agree no real candidate evidence is present,PASS,tracker_entry_allowed_now=False; final_return_candidates=0; figure_return_candidates=0
+no misfiled evidence detected by this audit,PASS,misfiled_or_unexpected_files=0
+submission remains false,PASS,manual_evidence_writeback_allowed=false; portal_upload_allowed=false; submission_ready=false

@@ -1,0 +1,7 @@
+sequence,stage,command,allowed_now,closure_allowed_now,entry_condition,stop_rule
+1,scan_canonical_inbox,py scripts/build_final_return_evidence_intake_scanner.py,yes_diagnostic,no,canonical inbox folders exist,Do not write protected targets from scanner output alone.
+2,reconcile_hash_and_source_register,py scripts/build_rb001_return_evidence_hash_reconciliation.py,yes_diagnostic,no,scanner manifest exists,Stop if missing_source_register_rows>0 or hash_mismatch_rows>0.
+3,writeback_preflight,py scripts/build_final_return_evidence_writeback_preflight.py,no,no,candidate_return_files>0 and all scanner rows have matching source/hash registers,Do not write back while candidate_return_files=0 or reconciled_rows!=candidate_return_files.
+4,gate_transition_validation,py scripts/build_post_writeback_gate_transition_validator.py,no,no,protected writeback completed and writeback_allowed_rows>0,Do not transition gates while writeback_allowed_rows=0.
+5,guarded_runner,powershell -ExecutionPolicy Bypass -File reports/post_return_guarded_execution_runner_20260810/run_post_return_guarded_execution.ps1,no,no,transition validator allows at least one command,Do not execute guarded commands while commands_allowed_now=0.
+6,submission_final_lock,py scripts/build_natcomms_submission_final_lock_validator.py,no,no,all master gates closed,Do not upload or submit while open_master_gates>0.

@@ -1,0 +1,18 @@
+{
+  "package": "rb002_protected_writeback_receipt_20260810",
+  "receipt_template_rows": 7,
+  "protected_target_rows": 9,
+  "completed_receipt_rows": 0,
+  "incomplete_receipt_rows": 7,
+  "acceptance_criteria_rows": 5,
+  "qa_rows": 5,
+  "qa_pass": true,
+  "rb001_closed": false,
+  "writeback_allowed_rows": 0,
+  "rb002_ready": false,
+  "submission_ready": false,
+  "desktop_receipt": "C:\\Users\\\u5218\u5b50\u8f69\\Desktop\\RB002_protected_writeback_receipt_20260810.csv",
+  "desktop_guide": "C:\\Users\\\u5218\u5b50\u8f69\\Desktop\\RB002_protected_writeback_receipt_guide_20260810.md",
+  "status": "rb002_protected_writeback_receipt_template_ready_writeback_blocked",
+  "desktop_plan_updated": true
+}

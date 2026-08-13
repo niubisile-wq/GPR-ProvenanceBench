@@ -1,0 +1,5 @@
+asset,local_executable_rows,asset_status,main_role,can_enter_current_model_matrix,can_count_as_blind_external,blocking_issue,next_required_action
+Mojahid,2524,executable_local,baseline split/provenance signal,yes,no,single-source exploratory asset; not sufficient alone for confirmation,keep grouped baseline and ancestry-aware interpretation
+4TU,99,executable_local_with_label_limits,raw-trace counterfactual stress-test evidence,limited,no,project count and metadata label balance weaken main confirmation,use as stress test unless stronger grouped labels or 4TU-like asset arrive
+Res-SAM,1050,executable_local,environment-transfer model-matrix evidence,yes,no,already used in current model-family synthesis; full Res-SAM model lacks SAM checkpoint,keep as core local data asset; do not relabel as blind external
+TIGPR,0,supporting_only_local_no_go,supporting prior provenance evidence,no,no,"local TIGPR sample index has 0 rows, not 7169; no local root contains the complete TIGPR five-class directory layout; available GPR_data.rar identity is mojahid_gpr_data, not verified TIGPR",restore authorized source media and rebuild 7169-row local sample index

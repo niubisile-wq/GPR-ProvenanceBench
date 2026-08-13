@@ -1,0 +1,6 @@
+check,result,detail
+guarded_package_complete,PASS,zip_sha_match=True
+residual_blockers_present,PASS,blockers=8
+no_false_completion_claim,PASS,submission_ready=False; commands_allowed=0
+manual_evidence_absence_preserved,PASS,candidate_return_files=0; writeback_allowed_rows=0
+all_finalization_gates_open,PASS,open_master_gates=8

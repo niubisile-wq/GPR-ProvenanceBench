@@ -1,0 +1,5 @@
+branch_id,rank,title,use_condition,risk
+TRACK-A,1,Locked external validation of provenance-aware environment transfer in ground-penetrating-radar recognition,Use only after a real external blind result exists.,Not usable at the current checkpoint.
+TRACK-A,2,Provenance-aware GPR recognition reveals environment-transfer fragility under locked external validation,Use only if external result supports the same bounded conclusion.,Overstrong unless the external asset aligns with the tested claim.
+TRACK-B,1,Environment transfer exposes fragile generalization in ground-penetrating-radar recognition,Current safest finding-led title without external validation.,Needs explicit boundary in abstract and Discussion.
+TRACK-B,2,Provenance-aware evaluation reveals environment-shift fragility in ground-penetrating-radar recognition,Use if the paper is framed as benchmark/resource plus broad benchmark-trust argument.,More workflow-led; less direct as a result title.

@@ -1,0 +1,16 @@
+{
+  "run_id": "20260810_narrative_cited_drafts_v1",
+  "sections": [
+    "Introduction",
+    "Discussion",
+    "Conclusion"
+  ],
+  "insertions": 8,
+  "citation_placeholders_remaining": 0,
+  "figure_table_placeholders_remaining": 1,
+  "internal_markers": 2,
+  "combined_words": 951,
+  "status": "candidate_citation_markers_inserted_not_final_references",
+  "manuscript_ready": false,
+  "boundary": "Candidate citation markers only; final prose, numbered references, figure/table pointers and repository identifiers remain open."
+}

@@ -1,0 +1,4 @@
+contact_packet_id,route,recipient_type,send_material,requested_return,priority,status
+CONTACT-B-001,Track B new third-party blind GPR image set,advisor/collaborator/data holder,external_blind_asset_request_letter.md plus external_asset_request_items.csv and external_asset_rights_checklist.csv,"unlabeled files or images, analyst-facing manifest, sealed-label holder identity, rights statement",1,ready_not_sent
+CONTACT-A-001,Track A TIGPR restoration,authorized dataset access route,TIGPR restoration request with local NO-GO audit facts,complete five-class source image tree and licence/redistribution conditions,2,ready_not_sent
+CONTACT-C-001,Track C 4TU-like raw-trace asset,raw-trace data holder,raw-trace feasibility request and grouped-split minimum requirements,"project-balanced traces, labels held out, rights statement and group identifiers",3,ready_not_sent

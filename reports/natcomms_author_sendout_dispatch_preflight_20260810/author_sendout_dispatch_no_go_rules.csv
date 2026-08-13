@@ -1,0 +1,6 @@
+rule_id,rule
+DISPATCH-NOGO-001,Do not mark email_sent=true from this preflight; only a real manual send record can do that.
+DISPATCH-NOGO-002,Do not send older author bundles when v2 is available and checked.
+DISPATCH-NOGO-003,Do not edit protected author/manual fields before returned evidence exists.
+DISPATCH-NOGO-004,"Do not infer backend_selected, author_replies_collected or submission_ready from dispatch readiness."
+DISPATCH-NOGO-005,"Do not claim blind external validation, DOI/rights, final figures, final references or Reporting Summary are complete."

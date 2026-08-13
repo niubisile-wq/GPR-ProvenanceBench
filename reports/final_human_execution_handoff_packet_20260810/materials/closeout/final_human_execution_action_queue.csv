@@ -1,0 +1,8 @@
+action_id,sequence,owner,action,required_evidence,current_status,unlocks
+HEC-001,1,corresponding_author,"Send the prepared author decision and reply packet, then capture send evidence.",email_sent=true plus immutable send log and bundle checksum evidence,blocked,"author replies, backend/scope choice and downstream manual evidence intake"
+HEC-002,2,corresponding_author_and_coauthors,"Collect all author replies, backend/scope decisions and administrative confirmations.",twelve nonblank author reply fields and accepted decision values,blocked,manual evidence intake and gate closure evidence binder
+HEC-003,3,figure_owner,Collect figure preview approvals or revision decisions for Figure 1-Figure 6.,six nonblank review rows with approved/revise/reject decisions,blocked,final candidate generation and final export QA
+HEC-004,4,data_repository_owner,"Create repository records, select licences, clear third-party rights and record DOI identifiers.","repository DOI, code DOI, licence, rights-clearance proof and upload checksums",blocked,"Data Availability, Code Availability and portal upload files"
+HEC-005,5,reporting_summary_owner,"Complete final Reporting Summary answers after author, figure and repository gates close.",eight Reporting Summary items lockable with no unresolved/high-risk wording,blocked,final submission file lock
+HEC-006,6,reference_owner,Manually verify citations and export final numbered references.,manual verification closed and final reference export allowed,blocked,manuscript reference finalization
+HEC-007,7,submission_owner,"Only after all upstream gates close, assemble final files and perform portal upload.","open_master_gates=0, portal_upload_ready=true and submission_ready=true",blocked,actual Nature Communications submission

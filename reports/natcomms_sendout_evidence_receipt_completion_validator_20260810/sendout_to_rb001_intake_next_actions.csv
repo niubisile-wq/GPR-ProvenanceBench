@@ -1,0 +1,6 @@
+order,action,allowed_now
+1,"Before sending, fill recipient_list_confirmed and email_body_boundary_checked in sendout_evidence_capture_template.csv.",manual_only
+2,"After real sendout, fill sent_zip_path and sent_datetime_local and update the author response send log.",after_real_send_only
+3,Run build_natcomms_author_response_log_validator.py and this validator again.,after_real_send_only
+4,"After returned files exist, fill return tracker and all_returned_files_stored before any intake/writeback.",after_real_returns_only
+5,Do not enter RB-001 drop/writeback until return_intake_allowed=true and post-dispatch evidence passes.,blocked_now

@@ -1,0 +1,6 @@
+step,action,owner,status
+1,Attach the eight files in author_sendout_attachment_manifest.csv.,sender,ready_to_send_not_sent
+2,Ask recipients to fill only author_reply/current_choice fields; do not edit recommendation or evidence columns.,sender,ready_to_send_not_sent
+3,"After replies return, rerun author reply ingestion validator.",analysis,waiting_replies
+4,Then rerun gate closure evidence binder and finalization command dashboard v3.,analysis,waiting_replies
+5,Only after backend is explicitly selected may formal figure rendering be started.,analysis,blocked_backend_unselected

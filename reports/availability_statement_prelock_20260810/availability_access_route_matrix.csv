@@ -1,0 +1,6 @@
+dataset_or_object,access_route,current_location,identifier_status,licence_status,ready_for_statement
+"Derived source-data tables, manifests and audit artifacts",public repository after rights review,sanitized_release_staging_20260810 and source_data_deposit_package_20260810,missing,needs rights review,draft_only
+Third-party raw GPR files,third-party restricted,excluded from draft release by default,provider-controlled or unknown,provider licence only,restricted wording only
+Blind external validation data,not yet acquired,none,not applicable yet,not applicable yet,open gate only
+Analysis code and regeneration scripts,public code repository plus archive DOI after licence decision,local project scripts,missing,needs author confirmation,draft_only
+Rendered figure source data,Source Data files and/or public repository,planned source-data package; figures not rendered,missing,pending final figure/source-data QA,not final

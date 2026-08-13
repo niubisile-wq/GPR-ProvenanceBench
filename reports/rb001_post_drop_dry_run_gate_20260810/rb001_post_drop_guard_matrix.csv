@@ -1,0 +1,9 @@
+guard,current_value,required_for_closure,passes_now
+candidate_files_present,0,>0,no
+all_files_registered,0,0,no
+no_hash_mismatch,0,0,no
+all_files_reconciled,0,candidate_return_files,no
+writeback_allowed,0,>0,no
+transitions_allowed,0,>0,no
+guarded_commands_allowed,0,>0,no
+master_gates_closed,8,0,no

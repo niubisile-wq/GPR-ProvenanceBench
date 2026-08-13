@@ -1,0 +1,5 @@
+no_go,reason
+Do not treat launcher refusal as evidence completion.,Current refusal is expected because 19.50 has incomplete receipts.
+Do not run old recheck runner directly.,It bypasses 19.50; use the 19.51 launcher wrapper only.
+Do not upload portal files after a refusal.,portal_upload_allowed=false and submission_ready=false.
+Do not edit audit log placeholders before actually running the launcher.,"Audit records must describe observed execution, not intended execution."

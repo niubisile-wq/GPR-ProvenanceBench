@@ -1,0 +1,9 @@
+manual_check_id,required_action,severity,closure_evidence,current_status
+REF-MANUAL-001,Replace [P#] markers only after final prose and figure/table calls are locked.,high,Final manuscript file with stable citation order and no candidate markers.,open
+REF-MANUAL-002,Confirm support strength against the final sentence-level claims.,high,Sentence-to-reference support audit with no metadata-only citations.,open
+REF-MANUAL-003,Keep internal metrics cited to internal figures/source data rather than external literature.,high,Final claim-source map for balanced-accuracy deltas and gate statuses.,open
+REF-MANUAL-004,Regenerate final RIS/ENW after final order is locked.,medium,Reference-manager export whose order matches final manuscript numbering.,open
+REF-MANUAL-005,"Replace [P#] or [P#,P#] markers only after final prose, figure calls and reference order are locked.",high,,open
+REF-MANUAL-006,"Verify DOI, title, journal, year and support boundary against publisher/Crossref pages before final bibliography.",high,,open
+REF-MANUAL-007,Use internal figures/source data for this project's measured deltas; do not cite external papers as evidence for derived metrics.,high,,open
+REF-MANUAL-008,"Do not finalize repository/data/code statements until DOI, licence and rights gates are resolved.",medium,,open

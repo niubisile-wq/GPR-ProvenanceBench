@@ -1,0 +1,17 @@
+{
+  "package": "source_data_panel_map_review_packet_20260811",
+  "figures_mapped": 6,
+  "source_files_packaged": 12,
+  "missing_source_files": 0,
+  "lock_requirement_rows": 4,
+  "review_packet_ready": true,
+  "source_data_panel_map_locked": false,
+  "repository_identifier_present": false,
+  "final_figures_ready": false,
+  "submission_ready": false,
+  "qa_rows": 4,
+  "qa_pass": true,
+  "desktop_report": "C:\\Users\\刘子轩\\Desktop\\NatComms_20260811_source_data_panel_map_review_packet.md",
+  "status": "source_data_panel_map_review_packet_ready_final_lock_blocked",
+  "desktop_plan_updated": true
+}

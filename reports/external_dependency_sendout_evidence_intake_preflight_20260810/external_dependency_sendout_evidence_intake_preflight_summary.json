@@ -1,0 +1,19 @@
+{
+  "package": "external_dependency_sendout_evidence_intake_preflight_20260810",
+  "metadata_rows": 5,
+  "complete_metadata_rows": 0,
+  "incomplete_metadata_rows": 5,
+  "writeback_candidate_rows": 0,
+  "evidence_intake_complete": false,
+  "eds_writeback_allowed": false,
+  "real_eds_template_modified": false,
+  "manual_drop_dir": "D:\\百度网盘拉取包\\CNS1\\GPR-ProvenanceBench\\manual_evidence\\external_dependency_sendout_20260810",
+  "desktop_guide": "C:\\Users\\刘子轩\\Desktop\\NatComms_19.57_sendout_evidence_intake_preflight_20260810.md",
+  "portal_upload_allowed": false,
+  "submission_ready": false,
+  "qa_rows": 4,
+  "qa_pass": true,
+  "status": "external_dependency_sendout_evidence_intake_preflight_ready_waiting_real_sent_messages",
+  "desktop_plan_updated": true,
+  "desktop_guide_exists": true
+}

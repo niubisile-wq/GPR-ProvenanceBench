@@ -1,0 +1,6 @@
+panel,dataset,contrast,model_family,model_label,delta_mean_balanced_accuracy,directional_support,material_support,material_threshold,interpretation
+Figure 3B,Mojahid,random - grouped balanced accuracy,hog_rbf_svm,HOG + RBF-SVM,0.0976,yes,yes,0.05,material support
+Figure 3B,Mojahid,random - grouped balanced accuracy,lbp_linear_svm,LBP + LinearSVM,0.0365,yes,no,0.05,directional only
+Figure 3B,Mojahid,random - grouped balanced accuracy,tinycnn,TinyCNN,0.0098,yes,no,0.05,directional only
+Figure 3B,Mojahid,random - grouped balanced accuracy,resnet18_embedding_linear_svm,ResNet18 emb. + LinearSVM,0.025,yes,no,0.05,directional only
+Figure 3B,Mojahid,random - grouped balanced accuracy,efficientnet_b0_embedding_linear_svm,EfficientNetB0 emb. + LinearSVM,0.034,yes,no,0.05,directional only

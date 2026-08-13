@@ -1,0 +1,6 @@
+rule_id,rule
+INBOX-STOP-001,Inbox file presence is not gate evidence until the validator passes.
+INBOX-STOP-002,Do not put external blind labels into analyst-visible inbox folders.
+INBOX-STOP-003,Do not overwrite tracker files from raw returned attachments.
+INBOX-STOP-004,Do not mark email_sent or returned rows from planned/simulated messages.
+INBOX-STOP-005,Do not store third-party raw files in public release staging from this inbox.

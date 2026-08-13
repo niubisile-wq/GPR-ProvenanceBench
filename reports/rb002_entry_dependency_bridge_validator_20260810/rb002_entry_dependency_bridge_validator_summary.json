@@ -1,0 +1,17 @@
+{
+  "package": "rb002_entry_dependency_bridge_validator_20260810",
+  "rb001_bridge_allows_rb002": false,
+  "writeback_preflight_ready": false,
+  "rb002_dashboard_ready": false,
+  "protected_receipt_ready": false,
+  "rb002_receipt_complete": false,
+  "rb002_entry_allowed": false,
+  "transition_allowed": false,
+  "writeback_allowed_rows": 0,
+  "transition_allowed_rows": 0,
+  "submission_ready": false,
+  "qa_rows": 5,
+  "qa_pass": true,
+  "status": "rb002_entry_dependency_bridge_validator_ready_blocked_by_rb001",
+  "desktop_plan_updated": true
+}

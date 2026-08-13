@@ -1,0 +1,4 @@
+case,candidate_present,execute,writeback_preflight_allowed,writeback_executed,real_fmr_template_modified,fmr001_status,fmr001_value,qa_pass
+candidate_default,True,False,True,False,False,missing,FILL_AFTER_SEND,True
+candidate_execute,True,True,True,True,True,complete,verified EDS sendout evidence bundle,True
+no_candidate_execute,False,True,False,False,False,missing,FILL_AFTER_SEND,True

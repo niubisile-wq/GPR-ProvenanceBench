@@ -1,0 +1,21 @@
+{
+  "package": "manual_dispatch_master_packet_20260810",
+  "dispatch_actions": 6,
+  "attachment_files_copied": 15,
+  "stop_rules": 6,
+  "desktop_zip": "C:\\Users\\刘子轩\\Desktop\\NatComms_manual_dispatch_master_packet_20260810.zip",
+  "desktop_zip_exists": true,
+  "desktop_zip_members": 22,
+  "qa_rows": 5,
+  "qa_pass": true,
+  "email_sent": false,
+  "author_replies_collected": false,
+  "backend_selected": false,
+  "external_asset_acquired": false,
+  "third_party_rights_cleared": false,
+  "final_reporting_summary_ready": false,
+  "final_references_ready": false,
+  "submission_ready": false,
+  "status": "manual_dispatch_master_packet_ready_not_sent",
+  "desktop_plan_updated": true
+}

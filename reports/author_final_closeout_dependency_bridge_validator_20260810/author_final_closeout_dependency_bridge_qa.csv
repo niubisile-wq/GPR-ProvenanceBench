@@ -1,0 +1,6 @@
+check,result,detail
+all upstream summaries loaded,PASS,"figure/portal bridge, author closure, human closeout and residual packet summaries loaded."
+figure/portal bridge remains blocking,PASS,figure_portal_bridge_allows_closeout=False
+author decisions remain open,PASS,author_decisions_closed=False
+final human closeout remains open,PASS,human_closeout_closed=False
+submission remains false,PASS,submission_ready=False

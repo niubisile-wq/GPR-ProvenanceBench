@@ -1,0 +1,16 @@
+{
+  "package": "manual_evidence_route_snapshot_20260810",
+  "route_rows": 5,
+  "manual_action_queue_rows": 5,
+  "runnable_validation_rows": 0,
+  "blocked_command_rows": 7,
+  "candidate_files_detected": 0,
+  "forms_with_any_fill": 0,
+  "allowed_commands_now": 0,
+  "portal_upload_allowed": false,
+  "submission_ready": false,
+  "qa_rows": 5,
+  "qa_pass": true,
+  "status": "manual_evidence_route_snapshot_ready_manual_actions_only",
+  "desktop_plan_updated": true
+}

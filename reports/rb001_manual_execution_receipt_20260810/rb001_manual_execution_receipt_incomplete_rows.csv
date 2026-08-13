@@ -1,0 +1,8 @@
+receipt_id,route_id,relative_folder,reason
+RB001-REC-001,RTE-001,final_return_evidence_inbox_20260810/01_author_sendout,manual receipt row contains placeholders and is not execution evidence
+RB001-REC-002,RTE-002,final_return_evidence_inbox_20260810/02_author_replies,manual receipt row contains placeholders and is not execution evidence
+RB001-REC-003,RTE-003,final_return_evidence_inbox_20260810/03_figure_review,manual receipt row contains placeholders and is not execution evidence
+RB001-REC-004,RTE-004,final_return_evidence_inbox_20260810/04_repository_rights_doi,manual receipt row contains placeholders and is not execution evidence
+RB001-REC-005,RTE-005,final_return_evidence_inbox_20260810/05_reporting_summary,manual receipt row contains placeholders and is not execution evidence
+RB001-REC-006,RTE-006,final_return_evidence_inbox_20260810/06_references,manual receipt row contains placeholders and is not execution evidence
+RB001-REC-007,RTE-007,final_return_evidence_inbox_20260810/07_submission_portal,manual receipt row contains placeholders and is not execution evidence

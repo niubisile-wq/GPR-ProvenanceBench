@@ -1,0 +1,5 @@
+blocker_order,blocking_stage,blocking_fact,effect
+1,manual dispatch action,manual_actions_executed=false,No inbox evidence can legitimately exist yet.
+2,inbox audit,candidate_evidence_files=0,tracker writeback remains disallowed.
+3,post-dispatch evidence intake,evidence_rows_passed=0,branch validators remain blocked.
+4,gate closure,gate_closure_allowed=False,portal upload and submission remain disallowed.

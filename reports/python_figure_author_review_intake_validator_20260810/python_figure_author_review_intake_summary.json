@@ -1,0 +1,18 @@
+{
+  "package": "python_figure_author_review_intake_validator_20260810",
+  "review_rows": 6,
+  "approved_rows": 6,
+  "revision_rows": 0,
+  "rejected_rows": 0,
+  "blank_rows": 0,
+  "invalid_rows": 0,
+  "all_figures_approved": true,
+  "qa_rows": 5,
+  "qa_pass": true,
+  "final_candidate_generation_allowed": true,
+  "rendered_figures_final": 0,
+  "final_figures_ready": false,
+  "submission_ready": false,
+  "status": "python_figure_author_review_intake_approvals_recorded",
+  "desktop_plan_updated": true
+}

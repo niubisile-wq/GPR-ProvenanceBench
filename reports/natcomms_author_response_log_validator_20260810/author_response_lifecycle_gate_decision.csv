@@ -1,0 +1,6 @@
+gate,decision,evidence
+manual_sendout_recorded,blocked,all recipients must have send_status=sent plus sender and sent_datetime_local
+manual_replies_recorded,blocked,all attachments must have return_status=returned plus returned_file_path and returned_datetime_local
+author_reply_ingestion_allowed,blocked,ingestion is allowed only after send and return logs are complete
+figure_backend_decision_allowed,blocked,backend selection still requires explicit author choice and separate figure workflow
+submission_ready,blocked,validator cannot make submission ready

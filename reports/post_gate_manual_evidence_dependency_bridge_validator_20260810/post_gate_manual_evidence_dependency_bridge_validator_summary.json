@@ -1,0 +1,19 @@
+{
+  "package": "post_gate_manual_evidence_dependency_bridge_validator_20260810",
+  "gate_bridge_allows_manual_closeout": false,
+  "post_dispatch_ready": false,
+  "manual_evidence_ready": false,
+  "safe_rerun_allowed": false,
+  "operator_runbook_allows_execution": false,
+  "post_gate_manual_bridge_allowed": false,
+  "manual_evidence_written": false,
+  "evidence_rows_passed": 0,
+  "evidence_rows_missing": 7,
+  "branch_commands_safe_to_run_now": 0,
+  "commands_executed": false,
+  "submission_ready": false,
+  "qa_rows": 5,
+  "qa_pass": true,
+  "status": "post_gate_manual_evidence_dependency_bridge_validator_ready_blocked",
+  "desktop_plan_updated": true
+}

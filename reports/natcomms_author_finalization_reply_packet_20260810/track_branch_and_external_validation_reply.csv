@@ -1,0 +1,3 @@
+branch_id,question,required_reply,current_default,author_reply,claim_boundary
+BRANCH-001,Is a real held-label external blind GPR asset available now?,Name holder/institution/timeline or explicitly confirm none is available.,Track B remains applicable because external validation is currently NO-GO.,,Do not claim blind external validation unless a strict intake asset and one locked evaluation exist.
+BRANCH-002,"If no external asset is available, confirm Track B manuscript route.",Confirm benchmark/resource plus evidence-boundary framing.,Track B,,Res-SAM is the main local evidence; Mojahid is directional support; 4TU is stress-test/failure-boundary evidence.

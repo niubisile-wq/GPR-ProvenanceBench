@@ -1,0 +1,6 @@
+check,result,detail
+review_rows_mapped,PASS,queue_rows=6
+return_inbox_empty_detected,PASS,candidate_return_files=0; audit_rows=0
+writeback_blocked_now,PASS,all rows blocked until returned file exists and is manually inspected
+protected_fields_indexed,PASS,protected_fields=7
+final_candidate_still_blocked,PASS,final_candidate_generation_allowed=False

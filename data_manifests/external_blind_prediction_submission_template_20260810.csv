@@ -1,0 +1,2 @@
+sample_id,predicted_label,prediction_score,model_family,model_version,preprocessing_version,seed,submission_id,prediction_timestamp
+BLIND_SAMPLE_000001,predicted_label_here,0.0000,frozen_model_family,frozen_model_version,frozen_preprocessing_version,20260810,submission_001,YYYY-MM-DDTHH:MM:SS+08:00

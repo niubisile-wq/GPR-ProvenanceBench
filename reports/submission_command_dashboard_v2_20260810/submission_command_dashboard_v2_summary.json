@@ -1,0 +1,14 @@
+{
+  "run_id": "20260810_submission_command_dashboard_v2",
+  "hard_gates": 6,
+  "branch_decisions": 3,
+  "forbidden_claim_rows": 5,
+  "artifact_status_rows": 7,
+  "acceptance_tests": 5,
+  "qa_rows": 5,
+  "qa_pass": true,
+  "current_applicable_branch": "TRACK-B",
+  "submission_ready": false,
+  "status": "submission_command_dashboard_v2_ready_submission_not_ready",
+  "boundary": "This dashboard consolidates current gates and decisions; it does not close external validation, figures, DOI, rights, Reporting Summary or references."
+}

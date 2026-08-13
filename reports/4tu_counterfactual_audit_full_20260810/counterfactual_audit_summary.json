@@ -1,0 +1,82 @@
+{
+  "package_manifest": "package_manifest.csv",
+  "n_samples": 99,
+  "per_split": 999,
+  "variants": [
+    "original",
+    "log_clip",
+    "zscore_clip",
+    "amplitude_jitter",
+    "remove_top_band",
+    "remove_bottom_band",
+    "remove_border",
+    "time_reverse"
+  ],
+  "aggregate": [
+    {
+      "variant": "original",
+      "pearson_r_mean": 1.0,
+      "mae_mean": 0.0,
+      "rmse_mean": 0.0,
+      "border_mae_mean": 0.0,
+      "center_mae_mean": 0.0
+    },
+    {
+      "variant": "log_clip",
+      "pearson_r_mean": 0.5789584779511731,
+      "mae_mean": 0.20355677409003478,
+      "rmse_mean": 0.22304037123015433,
+      "border_mae_mean": 0.18206264996769453,
+      "center_mae_mean": 0.20740236357004957
+    },
+    {
+      "variant": "zscore_clip",
+      "pearson_r_mean": 0.9572750025347317,
+      "mae_mean": 0.037820534423144175,
+      "rmse_mean": 0.06443972810350283,
+      "border_mae_mean": 0.03334251537712084,
+      "center_mae_mean": 0.03853704495299043
+    },
+    {
+      "variant": "amplitude_jitter",
+      "pearson_r_mean": 0.999999999999949,
+      "mae_mean": 1.641706606349227e-08,
+      "rmse_mean": 2.6525077945541743e-08,
+      "border_mae_mean": 1.5951884885963626e-08,
+      "center_mae_mean": 1.6505369663614527e-08
+    },
+    {
+      "variant": "remove_top_band",
+      "pearson_r_mean": 0.9307408119983597,
+      "mae_mean": 0.007219051695453042,
+      "rmse_mean": 0.02257979356907508,
+      "border_mae_mean": 0.02203917377644555,
+      "center_mae_mean": 0.004322604644410677
+    },
+    {
+      "variant": "remove_bottom_band",
+      "pearson_r_mean": 0.9999970262543258,
+      "mae_mean": 1.7053806367575723e-05,
+      "rmse_mean": 0.00010566108435203645,
+      "border_mae_mean": 9.79604585540294e-05,
+      "center_mae_mean": 1.7122558621064277e-06
+    },
+    {
+      "variant": "remove_border",
+      "pearson_r_mean": 0.9248704496223378,
+      "mae_mean": 0.006547506121951484,
+      "rmse_mean": 0.02587390796403692,
+      "border_mae_mean": 0.019964817025924498,
+      "center_mae_mean": 0.0028944390121408777
+    },
+    {
+      "variant": "time_reverse",
+      "pearson_r_mean": -0.0005706125497674691,
+      "mae_mean": 0.047754984650045934,
+      "rmse_mean": 0.10047803996036751,
+      "border_mae_mean": 0.03529579430404636,
+      "center_mae_mean": 0.04978430846875364
+    }
+  ],
+  "metrics_csv": "counterfactual_metrics.csv"
+}

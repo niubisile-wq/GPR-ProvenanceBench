@@ -1,0 +1,18 @@
+{
+  "package": "rights_licence_completion_handoff_20260810",
+  "decision_rows": 4,
+  "availability_dependency_rows": 5,
+  "release_action_rows": 6,
+  "no_go_shortcuts": 4,
+  "completion_command_rows": 5,
+  "qa_rows": 5,
+  "qa_pass": true,
+  "licence_selected": false,
+  "third_party_rights_cleared": false,
+  "raw_third_party_data_public_release_allowed": false,
+  "repository_doi_created": false,
+  "public_release_ready": false,
+  "submission_ready": false,
+  "status": "rights_licence_completion_handoff_ready_not_cleared",
+  "desktop_plan_updated": true
+}

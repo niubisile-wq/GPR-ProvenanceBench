@@ -1,0 +1,13 @@
+{
+  "run_id": "20260810_reporting_summary_finalization_prelock",
+  "reporting_items": 8,
+  "author_confirmations": 4,
+  "forbidden_wording_rows": 4,
+  "availability_crosswalk_rows": 5,
+  "qa_rows": 5,
+  "qa_pass": true,
+  "final_reporting_summary_ready": false,
+  "submission_ready": false,
+  "status": "reporting_summary_finalization_prelock_ready_not_final",
+  "boundary": "This package controls finalization of Reporting Summary fields; it does not close blinding, external validation, DOI, rights, final figures or availability gates."
+}

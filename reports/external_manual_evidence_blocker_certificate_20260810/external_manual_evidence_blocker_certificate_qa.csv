@@ -1,0 +1,5 @@
+check,result,detail
+external evidence is absent,PASS,candidate_files_detected=0
+launcher remains blocked,PASS,global_launch_allowed=False
+receipts remain incomplete,PASS,complete_receipt_rows=0
+goal and submission remain false,PASS,goal_complete=False; submission_ready=False

@@ -1,0 +1,7 @@
+figure_id,source_data_filename,source_file_count,copied_source_file_count,all_source_files_exist,panel_map_review_status,panel_map_lock_status,blocking_reason
+Figure 1,Source_Data_Figure_1.csv,2,2,yes,ready_for_review,blocked_until_final_figures_and_export_qa,Final candidate exports and panel-level source-data crosswalk are absent.
+Figure 2,Source_Data_Figure_2.csv,2,2,yes,ready_for_review,blocked_until_final_figures_and_export_qa,Final candidate exports and panel-level source-data crosswalk are absent.
+Figure 3,Source_Data_Figure_3.csv,3,3,yes,ready_for_review,blocked_until_final_figures_and_export_qa,Final candidate exports and panel-level source-data crosswalk are absent.
+Figure 4,Source_Data_Figure_4.csv,2,2,yes,ready_for_review,blocked_until_final_figures_and_export_qa,Final candidate exports and panel-level source-data crosswalk are absent.
+Figure 5,Source_Data_Figure_5.csv,1,1,yes,ready_for_review,blocked_until_final_figures_and_export_qa,Final candidate exports and panel-level source-data crosswalk are absent.
+Figure 6,Source_Data_Figure_6.csv,2,2,yes,ready_for_review,blocked_until_final_figures_and_export_qa,Final candidate exports and panel-level source-data crosswalk are absent.

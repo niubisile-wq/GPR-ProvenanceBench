@@ -1,0 +1,8 @@
+receipt_id,route_id,target_file,reason
+RB002-WB-001,RTE-001,reports/natcomms_author_response_tracker_20260810/author_response_send_log_template.csv,writeback receipt contains placeholders or RB-002 is not allowed
+RB002-WB-002,RTE-002,reports/natcomms_author_response_tracker_20260810/author_response_return_tracker.csv,writeback receipt contains placeholders or RB-002 is not allowed
+RB002-WB-003,RTE-003,reports/natcomms_author_finalization_reply_packet_20260810/figure_backend_decision_ticket.csv,writeback receipt contains placeholders or RB-002 is not allowed
+RB002-WB-004,RTE-004,reports/rights_licence_completion_handoff_20260810/rights_licence_decision_matrix.csv or upstream author/rights reply sheet,writeback receipt contains placeholders or RB-002 is not allowed
+RB002-WB-005,RTE-005,reports/natcomms_author_finalization_reply_packet_20260810/reporting_summary_author_reply_sheet.csv,writeback receipt contains placeholders or RB-002 is not allowed
+RB002-WB-006,RTE-006,reports/reference_completion_handoff_20260810/citation_marker_final_replacement_queue.csv after final prose is stable,writeback receipt contains placeholders or RB-002 is not allowed
+RB002-WB-007,RTE-007,reports/natcomms_submission_final_lock_validator_20260810/natcomms_submission_final_lock_portal_overlay.csv,writeback receipt contains placeholders or RB-002 is not allowed

@@ -1,0 +1,5 @@
+guard_id,risk,required_guard,status
+CG001,External papers cited for internal balanced-accuracy deltas.,"Balanced-accuracy deltas and support counts must cite internal figures/source data, not P1-P6.",active
+CG002,Background GPR paper used as evidence for this benchmark's main result.,P1 may support GPR/Res-SAM context only; the Res-SAM transfer delta is internal evidence.,active
+CG003,Leakage references overextended into proof of universal GPR leakage.,P4/P5 support split and leakage-risk context only; Mojahid remains directional and modest.,active
+CG004,Citation markers converted before final order.,"Keep [P#] markers until final prose, figure/table calls and reference order are locked.",active

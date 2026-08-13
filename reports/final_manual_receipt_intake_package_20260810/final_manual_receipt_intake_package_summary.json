@@ -1,0 +1,18 @@
+{
+  "package": "final_manual_receipt_intake_package_20260810",
+  "receipt_rows": 6,
+  "completed_receipt_rows": 0,
+  "missing_required_receipts": 6,
+  "manual_action_rows_imported": 6,
+  "forbidden_submission_action_rows_imported": 5,
+  "receipt_intake_complete": false,
+  "system_command_execution_allowed": false,
+  "portal_upload_allowed": false,
+  "submission_ready": false,
+  "qa_rows": 4,
+  "qa_pass": true,
+  "status": "final_manual_receipt_intake_package_ready_waiting_real_receipts",
+  "desktop_guide": "C:\\Users\\刘子轩\\Desktop\\NatComms_19.49_final_manual_receipt_intake_20260810.md",
+  "desktop_guide_exists": true,
+  "desktop_plan_updated": true
+}

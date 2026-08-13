@@ -1,0 +1,10 @@
+sequence,command,run_when
+1,py scripts/build_post_dispatch_evidence_intake_validator.py,after sendout evidence is captured
+2,py scripts/build_natcomms_author_reply_ingestion_validator.py,after author reply forms are returned
+3,py scripts/build_manual_evidence_final_intake_validator.py,after all manual evidence worksheets are updated
+4,py scripts/build_python_figure_author_review_intake_validator.py,after figure review form is returned
+5,py scripts/build_availability_repository_finalization_validator.py,after DOI/licence/rights evidence is recorded
+6,py scripts/build_reporting_summary_final_lock_validator.py,after Reporting Summary answers are completed
+7,py scripts/build_reference_final_lock_validator.py,after reference verification is completed
+8,py scripts/build_natcomms_submission_final_lock_validator.py,only after upstream gates close
+9,powershell -ExecutionPolicy Bypass -File scripts/run_m0_m2_checks.ps1,after any accepted writeback

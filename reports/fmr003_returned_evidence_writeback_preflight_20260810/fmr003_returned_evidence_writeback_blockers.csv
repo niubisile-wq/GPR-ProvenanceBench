@@ -1,0 +1,6 @@
+blocker,evidence,blocks
+no real returned evidence files detected,candidate_return_files=0,FMR-003 writeback candidate and RB-001 closeout
+returned evidence scanner gate closure not allowed,qa_pass=True; gate_closure_allowed=False,FMR-003 writeback candidate
+RB-001 hash manifest not ready,hash_manifest_ready=False; reconciled_rows=0,FMR-003 writeback candidate
+RB-001 receipt not complete,receipt_complete=False; completed_receipt_rows=0,FMR-003 writeback candidate
+RB-001 closeout not complete,rb001_closed=False; writeback_allowed_rows=0,FMR-003 writeback candidate and guarded recheck

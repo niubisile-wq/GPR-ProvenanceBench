@@ -1,0 +1,5 @@
+decision_id,decision,recommended_response,response_field,resolved_now,blocking_reason
+ADC2-001,Choose figure rendering backend,Python,,no,response_field is blank; recommended_response is not author evidence
+ADC2-002,Name a real external blind GPR data holder or confirm none is available before manuscript lock,"If no named holder exists now, proceed with Track B.",,no,response_field is blank; recommended_response is not author evidence
+ADC2-003,Confirm code and derived-data licence direction,Code: MIT or BSD-3-Clause; derived source data: CC BY 4.0 or restricted if rights review fails.,,no,response_field is blank; recommended_response is not author evidence
+ADC2-004,Confirm manuscript route if external validation remains unavailable,Track B: benchmark/resource plus evidence-boundary paper.,,no,response_field is blank; recommended_response is not author evidence

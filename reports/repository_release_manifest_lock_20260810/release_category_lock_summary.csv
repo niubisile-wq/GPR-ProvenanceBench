@@ -1,0 +1,8 @@
+category,locked_candidate_files,release_decision,remaining_condition
+claim_evidence_plan,3,include_after_licence_review,Licence selection and third-party rights review.
+companion_artifact_skeleton,1,include_after_licence_review,Licence selection and third-party rights review.
+figure_table_source_data,20,include_after_licence_review,Licence selection and third-party rights review.
+methods_skeleton,3,include_after_licence_review,Licence selection and third-party rights review.
+reproducibility_script,1,include_after_licence_review,Licence selection and third-party rights review.
+results_skeleton,3,include_after_licence_review,Licence selection and third-party rights review.
+submission_skeleton,6,include_after_licence_review,Licence selection and third-party rights review.

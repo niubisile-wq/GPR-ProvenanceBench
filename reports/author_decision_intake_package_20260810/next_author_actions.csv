@@ -1,0 +1,5 @@
+priority,action,exact_author_response_needed,why_now
+1,Choose figure backend,Python or R,This unlocks formal figure rendering from the existing figure_rendering_spec.
+2,Send external blind asset request package,Name the data holder/advisor/collaborator or confirm no contact yet,External validation is the highest hard gate and requires external lead time.
+3,Choose tentative code/data licence direction,"MIT/BSD/Apache for code; CC BY/CC0/restricted for derived data, pending institutional approval",Repository metadata and Data/Code Availability cannot become final without this.
+4,Choose repository route,"GitHub+Zenodo, Zenodo only, OSF, institutional repository, or other",DOI/accession creation depends on repository route.

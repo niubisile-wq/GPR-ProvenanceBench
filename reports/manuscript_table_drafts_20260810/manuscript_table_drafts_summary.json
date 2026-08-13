@@ -1,0 +1,12 @@
+{
+  "run_id": "20260810_manuscript_table_drafts",
+  "tables": 3,
+  "table1_rows": 4,
+  "table2_rows": 3,
+  "table3_rows": 6,
+  "table_anchors_locked": 3,
+  "table_sources_ready": true,
+  "status": "table_drafts_ready_not_typeset_final",
+  "manuscript_ready": false,
+  "boundary": "Tables are drafted from locked source data; final formatting, rendered figures, source-data panel mapping and submission identifiers remain open."
+}

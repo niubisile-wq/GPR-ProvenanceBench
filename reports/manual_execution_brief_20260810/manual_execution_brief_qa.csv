@@ -1,0 +1,4 @@
+check,result,detail
+brief covers all human-only next actions,PASS,brief_action_rows=5; human_only_next_action_rows=5
+brief preserves no-command state,PASS,allowed_commands_now=0
+brief preserves submission blocked state,PASS,submission_ready=False

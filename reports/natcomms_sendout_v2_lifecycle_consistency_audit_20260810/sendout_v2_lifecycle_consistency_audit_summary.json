@@ -1,0 +1,18 @@
+{
+  "package": "natcomms_sendout_v2_lifecycle_consistency_audit_20260810",
+  "send_log_rows": 5,
+  "manifest_rows": 19,
+  "fingerprint_rows": 2,
+  "stale_v1_reference_rows": 0,
+  "v2_reference_rows": 5,
+  "hash_placeholder_rows": 5,
+  "fingerprint_hashes_match": true,
+  "email_sent": false,
+  "author_replies_collected": false,
+  "candidate_return_files": 0,
+  "submission_ready": false,
+  "qa_rows": 5,
+  "qa_pass": true,
+  "status": "natcomms_sendout_v2_lifecycle_consistency_audit_passed_not_sent",
+  "desktop_plan_updated": true
+}

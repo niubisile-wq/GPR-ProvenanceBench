@@ -1,0 +1,6 @@
+check,result,detail
+release_readiness_remains_false,PASS,release_ready=False
+repository_handoff_not_public,PASS,public_release_ready=False; repository_doi_created=False
+availability_gates_open,PASS,availability_rows=5
+raw_third_party_default_exclusion_preserved,PASS,Raw third-party files must not enter public release without permission.
+final_rights_not_claimed,PASS,"This handoff queues decisions only; no licence, DOI, rights clearance or public release is created."

@@ -1,0 +1,60 @@
+{
+  "route": "public_benchmark_evaluation",
+  "blind_external_validation": false,
+  "dataset": {
+    "training_samples": 4,
+    "validation_samples": 2,
+    "test_samples": 2
+  },
+  "training": {
+    "epochs": 1,
+    "batch_size": 2,
+    "history": [
+      {
+        "epoch": 1,
+        "train_loss": 1.618623971939087
+      }
+    ]
+  },
+  "evaluation": {
+    "validation": {
+      "split": "validation",
+      "samples": 2,
+      "weighted_score": 0.07792031396634902,
+      "preview": [
+        {
+          "filename": "1.mat.pt",
+          "sample_score": 0.08739248424635482,
+          "pred_len": 9050,
+          "gt_len": 9050
+        },
+        {
+          "filename": "2.mat.pt",
+          "sample_score": 0.06844814368634322,
+          "pred_len": 9050,
+          "gt_len": 9050
+        }
+      ]
+    },
+    "test": {
+      "split": "test",
+      "samples": 2,
+      "weighted_score": 0.08798650965218069,
+      "preview": [
+        {
+          "filename": "1.mat.pt",
+          "sample_score": 0.11524986170016596,
+          "pred_len": 9050,
+          "gt_len": 9050
+        },
+        {
+          "filename": "2.mat.pt",
+          "sample_score": 0.060723157604195416,
+          "pred_len": 9050,
+          "gt_len": 9050
+        }
+      ]
+    }
+  },
+  "note": "This route is a public benchmark probe only. It does not satisfy blind external validation."
+}

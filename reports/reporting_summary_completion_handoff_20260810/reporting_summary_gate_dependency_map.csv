@@ -1,0 +1,4 @@
+dependency,current_state,evidence,impacted_reporting_items,completion_requirement
+figure_backend_and_scope,blocked,figure_backend_scope_decision_handoff_summary.json,Study design; Randomization and split strategy; Data availability,"backend_selected=true, scope_confirmed=true, rendered figures and panel-level Source Data QA complete"
+blind_external_validation,NO-GO,external_asset_triage_register_summary.json,Blinding; External validation,"real_external_asset_acquired=true, strict_sha_manifest_passed=true, one_shot_prediction_frozen=true and locked evaluation complete"
+repository_identifiers_and_rights,blocked,repository_predeposit_handoff_summary.json,Software and code availability; Data availability; Sample size and exclusions,"repository DOI/accession, code DOI, licences and third-party rights decisions exist"

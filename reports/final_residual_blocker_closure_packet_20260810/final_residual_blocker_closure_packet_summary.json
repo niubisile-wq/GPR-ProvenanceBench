@@ -1,0 +1,20 @@
+{
+  "package": "final_residual_blocker_closure_packet_20260810",
+  "closure_rows": 8,
+  "dependency_rows": 8,
+  "validation_command_rows": 8,
+  "qa_rows": 5,
+  "qa_pass": true,
+  "ready_to_close_rows": 0,
+  "diagnostic_commands_allowed_now": 1,
+  "blocked_validation_commands": 7,
+  "candidate_return_files": 0,
+  "writeback_allowed_rows": 0,
+  "blank_author_reply_fields": 12,
+  "commands_allowed_now": 0,
+  "open_master_gates": 8,
+  "submission_ready": false,
+  "desktop_packet": "C:\\Users\\\u5218\u5b50\u8f69\\Desktop\\NatComms_final_residual_blocker_closure_packet_20260810.md",
+  "status": "final_residual_blocker_closure_packet_ready_waiting_for_external_evidence",
+  "desktop_plan_updated": true
+}

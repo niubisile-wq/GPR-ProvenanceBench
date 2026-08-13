@@ -1,0 +1,6 @@
+step,command,allowed_now,stop_rule
+1,Copy real returned evidence into the matching folder under final_return_evidence_inbox_20260810.,manual_only,Do not edit generated reports or protected target files.
+2,Record received files in rb001_return_evidence_hash_manifest_template.csv after calculating SHA256.,manual_only_after_file_drop,Do not invent hashes or source identities.
+3,py scripts/build_final_return_evidence_intake_scanner.py,diagnostic_only,Scanner acceptance does not by itself write evidence or close gates.
+4,py scripts/build_final_return_evidence_writeback_preflight.py,no,Do not run for closure while writeback_allowed_rows=0.
+5,powershell -ExecutionPolicy Bypass -File scripts/run_m0_m2_checks.ps1,after_scanner_rerun,A passing M0-M2 run is not submission readiness unless final lock validators pass.

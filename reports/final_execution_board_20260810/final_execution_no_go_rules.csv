@@ -1,0 +1,5 @@
+rule_id,rule,current_evidence
+FEB-NOGO-001,Do not run portal upload or mark submitted while submission_ready=false.,submission_ready=False
+FEB-NOGO-002,Do not run guarded recheck before all six manual receipts are complete.,complete_receipt_rows=0
+FEB-NOGO-003,Do not run any FMR guarded writeback without a preflight-approved candidate and explicit execute flag.,commands_allowed_now=0
+FEB-NOGO-004,"Do not treat support reports, dashboards or local plans as external evidence.",candidate_evidence_files=0

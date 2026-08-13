@@ -1,0 +1,6 @@
+contract_item,required_for,format,reject_if_missing
+source identity,all FMR receipts,real person/account/system name,yes
+timestamp,all manual actions,YYYY-MM-DD HH:MM local time,yes
+file path,"returned files, figure review files, repository/rights evidence",existing path under the project or documented external record,yes
+SHA256,"sent packet, returned files, final evidence bundles",64-character lowercase hexadecimal hash,yes
+allowed decision value,author decisions and figure approvals,one of the allowed values in the target form,yes

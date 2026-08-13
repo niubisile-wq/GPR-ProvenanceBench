@@ -1,0 +1,6 @@
+step_id,step_label,evidence_status,source,key_message,open_gate
+F1A,Asset audit,complete_current_checkpoint,data_manifests/*_unified_samples_20260810.csv,Three local executable assets are available; TIGPR remains supporting-only.,third independent/core confirmation asset still conditional
+F1B,Split and transfer baselines,partial_complete,reports/five_model_synthesis_20260810,Res-SAM environment transfer is the strongest current cross-model signal.,4TU and true blind external validation absent from five-model matrix
+F1C,Raw-trace counterfactual stress test,stress_test_complete,reports/figure4_sources_20260810,4TU fixed-split sensitivity weakens under project-level repeated splits.,not a final causal proof or main confirmation layer
+F1D,Blind external protocol,template_ready_no_go,protocols/blind_external_validation_protocol_20260810.md,"Protocol, intake templates and locked evaluator exist.","No current track satisfies blind external validation readiness. The next concrete step is acquisition or restoration, not additional internal modeling."
+F1E,Manuscript claim boundary,active_boundary,reports/manuscript_figure_table_plan_20260810,Current manuscript lead should be Res-SAM environment-transfer fragility.,do not claim completed blind external validation

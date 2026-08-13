@@ -1,0 +1,7 @@
+receipt_id,blocker,evidence,blocks
+FMR-001,guarded writeback command not currently allowed,writeback_preflight_allowed=False; writeback_executed=False,py scripts/build_fmr001_guarded_writeback_applier.py --execute-writeback
+FMR-002,guarded writeback command not currently allowed,writeback_preflight_allowed=False; writeback_executed=False,py scripts/build_fmr002_guarded_writeback_applier.py --execute-writeback
+FMR-003,guarded writeback command not currently allowed,writeback_preflight_allowed=False; writeback_executed=False,py scripts/build_fmr003_guarded_writeback_applier.py --execute-writeback
+FMR-004,guarded writeback command not currently allowed,writeback_preflight_allowed=False; writeback_executed=False,py scripts/build_fmr004_guarded_writeback_applier.py --execute-writeback
+FMR-005,guarded writeback command not currently allowed,writeback_preflight_allowed=False; writeback_executed=False,py scripts/build_fmr005_guarded_writeback_applier.py --execute-writeback
+FMR-006,guarded writeback command not currently allowed,writeback_preflight_allowed=False; writeback_executed=False,py scripts/build_fmr006_guarded_writeback_applier.py --execute-writeback

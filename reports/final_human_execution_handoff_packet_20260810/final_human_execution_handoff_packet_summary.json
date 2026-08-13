@@ -1,0 +1,22 @@
+{
+  "package": "final_human_execution_handoff_packet_20260810",
+  "manifest_rows": 22,
+  "missing_source_files": 0,
+  "return_routes": 7,
+  "operator_checklist_rows": 7,
+  "validation_commands": 9,
+  "packet_no_go_rules": 4,
+  "zip_members": 27,
+  "local_zip": "D:\\百度网盘拉取包\\CNS1\\GPR-ProvenanceBench\\reports\\final_human_execution_handoff_packet_20260810\\NatComms_final_human_execution_handoff_packet_20260810.zip",
+  "local_zip_exists": true,
+  "desktop_zip": "C:\\Users\\刘子轩\\Desktop\\NatComms_final_human_execution_handoff_packet_20260810.zip",
+  "desktop_zip_exists": true,
+  "qa_rows": 4,
+  "qa_pass": true,
+  "manual_actions_executed": false,
+  "evidence_writeback_performed": false,
+  "gate_closure_allowed": false,
+  "submission_ready": false,
+  "status": "final_human_execution_handoff_packet_ready_not_executed",
+  "desktop_plan_updated": true
+}

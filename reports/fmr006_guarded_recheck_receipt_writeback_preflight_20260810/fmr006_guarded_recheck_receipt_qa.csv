@@ -1,0 +1,6 @@
+check,result,detail
+FMR-006 row imported,PASS,fmr006_rows=1
+prerequisite receipts imported,PASS,prereq_rows=5; missing=FMR-001;FMR-002;FMR-003;FMR-004;FMR-005
+M0-M2 log alone does not unlock FMR-006,PASS,complete_prereq_rows=0; m0_m2_pass_detected=False; fmr006_writeback_allowed=False
+candidate generation follows recheck gates,PASS,candidate_rows=0; fmr006_writeback_allowed=False
+submission remains false,PASS,portal_upload_allowed=false; submission_ready=false

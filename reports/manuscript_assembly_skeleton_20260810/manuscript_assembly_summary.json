@@ -1,0 +1,39 @@
+{
+  "status_date": "2026-08-10",
+  "one_sentence_argument": "In ground-penetrating radar recognition, current executable evidence shows that environment and provenance structure can strongly reshape apparent generalization, with Res-SAM environment transfer providing the strongest cross-model support and Mojahid/4TU providing bounded secondary and stress-test evidence.",
+  "target_journal": "Nature Communications",
+  "article_type": "Article",
+  "word_budget": {
+    "abstract": 150,
+    "introduction": 700,
+    "results": 1800,
+    "discussion": 700,
+    "methods": 1800,
+    "body_total_target": 5000
+  },
+  "source_inputs": {
+    "results_paragraphs": 6,
+    "methods_modules": 7,
+    "submission_ready": false,
+    "companion_submission_ready": false,
+    "source_data_submission_ready": false,
+    "release_ready": false,
+    "sanitized_public_release_ready": false
+  },
+  "section_rows": 11,
+  "traceability_rows": 6,
+  "blocker_rows": 8,
+  "manuscript_ready": false,
+  "reason_not_ready": [
+    "blind external validation remains NO-GO",
+    "main figures are not rendered",
+    "data/code repository identifiers are missing",
+    "Reporting Summary is incomplete",
+    "public release rights are not cleared"
+  ],
+  "official_policy_notes": [
+    "Nature Portfolio original research requires a Data Availability statement.",
+    "Nature Communications expects a Code Availability statement when custom code is used.",
+    "Nature Communications submission uses the online submission system."
+  ]
+}

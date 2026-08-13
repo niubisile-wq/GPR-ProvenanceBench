@@ -1,0 +1,3 @@
+backend_option,fit_to_current_project,reason,post_decision_action
+Python,recommended_default,"Current evidence pipeline, scripts and source data are already Python-based.","Use Python for generation, preview, export and QA; do not mix with R in the final figure set."
+R,allowed_if_author_prefers,Allowed only if the author wants ggplot2/patchwork/ComplexHeatmap-style production and accepts conversion effort.,"Use R consistently for generation, preview, export and QA."

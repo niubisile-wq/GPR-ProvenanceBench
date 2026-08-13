@@ -1,0 +1,5 @@
+unresolved_id,item,status,required_action
+U001,final_reference_numbering,open,Convert candidate markers to final numbered references after final prose and journal style are locked.
+U002,figure_table_pointer,open,"Replace pending figure/table pointer after rendered figures, table order and Source Data mapping are locked."
+U003,internal_metric_citations,open,"Attach internal source-data citations for Res-SAM, Mojahid and 4TU metrics; do not use literature papers as metric evidence."
+U004,repository_and_release_claims,open,"Wait for repository DOI/accession, code release DOI, licence and rights review before writing release claims as completed."

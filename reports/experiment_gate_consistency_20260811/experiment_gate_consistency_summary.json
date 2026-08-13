@@ -1,0 +1,46 @@
+{
+  "run_id": "20260811_E36_experiment_gate_consistency",
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "progress blind gate remains no-go",
+      "result": "PASS",
+      "detail": "blind=NO-GO; submission_ready=False"
+    },
+    {
+      "check": "readiness gate remains no-go with zero ready tracks",
+      "result": "PASS",
+      "detail": "gate=NO-GO; ready_tracks=[]"
+    },
+    {
+      "check": "hidden-eval candidate audit has no eligible candidate",
+      "result": "PASS",
+      "detail": "status=complete_hidden_eval_candidate_audit_no_eligible_candidate; eligible=0; gate=NO-GO"
+    },
+    {
+      "check": "synthetic freeze regression stays non-eligible despite passing",
+      "result": "PASS",
+      "detail": "freeze=complete_synthetic_blind_freeze_regression; precedes=True; eligible=False; intake=PASS; locked=PASS"
+    },
+    {
+      "check": "deepmask collision prevents independent evidence promotion",
+      "result": "PASS",
+      "detail": "collision=complete_local_cross_asset_collision_audit; clusters=4; overlap=True; eligible=False"
+    },
+    {
+      "check": "public raw candidate cannot close blind gate",
+      "result": "PASS",
+      "detail": "decision=A public raw-GPR candidate has been downloaded, checksum-verified, extracted and manifested for Track C-style non-blind stress testing. It cannot close the hard blind external gate.; candidate_eligible=False"
+    },
+    {
+      "check": "public MCG candidate cannot close blind gate",
+      "result": "PASS",
+      "detail": "download=complete_public_mcg_gpr_download_verified_extracted; rows=8100; annotated=966; baseline=complete_public_mcg_gpr_nonblind_baseline; split_stress=complete_public_mcg_gpr_split_stress; eligible=False"
+    }
+  ],
+  "pass_count": 7,
+  "fail_count": 0,
+  "blind_external_gate_consistent_no_go": true,
+  "submission_ready": false,
+  "blind_external_eligible": false
+}

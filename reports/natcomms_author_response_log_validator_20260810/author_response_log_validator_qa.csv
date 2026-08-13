@@ -1,0 +1,6 @@
+check_id,check,observed,expected,pass
+QA-001,send log rows present,5,>=1,True
+QA-002,return log rows present,8,>=1,True
+QA-003,send log schema/status valid,True,True,True
+QA-004,return log schema/status valid,True,True,True
+QA-005,submission remains blocked by validator,blocked,blocked,True

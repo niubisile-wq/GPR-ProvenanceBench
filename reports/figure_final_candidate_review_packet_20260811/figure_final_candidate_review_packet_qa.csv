@@ -1,0 +1,5 @@
+check,result,detail
+six figures packaged,PASS,figures_packaged=6
+all preview exports copied,PASS,preview_exports_packaged=24
+support controls copied,PASS,support_controls=4
+final submission remains blocked,FAIL,final_figures_ready=True

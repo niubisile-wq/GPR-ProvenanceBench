@@ -1,0 +1,10 @@
+member,present_in_zip
+FINAL_OPERATOR_EXECUTION_BUNDLE_V2_README.md,yes
+final_operator_execution_bundle_v2_manifest.csv,yes
+final_operator_execution_bundle_v2_sequence.csv,yes
+materials/01_inbox/final_return_evidence_canonical_routes.csv,yes
+materials/02_scan/final_return_evidence_route_scan.csv,yes
+materials/03_writeback/final_return_writeback_route_matrix.csv,yes
+materials/04_transition/post_writeback_final_sequence.csv,yes
+materials/05_guarded_runner/run_post_return_guarded_execution.ps1,yes
+materials/06_original_materials/NatComms_final_human_execution_handoff_packet_20260810.zip,yes

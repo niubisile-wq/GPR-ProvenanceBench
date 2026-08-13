@@ -1,0 +1,6 @@
+rule_id,rule,evidence
+NO-UPLOAD-001,Do not upload skeletons as final manuscript files.,"main manuscript, cover letter and availability statements are skeleton/draft only."
+NO-UPLOAD-002,Do not upload unrendered figure source locks as display figures.,rendered_figures=0 and backend/scope choices are blank.
+NO-UPLOAD-003,Do not claim public data/code availability before DOI/licence evidence exists.,repository identifiers and rights/licence gates are open.
+NO-UPLOAD-004,Do not replace citation markers until final prose and reference order are stable.,reference replacement rows remain blocked.
+NO-UPLOAD-005,Do not use full-check pass as portal readiness while submission_ready=false.,dashboard_submission_ready=False

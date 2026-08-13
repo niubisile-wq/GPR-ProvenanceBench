@@ -1,0 +1,6 @@
+check,result,detail
+eight_reporting_items_indexed,PASS,draft=8; item_matrix=8; final_lock=8
+no_items_lockable_now,PASS,lockable_rows=0
+author_confirmations_blank,PASS,author_rows=4; confirmed=0
+dependencies_open,PASS,open_dependencies=3; open_availability_crosswalk=5
+final_reporting_summary_not_ready,PASS,draft=False; handoff=False; prelock=False

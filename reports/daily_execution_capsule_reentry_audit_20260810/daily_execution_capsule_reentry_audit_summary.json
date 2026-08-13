@@ -1,0 +1,16 @@
+{
+  "package": "daily_execution_capsule_reentry_audit_20260810",
+  "reentry_checks": 8,
+  "passed_reentry_checks": 8,
+  "reentry_passed": true,
+  "next_reentry_action": "open_capsule_then_execute_manual_actions_only",
+  "manual_action_queue_rows": 5,
+  "runnable_validation_rows": 0,
+  "allowed_commands_now": 0,
+  "submission_ready": false,
+  "goal_complete": false,
+  "qa_rows": 3,
+  "qa_pass": true,
+  "status": "daily_execution_capsule_reentry_audit_passed_manual_actions_only",
+  "desktop_plan_updated": true
+}

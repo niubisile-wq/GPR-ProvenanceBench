@@ -1,0 +1,6 @@
+check_id,check,observed,expected,pass
+QA-001,all bundle attachments represented in return tracker,8,8,True
+QA-002,send statuses are controlled values and sent rows have sender/timestamp,['not_sent'],"not_sent or sent, with metadata when sent",True
+QA-003,return statuses are controlled values and returned rows have file/timestamp,['not_returned'],"not_returned or returned, with metadata when returned",True
+QA-004,post-reply commands are disabled before replies arrive,['no'],['no'],True
+QA-005,submission boundary flags remain false,backend_selected=false; submission_ready=false,backend_selected and submission_ready stay false in this script,True

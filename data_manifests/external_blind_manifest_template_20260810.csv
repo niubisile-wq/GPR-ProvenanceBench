@@ -1,0 +1,2 @@
+sample_id,rel_path,abs_path,file_sha256,label_placeholder,source_group,asset_track,modality,target_task,notes
+BLIND_SAMPLE_000001,relative/path/to/sample.png,,64_hex_sha256_here,HELD_OUT,site_or_project_001,third_party_blind,image,predeclared_task,non_label_metadata_only

@@ -1,0 +1,227 @@
+{
+  "run_id": "20260811_E07_source_predictability_sweep",
+  "seeds": [
+    20260811,
+    20260812,
+    20260813,
+    20260814,
+    20260815
+  ],
+  "image_size": 64,
+  "tasks": [
+    {
+      "task": "mojahid_processing_role_is_augmented",
+      "samples": 2524,
+      "classes": 2,
+      "class_count_min": 729,
+      "class_count_max": 1795,
+      "chance_balanced_accuracy": 0.5,
+      "majority_accuracy": 0.7111727416798732,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.6319261213720317,
+          "std": 0.013453877344572016,
+          "min": 0.6160949868073878,
+          "max": 0.6530343007915568
+        },
+        "balanced_accuracy": {
+          "mean": 0.6010326920307351,
+          "std": 0.018678599671355385,
+          "min": 0.5760329038215535,
+          "max": 0.6286163282249388
+        },
+        "macro_f1": {
+          "mean": 0.5877119457119251,
+          "std": 0.016126468191573068,
+          "min": 0.5674498413444357,
+          "max": 0.6125580373888082
+        }
+      },
+      "detailed_runs": [
+        {
+          "seed": 20260811,
+          "train_samples": 1766,
+          "test_samples": 758,
+          "accuracy": 0.6187335092348285,
+          "balanced_accuracy": 0.5760329038215535,
+          "macro_f1": 0.5674498413444357
+        },
+        {
+          "seed": 20260812,
+          "train_samples": 1766,
+          "test_samples": 758,
+          "accuracy": 0.6345646437994723,
+          "balanced_accuracy": 0.6142738539998813,
+          "macro_f1": 0.5964326558070251
+        },
+        {
+          "seed": 20260813,
+          "train_samples": 1766,
+          "test_samples": 758,
+          "accuracy": 0.6530343007915568,
+          "balanced_accuracy": 0.6286163282249388,
+          "macro_f1": 0.6125580373888082
+        },
+        {
+          "seed": 20260814,
+          "train_samples": 1766,
+          "test_samples": 758,
+          "accuracy": 0.6160949868073878,
+          "balanced_accuracy": 0.5877322286324242,
+          "macro_f1": 0.5737153657504305
+        },
+        {
+          "seed": 20260815,
+          "train_samples": 1766,
+          "test_samples": 758,
+          "accuracy": 0.637203166226913,
+          "balanced_accuracy": 0.5985081454748774,
+          "macro_f1": 0.5884038282689266
+        }
+      ]
+    },
+    {
+      "task": "mojahid_augmentation_lineage_source_group",
+      "samples": 1126,
+      "classes": 80,
+      "class_count_min": 8,
+      "class_count_max": 21,
+      "chance_balanced_accuracy": 0.0125,
+      "majority_accuracy": 0.018650088809946713,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.6005917159763314,
+          "std": 0.02058287234429122,
+          "min": 0.5710059171597633,
+          "max": 0.6301775147928994
+        },
+        "balanced_accuracy": {
+          "mean": 0.6079166666666665,
+          "std": 0.019168931025664093,
+          "min": 0.584375,
+          "max": 0.6375
+        },
+        "macro_f1": {
+          "mean": 0.5995489505119923,
+          "std": 0.01943919399510713,
+          "min": 0.5752725664858017,
+          "max": 0.6285823551448552
+        }
+      },
+      "detailed_runs": [
+        {
+          "seed": 20260811,
+          "train_samples": 788,
+          "test_samples": 338,
+          "accuracy": 0.5857988165680473,
+          "balanced_accuracy": 0.5916666666666666,
+          "macro_f1": 0.5839111235986236
+        },
+        {
+          "seed": 20260812,
+          "train_samples": 788,
+          "test_samples": 338,
+          "accuracy": 0.5710059171597633,
+          "balanced_accuracy": 0.584375,
+          "macro_f1": 0.5752725664858017
+        },
+        {
+          "seed": 20260813,
+          "train_samples": 788,
+          "test_samples": 338,
+          "accuracy": 0.6035502958579881,
+          "balanced_accuracy": 0.60625,
+          "macro_f1": 0.5962317196692197
+        },
+        {
+          "seed": 20260814,
+          "train_samples": 788,
+          "test_samples": 338,
+          "accuracy": 0.6124260355029586,
+          "balanced_accuracy": 0.6197916666666667,
+          "macro_f1": 0.6137469876614613
+        },
+        {
+          "seed": 20260815,
+          "train_samples": 788,
+          "test_samples": 338,
+          "accuracy": 0.6301775147928994,
+          "balanced_accuracy": 0.6375,
+          "macro_f1": 0.6285823551448552
+        }
+      ]
+    },
+    {
+      "task": "ressam_environment_source_group",
+      "samples": 1050,
+      "classes": 2,
+      "class_count_min": 450,
+      "class_count_max": 600,
+      "chance_balanced_accuracy": 0.5,
+      "majority_accuracy": 0.5714285714285714,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.993015873015873,
+          "std": 0.0037021916792668442,
+          "min": 0.9904761904761905,
+          "max": 1.0
+        },
+        "balanced_accuracy": {
+          "mean": 0.9925925925925926,
+          "std": 0.00409924881873677,
+          "min": 0.9888888888888889,
+          "max": 1.0
+        },
+        "macro_f1": {
+          "mean": 0.9928643828971294,
+          "std": 0.003783480399257731,
+          "min": 0.9902497910669514,
+          "max": 1.0
+        }
+      },
+      "detailed_runs": [
+        {
+          "seed": 20260811,
+          "train_samples": 735,
+          "test_samples": 315,
+          "accuracy": 1.0,
+          "balanced_accuracy": 1.0,
+          "macro_f1": 1.0
+        },
+        {
+          "seed": 20260812,
+          "train_samples": 735,
+          "test_samples": 315,
+          "accuracy": 0.9904761904761905,
+          "balanced_accuracy": 0.9888888888888889,
+          "macro_f1": 0.9902497910669514
+        },
+        {
+          "seed": 20260813,
+          "train_samples": 735,
+          "test_samples": 315,
+          "accuracy": 0.9904761904761905,
+          "balanced_accuracy": 0.9888888888888889,
+          "macro_f1": 0.9902497910669514
+        },
+        {
+          "seed": 20260814,
+          "train_samples": 735,
+          "test_samples": 315,
+          "accuracy": 0.9904761904761905,
+          "balanced_accuracy": 0.9916666666666667,
+          "macro_f1": 0.9903038138332256
+        },
+        {
+          "seed": 20260815,
+          "train_samples": 735,
+          "test_samples": 315,
+          "accuracy": 0.9936507936507937,
+          "balanced_accuracy": 0.9935185185185185,
+          "macro_f1": 0.9935185185185185
+        }
+      ]
+    }
+  ],
+  "claim_boundary": "Internal source/provenance signal probe; not blind external validation."
+}

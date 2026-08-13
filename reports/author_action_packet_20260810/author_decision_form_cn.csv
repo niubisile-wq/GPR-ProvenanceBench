@@ -1,0 +1,8 @@
+decision_id,decision_cn,recommended_choice,author_fill_in,deadline_reason,status
+D001,正式论文图件用 Python 还是 R 渲染,Python,,"Formal figure rendering, visual QA, panel-level Source Data mapping.",needs_author_confirmation
+D002,真实外部盲测数据走哪条路线,Track B third-party blind asset,,"Blind external validation, final main claim strength, Reporting Summary blinding/external validation fields.",external_input_required
+D003,代码采用什么许可,MIT or BSD-3-Clause after institutional approval,,"Code Availability final wording, public code release, code DOI.",needs_author_confirmation
+D004,衍生数据/Source Data 采用什么许可,CC BY 4.0 for derived non-raw artifacts after third-party rights review,,"Data Availability final wording, source-data deposit, release package.",rights_review_required
+D005,代码和数据放在哪个可生成 DOI 的仓库,GitHub+Zenodo for code and Zenodo/OSF for derived data if rights permit,,"Repository identifiers, Data Availability, Code Availability, FAIR metadata.",needs_author_confirmation
+D006,外部验证未完成时论文按什么定位推进,Benchmark/resource framing unless real blind external validation is acquired,,"Title, abstract, cover letter, Table 3 placement, claim strength.",needs_author_confirmation
+D007,最终参考文献编号何时转换,Convert after final prose lock,,Final bibliography and citation numbering.,defer_until_prose_lock

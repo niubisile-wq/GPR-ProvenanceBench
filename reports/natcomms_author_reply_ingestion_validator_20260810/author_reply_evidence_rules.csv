@@ -1,0 +1,6 @@
+rule_id,rule,applies_to,current_result
+ARIV-001,Blank author_reply cells cannot close any finalization gate.,all reply sheets,FAIL_CLOSURE
+ARIV-002,Recommended defaults are not author decisions.,author_finalization_reply_form_cn.csv,ENFORCED
+ARIV-003,Python remains a recommendation only until the author/backend field is explicitly filled.,figure_backend_decision_ticket.csv,ENFORCED
+ARIV-004,"Track A cannot activate without named external holder, strict intake and locked evaluation evidence.",track_branch_and_external_validation_reply.csv,ENFORCED
+ARIV-005,"Even filled replies require artifact review before final manuscript, SI or portal upload readiness.",all gates,ENFORCED

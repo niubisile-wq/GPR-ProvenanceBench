@@ -1,0 +1,5 @@
+qa_check,status,evidence
+staged_candidates_have_no_local_paths_or_placeholders,pass,staged_rows=37
+release_does_not_include_raw_third_party_data,pass,lock manifest states derived artifact candidates only
+doi_not_claimed,pass,public_release_status remains blocked_pending_licence_rights_and_identifier
+availability_not_final,pass,availability rows remain draft_only/restricted/open-gate

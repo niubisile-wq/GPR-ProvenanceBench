@@ -1,0 +1,8 @@
+check,result,detail
+Track B title selected,PASS,Environment transfer exposes fragile generalization in ground-penetrating-radar recognition
+Abstract length,PASS,126 words; Nature Communications Article limit is 150.
+Main body budget,PASS,1931 words excluding title and abstract; Methods included in the Nature Communications body budget.
+Display item cap,PASS,6 planned display items; cap is 10.
+Open-gate boundary present,PASS,Boundary paragraph states unresolved gates.
+Forbidden finalization claims absent,PASS,Scans for finalization/deployment overclaims.
+Cover letter linked,PASS,"Cover-letter prelock exists and is referenced, but not promoted to final."

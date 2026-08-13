@@ -1,0 +1,19 @@
+{
+  "package": "results_figure_source_alignment_packet_20260811",
+  "results_paragraphs_aligned": 5,
+  "figure_links_ready": 5,
+  "source_data_links_ready": 5,
+  "claim_guardrail_links_ready": 5,
+  "risk_rows": 5,
+  "figure_review_packet_ready": true,
+  "source_data_review_packet_ready": true,
+  "results_text_final": true,
+  "final_figures_ready": false,
+  "source_data_panel_map_locked": false,
+  "submission_ready": false,
+  "qa_rows": 5,
+  "qa_pass": true,
+  "desktop_report": "C:\\Users\\刘子轩\\Desktop\\NatComms_20260811_results_figure_source_alignment_packet.md",
+  "status": "results_figure_source_alignment_ready_not_final",
+  "desktop_plan_updated": true
+}

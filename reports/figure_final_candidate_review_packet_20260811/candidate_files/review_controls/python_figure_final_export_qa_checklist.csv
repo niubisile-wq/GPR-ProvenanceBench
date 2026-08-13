@@ -1,0 +1,7 @@
+figure_id,candidate_generation_allowed_now,required_exports,editable_text_required,min_raster_dpi,preview_png_is_final,final_export_qa_allowed_now,blocking_reason
+Figure 1,yes,PDF; SVG; TIFF_600dpi,yes,600,no,yes,Final candidate exports exist and are ready for export QA.
+Figure 2,yes,PDF; SVG; TIFF_600dpi,yes,600,no,yes,Final candidate exports exist and are ready for export QA.
+Figure 3,yes,PDF; SVG; TIFF_600dpi,yes,600,no,yes,Final candidate exports exist and are ready for export QA.
+Figure 4,yes,PDF; SVG; TIFF_600dpi,yes,600,no,yes,Final candidate exports exist and are ready for export QA.
+Figure 5,yes,PDF; SVG; TIFF_600dpi,yes,600,no,yes,Final candidate exports exist and are ready for export QA.
+Figure 6,yes,PDF; SVG; TIFF_600dpi,yes,600,no,yes,Final candidate exports exist and are ready for export QA.

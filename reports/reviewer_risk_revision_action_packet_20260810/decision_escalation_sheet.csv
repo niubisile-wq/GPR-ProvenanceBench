@@ -1,0 +1,4 @@
+trigger,decision_needed,recommended_default
+No real blind asset by Day 7,Hold submission for external validation or downgrade to benchmark/resource framing.,Downgrade framing rather than imply external validation.
+Figure backend still undecided after Day 1,Select Python or R.,Python because the current evidence pipeline is Python-based.
+Repository rights remain unresolved by Day 10,Choose restricted-release language or delay repository DOI claims.,Use explicit restriction language until rights are cleared.

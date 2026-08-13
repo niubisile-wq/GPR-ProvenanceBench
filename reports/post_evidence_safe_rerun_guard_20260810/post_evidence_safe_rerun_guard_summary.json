@@ -1,0 +1,16 @@
+{
+  "package": "post_evidence_safe_rerun_guard_20260810",
+  "stage_rows": 4,
+  "branch_rerun_rows": 7,
+  "branch_commands_safe_to_run_now": 0,
+  "global_rerun_rows": 7,
+  "manual_rerun_rows_imported": 5,
+  "post_send_rows_imported": 6,
+  "qa_rows": 5,
+  "qa_pass": true,
+  "commands_executed": false,
+  "gate_closure_allowed": false,
+  "submission_ready": false,
+  "status": "post_evidence_safe_rerun_guard_ready_waiting_manual_evidence",
+  "desktop_plan_updated": true
+}

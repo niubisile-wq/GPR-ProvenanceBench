@@ -1,0 +1,5 @@
+cramers_v,mean_source_purity,mutual_information_nats,normalized_mutual_information,permutation_p_value_mi,pure_source_group_fraction,reason,samples,singleton_source_group_fraction,source_classes,source_entropy_bits,source_field,source_groups,status,target_classes,target_entropy_bits,target_field,task_id
+0.8723903361072113,0.9796311588219103,0.8774319272198344,0.2513641709170611,0.000999000999000999,0.9465317919075145,,2524,0.6950867052023122,692,8.510972891748892,source_group,692.0,complete,3,1.561001053458919,label,mojahid_label_vs_source_group
+0.4264900677512626,0.5749085823675734,0.09080624810810606,0.10790345538961162,0.000999000999000999,0.0,,2524,0.0,2,0.8672015162228304,is_augmented,2.0,complete,3,1.561001053458919,label,mojahid_label_vs_processing_role
+0.5477225575051661,0.25,0.20218548540814554,0.1699187633710002,0.000999000999000999,0.0,,1050,0.0,2,0.9852281360342515,source_group,2.0,complete,6,2.4480830692877875,label,ressam_label_vs_environment
+,,,,,,fewer than two classes in target or source,0,,0,,project_id,,not_viable,0,,label,four_tu_label_vs_project

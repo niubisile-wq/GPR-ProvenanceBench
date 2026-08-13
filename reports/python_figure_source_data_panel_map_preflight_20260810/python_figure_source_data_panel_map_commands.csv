@@ -1,0 +1,5 @@
+order,command,run_now,purpose
+1,py scripts\build_python_figure_final_candidate_preflight.py,yes,Refresh final-candidate gate state.
+2,py scripts\build_python_figure_final_export_qa_template.py,yes,Refresh final export and Source Data lock queues.
+3,Build final Source_Data_Figure_N.csv files after final candidates exist,no,Create final panel-level source data files.
+4,py scripts\build_python_figure_source_data_panel_map_preflight.py,yes,Refresh this preflight.

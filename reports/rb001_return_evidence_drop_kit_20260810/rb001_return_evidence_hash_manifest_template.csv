@@ -1,0 +1,8 @@
+route_id,folder,expected_file_name,source_person_or_system,received_date,sha256,evidence_meaning,allowed_to_writeback
+RTE-001,01_author_sendout,FILL_AFTER_DROP,FILL_AFTER_DROP,YYYY-MM-DD,FILL_AFTER_HASH,author sendout proof,no_until_scanner_and_manual_review_pass
+RTE-002,02_author_replies,FILL_AFTER_DROP,FILL_AFTER_DROP,YYYY-MM-DD,FILL_AFTER_HASH,author replies and backend/scope decision,no_until_scanner_and_manual_review_pass
+RTE-003,03_figure_review,FILL_AFTER_DROP,FILL_AFTER_DROP,YYYY-MM-DD,FILL_AFTER_HASH,final figure review decisions,no_until_scanner_and_manual_review_pass
+RTE-004,04_repository_rights_doi,FILL_AFTER_DROP,FILL_AFTER_DROP,YYYY-MM-DD,FILL_AFTER_HASH,"repository DOI, licence and rights",no_until_scanner_and_manual_review_pass
+RTE-005,05_reporting_summary,FILL_AFTER_DROP,FILL_AFTER_DROP,YYYY-MM-DD,FILL_AFTER_HASH,Reporting Summary answers,no_until_scanner_and_manual_review_pass
+RTE-006,06_references,FILL_AFTER_DROP,FILL_AFTER_DROP,YYYY-MM-DD,FILL_AFTER_HASH,final reference verification,no_until_scanner_and_manual_review_pass
+RTE-007,07_submission_portal,FILL_AFTER_DROP,FILL_AFTER_DROP,YYYY-MM-DD,FILL_AFTER_HASH,portal upload and submission proof,no_until_scanner_and_manual_review_pass

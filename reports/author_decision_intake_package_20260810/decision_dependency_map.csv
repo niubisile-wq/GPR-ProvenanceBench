@@ -1,0 +1,6 @@
+blocked_output,required_decision_or_input,next_script_after_decision,current_status
+Rendered main figures,D001 Figure rendering backend,future build_rendered_figures_<backend>.py,blocked_by_backend_choice
+Blind external validation result,D002 External blind asset route plus real data holder input,validate_external_blind_intake.py --strict-sha; evaluate_external_blind_submission.py --main-claim,blocked_by_missing_external_asset
+Public code release DOI,D003 Code licence and D005 repository route,release archive creation and DOI registration,blocked_by_licence_and_repository
+Public source-data DOI,D004 Derived data licence and D005 repository route,repository deposit using repository_metadata_package_20260810,blocked_by_rights_and_repository
+Final Reporting Summary,D001-D005 plus final figure/source-data mapping,future build_reporting_summary_final.py,blocked_by_multiple_open_gates

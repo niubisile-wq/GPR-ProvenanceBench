@@ -1,0 +1,16 @@
+{
+  "package": "manual_execution_brief_20260810",
+  "brief_action_rows": 5,
+  "hard_no_go_rows": 4,
+  "ready_for_downstream_validator_rows": 0,
+  "ready_for_writeback_rows": 0,
+  "allowed_commands_now": 0,
+  "portal_upload_allowed": false,
+  "submission_ready": false,
+  "qa_rows": 3,
+  "qa_pass": true,
+  "desktop_brief": "C:\\Users\\刘子轩\\Desktop\\NatComms_19.86_manual_execution_brief_20260810.md",
+  "desktop_brief_exists": true,
+  "status": "manual_execution_brief_ready_human_actions_only",
+  "desktop_plan_updated": true
+}

@@ -1,0 +1,3 @@
+ticket_id,fill_column,allowed_choices,recommended_choice,safe_example,validation_command,boundary
+FIG-BACKEND-001,current_choice,Python; R,Python,Python,py scripts\build_figure_backend_decision_validator.py,This enables formal rendering only; it does not render figures.
+FIG-BACKEND-002,current_choice,Figure 1-Figure 6; reduced display set with SI relocation,Figure 1-Figure 6 unless journal-length reduction is required.,Figure 1-Figure 6,py scripts\build_figure_backend_decision_validator.py,This enables formal rendering only; it does not render figures.

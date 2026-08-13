@@ -1,0 +1,6 @@
+check,result,detail
+gate_rows_indexed,PASS,gate_rows=5
+candidate_rows_indexed,PASS,candidate_rows=6
+final_candidate_generation_enabled,PASS,final_candidate_allowed=True
+approval_block_cleared,PASS,approved_rows=6; blank_rows=0
+figure6_boundary_preserved,PASS,Open-gate placeholder only; no completed blind external validation.

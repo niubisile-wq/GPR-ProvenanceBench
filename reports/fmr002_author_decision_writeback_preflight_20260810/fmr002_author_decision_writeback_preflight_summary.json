@@ -1,0 +1,21 @@
+{
+  "package": "fmr002_author_decision_writeback_preflight_20260810",
+  "fmr002_rows": 1,
+  "decision_rows": 4,
+  "resolved_decision_rows": 0,
+  "missing_decision_rows": 4,
+  "backend_selected": false,
+  "scope_confirmed": false,
+  "manual_evidence_final_intake_allowed": false,
+  "fmr002_candidate_rows": 0,
+  "fmr002_writeback_allowed": false,
+  "real_fmr_template_modified": false,
+  "guarded_recheck_allowed": false,
+  "portal_upload_allowed": false,
+  "submission_ready": false,
+  "blocker_rows": 3,
+  "qa_rows": 4,
+  "qa_pass": true,
+  "status": "fmr002_author_decision_writeback_preflight_ready_blocked_waiting_author_decisions",
+  "desktop_plan_updated": true
+}

@@ -1,0 +1,6 @@
+check,result,detail
+all upstream summaries loaded,PASS,"rb001 bridge, preflight, dashboard, receipt and completion summaries loaded."
+bridge keeps rb002 entry blocked,PASS,rb002_entry_allowed=False
+bridge keeps transition blocked,PASS,transition_allowed=False
+writeback remains absent,PASS,writeback_allowed_rows=0
+submission remains false,PASS,RB-002 bridge cannot make submission ready.

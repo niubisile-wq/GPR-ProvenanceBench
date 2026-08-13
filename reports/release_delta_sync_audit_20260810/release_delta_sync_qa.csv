@@ -1,0 +1,5 @@
+check,result,detail
+Tracked Figure 4 source-data deltas are included through repository lock,PASS,"Figure 4 boundary artifacts must appear in source manifest, release audit, sanitized staging and repository lock."
+Tracked R4 manuscript-QA deltas are intentionally excluded from source-data release,PASS,"R4 sync audit is internal QA, not figure/table Source Data."
+R4 manuscript sync audit passed upstream,PASS,obsolete_marker_hits=0
+No public release asserted,PASS,"This audit does not create DOI, licence, rights clearance or public release."

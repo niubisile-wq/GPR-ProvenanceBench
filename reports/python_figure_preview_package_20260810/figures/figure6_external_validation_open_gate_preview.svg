@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="516.239063pt" height="232.632pt" viewBox="0 0 516.239063 232.632" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-08-11T12:00:44.578891</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.9, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 232.632 
+L 516.239063 232.632 
+L 516.239063 -0 
+L 0 -0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 201.579063 225.432 
+L 366.719347 225.432 
+L 366.719347 39.072 
+L 201.579063 39.072 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 201.579063 216.961091 
+L 366.719347 216.961091 
+L 366.719347 197.02954 
+L 201.579063 197.02954 
+z
+" clip-path="url(#pa386d7cf99)" style="fill: #e45756"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 201.579063 192.046652 
+L 366.719347 192.046652 
+L 366.719347 172.115102 
+L 201.579063 172.115102 
+z
+" clip-path="url(#pa386d7cf99)" style="fill: #f58518"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 201.579063 167.132214 
+L 366.719347 167.132214 
+L 366.719347 147.200663 
+L 201.579063 147.200663 
+z
+" clip-path="url(#pa386d7cf99)" style="fill: #e45756"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 201.579063 142.217775 
+L 366.719347 142.217775 
+L 366.719347 122.286225 
+L 201.579063 122.286225 
+z
+" clip-path="url(#pa386d7cf99)" style="fill: #9d9d9d"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 201.579063 117.303337 
+L 366.719347 117.303337 
+L 366.719347 97.371786 
+L 201.579063 97.371786 
+z
+" clip-path="url(#pa386d7cf99)" style="fill: #54a24b"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 201.579063 92.388898 
+L 366.719347 92.388898 
+L 366.719347 72.457348 
+L 201.579063 72.457348 
+z
+" clip-path="url(#pa386d7cf99)" style="fill: #4c78a8"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 201.579063 67.47446 
+L 366.719347 67.47446 
+L 366.719347 47.542909 
+L 201.579063 47.542909 
+z
+" clip-path="url(#pa386d7cf99)" style="fill: #e45756"/>
+   </g>
+   <g id="matplotlib.axis_1"/>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="m23eafab425" d="M 0 0 
+L -3.5 0 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m23eafab425" x="201.579063" y="206.995316" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font-size: 7px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; text-anchor: end" x="194.579063" y="209.654769" transform="rotate(-0 194.579063 209.654769)">Track A: TIGPR restoration</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_2">
+      <g>
+       <use xlink:href="#m23eafab425" x="201.579063" y="182.080877" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font-size: 7px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; text-anchor: end" x="194.579063" y="184.74033" transform="rotate(-0 194.579063 184.74033)">Track B: New third-party blind GPR image set</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_3">
+      <g>
+       <use xlink:href="#m23eafab425" x="201.579063" y="157.166439" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font-size: 7px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; text-anchor: end" x="194.579063" y="159.825892" transform="rotate(-0 194.579063 159.825892)">Track C: 4TU-like raw-trace external asset</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#m23eafab425" x="201.579063" y="132.252" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="font-size: 7px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; text-anchor: end" x="194.579063" y="134.911453" transform="rotate(-0 194.579063 134.911453)">Track D: Current Res-SAM as external-looking heldout</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_5">
+      <g>
+       <use xlink:href="#m23eafab425" x="201.579063" y="107.337561" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font-size: 7px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; text-anchor: end" x="194.579063" y="109.997015" transform="rotate(-0 194.579063 109.997015)">Blind intake template validation</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#m23eafab425" x="201.579063" y="82.423123" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <text style="font-size: 7px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; text-anchor: end" x="194.579063" y="85.082576" transform="rotate(-0 194.579063 85.082576)">Locked evaluation dry run</text>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_7">
+      <g>
+       <use xlink:href="#m23eafab425" x="201.579063" y="57.508684" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <text style="font-size: 7px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; text-anchor: end" x="194.579063" y="60.168138" transform="rotate(-0 194.579063 60.168138)">External validation readiness gate</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_10">
+    <path d="M 201.579063 225.432 
+L 201.579063 39.072 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 201.579063 225.432 
+L 366.719347 225.432 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_8">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; text-anchor: start" x="188.36784" y="35.488838" transform="rotate(-0 188.36784 35.488838)">A</text>
+   </g>
+   <g id="text_9">
+    <text style="font-weight: 700; font-size: 8.4px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; text-anchor: start" x="201.579063" y="33.072" transform="rotate(-0 201.579063 33.072)">External validation readiness</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="text_10">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; text-anchor: start" x="386.712926" y="61.4352" transform="rotate(-0 386.712926 61.4352)">Overall gate</text>
+   </g>
+   <g id="text_11">
+    <text style="font-weight: 700; font-size: 18px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; text-anchor: start; fill: #e45756" x="386.712926" y="98.7072" transform="rotate(-0 386.712926 98.7072)">NO-GO</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif" transform="translate(386.712926 130.74815)">No completed blind external</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif" transform="translate(386.712926 139.7064)">validation is available.</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; fill: #2f3a45" transform="translate(386.712926 171.74735)">Next step: acquire or restore</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; fill: #2f3a45" transform="translate(386.712926 180.7056)">a real external asset.</text>
+   </g>
+   <g id="text_14">
+    <text style="font-weight: 700; font-size: 7.5px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; text-anchor: start; fill: #e45756" x="386.712926" y="214.2504" transform="rotate(-0 386.712926 214.2504)">Open-gate placeholder only.</text>
+   </g>
+   <g id="text_15">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; text-anchor: start" x="376.926835" y="35.488838" transform="rotate(-0 376.926835 35.488838)">B</text>
+   </g>
+  </g>
+  <g id="text_16">
+   <text style="font-weight: 700; font-size: 8.4px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; text-anchor: start" x="8.567063" y="13.619438" transform="rotate(-0 8.567063 13.619438)">Figure 6 preview | Blind external validation gate remains open</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pa386d7cf99">
+   <rect x="201.579063" y="39.072" width="165.140285" height="186.36"/>
+  </clipPath>
+ </defs>
+</svg>

@@ -1,0 +1,5 @@
+check,result,detail
+worksheet_covers_all_validator_evidence_types,PASS,worksheet_rows=7; validator_rows=7
+dispatch_queue_imported,PASS,dispatch_rows=6
+current_validator_waiting_state_preserved,PASS,evidence_rows_passed=0; submission_ready=False
+worksheet_does_not_claim_written_back,PASS,Worksheet names target files and fields only; it does not write manual evidence into target files.

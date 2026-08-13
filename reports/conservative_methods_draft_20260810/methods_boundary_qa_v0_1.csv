@@ -1,0 +1,6 @@
+check,result,detail
+No completed blind external validation claim,PASS,Methods states protocol was defined but not completed.
+No TIGPR executable-core claim,PASS,Methods states TIGPR remained supporting-only because local executable sample index was empty.
+No 4TU main confirmation overclaim,PASS,Methods frames 4TU as stress-test and feasibility evidence.
+No repository or Reporting Summary completion claim,PASS,Methods states these remain future scientific/submission gates.
+Methods skeleton trace source present,PASS,<REPO_ROOT>\reports\methods_section_skeleton_20260810\methods_section_skeleton.md

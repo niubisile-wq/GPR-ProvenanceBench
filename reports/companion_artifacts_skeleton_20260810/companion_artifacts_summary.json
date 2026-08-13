@@ -1,0 +1,14 @@
+{
+  "run_id": "20260810_companion_artifacts_skeleton",
+  "data_inventory_rows": 5,
+  "reporting_checklist_rows": 8,
+  "blocking_items": [
+    "missing data repository DOI/accession",
+    "missing code repository release DOI",
+    "missing reporting summary final answers",
+    "missing final figures/source-data panel mapping",
+    "blind external validation remains NO-GO"
+  ],
+  "submission_ready": false,
+  "boundary": "Companion artifact skeleton only; no persistent identifiers have been created."
+}

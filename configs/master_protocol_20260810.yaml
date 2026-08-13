@@ -1,0 +1,142 @@
+protocol_id: gpr_provenancebench_master_20260810
+created_date: 2026-08-10
+target_window:
+  start: 2026-08-10
+  end: 2028-02-09
+target_journal:
+  primary: Nature Communications
+  status: conditional
+  downgrade_if_core_gates_fail: true
+
+assets:
+  required_core_asset_count: 3
+  candidates:
+    - id: mojahid
+      role: exploratory_and_baseline_development
+      current_status: available_but_exploratory
+      current_manifest: <LOCAL_DATA_ROOT>/manifest/mojahid_manifest_v1.yaml
+      current_sample_index: <LOCAL_DATA_ROOT>/manifest/mojahid_sample_index_v1.csv
+      publication_claim_level: exploratory_until_confirmed_externally
+    - id: four_tu
+      role: raw_trace_counterfactual_and_project_level_tests
+      current_status: partially_packaged
+      current_manifest: <LOCAL_DATA_ROOT>/manifest/4tu_project_index_v1.csv
+      current_package: <LOCAL_DATA_ROOT>/reports/4tu_baseline_package_v1
+      publication_claim_level: confirmatory_only_after_frozen_raw_trace_counterfactual
+    - id: tigpr
+      role: external_support_or_third_core_asset_if_res_sam_fails
+      current_status: available_with_duplicate_risk_audited
+      current_manifest: <LOCAL_DATA_ROOT>/manifest/tigpr_manifest_v1.yaml
+      current_sample_index: <LOCAL_DATA_ROOT>/manifest/tigpr_sample_index_v1.csv
+      publication_claim_level: support_until_full_protocol_matrix
+    - id: p4
+      role: split_protocol_comparison
+      current_status: exploratory_due_test_reuse_risk
+      current_package: <LOCAL_DATA_ROOT>/reports/4tu_split_packages_20260810/p4_graph_opt_v2
+      publication_claim_level: benchmark_support_only
+    - id: res_sam
+      role: preferred_third_independent_asset
+      current_status: local_data_asset_available_full_model_not_reproduced
+      current_manifest: <REPO_ROOT>/data_manifests/res_sam_unified_samples_20260810.csv
+      go_no_go_deadline: 2026-10-10
+      publication_claim_level: data_asset_for_protocol_work_only_until_sam_checkpoint_and_runtime_are_reproducible
+
+split_protocols:
+  - random_stratified
+  - group_kfold
+  - stratified_group_kfold
+  - leave_one_project_out
+  - p2
+  - datasail
+  - p4
+  - l_prov
+
+model_matrix:
+  - hog_rbf_svm
+  - lightweight_cnn
+  - resnet18
+  - efficientnet_b0
+  - deit_tiny
+
+metrics:
+  discrimination:
+    - auroc
+    - auprc
+    - balanced_accuracy
+    - f1
+  calibration:
+    - ece
+    - brier_score
+  ranking:
+    - kendall_tau
+    - spearman_rho
+    - top1_model_flip_rate
+  causal:
+    - ace_pred
+    - source_predictability
+    - target_source_mutual_information
+
+leakage_doses:
+  - 0
+  - 5
+  - 10
+  - 20
+  - 40
+
+statistical_plan:
+  project_level_test: exact_sign_flip
+  confidence_interval: cluster_bootstrap_by_project_or_source
+  significance_test: permutation_test
+  reporting_rule: report_effect_size_and_uncertainty_before_p_value
+
+blind_external_evaluation:
+  required: true
+  label_holder: advisor_or_third_party
+  allowed_submission_count_for_main_claim: 1
+  post_hoc_rule: any_second_submission_is_excluded_from_main_claims
+
+gates:
+  G0:
+    due: 2026-10-10
+    criteria:
+      - third_core_asset_selected
+      - three_assets_have_unified_manifest
+      - one_model_runs_end_to_end
+  G1:
+    due: 2027-01-10
+    criteria:
+      - at_least_two_assets_show_source_predictability
+      - at_least_two_assets_show_split_dependent_performance_shift
+      - at_least_three_models_have_same_direction_result
+  G2:
+    due: 2027-04-10
+    criteria:
+      - raw_trace_and_processed_image_results_are_directionally_consistent
+      - leakage_dose_has_monotonic_or_mechanistically_explainable_trend
+      - project_level_sign_flip_supports_main_direction
+  G3:
+    due: 2027-07-10
+    criteria:
+      - third_asset_protocol_matrix_complete
+      - blind_external_evaluation_complete
+      - no_test_reuse_or_post_hoc_tuning_in_main_claims
+  G4:
+    due: 2027-10-10
+    criteria:
+      - repair_has_external_gain
+      - source_predictability_decreases
+      - target_performance_loss_is_acceptable
+  G5:
+    due: 2027-12-10
+    criteria:
+      - every_main_claim_maps_to_frozen_result
+      - every_main_figure_has_reproduce_script
+      - methods_and_statistics_are_auditable
+  G6:
+    due: 2028-02-09
+    criteria:
+      - three_asset_evidence_complete
+      - blind_evaluation_complete
+      - raw_trace_counterfactual_complete
+      - external_repair_gain_complete
+      - benchmark_and_code_reproducible

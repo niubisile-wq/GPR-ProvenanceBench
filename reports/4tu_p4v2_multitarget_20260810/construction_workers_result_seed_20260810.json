@@ -1,0 +1,70 @@
+{
+  "target_field": "Construction workers",
+  "task_manifest": "4tu_p4v2_task_labels_20260810.csv",
+  "seed": 20260810,
+  "records": 93,
+  "split_counts": {
+    "train": 54,
+    "val": 15,
+    "test": 24
+  },
+  "label_counts": {
+    "None": 24,
+    "New installation of utilities": 51,
+    "Replacement and new installation of utilities": 10,
+    "Replacement of utilities": 8
+  },
+  "split_label_counts": {
+    "train": {
+      "None": 24,
+      "New installation of utilities": 30
+    },
+    "val": {
+      "New installation of utilities": 7,
+      "Replacement of utilities": 8
+    },
+    "test": {
+      "New installation of utilities": 14,
+      "Replacement and new installation of utilities": 10
+    }
+  },
+  "viability": {
+    "is_viable_smoke_target": true,
+    "reason": "ok",
+    "n_classes_by_split": {
+      "train": 2,
+      "val": 2,
+      "test": 2
+    }
+  },
+  "rows": [
+    {
+      "model": "dummy_majority",
+      "val_accuracy": 0.4666666666666667,
+      "val_balanced_accuracy": 0.5,
+      "val_macro_f1": 0.3181818181818182,
+      "test_accuracy": 0.5833333333333334,
+      "test_balanced_accuracy": 0.5,
+      "test_macro_f1": 0.3684210526315789
+    },
+    {
+      "model": "extra_trees",
+      "val_accuracy": 0.13333333333333333,
+      "val_balanced_accuracy": 0.14285714285714285,
+      "val_macro_f1": 0.14814814814814814,
+      "test_accuracy": 0.0,
+      "test_balanced_accuracy": 0.0,
+      "test_macro_f1": 0.0
+    },
+    {
+      "model": "rbf_svm",
+      "val_accuracy": 0.26666666666666666,
+      "val_balanced_accuracy": 0.2857142857142857,
+      "val_macro_f1": 0.2222222222222222,
+      "test_accuracy": 0.125,
+      "test_balanced_accuracy": 0.10714285714285714,
+      "test_macro_f1": 0.10526315789473684
+    }
+  ],
+  "selected_model": "dummy_majority"
+}

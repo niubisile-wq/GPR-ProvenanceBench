@@ -1,0 +1,5 @@
+qa_check,status,evidence
+all_inventory_markers_mapped,pass,inventory=5; sentence_rows=5
+all_candidate_ids_have_public_metadata,pass,candidate IDs checked against public metadata verification table
+no_replacement_allowed_now,pass,final prose and citation order remain unlocked
+internal_result_guardrails_present,pass,internal result guardrail exists

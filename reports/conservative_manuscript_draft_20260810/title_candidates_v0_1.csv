@@ -1,0 +1,5 @@
+rank,title,type,defensibility,reason
+1,Environment transfer exposes fragile generalization in ground-penetrating-radar recognition,finding-led,highest,States the strongest supported result without claiming blind external validation.
+2,GPR-ProvenanceBench audits environment and provenance sensitivity in radar recognition,resource/workflow-led,high,Emphasizes the auditable workflow and avoids overclaiming external generalization.
+3,Provenance-aware evaluation reveals environment-transfer fragility in GPR recognition,balanced,high,Connects the evaluation contribution to the main Res-SAM result.
+4,A reproducible audit workflow for environment-sensitive ground-penetrating-radar recognition,methods/resource-leaning,medium,Useful if the paper is framed as benchmark/resource rather than finding-led.

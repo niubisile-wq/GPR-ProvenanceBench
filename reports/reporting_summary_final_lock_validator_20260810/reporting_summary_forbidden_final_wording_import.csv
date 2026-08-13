@@ -1,0 +1,5 @@
+forbidden_claim,reason,allowed_replacement
+The study was externally blinded.,Only protocol templates and dry runs exist.,"A blind external validation protocol has been prepared, but no real held-label asset has been evaluated."
+Data and code are publicly available under DOI.,Repository DOI and code DOI do not exist.,Repository metadata and availability wording are prepared for author review; identifiers remain unresolved.
+All source data for final figures are available.,Final rendered figures and panel-level source-data mapping are not complete.,Source-data skeletons and mapping plans exist; final Source Data remain pending figure rendering.
+Final Reporting Summary is ready.,"High-risk blinding, data, code and external validation fields remain blocked.","Reporting Summary draft and finalization prelock are ready, but final lock is not ready."

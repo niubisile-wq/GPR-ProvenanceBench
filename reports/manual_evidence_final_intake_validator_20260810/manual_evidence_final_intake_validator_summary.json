@@ -1,0 +1,22 @@
+{
+  "package": "manual_evidence_final_intake_validator_20260810",
+  "gate_rows": 5,
+  "intake_status_rows": 7,
+  "safe_edit_rows": 5,
+  "safe_rerun_rows": 0,
+  "blocker_rows": 4,
+  "qa_rows": 5,
+  "qa_pass": true,
+  "author_reply_fields_audited": 12,
+  "blank_author_reply_fields": 12,
+  "evidence_rows": 7,
+  "evidence_rows_passed": 0,
+  "evidence_rows_missing": 7,
+  "branch_commands_safe_to_run_now": 0,
+  "open_evidence_requirements": 16,
+  "manual_evidence_final_intake_allowed": false,
+  "gate_closure_allowed": false,
+  "submission_ready": false,
+  "status": "manual_evidence_final_intake_validator_ready_blocked",
+  "desktop_plan_updated": true
+}

@@ -1,0 +1,5 @@
+remaining_action,severity,closure_evidence
+Replace [P#] markers only after final prose and figure/table calls are locked.,high,Final manuscript file with stable citation order and no candidate markers.
+Confirm support strength against the final sentence-level claims.,high,Sentence-to-reference support audit with no metadata-only citations.
+Keep internal metrics cited to internal figures/source data rather than external literature.,high,Final claim-source map for balanced-accuracy deltas and gate statuses.
+Regenerate final RIS/ENW after final order is locked.,medium,Reference-manager export whose order matches final manuscript numbering.

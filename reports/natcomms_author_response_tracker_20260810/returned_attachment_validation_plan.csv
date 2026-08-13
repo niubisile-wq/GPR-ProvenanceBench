@@ -1,0 +1,6 @@
+step_id,trigger,command_or_review,acceptance_rule,current_status
+VAL-001,after_returned_files_are_filled,py scripts\build_natcomms_author_reply_ingestion_validator.py,author replies are non-blank where required; gate_closure_allowed may only change if evidence rules pass.,waiting_for_manual_replies
+VAL-002,after_VAL-001_passes,py scripts\build_natcomms_gate_closure_evidence_binder.py,all gate evidence requirements have concrete author and artifact evidence.,blocked_by_VAL-001
+VAL-003,after_VAL-002_passes,py scripts\build_natcomms_finalization_command_dashboard_v3.py,dashboard commands change only when upstream evidence is present.,blocked_by_VAL-002
+VAL-004,after_dashboard_refresh,& scripts\run_m0_m2_checks.ps1,full run prints M0-M2 checks completed and all required artifacts exist.,blocked_by_VAL-003
+VAL-005,after_full_checks_pass,manual gate review by corresponding author and analyst,no submission-ready flag is changed without explicit evidence and final artifact review.,blocked_by_VAL-004

@@ -1,0 +1,6 @@
+gate,required_evidence,current_state
+data_repository_identifier,"Repository DOI/accession resolves to a landing page with title, creators, file list, README, licence and version.",open
+code_repository_identifier,"Public repository URL, release tag, software licence and archive DOI.",open
+third_party_rights,Provider licence review and explicit exclusion or redistribution permission for raw GPR files.,open
+figure_source_data,Rendered figures and panel-level source-data mapping.,open
+blind_external_data,"Data-holder agreement, manifest, label-holdout route and aggregate sharability decision.",open

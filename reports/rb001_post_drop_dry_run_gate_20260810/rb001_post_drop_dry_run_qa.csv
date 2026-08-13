@@ -1,0 +1,6 @@
+check,result,detail
+diagnostic_scanner_available,PASS,scanner command is always diagnostic-only
+diagnostic_reconciliation_available,PASS,hash reconciliation can run without writeback
+writeback_refused_empty_state,PASS,candidate_files=0; writeback_allowed_rows=0
+guarded_runner_refused_empty_state,PASS,commands_allowed_now=0
+submission_guard_preserved,PASS,open_master_gates=8; submission_ready=False

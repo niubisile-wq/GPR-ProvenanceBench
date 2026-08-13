@@ -1,0 +1,14 @@
+{
+  "run_id": "20260810_reference_numbering_prelock",
+  "markers_found": 5,
+  "unique_candidate_ids_in_manuscript": 4,
+  "candidate_library_rows": 6,
+  "mapping_rows": 9,
+  "qa_rows": 5,
+  "qa_pass": true,
+  "reference_export": "reports\\narrative_citation_pass_20260810\\references_narrative_citation_pass.ris",
+  "browser": "reports\\narrative_citation_pass_20260810\\citation_pass_browser.html",
+  "submission_ready": false,
+  "status": "reference_numbering_prelock_ready_not_final_references",
+  "boundary": "This package prepares reference numbering; it does not finalize references or remove candidate markers."
+}

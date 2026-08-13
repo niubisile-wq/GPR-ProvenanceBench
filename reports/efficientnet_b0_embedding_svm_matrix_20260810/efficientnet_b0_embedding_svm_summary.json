@@ -1,0 +1,125 @@
+{
+  "run_id": "20260810_E00_efficientnet_b0_embedding_svm_model_matrix",
+  "model_family": "efficientnet_b0_embedding_linear_svm",
+  "weights": {
+    "requested": "auto",
+    "loaded": "imagenet_default",
+    "source": "https://download.pytorch.org/models/efficientnet_b0_rwightman-7f5810bc.pth",
+    "note": ""
+  },
+  "seeds": [
+    20260810,
+    20260811,
+    20260812,
+    20260813,
+    20260814
+  ],
+  "image_size": 128,
+  "embedding_dim": 1280,
+  "sample_counts": {
+    "mojahid": 2524,
+    "res_sam": 1050
+  },
+  "label_counts": {
+    "mojahid": {
+      "cavity": 632,
+      "intact": 975,
+      "utility": 917
+    },
+    "res_sam": {
+      "cavity": 250,
+      "crack": 250,
+      "loose": 100,
+      "manhole": 100,
+      "normal": 100,
+      "pipe": 250
+    }
+  },
+  "summary": {
+    "summaries": [
+      {
+        "dataset": "mojahid",
+        "protocol": "grouped_fold_0_test_fold_1_val",
+        "n_seeds": 5,
+        "balanced_accuracy_mean": 0.9591071141985923,
+        "balanced_accuracy_std": 0.0,
+        "balanced_accuracy_min": 0.9591071141985923,
+        "balanced_accuracy_max": 0.9591071141985923,
+        "macro_f1_mean": 0.9622047691338519,
+        "macro_f1_std": 0.0
+      },
+      {
+        "dataset": "mojahid",
+        "protocol": "random_stratified_80_20",
+        "n_seeds": 5,
+        "balanced_accuracy_mean": 0.993125497690715,
+        "balanced_accuracy_std": 0.0028414240999162454,
+        "balanced_accuracy_min": 0.9884403036576949,
+        "balanced_accuracy_max": 0.9973544973544973,
+        "macro_f1_mean": 0.9938998758022907,
+        "macro_f1_std": 0.0025024435821916166
+      },
+      {
+        "dataset": "res_sam",
+        "protocol": "transfer_real_world_to_synthetic",
+        "n_seeds": 5,
+        "balanced_accuracy_mean": 0.38888888888888884,
+        "balanced_accuracy_std": 0.0,
+        "balanced_accuracy_min": 0.38888888888888884,
+        "balanced_accuracy_max": 0.38888888888888884,
+        "macro_f1_mean": 0.2953497406985779,
+        "macro_f1_std": 0.0
+      },
+      {
+        "dataset": "res_sam",
+        "protocol": "transfer_synthetic_to_real_world",
+        "n_seeds": 5,
+        "balanced_accuracy_mean": 0.36000000000000004,
+        "balanced_accuracy_std": 0.0,
+        "balanced_accuracy_min": 0.36000000000000004,
+        "balanced_accuracy_max": 0.36000000000000004,
+        "macro_f1_mean": 0.22555116085096652,
+        "macro_f1_std": 2.7755575615628914e-17
+      },
+      {
+        "dataset": "res_sam",
+        "protocol": "within_real_world_random_80_20",
+        "n_seeds": 5,
+        "balanced_accuracy_mean": 0.9433333333333334,
+        "balanced_accuracy_std": 0.016158932858054472,
+        "balanced_accuracy_min": 0.9249999999999999,
+        "balanced_accuracy_max": 0.9666666666666667,
+        "macro_f1_mean": 0.9433444933380748,
+        "macro_f1_std": 0.016162835984363546
+      },
+      {
+        "dataset": "res_sam",
+        "protocol": "within_synthetic_random_80_20",
+        "n_seeds": 5,
+        "balanced_accuracy_mean": 0.9977777777777778,
+        "balanced_accuracy_std": 0.004444444444444429,
+        "balanced_accuracy_min": 0.9888888888888889,
+        "balanced_accuracy_max": 1.0,
+        "macro_f1_mean": 0.9977771603223118,
+        "macro_f1_std": 0.004445679355376475
+      }
+    ],
+    "contrasts": [
+      {
+        "dataset": "mojahid",
+        "contrast": "random_minus_grouped_balanced_accuracy",
+        "delta_mean": 0.03401838349212272
+      },
+      {
+        "dataset": "res_sam",
+        "contrast": "within_minus_transfer_synthetic_to_real_world",
+        "delta_mean": 0.5833333333333333
+      },
+      {
+        "dataset": "res_sam",
+        "contrast": "within_minus_transfer_real_world_to_synthetic",
+        "delta_mean": 0.6088888888888889
+      }
+    ]
+  }
+}

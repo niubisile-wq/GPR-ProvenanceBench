@@ -1,0 +1,6 @@
+evidence_item,where_to_record,required_fields
+send screenshot or mail header,reports/natcomms_author_response_tracker_20260810/author_response_send_log_template.csv,send_status=sent; sent_datetime_local; sender
+returned reply files,reports/natcomms_author_response_tracker_20260810/author_response_return_tracker.csv,return_status=returned; returned_file_path; returned_datetime_local
+backend/scope choice,reports/natcomms_author_finalization_reply_packet_20260810/figure_backend_decision_ticket.csv,current_choice for backend and scope rows
+external blind asset,external_blind/<dated_asset_folder> and data_manifests/external_blind_manifest_<asset>_YYYYMMDD.csv,strict SHA manifest; labels outside analyst workflow
+rights/licence and Reporting Summary replies,rights and reporting-summary reply sheets listed in the master packet,specific answers; no yes/ok placeholders

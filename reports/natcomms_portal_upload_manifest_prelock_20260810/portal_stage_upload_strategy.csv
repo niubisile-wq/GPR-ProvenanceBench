@@ -1,0 +1,4 @@
+stage,allowed_package_logic,current_project_action,status
+Initial submission,"Nature Communications allows first submissions to combine manuscript text and figures into one Word/LaTeX/PDF file up to the stated size limit, while Supplementary Information is supplied separately.",Keep text/SI/admin/cover-letter preassemblies separate until author inputs and figures are final; do not generate final PDF yet.,planned_not_ready
+Revision or final production,"Text, figures and other files may need separate upload according to revision-stage instructions.",Use the same manifest but switch figure rows from embedded to individual file uploads after rendering and QA.,future
+Submission portal metadata,"Portal metadata must align with the manuscript title page, author list, declarations, reviewer suggestions and cover letter.",Use admin declarations prelock as the author input source; do not infer missing author metadata.,author_input_required

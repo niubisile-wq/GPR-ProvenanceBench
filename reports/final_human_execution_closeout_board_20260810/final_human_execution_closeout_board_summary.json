@@ -1,0 +1,23 @@
+{
+  "package": "final_human_execution_closeout_board_20260810",
+  "action_rows": 7,
+  "blocked_action_rows": 6,
+  "closed_action_rows": 1,
+  "evidence_rows": 7,
+  "no_go_rules": 6,
+  "dependency_rows": 4,
+  "qa_rows": 5,
+  "qa_pass": false,
+  "email_sent": false,
+  "blank_author_reply_fields": 12,
+  "approved_figure_rows": 6,
+  "final_figures_ready": true,
+  "final_availability_ready": false,
+  "final_reporting_summary_ready": false,
+  "final_references_ready": false,
+  "open_master_gates": 8,
+  "portal_upload_ready_rows": 0,
+  "submission_ready": false,
+  "status": "final_human_execution_closeout_board_ready_all_actions_blocked",
+  "desktop_plan_updated": true
+}

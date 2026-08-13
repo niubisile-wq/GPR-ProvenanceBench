@@ -1,0 +1,18 @@
+{
+  "package": "fmr_manual_evidence_inbox_integrity_audit_20260810",
+  "fmr_rows": 6,
+  "primary_inbox_present_rows": 6,
+  "candidate_evidence_files": 0,
+  "misfiled_or_unexpected_files": 0,
+  "tracker_entry_allowed_now": false,
+  "final_return_candidate_files": 0,
+  "figure_return_candidate_files": 0,
+  "manual_evidence_writeback_allowed": false,
+  "portal_upload_allowed": false,
+  "submission_ready": false,
+  "blocker_rows": 6,
+  "qa_rows": 5,
+  "qa_pass": true,
+  "status": "fmr_manual_evidence_inbox_integrity_audit_ready_waiting_real_evidence",
+  "desktop_plan_updated": true
+}

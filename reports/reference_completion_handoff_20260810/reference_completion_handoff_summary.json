@@ -1,0 +1,20 @@
+{
+  "package": "reference_completion_handoff_20260810",
+  "reference_completion_rows": 4,
+  "candidate_markers_found": 5,
+  "unique_candidate_ids_in_manuscript": 4,
+  "marker_replacement_rows": 5,
+  "marker_replacements_allowed_now": 0,
+  "manual_verification_rows": 8,
+  "manual_verification_rows_closed": 0,
+  "export_queue_rows": 3,
+  "guardrail_rows_imported": 4,
+  "sentence_support_rows_imported": 5,
+  "qa_rows": 5,
+  "qa_pass": true,
+  "candidate_markers_replaced": false,
+  "final_references_ready": false,
+  "submission_ready": false,
+  "status": "reference_completion_handoff_ready_final_references_not_locked",
+  "desktop_plan_updated": true
+}

@@ -1,0 +1,6 @@
+check,result,detail
+receipt_rows_match_routes,PASS,receipt_rows=7; route_rows=7
+template_not_misread_as_completed_execution,PASS,completed_rows=0
+all_incomplete_rows_explained,PASS,incomplete_rows=7
+blocked_state_preserved,PASS,candidate_return_files=0; writeback_allowed_rows=0
+desktop_receipt_created,PASS,Desktop/RB001_manual_execution_receipt_20260810.csv

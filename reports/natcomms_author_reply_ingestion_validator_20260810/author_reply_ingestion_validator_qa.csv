@@ -1,0 +1,6 @@
+check,result,detail
+Reply validation rows exist,PASS,12 rows.
+Blank replies are detected,PASS,12 blank author replies.
+No gate closure allowed,PASS,8 gates evaluated.
+Ancillary sheets audited,PASS,6 ancillary sources.
+Evidence rules exist,PASS,5 rules.

@@ -1,0 +1,6 @@
+check,result,detail
+one_sentence_argument_present,PASS,"In ground-penetrating-radar recognition evaluation, the current evidence shows that environment and provenance structure can reshape apparent generalization, supported mainly by Res-SAM environment-transfer fragility across five model families, with Mojahid and 4TU retained as bounded secondary and stress-test evidence."
+no_completed_blind_external_validation_claim,PASS,All outputs mark blind external validation as open/no-go.
+no_public_repository_or_doi_claim,PASS,No output claims repository DOI or code DOI exists.
+no_final_figure_claim,PASS,Workflow caption is marked draft and external validation is displayed as an open gate.
+broad_interest_acceptance_test_addressed,PASS,"Title, abstract, Introduction opening and schematic caption drafts are present."

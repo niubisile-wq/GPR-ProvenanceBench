@@ -1,0 +1,6 @@
+stop_id,rule,current_status
+STOP-NEXT-001,Stop if any required author reply is blank.,active
+STOP-NEXT-002,Stop before figure rendering unless backend is explicitly chosen.,active
+STOP-NEXT-003,Stop before availability finalization unless DOI/rights evidence exists.,active
+STOP-NEXT-004,Stop before final references unless final prose and display-item order are locked.,active
+STOP-NEXT-005,Stop before portal upload unless every portal item is upload-ready.,active

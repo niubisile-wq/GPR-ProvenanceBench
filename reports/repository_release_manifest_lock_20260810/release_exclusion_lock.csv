@@ -1,0 +1,5 @@
+exclusion_class,file_count,reason,release_condition
+needs_review_or_sanitization,16,Files contain local paths/placeholders or require rights review before release.,Sanitize paths/placeholders and complete rights review before inclusion.
+raw_third_party_gpr_files,not_bundled,Raw data redistribution requires provider permission.,Use citations/access instructions unless explicit redistribution permission exists.
+final_rendered_figures,0,Rendered figures do not exist yet.,"Render figures, run visual QA and generate panel-level Source Data first."
+blind_external_validation_data,0,Blind external validation data have not been acquired.,Define data-holder agreement after real external asset exists.

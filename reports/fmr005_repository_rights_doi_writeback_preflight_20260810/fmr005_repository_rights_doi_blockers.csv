@@ -1,0 +1,5 @@
+blocker,evidence,blocks
+repository/code identifiers missing,repository_record_created=False; repository_doi_created=False; code_doi_created=False,FMR-005 writeback candidate and availability statement finalization
+licence or third-party rights not complete,licence_selected=False; third_party_rights_cleared=False; metadata_has_tbd=True,FMR-005 writeback candidate and public release
+final availability not ready,final_availability_ready=False; open_availability_gates=5,FMR-005 writeback candidate and portal file preflight
+metadata/release blockers remain,blocked_metadata_fields=4; release_blocker_rows=4,FMR-005 writeback candidate

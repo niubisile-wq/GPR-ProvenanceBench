@@ -1,0 +1,6 @@
+marker,candidate_ids,current_line_number,replacement_allowed_now,replacement_blocker,minimum_replacement_evidence
+[P1],P1,15,false,"final prose, figure/table calls and final citation order are not locked",final manuscript with stable sentences plus final numbered reference order
+[P1],P1,15,false,"final prose, figure/table calls and final citation order are not locked",final manuscript with stable sentences plus final numbered reference order
+"[P4,P5]",P4;P5,17,false,"final prose, figure/table calls and final citation order are not locked",final manuscript with stable sentences plus final numbered reference order
+"[P2,P4,P5]",P2;P4;P5,17,false,"final prose, figure/table calls and final citation order are not locked",final manuscript with stable sentences plus final numbered reference order
+"[P1,P4,P5]",P1;P4;P5,93,false,"final prose, figure/table calls and final citation order are not locked",final manuscript with stable sentences plus final numbered reference order

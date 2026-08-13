@@ -1,0 +1,6 @@
+path_step,critical_item,why_first,current_status,owner
+1,Author/admin and branch replies,"They decide title page, declarations, Track B wording and whether figure rendering can start.",blank author replies,author/corresponding author
+2,Figure backend and formal figure rendering,"Figures drive Source Data, Reporting Summary, final captions and manuscript/SI assembly.",backend undecided; rendered_figures=0,author/analysis
+3,Rights/licence and DOI path,Repository DOI and release permissions control Data/Code Availability and portal upload.,predeposit only; no DOI,author/institution/repository lead
+4,Reporting Summary and references,"These cannot lock until figures, availability, validation status and final prose order are stable.",prelock only,analysis/reference lead
+5,Final manuscript/SI and portal upload,These are last-mile assembly tasks after all upstream gates are closed.,not ready; upload_ready_rows=0,writing lead/corresponding author

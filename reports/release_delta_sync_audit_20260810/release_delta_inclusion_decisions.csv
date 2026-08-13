@@ -1,0 +1,3 @@
+decision_id,artifact_group,decision,reason,remaining_condition
+REL-DELTA-001,Figure 4 evidence-layer boundary files,include,These are derived Figure 4 source-data and metadata files needed to reproduce the planned stress-test boundary panel.,"Licence, repository DOI/accession, final figures and rights review remain unresolved."
+REL-DELTA-002,R4 manuscript boundary sync audit files,exclude_from_source_data_release,These files are internal manuscript-QA evidence rather than figure/table source data or public repository metadata.,Keep under local reports and checkpoint evidence; include in public release only if authors decide to publish internal QA provenance.

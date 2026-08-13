@@ -1,0 +1,6 @@
+check,result,detail
+Attachment manifest complete,PASS,8 attachments.
+Manual fields audited without overwrite,PASS,0 filled manual fields; lifecycle=natcomms_author_response_tracker_ready_waiting_manual_sendout.
+Email consistency,PASS,0 email check failures.
+Owner matrix imported,PASS,5 owner rows.
+Stop rules imported,PASS,5 stop rules.

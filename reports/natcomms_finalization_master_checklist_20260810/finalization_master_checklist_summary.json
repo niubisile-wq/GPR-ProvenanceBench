@@ -1,0 +1,15 @@
+{
+  "run_id": "20260810_natcomms_finalization_master_checklist",
+  "master_gates": 8,
+  "open_gates": 8,
+  "owner_action_rows": 10,
+  "dependency_rows": 8,
+  "forbidden_claim_rows": 5,
+  "local_after_author_choice_gates": 2,
+  "external_or_author_required_gates": 4,
+  "qa_rows": 5,
+  "qa_pass": true,
+  "submission_ready": false,
+  "status": "natcomms_finalization_master_checklist_ready_all_gates_open",
+  "boundary": "Master checklist consolidates remaining gates only; it does not close author/admin, branch, figure, repository, Reporting Summary, reference, final-file or portal-upload gates."
+}

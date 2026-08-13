@@ -1,0 +1,18 @@
+{
+  "package": "rb001_closeout_dashboard_20260810",
+  "prepared_layers": 6,
+  "blockers": 6,
+  "next_actions": 5,
+  "qa_rows": 5,
+  "qa_pass": true,
+  "candidate_return_files": 0,
+  "completed_receipt_rows": 0,
+  "receipt_complete": false,
+  "writeback_preflight_entry_allowed": false,
+  "writeback_allowed_rows": 0,
+  "rb001_closed": false,
+  "submission_ready": false,
+  "desktop_dashboard": "C:\\Users\\\u5218\u5b50\u8f69\\Desktop\\RB001_closeout_dashboard_20260810.md",
+  "status": "rb001_closeout_dashboard_ready_not_closed_waiting_for_real_returned_files",
+  "desktop_plan_updated": true
+}

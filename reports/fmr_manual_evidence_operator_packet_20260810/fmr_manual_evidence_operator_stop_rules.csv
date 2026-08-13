@@ -1,0 +1,5 @@
+rule_id,stop_rule,current_state
+FMR-OP-NOGO-001,Do not run any --execute-writeback command until its matching preflight emits exactly one allowed candidate.,commands_allowed_now=0
+FMR-OP-NOGO-002,Do not treat support report files as real evidence files.,candidate_evidence_files=0
+FMR-OP-NOGO-003,Do not run guarded recheck until FMR-001 through FMR-005 are complete.,guarded_recheck_allowed=False
+FMR-OP-NOGO-004,Do not upload portal files or mark submitted from this operator packet.,portal_upload_allowed=false; submission_ready=false

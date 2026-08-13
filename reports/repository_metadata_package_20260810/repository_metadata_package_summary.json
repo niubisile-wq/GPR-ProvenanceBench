@@ -1,0 +1,13 @@
+{
+  "run_id": "20260810_repository_metadata_package",
+  "sanitized_staged_files": 37,
+  "release_categories": 7,
+  "metadata_fields": 8,
+  "licence_rows": 4,
+  "rights_rows_from_audit": 6,
+  "repository_identifier_created": false,
+  "code_doi_created": false,
+  "package_ready_for_deposit_after_rights_review": false,
+  "status": "metadata_draft_ready_no_doi",
+  "boundary": "Metadata drafts and release decisions are prepared, but no public repository, DOI, licence or rights clearance has been created."
+}

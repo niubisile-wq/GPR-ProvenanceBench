@@ -1,0 +1,5 @@
+check_id,check,observed,expected,pass
+QA-001,backend decision ticket has two rows,2,2,True
+QA-002,preflight backend options are present,2,>=2,True
+QA-003,rendering remains blocked unless backend and scope are explicit,True,True,True
+QA-004,validator does not mark submission ready,submission_ready=false,submission_ready=false,True

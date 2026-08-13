@@ -1,0 +1,5 @@
+item,severity,required_action
+candidate_markers_remain,high,"Replace [P#] or [P#,P#] markers only after final prose, figure calls and reference order are locked."
+manual_publisher_verification,high,"Verify DOI, title, journal, year and support boundary against publisher/Crossref pages before final bibliography."
+internal_result_citations,high,Use internal figures/source data for this project's measured deltas; do not cite external papers as evidence for derived metrics.
+availability_statement_refs,medium,"Do not finalize repository/data/code statements until DOI, licence and rights gates are resolved."

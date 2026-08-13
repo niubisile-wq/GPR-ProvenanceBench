@@ -1,0 +1,18 @@
+{
+  "package": "repository_predeposit_handoff_20260810",
+  "platform_metadata_fields": 9,
+  "blocked_metadata_fields": 4,
+  "upload_queue_files": 37,
+  "locked_categories": 7,
+  "rights_licence_action_rows": 4,
+  "availability_crosswalk_rows": 5,
+  "release_delta_sync_imported": true,
+  "qa_rows": 5,
+  "qa_pass": true,
+  "repository_record_created": false,
+  "repository_doi_created": false,
+  "public_release_ready": false,
+  "submission_ready": false,
+  "status": "repository_predeposit_handoff_ready_waiting_rights_and_identifier",
+  "desktop_plan_updated": true
+}

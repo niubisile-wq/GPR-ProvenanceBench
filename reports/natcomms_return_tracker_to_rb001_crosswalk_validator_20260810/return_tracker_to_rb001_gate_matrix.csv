@@ -1,0 +1,11 @@
+gate,current,required,passes_now
+send_log_ready,False,true,no
+all_return_tracker_rows_mapped,8,8,yes
+all_return_tracker_rows_returned,0,8,no
+all_returned_rows_drop_ready,0,8,no
+sendout_receipt_return_intake_allowed,False,true,no
+post_dispatch_evidence_complete,7,0,no
+rb001_drop_allowed,False,true,no
+scanner_allowed_now,False,true,no
+writeback_allowed_rows,0,0 before scanner/hash/manual review,yes
+submission_ready,False,false,yes

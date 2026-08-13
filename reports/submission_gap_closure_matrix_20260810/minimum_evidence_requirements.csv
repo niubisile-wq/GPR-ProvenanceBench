@@ -1,0 +1,7 @@
+evidence_id,gate,required_artifact,acceptable_current_substitute,why_current_evidence_is_not_enough
+E01,Real blind external validation,"Real manifest with strict SHA256 checksums, label-holder confirmation, frozen prediction submission, timestamped one-shot evaluation and signed boundary note for any reruns.",none,Do not claim blind external validation or external generalization.
+E02,Main figure rendering,"Final Fig. 1-Fig. 6 files, panel labels, source-data panel map, visual QA checklist and exported publication formats.",planning/specification artifacts only,"Do not submit, cite or circulate planned figures as final manuscript figures."
+E03,Repository identifiers,"Data repository DOI/accession, code release DOI, repository metadata, archived release files and public landing pages.",none,Do not state that code or data are deposited.
+E04,Reporting Summary,"Final answers linked to frozen Methods, figure/table set, blinding/external-validation status, software versions and repository identifiers.",planning/specification artifacts only,Do not label the Reporting Summary as final.
+E05,Third-party rights,"Licence decisions for code, derived data and raw/third-party material, plus exclusion list for non-redistributable files.",none,Do not release raw or third-party-derived material publicly.
+E06,Final reference numbering,"Final prose, final figure/table references, verified bibliographic records and numbered reference list.",planning/specification artifacts only,Do not treat candidate citation markers as final references.

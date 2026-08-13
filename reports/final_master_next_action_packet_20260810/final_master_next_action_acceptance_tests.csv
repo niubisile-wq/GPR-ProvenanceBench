@@ -1,0 +1,5 @@
+check,expected_state,current_state,passes_now
+19.47 remains source of truth,final_submission_master_allowed=false,final_submission_master_allowed=False,yes
+manual actions only,"allowed human actions are communications, evidence collection and guarded recheck preparation",portal upload and submission actions forbidden,yes
+no system execution allowed now,system_command_execution_allowed=false,all final item bridge rows are bridge_allowed=no,yes
+blockers are exposed,at least five final blockers listed,final_blocker_rows=5,yes

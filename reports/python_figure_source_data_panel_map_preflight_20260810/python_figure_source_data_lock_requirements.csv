@@ -1,0 +1,5 @@
+lock_id,requirement,current_state,passes_now
+SD-LOCK-001,Final rendered figure exports exist for all six figures.,rendered_figures_final=6,no
+SD-LOCK-002,Final export QA passes for all figures.,final_export_qa_allowed_rows=6,no
+SD-LOCK-003,Panel-level Source Data rows match final panels and captions.,source_data_panel_map_locked=True,no
+SD-LOCK-004,Portal upload layer accepts Source Data files.,figure_portal_upload_allowed_rows=0,no

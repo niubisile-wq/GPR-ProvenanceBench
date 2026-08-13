@@ -1,0 +1,8 @@
+audit_family,exact_sign_negative_tail_p,exact_sign_positive_tail_p,exact_signflip_mean_negative_p,exact_signflip_mean_positive_p,mean_delta,n_contrasts,negative_count,positive_count,unit
+unified_split_random_minus_protocol,,0.0625,,0.0625,0.11560537789335312,4,0,4,deepmask_gpr
+unified_split_random_minus_protocol,,0.0625,,0.0625,0.12334526366787019,4,0,4,mojahid
+unified_split_random_minus_protocol,,0.3125,,0.125,0.01744840718804222,4,1,3,tigpr
+unified_split_random_minus_protocol,,0.0625,,0.0625,0.10980749092106043,4,0,4,zenodo_14637589
+unified_split_random_minus_protocol,,0.0002593994140625,,3.0517578125e-05,0.09155163491758149,16,1,15,all_assets
+4tu_log_clip_stress_delta,0.0009765625,,0.0009765625,,-0.0965638528138528,20,10,0,fixed_split_seed_sweep
+4tu_log_clip_stress_delta,0.25,,0.25,,-0.01687271062271062,5,2,0,group_aware_project_splits

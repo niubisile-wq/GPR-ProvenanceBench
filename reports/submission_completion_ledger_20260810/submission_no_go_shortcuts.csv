@@ -1,0 +1,5 @@
+no_go_id,shortcut,reason,decision
+SUBMIT-NOGO-001,Treat handoff packets as closed gates,Handoff packets organize work; they do not provide the required external or author evidence.,forbidden
+SUBMIT-NOGO-002,Use green M0-M2 checks as proof of submission readiness,"Current checks prove consistency of the not-ready state, not final gate closure.",forbidden
+SUBMIT-NOGO-003,"Submit Track B text without final figures, DOI/rights and Reporting Summary",Nature Communications submission package requires final companion materials and upload files.,forbidden
+SUBMIT-NOGO-004,Upgrade 4TU or template external validation into main confirmation,Current evidence boundaries explicitly forbid this upgrade.,forbidden

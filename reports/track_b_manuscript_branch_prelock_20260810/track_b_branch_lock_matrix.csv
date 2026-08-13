@@ -1,0 +1,5 @@
+field,value,lock_status,boundary
+current_applicable_branch,TRACK-B,track_b_currently_applicable_not_author_final,Track B remains applicable because no real blind external asset has passed strict intake and locked evaluation.
+manuscript_positioning,Benchmark/resource and evidence-boundary paper centred on Res-SAM environment-transfer fragility and provenance-aware evaluation.,prelock,"Do not write external generalization, completed blind validation, or deployment robustness."
+allowed_external_validation_language,Blind external validation remains an open gate; the paper reports an auditable local evidence boundary.,prelock,External validation must be described as an open gate.
+nat_comms_word_budget,current_body_words=1931; abstract_words=130; article_reference_limit=5000 including Methods,within_current_budget_but_not_final,"Word count must be recomputed after figures, references and final statements are inserted."

@@ -1,0 +1,6 @@
+check,result,detail
+operator packet covers all six FMR receipts,PASS,covered_fmr_rows=6
+all operator rows are currently no-writeback,PASS,operator_rows=8
+inbox integrity still reports no candidate evidence,PASS,candidate_evidence_files=0
+execution order still allows no commands,PASS,commands_allowed_now=0
+submission remains false,PASS,manual_evidence_writeback_allowed=false; portal_upload_allowed=false; submission_ready=false

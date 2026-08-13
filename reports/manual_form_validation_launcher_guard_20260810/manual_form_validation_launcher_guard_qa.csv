@@ -1,0 +1,5 @@
+check,result,detail
+guard covers all five MOF forms,PASS,guard_rows=5
+current state refuses launch,PASS,global_launch_allowed=False
+backfill audit agrees forms incomplete,PASS,currently_complete_forms=0
+watcher agrees no candidate files,PASS,candidate_files_detected=0

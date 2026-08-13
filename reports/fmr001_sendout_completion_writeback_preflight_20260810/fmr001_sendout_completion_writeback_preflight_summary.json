@@ -1,0 +1,19 @@
+{
+  "package": "fmr001_sendout_completion_writeback_preflight_20260810",
+  "fmr001_rows": 1,
+  "eds_sent_receipt_rows": 0,
+  "eds_missing_send_receipts": 5,
+  "eds_complete": false,
+  "post_revalidation_complete": false,
+  "fmr001_candidate_rows": 0,
+  "fmr001_writeback_allowed": false,
+  "real_fmr_template_modified": false,
+  "guarded_recheck_allowed": false,
+  "portal_upload_allowed": false,
+  "submission_ready": false,
+  "blocker_rows": 2,
+  "qa_rows": 4,
+  "qa_pass": true,
+  "status": "fmr001_sendout_completion_writeback_preflight_ready_blocked_waiting_verified_eds",
+  "desktop_plan_updated": true
+}

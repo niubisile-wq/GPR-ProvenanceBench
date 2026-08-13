@@ -1,0 +1,2 @@
+sample_id,sealed_label,label_space_version,label_holder,sealed_timestamp,unlock_timestamp,unlock_authorized_by
+BLIND_SAMPLE_000001,actual_label_held_by_third_party,label_space_v1,name_or_role,YYYY-MM-DDTHH:MM:SS+08:00,,

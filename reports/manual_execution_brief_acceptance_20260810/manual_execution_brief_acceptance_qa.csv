@@ -1,0 +1,4 @@
+check,result,detail
+acceptance rows all pass,PASS,accepted_rows=7; acceptance_rows=7
+handoff does not imply execution,PASS,manual_actions_executed=false
+commands remain blocked,PASS,allowed_commands_now=0

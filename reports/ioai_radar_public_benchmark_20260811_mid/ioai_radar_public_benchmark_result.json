@@ -1,0 +1,76 @@
+{
+  "route": "public_benchmark_evaluation",
+  "blind_external_validation": false,
+  "dataset": {
+    "training_samples": 40,
+    "validation_samples": 10,
+    "test_samples": 10
+  },
+  "training": {
+    "epochs": 2,
+    "batch_size": 4,
+    "history": [
+      {
+        "epoch": 1,
+        "train_loss": 1.5143443822860718
+      },
+      {
+        "epoch": 2,
+        "train_loss": 0.9503350198268891
+      }
+    ]
+  },
+  "evaluation": {
+    "validation": {
+      "split": "validation",
+      "samples": 10,
+      "weighted_score": 0.019648636063647317,
+      "preview": [
+        {
+          "filename": "1.mat.pt",
+          "sample_score": 0.009199208868037349,
+          "pred_len": 9050,
+          "gt_len": 9050
+        },
+        {
+          "filename": "2.mat.pt",
+          "sample_score": 0.03833096046435221,
+          "pred_len": 9050,
+          "gt_len": 9050
+        },
+        {
+          "filename": "3.mat.pt",
+          "sample_score": 0.019105035238176107,
+          "pred_len": 9050,
+          "gt_len": 9050
+        }
+      ]
+    },
+    "test": {
+      "split": "test",
+      "samples": 10,
+      "weighted_score": 0.02775252139795521,
+      "preview": [
+        {
+          "filename": "1.mat.pt",
+          "sample_score": 0.009219988936013277,
+          "pred_len": 9050,
+          "gt_len": 9050
+        },
+        {
+          "filename": "2.mat.pt",
+          "sample_score": 0.016560861164780567,
+          "pred_len": 9050,
+          "gt_len": 9050
+        },
+        {
+          "filename": "3.mat.pt",
+          "sample_score": 0.03058679591548633,
+          "pred_len": 9050,
+          "gt_len": 9050
+        }
+      ]
+    }
+  },
+  "note": "This route is a public benchmark probe only. It does not satisfy blind external validation."
+}

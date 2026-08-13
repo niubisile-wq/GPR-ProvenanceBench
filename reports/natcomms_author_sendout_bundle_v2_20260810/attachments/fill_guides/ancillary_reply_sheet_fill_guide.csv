@@ -1,0 +1,24 @@
+sheet,row_id,fill_column,what_to_fill,validation_command
+corresponding_author_metadata_form.csv,,author_reply,Exact author-confirmed value; no inferred or placeholder reply.,py scripts\build_natcomms_author_reply_ingestion_validator.py
+corresponding_author_metadata_form.csv,,author_reply,Exact author-confirmed value; no inferred or placeholder reply.,py scripts\build_natcomms_author_reply_ingestion_validator.py
+corresponding_author_metadata_form.csv,,author_reply,Exact author-confirmed value; no inferred or placeholder reply.,py scripts\build_natcomms_author_reply_ingestion_validator.py
+corresponding_author_metadata_form.csv,,author_reply,Exact author-confirmed value; no inferred or placeholder reply.,py scripts\build_natcomms_author_reply_ingestion_validator.py
+corresponding_author_metadata_form.csv,,author_reply,Exact author-confirmed value; no inferred or placeholder reply.,py scripts\build_natcomms_author_reply_ingestion_validator.py
+corresponding_author_metadata_form.csv,,author_reply,Exact author-confirmed value; no inferred or placeholder reply.,py scripts\build_natcomms_author_reply_ingestion_validator.py
+track_branch_and_external_validation_reply.csv,BRANCH-001,author_reply,Exact author-confirmed value; no inferred or placeholder reply.,py scripts\build_natcomms_author_reply_ingestion_validator.py
+track_branch_and_external_validation_reply.csv,BRANCH-002,author_reply,Exact author-confirmed value; no inferred or placeholder reply.,py scripts\build_natcomms_author_reply_ingestion_validator.py
+licence_rights_reply_sheet.csv,LIC-001,author_reply,Exact author-confirmed value; no inferred or placeholder reply.,py scripts\build_natcomms_gate_closure_evidence_binder.py
+licence_rights_reply_sheet.csv,LIC-002,author_reply,Exact author-confirmed value; no inferred or placeholder reply.,py scripts\build_natcomms_gate_closure_evidence_binder.py
+licence_rights_reply_sheet.csv,LIC-003,author_reply,Exact author-confirmed value; no inferred or placeholder reply.,py scripts\build_natcomms_gate_closure_evidence_binder.py
+licence_rights_reply_sheet.csv,LIC-004,author_reply,Exact author-confirmed value; no inferred or placeholder reply.,py scripts\build_natcomms_gate_closure_evidence_binder.py
+reviewer_and_policy_reply_sheet.csv,,author_reply,Exact author-confirmed value; no inferred or placeholder reply.,py scripts\build_natcomms_author_reply_ingestion_validator.py
+reviewer_and_policy_reply_sheet.csv,,author_reply,Exact author-confirmed value; no inferred or placeholder reply.,py scripts\build_natcomms_author_reply_ingestion_validator.py
+reviewer_and_policy_reply_sheet.csv,,author_reply,Exact author-confirmed value; no inferred or placeholder reply.,py scripts\build_natcomms_author_reply_ingestion_validator.py
+reviewer_and_policy_reply_sheet.csv,,author_reply,Exact author-confirmed value; no inferred or placeholder reply.,py scripts\build_natcomms_author_reply_ingestion_validator.py
+reviewer_and_policy_reply_sheet.csv,,author_reply,Exact author-confirmed value; no inferred or placeholder reply.,py scripts\build_natcomms_author_reply_ingestion_validator.py
+reviewer_and_policy_reply_sheet.csv,,author_reply,Exact author-confirmed value; no inferred or placeholder reply.,py scripts\build_natcomms_author_reply_ingestion_validator.py
+reviewer_and_policy_reply_sheet.csv,,author_reply,Exact author-confirmed value; no inferred or placeholder reply.,py scripts\build_natcomms_author_reply_ingestion_validator.py
+reporting_summary_author_reply_sheet.csv,,author_reply,Exact author-confirmed value; no inferred or placeholder reply.,py scripts\build_natcomms_author_reply_ingestion_validator.py
+reporting_summary_author_reply_sheet.csv,,author_reply,Exact author-confirmed value; no inferred or placeholder reply.,py scripts\build_natcomms_author_reply_ingestion_validator.py
+reporting_summary_author_reply_sheet.csv,,author_reply,Exact author-confirmed value; no inferred or placeholder reply.,py scripts\build_natcomms_author_reply_ingestion_validator.py
+reporting_summary_author_reply_sheet.csv,,author_reply,Exact author-confirmed value; no inferred or placeholder reply.,py scripts\build_natcomms_author_reply_ingestion_validator.py

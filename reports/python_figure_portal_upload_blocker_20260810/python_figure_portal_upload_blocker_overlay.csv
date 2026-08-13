@@ -1,0 +1,5 @@
+portal_item,portal_current_state,figure_overlay_state,preview_figures_rendered,author_review_ready_rows,author_approvals_recorded,final_candidate_generation_allowed,final_export_qa_allowed_rows,source_data_panel_map_locked,captions_locked_final,upload_allowed_now,figure_specific_blocker
+main_manuscript_docx_or_pdf,skeleton_only,manuscript_depends_on_final_figure_set,6,6,0,False,0,False,False,no,"Main manuscript cannot be final until final figure set, captions and figure references are locked."
+display_figures,source_data_locked_not_rendered,preview_rendered_author_review_ready_not_final,6,6,0,False,0,False,False,no,"Final figure candidates, final export QA, final caption lock and final Source Data panel map are absent."
+source_data_files,deposit_skeleton,source_data_manifest_exists_panel_map_not_final_locked,6,6,0,False,0,False,False,no,Panel-level Source Data mapping is not locked to final rendered figures.
+supplementary_information,candidate_material_only,supplementary_split_depends_on_final_display_set,6,6,0,False,0,False,False,no,Display-vs-SI figure split remains unresolved until final figure set is approved.

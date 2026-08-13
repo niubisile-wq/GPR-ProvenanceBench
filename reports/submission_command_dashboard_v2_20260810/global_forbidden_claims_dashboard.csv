@@ -1,0 +1,6 @@
+category,forbidden_claim,safe_current_wording
+external_validation,Completed blind external validation,Blind external validation remains open/NO-GO.
+repository,Data/code are deposited under DOI,Availability wording and repository metadata are prelocked; DOI/accession remain missing.
+figures,Final figures and Source Data are ready,Figure specifications and source-data plans are ready; final rendered figures remain open.
+reporting_summary,Final Reporting Summary is ready,Reporting Summary finalization prelock is ready; final lock remains blocked.
+references,Final numbered references are complete,Reference numbering prelock is ready; candidate markers remain non-final.

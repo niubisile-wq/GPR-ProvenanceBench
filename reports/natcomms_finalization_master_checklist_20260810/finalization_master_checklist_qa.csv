@@ -1,0 +1,6 @@
+check,result,detail
+Master gates exist,PASS,8 master gates.
+No false closure,PASS,8 gates remain open.
+Owner queue exists,PASS,10 owner actions.
+Dependency graph exists,PASS,8 dependencies.
+Forbidden claims mapped,PASS,5 forbidden rows.

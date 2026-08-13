@@ -1,0 +1,6 @@
+blocker,current_state,required_to_close,can_be_done_locally
+repository DOI/accession,repository_doi_created=False,Create public repository/deposit record after rights and licence clearance.,no
+code DOI,code_doi_created=False,Create code release/archive DOI after software licence selection.,no
+licence selection,licence_selected=False,Author/rights lead selects software and derived-data licences.,no
+third-party rights,third_party_rights_cleared=False,Confirm derived artifacts expose no prohibited raw third-party data or label hints.,partly_review_only
+final Source Data lock,source_data_panel_map_locked=False,Lock panel-level Source Data after final figures and final export QA.,after_final_figures

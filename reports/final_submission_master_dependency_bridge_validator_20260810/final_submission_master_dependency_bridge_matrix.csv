@@ -1,0 +1,8 @@
+dependency,source,current,required,passes_now
+author_closeout_allows_submission,19.46 author/final closeout dependency bridge,False,true,no
+ledger_allows_submission,submission completion ledger,False,open_gate_rows=0 and ledger submission_ready=true,no
+natcomms_final_lock_allows_submission,NatComms submission final lock validator,False,open_master_gates=0 and portal upload rows ready,no
+portal_file_preflight_allows_upload,portal submission file preflight,False,upload_allowed_now=true and portal_upload_ready=true,no
+dashboard_allows_submission,submission readiness dashboard,False,open_gates=0 and no hard no-go areas,no
+final_submission_master_allowed,19.47 bridge decision,False,true only after all final submission gates pass,no
+submission_ready,19.47 bridge boundary,False,false in current blocked state,yes

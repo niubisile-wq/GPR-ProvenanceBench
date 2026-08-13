@@ -1,0 +1,6 @@
+rule_id,rule
+ACCEPT-STOP-001,Do not mark the handoff accepted if the zip cannot be opened.
+ACCEPT-STOP-002,Do not treat zip acceptance as email_sent=true.
+ACCEPT-STOP-003,Do not treat a sent request as returned evidence.
+ACCEPT-STOP-004,Do not run branch validators until post-dispatch intake rows pass.
+ACCEPT-STOP-005,Do not upload while submission_ready=false.

@@ -1,0 +1,18 @@
+{
+  "package": "final_completion_residual_blocker_audit_20260810",
+  "completed_control_artifacts": 6,
+  "residual_blockers": 8,
+  "readiness_layers": 7,
+  "ready_layers": 1,
+  "blocked_layers": 6,
+  "qa_rows": 5,
+  "qa_pass": true,
+  "operator_bundle_accepted": true,
+  "candidate_return_files": 0,
+  "writeback_allowed_rows": 0,
+  "commands_allowed_now": 0,
+  "open_master_gates": 8,
+  "submission_ready": false,
+  "status": "final_completion_residual_blocker_audit_ready_guarded_package_complete_submission_blocked",
+  "desktop_plan_updated": true
+}

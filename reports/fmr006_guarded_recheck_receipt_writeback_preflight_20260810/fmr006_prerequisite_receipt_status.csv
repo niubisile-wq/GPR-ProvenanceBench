@@ -1,0 +1,6 @@
+receipt_id,current_status,placeholder_value,completion_passes_now,blocking_reason
+FMR-001,missing,FILL_AFTER_SEND,no,Receipt is not complete or still contains a FILL_AFTER placeholder.
+FMR-002,missing,FILL_AFTER_REPLY,no,Receipt is not complete or still contains a FILL_AFTER placeholder.
+FMR-003,missing,FILL_AFTER_DROP,no,Receipt is not complete or still contains a FILL_AFTER placeholder.
+FMR-004,missing,FILL_AFTER_FIGURE_REVIEW,no,Receipt is not complete or still contains a FILL_AFTER placeholder.
+FMR-005,missing,FILL_AFTER_RIGHTS_DOI,no,Receipt is not complete or still contains a FILL_AFTER placeholder.

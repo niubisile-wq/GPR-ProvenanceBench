@@ -1,0 +1,9 @@
+gate_id,gate,mapped_routes,master_closed_status,closure_recommendation,open_artifact_requirements,gate_transition_status,next_evidence_needed
+FM-001,Author/admin declarations,RTE-001; RTE-002,no,keep_open,FM001-AUTHOR-REPLY; FM001-ADMIN-FINAL,blocked_open,Resolve author replies and artifact requirements listed in gate_artifact_evidence_requirements.csv.
+FM-002,Manuscript branch,none,no,keep_open,FM002-BRANCH-REPLY; FM002-TRACKA-EVIDENCE,blocked_open,Resolve author replies and artifact requirements listed in gate_artifact_evidence_requirements.csv.
+FM-003,Formal figures,RTE-003,no,keep_open,FM003-BACKEND-CHOICE; FM003-FIGURE-EXPORTS,blocked_open,Resolve author replies and artifact requirements listed in gate_artifact_evidence_requirements.csv.
+FM-004,Source Data and repository/code release,RTE-004,no,keep_open,FM004-RIGHTS-LICENCE; FM004-DOI-RELEASE,blocked_open,Resolve author replies and artifact requirements listed in gate_artifact_evidence_requirements.csv.
+FM-005,Reporting Summary,RTE-005,no,keep_open,FM005-AUTHOR-CONFIRM; FM005-FINAL-SUMMARY,blocked_open,Resolve author replies and artifact requirements listed in gate_artifact_evidence_requirements.csv.
+FM-006,Final references,RTE-006,no,keep_open,FM006-REFERENCE-LOCK; FM006-SUPPORT-AUDIT,blocked_open,Resolve author replies and artifact requirements listed in gate_artifact_evidence_requirements.csv.
+FM-007,Final manuscript and SI files,none,no,keep_open,FM007-FINAL-FILES; FM007-SI-FINAL,blocked_open,Resolve author replies and artifact requirements listed in gate_artifact_evidence_requirements.csv.
+FM-008,Portal upload readiness,RTE-007,no,keep_open,FM008-PORTAL-METADATA; FM008-UPLOAD-PACKAGE,blocked_open,Resolve author replies and artifact requirements listed in gate_artifact_evidence_requirements.csv.

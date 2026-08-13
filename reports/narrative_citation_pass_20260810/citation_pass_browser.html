@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Narrative citation pass 20260810</title>
+  <style>
+    body { font-family: Georgia, serif; margin: 32px; color: #172019; background: #f7f4ec; }
+    h1 { font-size: 28px; }
+    table { border-collapse: collapse; width: 100%; background: #fffdf7; }
+    th, td { border: 1px solid #c9c0ad; padding: 8px; vertical-align: top; }
+    th { background: #e7dec9; text-align: left; }
+    td:nth-child(3) { width: 34%; }
+  </style>
+</head>
+<body>
+  <h1>Narrative citation pass 20260810</h1>
+  <p>Scope: local Nature Communications benchmark/supporting papers only. This is a conservative mapping, not a final reference list.</p>
+  <table>
+    <thead><tr><th>ID</th><th>Section</th><th>Claim</th><th>Candidates</th><th>Support</th><th>Risk note</th></tr></thead>
+    <tbody>
+<tr><td>S001</td><td>Introduction</td><td>GPR recognition is important for subsurface diagnosis, but B-scan interpretation is sensitive to site conditions and limited labels.</td><td>P1: Zhou et al. 2025</td><td>strong background support</td><td>P1 supports GPR/Res-SAM context; broader application claims may need additional non-CNS domain citations.</td></tr>
+<tr><td>S002</td><td>Introduction</td><td>Apparent model generalization can be reshaped by acquisition, provenance or split structure rather than target physics alone.</td><td>P4: Rosenblatt et al. 2024; P5: Joeres et al. 2025; P6: Roschewitz et al. 2023</td><td>partial support</td><td>P4/P5 support leakage and split design; P6 supports acquisition shift by analogy outside GPR.</td></tr>
+<tr><td>S003</td><td>Introduction</td><td>Random or weak train-test splits can leak similarity information and inflate performance estimates.</td><td>P4: Rosenblatt et al. 2024; P5: Joeres et al. 2025</td><td>strong support</td><td>Use these citations for leakage/split design, not as direct evidence for the present GPR results.</td></tr>
+<tr><td>S004</td><td>Introduction</td><td>A defensible benchmark needs executable assets, split-aware evaluation, multiple model families and explicit open gates for external validation.</td><td>P2: Zhou et al. 2025; P5: Joeres et al. 2025</td><td>partial support</td><td>External blind validation remains an internal protocol gate, not a completed cited result.</td></tr>
+<tr><td>S005</td><td>Discussion</td><td>The strongest current executable evidence is Res-SAM environment-transfer fragility across model families.</td><td>P1: Zhou et al. 2025</td><td>background support</td><td>P1 is only the Res-SAM/GPR context paper; our derived metrics remain the primary evidence.</td></tr>
+<tr><td>S006</td><td>Discussion</td><td>Shortcut sensitivity should be assessed with model-family and intervention-aware controls rather than one architecture or one split.</td><td>P2: Zhou et al. 2025; P3: Brown et al. 2023; P5: Joeres et al. 2025</td><td>partial support</td><td>P3 is medical-AI context; use as conceptual support, not GPR-specific evidence.</td></tr>
+<tr><td>S007</td><td>Discussion</td><td>Acquisition or environment shift can cause performance drift, so environment transfer is an appropriate stress axis.</td><td>P1: Zhou et al. 2025; P6: Roschewitz et al. 2023</td><td>partial support</td><td>P6 supports the acquisition-shift concept in medical imaging; P1 anchors the GPR setting.</td></tr>
+<tr><td>S008</td><td>Discussion</td><td>Release, source-data and reporting-summary readiness are necessary before submission-ready reproducibility claims.</td><td>internal_artifacts</td><td>internal evidence needed</td><td>Do not cite a literature paper as if the repository DOI or public release already exists.</td></tr>
+<tr><td>S009</td><td>Conclusion</td><td>The conclusion should state a bounded benchmark contribution, strongest current evidence and remaining external-validation gate.</td><td>P1: Zhou et al. 2025; P4: Rosenblatt et al. 2024; P5: Joeres et al. 2025</td><td>partial support</td><td>Conclusion must retain the NO-GO boundary for external blind validation.</td></tr>
+    </tbody>
+  </table>
+</body>
+</html>

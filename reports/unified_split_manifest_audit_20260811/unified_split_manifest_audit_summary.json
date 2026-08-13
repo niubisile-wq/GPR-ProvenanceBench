@@ -1,0 +1,931 @@
+{
+  "run_id": "20260811_E22_unified_split_manifest_audit",
+  "datasets": [
+    "mojahid",
+    "tigpr",
+    "zenodo_14637589",
+    "deepmask_gpr"
+  ],
+  "protocols_per_dataset": 5,
+  "split_manifest_rows": 20,
+  "split_rows": [
+    {
+      "dataset": "mojahid",
+      "protocol": "random_stratified_70_15_15",
+      "path": "splits/mojahid/random_stratified_70_15_15_split_manifest_20260811.csv",
+      "audit": {
+        "rows": 2524,
+        "role_counts": {
+          "train": 1761,
+          "test": 380,
+          "val": 383
+        },
+        "label_counts_by_role": {
+          "train": {
+            "cavity": 437,
+            "intact": 683,
+            "utility": 641
+          },
+          "test": {
+            "cavity": 96,
+            "intact": 146,
+            "utility": 138
+          },
+          "val": {
+            "cavity": 99,
+            "intact": 146,
+            "utility": 138
+          }
+        },
+        "group_counts_by_role": {
+          "train": 556,
+          "test": 228,
+          "val": 212
+        },
+        "missing_labels_by_role": {
+          "train": [],
+          "val": [],
+          "test": []
+        },
+        "shared_train_test_groups": 157,
+        "shared_train_val_groups": 147,
+        "shared_val_test_groups": 106,
+        "group_leakage_free_train_test": false
+      }
+    },
+    {
+      "dataset": "mojahid",
+      "protocol": "existing_fold_p2",
+      "path": "splits/mojahid/existing_fold_p2_split_manifest_20260811.csv",
+      "audit": {
+        "rows": 2524,
+        "role_counts": {
+          "train": 1512,
+          "test": 586,
+          "val": 426
+        },
+        "label_counts_by_role": {
+          "train": {
+            "cavity": 384,
+            "intact": 610,
+            "utility": 518
+          },
+          "test": {
+            "cavity": 168,
+            "intact": 201,
+            "utility": 217
+          },
+          "val": {
+            "cavity": 80,
+            "intact": 164,
+            "utility": 182
+          }
+        },
+        "group_counts_by_role": {
+          "train": 408,
+          "test": 149,
+          "val": 135
+        },
+        "missing_labels_by_role": {
+          "train": [],
+          "val": [],
+          "test": []
+        },
+        "shared_train_test_groups": 0,
+        "shared_train_val_groups": 0,
+        "shared_val_test_groups": 0,
+        "group_leakage_free_train_test": true
+      }
+    },
+    {
+      "dataset": "mojahid",
+      "protocol": "source_group_holdout_70_15_15",
+      "path": "splits/mojahid/source_group_holdout_70_15_15_split_manifest_20260811.csv",
+      "audit": {
+        "rows": 2524,
+        "role_counts": {
+          "train": 1738,
+          "test": 392,
+          "val": 394
+        },
+        "label_counts_by_role": {
+          "train": {
+            "cavity": 432,
+            "intact": 669,
+            "utility": 637
+          },
+          "test": {
+            "cavity": 104,
+            "intact": 148,
+            "utility": 140
+          },
+          "val": {
+            "cavity": 96,
+            "intact": 158,
+            "utility": 140
+          }
+        },
+        "group_counts_by_role": {
+          "train": 464,
+          "test": 103,
+          "val": 125
+        },
+        "missing_labels_by_role": {
+          "train": [],
+          "val": [],
+          "test": []
+        },
+        "shared_train_test_groups": 0,
+        "shared_train_val_groups": 0,
+        "shared_val_test_groups": 0,
+        "group_leakage_free_train_test": true
+      }
+    },
+    {
+      "dataset": "mojahid",
+      "protocol": "provenance_size_holdout_p4",
+      "path": "splits/mojahid/provenance_size_holdout_p4_split_manifest_20260811.csv",
+      "audit": {
+        "rows": 2524,
+        "role_counts": {
+          "train": 1705,
+          "val": 285,
+          "test": 534
+        },
+        "label_counts_by_role": {
+          "train": {
+            "cavity": 360,
+            "intact": 715,
+            "utility": 630
+          },
+          "val": {
+            "cavity": 96,
+            "intact": 91,
+            "utility": 98
+          },
+          "test": {
+            "cavity": 176,
+            "intact": 169,
+            "utility": 189
+          }
+        },
+        "group_counts_by_role": {
+          "train": 617,
+          "val": 26,
+          "test": 49
+        },
+        "missing_labels_by_role": {
+          "train": [],
+          "val": [],
+          "test": []
+        },
+        "shared_train_test_groups": 0,
+        "shared_train_val_groups": 0,
+        "shared_val_test_groups": 0,
+        "group_leakage_free_train_test": true
+      }
+    },
+    {
+      "dataset": "mojahid",
+      "protocol": "datasail_like_group_balance",
+      "path": "splits/mojahid/datasail_like_group_balance_split_manifest_20260811.csv",
+      "audit": {
+        "rows": 2524,
+        "role_counts": {
+          "train": 1738,
+          "test": 392,
+          "val": 394
+        },
+        "label_counts_by_role": {
+          "train": {
+            "cavity": 432,
+            "intact": 669,
+            "utility": 637
+          },
+          "test": {
+            "cavity": 104,
+            "intact": 148,
+            "utility": 140
+          },
+          "val": {
+            "cavity": 96,
+            "intact": 158,
+            "utility": 140
+          }
+        },
+        "group_counts_by_role": {
+          "train": 464,
+          "test": 103,
+          "val": 125
+        },
+        "missing_labels_by_role": {
+          "train": [],
+          "val": [],
+          "test": []
+        },
+        "shared_train_test_groups": 0,
+        "shared_train_val_groups": 0,
+        "shared_val_test_groups": 0,
+        "group_leakage_free_train_test": true
+      }
+    },
+    {
+      "dataset": "tigpr",
+      "protocol": "random_stratified_70_15_15",
+      "path": "splits/tigpr/random_stratified_70_15_15_split_manifest_20260811.csv",
+      "audit": {
+        "rows": 7169,
+        "role_counts": {
+          "test": 1076,
+          "train": 5017,
+          "val": 1076
+        },
+        "label_counts_by_role": {
+          "test": {
+            "Crack": 184,
+            "Interlayer_bonding_deficiency": 303,
+            "Loose": 315,
+            "No_damage": 228,
+            "Void": 46
+          },
+          "train": {
+            "Crack": 856,
+            "Interlayer_bonding_deficiency": 1414,
+            "Loose": 1470,
+            "No_damage": 1064,
+            "Void": 213
+          },
+          "val": {
+            "Crack": 184,
+            "Interlayer_bonding_deficiency": 303,
+            "Loose": 315,
+            "No_damage": 228,
+            "Void": 46
+          }
+        },
+        "group_counts_by_role": {
+          "test": 1071,
+          "train": 4890,
+          "val": 1072
+        },
+        "missing_labels_by_role": {
+          "train": [],
+          "val": [],
+          "test": []
+        },
+        "shared_train_test_groups": 44,
+        "shared_train_val_groups": 55,
+        "shared_val_test_groups": 8,
+        "group_leakage_free_train_test": false
+      }
+    },
+    {
+      "dataset": "tigpr",
+      "protocol": "existing_fold_p2",
+      "path": "splits/tigpr/existing_fold_p2_split_manifest_20260811.csv",
+      "audit": {
+        "rows": 7169,
+        "role_counts": {
+          "test": 1434,
+          "val": 1434,
+          "train": 4301
+        },
+        "label_counts_by_role": {
+          "test": {
+            "Crack": 245,
+            "Interlayer_bonding_deficiency": 404,
+            "Loose": 420,
+            "No_damage": 304,
+            "Void": 61
+          },
+          "val": {
+            "Crack": 245,
+            "Interlayer_bonding_deficiency": 404,
+            "Loose": 420,
+            "No_damage": 304,
+            "Void": 61
+          },
+          "train": {
+            "Crack": 734,
+            "Interlayer_bonding_deficiency": 1212,
+            "Loose": 1260,
+            "No_damage": 912,
+            "Void": 183
+          }
+        },
+        "group_counts_by_role": {
+          "test": 1434,
+          "val": 1433,
+          "train": 4215
+        },
+        "missing_labels_by_role": {
+          "train": [],
+          "val": [],
+          "test": []
+        },
+        "shared_train_test_groups": 49,
+        "shared_train_val_groups": 57,
+        "shared_val_test_groups": 50,
+        "group_leakage_free_train_test": false
+      }
+    },
+    {
+      "dataset": "tigpr",
+      "protocol": "source_group_holdout_70_15_15",
+      "path": "splits/tigpr/source_group_holdout_70_15_15_split_manifest_20260811.csv",
+      "audit": {
+        "rows": 7169,
+        "role_counts": {
+          "val": 1075,
+          "train": 5019,
+          "test": 1075
+        },
+        "label_counts_by_role": {
+          "val": {
+            "Crack": 183,
+            "Interlayer_bonding_deficiency": 303,
+            "Loose": 315,
+            "No_damage": 228,
+            "Void": 46
+          },
+          "train": {
+            "Crack": 857,
+            "Interlayer_bonding_deficiency": 1414,
+            "Loose": 1470,
+            "No_damage": 1064,
+            "Void": 214
+          },
+          "test": {
+            "Crack": 184,
+            "Interlayer_bonding_deficiency": 303,
+            "Loose": 315,
+            "No_damage": 228,
+            "Void": 45
+          }
+        },
+        "group_counts_by_role": {
+          "val": 1038,
+          "train": 4849,
+          "test": 1039
+        },
+        "missing_labels_by_role": {
+          "train": [],
+          "val": [],
+          "test": []
+        },
+        "shared_train_test_groups": 0,
+        "shared_train_val_groups": 0,
+        "shared_val_test_groups": 0,
+        "group_leakage_free_train_test": true
+      }
+    },
+    {
+      "dataset": "tigpr",
+      "protocol": "provenance_size_holdout_p4",
+      "path": "splits/tigpr/provenance_size_holdout_p4_split_manifest_20260811.csv",
+      "audit": {
+        "rows": 7169,
+        "role_counts": {
+          "train": 5016,
+          "test": 1436,
+          "val": 717
+        },
+        "label_counts_by_role": {
+          "train": {
+            "Crack": 857,
+            "Interlayer_bonding_deficiency": 1414,
+            "Loose": 1470,
+            "No_damage": 1064,
+            "Void": 211
+          },
+          "test": {
+            "Crack": 244,
+            "Interlayer_bonding_deficiency": 404,
+            "Loose": 420,
+            "No_damage": 304,
+            "Void": 64
+          },
+          "val": {
+            "Crack": 123,
+            "Interlayer_bonding_deficiency": 202,
+            "Loose": 210,
+            "No_damage": 152,
+            "Void": 30
+          }
+        },
+        "group_counts_by_role": {
+          "train": 4991,
+          "test": 1282,
+          "val": 653
+        },
+        "missing_labels_by_role": {
+          "train": [],
+          "val": [],
+          "test": []
+        },
+        "shared_train_test_groups": 0,
+        "shared_train_val_groups": 0,
+        "shared_val_test_groups": 0,
+        "group_leakage_free_train_test": true
+      }
+    },
+    {
+      "dataset": "tigpr",
+      "protocol": "datasail_like_group_balance",
+      "path": "splits/tigpr/datasail_like_group_balance_split_manifest_20260811.csv",
+      "audit": {
+        "rows": 7169,
+        "role_counts": {
+          "val": 1075,
+          "train": 5019,
+          "test": 1075
+        },
+        "label_counts_by_role": {
+          "val": {
+            "Crack": 183,
+            "Interlayer_bonding_deficiency": 303,
+            "Loose": 315,
+            "No_damage": 228,
+            "Void": 46
+          },
+          "train": {
+            "Crack": 857,
+            "Interlayer_bonding_deficiency": 1414,
+            "Loose": 1470,
+            "No_damage": 1064,
+            "Void": 214
+          },
+          "test": {
+            "Crack": 184,
+            "Interlayer_bonding_deficiency": 303,
+            "Loose": 315,
+            "No_damage": 228,
+            "Void": 45
+          }
+        },
+        "group_counts_by_role": {
+          "val": 1038,
+          "train": 4849,
+          "test": 1039
+        },
+        "missing_labels_by_role": {
+          "train": [],
+          "val": [],
+          "test": []
+        },
+        "shared_train_test_groups": 0,
+        "shared_train_val_groups": 0,
+        "shared_val_test_groups": 0,
+        "group_leakage_free_train_test": true
+      }
+    },
+    {
+      "dataset": "zenodo_14637589",
+      "protocol": "random_stratified_70_15_15",
+      "path": "splits/zenodo_14637589/random_stratified_70_15_15_split_manifest_20260811.csv",
+      "audit": {
+        "rows": 914,
+        "role_counts": {
+          "train": 638,
+          "val": 138,
+          "test": 138
+        },
+        "label_counts_by_role": {
+          "train": {
+            "pipe": 387,
+            "rebar": 151,
+            "tunnel": 100
+          },
+          "val": {
+            "pipe": 83,
+            "rebar": 33,
+            "tunnel": 22
+          },
+          "test": {
+            "pipe": 83,
+            "rebar": 33,
+            "tunnel": 22
+          }
+        },
+        "group_counts_by_role": {
+          "train": 19,
+          "val": 16,
+          "test": 17
+        },
+        "missing_labels_by_role": {
+          "train": [],
+          "val": [],
+          "test": []
+        },
+        "shared_train_test_groups": 16,
+        "shared_train_val_groups": 16,
+        "shared_val_test_groups": 14,
+        "group_leakage_free_train_test": false
+      }
+    },
+    {
+      "dataset": "zenodo_14637589",
+      "protocol": "existing_fold_p2",
+      "path": "splits/zenodo_14637589/existing_fold_p2_split_manifest_20260811.csv",
+      "audit": {
+        "rows": 914,
+        "role_counts": {
+          "test": 210,
+          "val": 260,
+          "train": 444
+        },
+        "label_counts_by_role": {
+          "test": {
+            "pipe": 113,
+            "rebar": 49,
+            "tunnel": 48
+          },
+          "val": {
+            "pipe": 77,
+            "rebar": 135,
+            "tunnel": 48
+          },
+          "train": {
+            "pipe": 363,
+            "rebar": 33,
+            "tunnel": 48
+          }
+        },
+        "group_counts_by_role": {
+          "test": 8,
+          "val": 5,
+          "train": 7
+        },
+        "missing_labels_by_role": {
+          "train": [],
+          "val": [],
+          "test": []
+        },
+        "shared_train_test_groups": 0,
+        "shared_train_val_groups": 0,
+        "shared_val_test_groups": 0,
+        "group_leakage_free_train_test": true
+      }
+    },
+    {
+      "dataset": "zenodo_14637589",
+      "protocol": "source_group_holdout_70_15_15",
+      "path": "splits/zenodo_14637589/source_group_holdout_70_15_15_split_manifest_20260811.csv",
+      "audit": {
+        "rows": 914,
+        "role_counts": {
+          "test": 210,
+          "val": 271,
+          "train": 433
+        },
+        "label_counts_by_role": {
+          "test": {
+            "pipe": 113,
+            "rebar": 49,
+            "tunnel": 48
+          },
+          "val": {
+            "pipe": 88,
+            "rebar": 135,
+            "tunnel": 48
+          },
+          "train": {
+            "pipe": 352,
+            "rebar": 33,
+            "tunnel": 48
+          }
+        },
+        "group_counts_by_role": {
+          "test": 8,
+          "val": 7,
+          "train": 5
+        },
+        "missing_labels_by_role": {
+          "train": [],
+          "val": [],
+          "test": []
+        },
+        "shared_train_test_groups": 0,
+        "shared_train_val_groups": 0,
+        "shared_val_test_groups": 0,
+        "group_leakage_free_train_test": true
+      }
+    },
+    {
+      "dataset": "zenodo_14637589",
+      "protocol": "provenance_size_holdout_p4",
+      "path": "splits/zenodo_14637589/provenance_size_holdout_p4_split_manifest_20260811.csv",
+      "audit": {
+        "rows": 914,
+        "role_counts": {
+          "train": 236,
+          "test": 531,
+          "val": 147
+        },
+        "label_counts_by_role": {
+          "train": {
+            "pipe": 139,
+            "rebar": 49,
+            "tunnel": 48
+          },
+          "test": {
+            "pipe": 348,
+            "rebar": 135,
+            "tunnel": 48
+          },
+          "val": {
+            "pipe": 66,
+            "rebar": 33,
+            "tunnel": 48
+          }
+        },
+        "group_counts_by_role": {
+          "train": 14,
+          "test": 3,
+          "val": 3
+        },
+        "missing_labels_by_role": {
+          "train": [],
+          "val": [],
+          "test": []
+        },
+        "shared_train_test_groups": 0,
+        "shared_train_val_groups": 0,
+        "shared_val_test_groups": 0,
+        "group_leakage_free_train_test": true
+      }
+    },
+    {
+      "dataset": "zenodo_14637589",
+      "protocol": "datasail_like_group_balance",
+      "path": "splits/zenodo_14637589/datasail_like_group_balance_split_manifest_20260811.csv",
+      "audit": {
+        "rows": 914,
+        "role_counts": {
+          "test": 210,
+          "val": 271,
+          "train": 433
+        },
+        "label_counts_by_role": {
+          "test": {
+            "pipe": 113,
+            "rebar": 49,
+            "tunnel": 48
+          },
+          "val": {
+            "pipe": 88,
+            "rebar": 135,
+            "tunnel": 48
+          },
+          "train": {
+            "pipe": 352,
+            "rebar": 33,
+            "tunnel": 48
+          }
+        },
+        "group_counts_by_role": {
+          "test": 8,
+          "val": 7,
+          "train": 5
+        },
+        "missing_labels_by_role": {
+          "train": [],
+          "val": [],
+          "test": []
+        },
+        "shared_train_test_groups": 0,
+        "shared_train_val_groups": 0,
+        "shared_val_test_groups": 0,
+        "group_leakage_free_train_test": true
+      }
+    },
+    {
+      "dataset": "deepmask_gpr",
+      "protocol": "random_stratified_70_15_15",
+      "path": "splits/deepmask_gpr/random_stratified_70_15_15_split_manifest_20260811.csv",
+      "audit": {
+        "rows": 2524,
+        "role_counts": {
+          "test": 379,
+          "val": 379,
+          "train": 1766
+        },
+        "label_counts_by_role": {
+          "test": {
+            "cavity": 95,
+            "intact": 146,
+            "utility": 138
+          },
+          "val": {
+            "cavity": 95,
+            "intact": 146,
+            "utility": 138
+          },
+          "train": {
+            "cavity": 442,
+            "intact": 683,
+            "utility": 641
+          }
+        },
+        "group_counts_by_role": {
+          "test": 216,
+          "val": 222,
+          "train": 285
+        },
+        "missing_labels_by_role": {
+          "train": [],
+          "val": [],
+          "test": []
+        },
+        "shared_train_test_groups": 216,
+        "shared_train_val_groups": 222,
+        "shared_val_test_groups": 166,
+        "group_leakage_free_train_test": false
+      }
+    },
+    {
+      "dataset": "deepmask_gpr",
+      "protocol": "existing_fold_p2",
+      "path": "splits/deepmask_gpr/existing_fold_p2_split_manifest_20260811.csv",
+      "audit": {
+        "rows": 2524,
+        "role_counts": {
+          "test": 512,
+          "train": 1746,
+          "val": 266
+        },
+        "label_counts_by_role": {
+          "test": {
+            "cavity": 128,
+            "intact": 195,
+            "utility": 189
+          },
+          "train": {
+            "cavity": 440,
+            "intact": 676,
+            "utility": 630
+          },
+          "val": {
+            "cavity": 64,
+            "intact": 104,
+            "utility": 98
+          }
+        },
+        "group_counts_by_role": {
+          "test": 58,
+          "train": 197,
+          "val": 30
+        },
+        "missing_labels_by_role": {
+          "train": [],
+          "val": [],
+          "test": []
+        },
+        "shared_train_test_groups": 0,
+        "shared_train_val_groups": 0,
+        "shared_val_test_groups": 0,
+        "group_leakage_free_train_test": true
+      }
+    },
+    {
+      "dataset": "deepmask_gpr",
+      "protocol": "source_group_holdout_70_15_15",
+      "path": "splits/deepmask_gpr/source_group_holdout_70_15_15_split_manifest_20260811.csv",
+      "audit": {
+        "rows": 2524,
+        "role_counts": {
+          "test": 392,
+          "train": 1740,
+          "val": 392
+        },
+        "label_counts_by_role": {
+          "test": {
+            "cavity": 96,
+            "intact": 156,
+            "utility": 140
+          },
+          "train": {
+            "cavity": 440,
+            "intact": 663,
+            "utility": 637
+          },
+          "val": {
+            "cavity": 96,
+            "intact": 156,
+            "utility": 140
+          }
+        },
+        "group_counts_by_role": {
+          "test": 44,
+          "train": 197,
+          "val": 44
+        },
+        "missing_labels_by_role": {
+          "train": [],
+          "val": [],
+          "test": []
+        },
+        "shared_train_test_groups": 0,
+        "shared_train_val_groups": 0,
+        "shared_val_test_groups": 0,
+        "group_leakage_free_train_test": true
+      }
+    },
+    {
+      "dataset": "deepmask_gpr",
+      "protocol": "provenance_size_holdout_p4",
+      "path": "splits/deepmask_gpr/provenance_size_holdout_p4_split_manifest_20260811.csv",
+      "audit": {
+        "rows": 2524,
+        "role_counts": {
+          "test": 512,
+          "train": 1746,
+          "val": 266
+        },
+        "label_counts_by_role": {
+          "test": {
+            "cavity": 128,
+            "intact": 195,
+            "utility": 189
+          },
+          "train": {
+            "cavity": 440,
+            "intact": 676,
+            "utility": 630
+          },
+          "val": {
+            "cavity": 64,
+            "intact": 104,
+            "utility": 98
+          }
+        },
+        "group_counts_by_role": {
+          "test": 58,
+          "train": 197,
+          "val": 30
+        },
+        "missing_labels_by_role": {
+          "train": [],
+          "val": [],
+          "test": []
+        },
+        "shared_train_test_groups": 0,
+        "shared_train_val_groups": 0,
+        "shared_val_test_groups": 0,
+        "group_leakage_free_train_test": true
+      }
+    },
+    {
+      "dataset": "deepmask_gpr",
+      "protocol": "datasail_like_group_balance",
+      "path": "splits/deepmask_gpr/datasail_like_group_balance_split_manifest_20260811.csv",
+      "audit": {
+        "rows": 2524,
+        "role_counts": {
+          "test": 392,
+          "train": 1740,
+          "val": 392
+        },
+        "label_counts_by_role": {
+          "test": {
+            "cavity": 96,
+            "intact": 156,
+            "utility": 140
+          },
+          "train": {
+            "cavity": 440,
+            "intact": 663,
+            "utility": 637
+          },
+          "val": {
+            "cavity": 96,
+            "intact": 156,
+            "utility": 140
+          }
+        },
+        "group_counts_by_role": {
+          "test": 44,
+          "train": 197,
+          "val": 44
+        },
+        "missing_labels_by_role": {
+          "train": [],
+          "val": [],
+          "test": []
+        },
+        "shared_train_test_groups": 0,
+        "shared_train_val_groups": 0,
+        "shared_val_test_groups": 0,
+        "group_leakage_free_train_test": true
+      }
+    }
+  ],
+  "all_split_files_exist": true,
+  "group_disjoint_protocols": [
+    "source_group_holdout_70_15_15",
+    "provenance_size_holdout_p4",
+    "datasail_like_group_balance"
+  ],
+  "blind_external_eligible": false,
+  "status": "complete_local_unified_split_manifests"
+}

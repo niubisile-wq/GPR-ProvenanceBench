@@ -1,0 +1,5 @@
+check,result,detail
+one form per manual-only board step,PASS,form_rows=5; open_execution_steps=5
+all forms are blank and non-executing,PASS,filled_evidence_rows=0; validator_ran=no; writeback_allowed_now=no
+all forms point to validators,PASS,validator_links=5
+submission remains blocked,PASS,portal_upload_allowed=false; submission_ready=false

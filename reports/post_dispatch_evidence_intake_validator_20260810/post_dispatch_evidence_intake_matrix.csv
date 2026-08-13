@@ -1,0 +1,8 @@
+dispatch_id,evidence_type,expected_evidence,observed_evidence,intake_status,gate_effect
+MD-001,real_author_sendout,all send rows marked sent with timestamp and sender,sent_rows=0; total_send_rows=5,missing,no_gate_closure
+MD-001,returned_author_reply_files,all required return rows marked returned with returned file path and timestamp,returned_rows=0; total_return_rows=8,missing,no_gate_closure
+MD-002,backend_and_scope_choice,backend current_choice is Python/R and scope current_choice is one allowed scope,backend_valid=False; scope_valid=False,missing,no_gate_closure
+MD-003,external_blind_asset_payload,external_blind contains real payload files beyond README plus strict-SHA manifest later,external_payload_files=0,missing,no_gate_closure
+MD-004,rights_licence_decisions,"code, derived-data and figure-source rights decisions no longer open",rights_closed=False,missing,no_gate_closure
+MD-005,reporting_summary_author_replies,four Reporting Summary author_reply cells filled,reporting_replies=0; total_reporting_rows=4,missing,no_gate_closure
+MD-006,reference_replacement_authorized,final prose stable and marker replacement rows allowed,replacement_allowed_rows=0; total_replacement_rows=5,missing,no_gate_closure

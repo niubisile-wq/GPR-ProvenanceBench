@@ -1,0 +1,7 @@
+gate_id,gate,current_allowed,bridge_allowed,reason
+,Real blind external validation,no,no,"Blocked until transition bridge, evidence binder, execution board and final lock all pass."
+,Main figure rendering,no,no,"Blocked until transition bridge, evidence binder, execution board and final lock all pass."
+,Repository identifiers,no,no,"Blocked until transition bridge, evidence binder, execution board and final lock all pass."
+,Reporting Summary,no,no,"Blocked until transition bridge, evidence binder, execution board and final lock all pass."
+,Third-party rights,no,no,"Blocked until transition bridge, evidence binder, execution board and final lock all pass."
+,Final reference numbering,no,no,"Blocked until transition bridge, evidence binder, execution board and final lock all pass."

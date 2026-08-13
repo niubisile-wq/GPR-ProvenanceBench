@@ -1,0 +1,6 @@
+no_go_id,condition,current_status,effect
+NG-V3-001,Any author_reply field remains blank.,active,"No author/admin, branch, backend, rights, Reporting Summary or portal gate can close."
+NG-V3-002,Figure backend is undecided or rendered_figures=0.,active,"Formal figure, Source Data, Reporting Summary and final-file gates remain blocked."
+NG-V3-003,"No repository DOI, code DOI or rights clearance exists.",active,Data/Code Availability and portal upload remain blocked.
+NG-V3-004,Reporting Summary and references remain prelock.,active,Final manuscript/SI files cannot be generated.
+NG-V3-005,Portal upload_ready_rows remain zero.,active,No actual submission can be attempted.

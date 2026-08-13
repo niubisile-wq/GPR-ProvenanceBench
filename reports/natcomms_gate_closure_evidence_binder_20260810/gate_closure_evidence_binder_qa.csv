@@ -1,0 +1,6 @@
+check,result,detail
+All master gates bound,PASS,8 gates.
+Artifact requirements exist,PASS,16 requirements.
+No false gate closure,PASS,Every gate remains keep_open.
+Open requirements detected,PASS,16 open requirements.
+Forbidden shortcuts recorded,PASS,5 shortcuts.

@@ -1,0 +1,8 @@
+cover_letter_field,current_status,admin_prelock_action,required_before_submission
+Corresponding author name and affiliation,placeholder,mirrored_in_admin_package,yes
+Final title,Track B prelock,mirrored_in_admin_package,yes
+Final manuscript branch,TRACK-B,tracked_as_submission_gate,yes
+Final figure status,not rendered,tracked_as_submission_gate,yes
+Repository/DOI statement,not final,tracked_as_submission_gate,yes
+Reporting Summary,not final,tracked_as_submission_gate,yes
+Final references,not final,tracked_as_submission_gate,yes

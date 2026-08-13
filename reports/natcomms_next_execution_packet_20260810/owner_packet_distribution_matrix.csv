@@ -1,0 +1,6 @@
+owner,packet_items,reply_due_event,status
+corresponding_author,author_finalization_reply_form_cn.csv; corresponding_author_metadata_form.csv; reviewer_and_policy_reply_sheet.csv,before any final declarations or portal metadata lock,not_sent_or_not_collected
+author_advisor,track_branch_and_external_validation_reply.csv,before title/abstract/cover-letter final route lock,not_collected
+author_analysis,figure_backend_decision_ticket.csv,before formal figure rendering,not_collected
+repository_lead,licence_rights_reply_sheet.csv; rights_and_licence_release_blockers.csv,"before DOI, Data Availability or Code Availability lock",not_collected
+analysis_reference_lead,reporting_summary_author_reply_sheet.csv; citation_marker_replacement_plan.csv,after figures/source-data/final prose lock,waiting

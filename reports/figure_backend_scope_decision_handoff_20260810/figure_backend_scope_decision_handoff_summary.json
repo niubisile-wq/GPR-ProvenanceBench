@@ -1,0 +1,18 @@
+{
+  "package": "figure_backend_scope_decision_handoff_20260810",
+  "backend_options": 2,
+  "recommended_backend": "Python",
+  "backend_selected": true,
+  "scope_options": 2,
+  "recommended_scope": "Figure 1-Figure 6",
+  "scope_confirmed": true,
+  "planned_figures": 6,
+  "planned_figures_with_sources_ready": 6,
+  "rendering_allowed": true,
+  "rendered_figures": 0,
+  "qa_rows": 5,
+  "qa_pass": true,
+  "submission_ready": false,
+  "status": "figure_backend_scope_handoff_ready_waiting_author_choice",
+  "desktop_plan_updated": true
+}

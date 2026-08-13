@@ -1,0 +1,17 @@
+{
+  "package": "python_figure_source_data_panel_map_preflight_20260810",
+  "figure_source_data_rows": 6,
+  "missing_source_rows": 0,
+  "lock_requirement_rows": 4,
+  "command_rows": 4,
+  "stop_rules": 4,
+  "qa_rows": 5,
+  "qa_pass": true,
+  "panel_map_lock_allowed_rows": 6,
+  "source_data_panel_map_locked": true,
+  "figure_portal_upload_allowed_rows": 0,
+  "final_figures_ready": true,
+  "submission_ready": false,
+  "status": "python_figure_source_data_panel_map_preflight_ready_enabled",
+  "desktop_plan_updated": true
+}

@@ -1,0 +1,6 @@
+check,result,detail
+all_transition_commands_guarded,PASS,guarded_rows=7; route_transition_rows=7
+all_commands_currently_blocked,PASS,blocked=7; allowed=0
+global_guards_refuse_execution,PASS,passing_global_guards=0
+runner_script_created,PASS,<REPO_ROOT>\reports\post_return_guarded_execution_runner_20260810\run_post_return_guarded_execution.ps1
+submission_still_blocked,PASS,submission_ready=False

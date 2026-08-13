@@ -1,0 +1,6 @@
+shortcut,why_forbidden,affected_gates
+Treat recommended defaults as author approval,"Defaults are suggestions, not explicit author replies.",FM-001; FM-002; FM-003; FM-004; FM-005; FM-008
+Render figures before backend choice,Formal figure gate requires one backend and visual QA.,FM-003; FM-004; FM-005; FM-007; FM-008
+Use prelock text as final manuscript,"Preassembly text excludes final figures, references, declarations, Reporting Summary and Source Data.",FM-007; FM-008
+Claim repository readiness before DOI/rights,Repository package is predeposit only; no public release or DOI exists.,FM-004; FM-005; FM-008
+Claim Track A without blind external evidence,No filled strict-intake external asset or locked evaluation exists.,FM-002

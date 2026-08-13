@@ -1,0 +1,7 @@
+blocked_item,blocked_command,reason
+MOF-001,py scripts/validate_manual_only_execution_forms_20260810.py,missing backfill cells or no candidate evidence files
+MOF-002,py scripts/validate_manual_only_execution_forms_20260810.py,missing backfill cells or no candidate evidence files
+MOF-003,py scripts/validate_manual_only_execution_forms_20260810.py,missing backfill cells or no candidate evidence files
+MOF-004,py scripts/validate_manual_only_execution_forms_20260810.py,missing backfill cells or no candidate evidence files
+MOF-005,py scripts/validate_manual_only_execution_forms_20260810.py,missing backfill cells or no candidate evidence files
+GLOBAL,py scripts/validate_manual_only_execution_forms_20260810.py,not all five MOF forms are complete with candidate evidence

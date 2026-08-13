@@ -1,0 +1,12 @@
+{
+  "run_id": "20260810_submission_gap_closure_matrix",
+  "dashboard_areas": 9,
+  "open_gates": 6,
+  "closure_rows": 6,
+  "minimum_evidence_rows": 6,
+  "execution_steps": 5,
+  "externally_blocked_gates": 3,
+  "submission_ready": false,
+  "status": "gap_closure_matrix_ready_submission_not_ready",
+  "boundary": "Gap matrix defines closure evidence and forbidden claims; it does not create external validation, rendered figures, DOI, rights clearance or final Reporting Summary."
+}

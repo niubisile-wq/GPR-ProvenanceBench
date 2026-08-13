@@ -1,0 +1,95 @@
+TY  - JOUR
+TI  - Reservoir-enhanced segment anything model for subsurface diagnosis
+AU  - Zhou, Xiren
+AU  - Liu, Shikang
+AU  - Yan, Xinyu
+AU  - Fan, Yizhan
+AU  - Wang, Xiangyu
+AU  - Kang, Yu
+AU  - Cheng, Jian
+AU  - Chen, Huanhuan
+T2  - Nature Communications
+JO  - Nature Communications
+PY  - 2025
+DO  - 10.1038/s41467-025-67382-4
+UR  - https://www.nature.com/articles/s41467-025-67382-4
+N1  - Direct GPR and Res-SAM background; supports GPR task context, data scarcity and environment variability.
+ER  -
+
+TY  - JOUR
+TI  - Mitigating data bias and ensuring reliable evaluation of AI models with shortcut hull learning
+AU  - Zhou, Wenhao
+AU  - Liu, Faqiang
+AU  - Zheng, Hao
+AU  - Zhao, Rong
+T2  - Nature Communications
+JO  - Nature Communications
+PY  - 2025
+DO  - 10.1038/s41467-025-60801-6
+UR  - https://www.nature.com/articles/s41467-025-60801-6
+N1  - Shortcut learning and data-bias evaluation context; supports model-family and overclaim guard logic.
+ER  -
+
+TY  - JOUR
+TI  - Detecting shortcut learning for fair medical AI using shortcut testing
+AU  - Brown, Alexander
+AU  - Tomasev, Nenad
+AU  - Freyberg, Jan
+AU  - Liu, Yuan
+AU  - Karthikesalingam, Alan
+AU  - Schrouff, Jessica
+T2  - Nature Communications
+JO  - Nature Communications
+PY  - 2023
+DO  - 10.1038/s41467-023-39902-7
+UR  - https://www.nature.com/articles/s41467-023-39902-7
+N1  - Shortcut testing context; supports the distinction between encoded attributes and actual model reliance.
+ER  -
+
+TY  - JOUR
+TI  - Data leakage inflates prediction performance in connectome-based machine learning models
+AU  - Rosenblatt, Matthew
+AU  - Tejavibulya, Link
+AU  - Jiang, Rongtao
+AU  - Noble, Stephanie
+AU  - Scheinost, Dustin
+T2  - Nature Communications
+JO  - Nature Communications
+PY  - 2024
+DO  - 10.1038/s41467-024-46150-w
+UR  - https://www.nature.com/articles/s41467-024-46150-w
+N1  - Data leakage and inflated performance context; supports the random-split inflation warning.
+ER  -
+
+TY  - JOUR
+TI  - Data splitting to avoid information leakage with DataSAIL
+AU  - Joeres, Roman
+AU  - Blumenthal, David B.
+AU  - Kalinina, Olga V.
+T2  - Nature Communications
+JO  - Nature Communications
+PY  - 2025
+DO  - 10.1038/s41467-025-58606-8
+UR  - https://www.nature.com/articles/s41467-025-58606-8
+N1  - Leakage-aware data splitting context; supports split design and similarity/provenance separation logic.
+ER  -
+
+TY  - JOUR
+TI  - Automatic correction of performance drift under acquisition shift in medical image classification
+AU  - Roschewitz, Melanie
+AU  - Khara, Galvin
+AU  - Yearsley, Joe
+AU  - Sharma, Nisha
+AU  - James, Jonathan J.
+AU  - Ambrozay, Eva
+AU  - Heroux, Adam
+AU  - Kecskemethy, Peter
+AU  - Rijken, Tobias
+AU  - Glocker, Ben
+T2  - Nature Communications
+JO  - Nature Communications
+PY  - 2023
+DO  - 10.1038/s41467-023-42396-y
+UR  - https://www.nature.com/articles/s41467-023-42396-y
+N1  - Acquisition-shift and performance-drift background; not GPR-specific.
+ER  -

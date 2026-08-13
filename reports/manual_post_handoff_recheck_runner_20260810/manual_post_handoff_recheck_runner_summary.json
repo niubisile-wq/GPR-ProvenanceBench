@@ -1,0 +1,17 @@
+{
+  "package": "manual_post_handoff_recheck_runner_20260810",
+  "safe_command_rows": 10,
+  "input_rows": 5,
+  "stop_rules": 5,
+  "qa_rows": 4,
+  "qa_pass": true,
+  "runner_script": "reports/manual_post_handoff_recheck_runner_20260810/run_after_manual_evidence_recheck.ps1",
+  "commands_executed_by_builder": false,
+  "writes_manual_evidence": false,
+  "can_close_gate": false,
+  "evidence_rows_passed": 0,
+  "gate_closure_allowed": false,
+  "submission_ready": false,
+  "status": "manual_post_handoff_recheck_runner_ready_status_only",
+  "desktop_plan_updated": true
+}

@@ -1,0 +1,5 @@
+dependency_id,must_finish_before,dependency,status,reason
+DEP-001,HEC-002,HEC-001,open,Author replies cannot be collected until the sendout is actually sent.
+DEP-002,HEC-003,HEC-002,open,Figure finalization requires author review decisions.
+DEP-003,HEC-005,"HEC-002, HEC-003, HEC-004",open,"Reporting Summary depends on author confirmations, figure state and repository availability."
+DEP-004,HEC-007,"HEC-002, HEC-003, HEC-004, HEC-005, HEC-006",open,Portal upload and final submission require all upstream gates closed.

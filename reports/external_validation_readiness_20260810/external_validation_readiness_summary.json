@@ -1,0 +1,158 @@
+{
+  "run_id": "20260810_E00_external_validation_readiness",
+  "local_state": {
+    "external_assets_exists": true,
+    "tigpr_sample_rows": 7169,
+    "blind_manifest_exists": false
+  },
+  "tracks": [
+    {
+      "track_id": "A",
+      "name": "TIGPR restoration",
+      "role": "restored public local image dataset; not blind external validation",
+      "current_status": "ready_as_restored_local_not_blind",
+      "blocking_facts": [],
+      "minimum_entry_requirements": [
+        "authorized source download",
+        "local source image tree under external_assets/tigpr",
+        "7169-row sample index",
+        "class counts verified against prior audit",
+        "duplicate-aware grouped split with duplicate groups locked within folds"
+      ],
+      "next_action": "Use TIGPR only as restored-local duplicate-aware evidence; do not count it as blind external validation because labels and media are visible."
+    },
+    {
+      "track_id": "B",
+      "name": "New third-party blind GPR image set",
+      "role": "primary blind external validation",
+      "current_status": "not_started",
+      "blocking_facts": [
+        "no advisor-held or third-party blind manifest exists locally",
+        "no encrypted label file or label-holder protocol exists",
+        "no one-shot submission package exists"
+      ],
+      "minimum_entry_requirements": [
+        "data not used in model selection or threshold tuning",
+        "labels held by advisor or third party until predictions are frozen",
+        "sample IDs and hashes frozen before prediction",
+        "single allowed submission for main claims",
+        "label space harmonized to a predeclared target before model execution"
+      ],
+      "next_action": "Create a blind intake template and ask the label holder to provide sample IDs, raw files or images, and sealed labels."
+    },
+    {
+      "track_id": "C",
+      "name": "4TU-like raw-trace external asset",
+      "role": "external raw-trace counterfactual confirmation",
+      "current_status": "not_ready",
+      "blocking_facts": [
+        "current 4TU metadata labels are not strong enough for main cross-model confirmation",
+        "existing 4TU group-aware evidence remains a stress test"
+      ],
+      "minimum_entry_requirements": [
+        "at least 10 independent projects or collection groups",
+        "at least 2 labels in every train/validation/test grouped split",
+        "held-out labels covered by training labels",
+        "raw traces available for deterministic counterfactual rendering",
+        "project-level split frozen before model execution"
+      ],
+      "next_action": "Search for or request a 4TU-like raw-trace dataset with better project and label balance before expanding the full five-model matrix.",
+      "current_4tu_summary": [
+        {
+          "target": "Land type",
+          "status": "usable_with_caution",
+          "test2_val2_feasible": 708
+        },
+        {
+          "target": "Land use",
+          "status": "not_viable_for_group_holdout",
+          "test2_val2_feasible": 0
+        },
+        {
+          "target": "Land cover",
+          "status": "weak_due_to_single_project_labels",
+          "test2_val2_feasible": 420
+        },
+        {
+          "target": "Utility crossing",
+          "status": "usable_with_caution",
+          "test2_val2_feasible": 360
+        },
+        {
+          "target": "Construction workers",
+          "status": "not_viable_for_group_holdout",
+          "test2_val2_feasible": 0
+        },
+        {
+          "target": "Relative groundwater level",
+          "status": "weak_due_to_single_project_labels",
+          "test2_val2_feasible": 60
+        }
+      ]
+    },
+    {
+      "track_id": "D",
+      "name": "Current Res-SAM as external-looking heldout",
+      "role": "not acceptable as blind external validation",
+      "current_status": "already_used_in_model_matrix",
+      "blocking_facts": [
+        "Res-SAM has already been used for model-family synthesis",
+        "using it again as blind external validation would contaminate main claims"
+      ],
+      "minimum_entry_requirements": [
+        "can remain a core local data asset",
+        "cannot be relabeled as blind external after current analyses"
+      ],
+      "next_action": "Use Res-SAM for cross-model evidence and methods development only; acquire a separate blind asset for final validation.",
+      "current_claim_summary": [
+        {
+          "dataset": "mojahid",
+          "contrast": "random_minus_grouped_balanced_accuracy",
+          "n_model_families": 5,
+          "directional_support_count": 5,
+          "material_support_count": 1,
+          "delta_mean_across_models": 0.040600275614531146,
+          "delta_min": 0.009838784098062825,
+          "delta_max": 0.09764457671126991,
+          "claim_status": "directional_only"
+        },
+        {
+          "dataset": "res_sam",
+          "contrast": "within_minus_transfer_real_world_to_synthetic",
+          "n_model_families": 5,
+          "directional_support_count": 5,
+          "material_support_count": 5,
+          "delta_mean_across_models": 0.4239111111111112,
+          "delta_min": 0.23555555555555552,
+          "delta_max": 0.6088888888888889,
+          "claim_status": "supported"
+        },
+        {
+          "dataset": "res_sam",
+          "contrast": "within_minus_transfer_synthetic_to_real_world",
+          "n_model_families": 5,
+          "directional_support_count": 4,
+          "material_support_count": 4,
+          "delta_mean_across_models": 0.37426666666666664,
+          "delta_min": -0.010333333333333306,
+          "delta_max": 0.5833333333333333,
+          "claim_status": "supported"
+        }
+      ]
+    }
+  ],
+  "gate": {
+    "gate_id": "external_validation_readiness_20260810",
+    "status": "NO-GO",
+    "hard_requirements": [
+      "external asset is not used in model development",
+      "manifest includes stable sample_id, rel_path or abs_path, file_sha256, label field placeholder, and source_group",
+      "labels are unavailable to the analyst until predictions are frozen",
+      "one prediction submission is allowed for main claims",
+      "evaluation script, model versions, seeds, preprocessing, and thresholds are frozen before labels are opened",
+      "post-hoc reruns are excluded from main claims and reported as exploratory only"
+    ],
+    "current_ready_tracks": [],
+    "decision": "No current track satisfies blind external validation readiness. TIGPR restoration is complete as local evidence, but a separate label-held blind asset is still required."
+  }
+}

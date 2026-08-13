@@ -1,0 +1,7 @@
+source,rows,reply_or_choice_field,blank_rows,ingestion_status,closure_allowed
+metadata,6,author_reply,6,incomplete,no
+backend_ticket,2,current_choice,2,incomplete,no
+branch_external_validation,2,author_reply,2,incomplete,no
+licence_rights,4,author_reply,4,incomplete,no
+reviewer_policy,7,author_reply,7,incomplete,no
+reporting_summary,4,author_reply,4,incomplete,no

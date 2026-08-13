@@ -1,0 +1,5 @@
+check,result,detail
+FMR-002 row imported,PASS,fmr002_rows=1
+recommended defaults not treated as author decisions,PASS,resolved_decision_rows=0
+candidate generation follows decision gates,PASS,candidate_rows=0; fmr002_writeback_allowed=False
+submission remains false,PASS,guarded_recheck_allowed=false; submission_ready=false

@@ -1,0 +1,6 @@
+check,result,detail
+monitor covers all five manual-only forms,PASS,monitor_rows=5
+current state allows no downstream validators,PASS,ready_for_downstream_validator_rows=0
+current state allows no writeback,PASS,ready_for_writeback_rows=0
+receipt completion remains false,PASS,complete_receipt_rows=0
+validation summary agrees with no complete forms,PASS,validated_form_rows=0

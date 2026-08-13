@@ -1,0 +1,7 @@
+priority,gate,status,required_evidence_to_close,current_best_action
+1,Real blind external validation,NO-GO,"Strict-SHA manifest, labels held outside analyst workflow, frozen prediction submission, one locked evaluation after label unlock.",Acquire or restore a separate advisor-held/third-party GPR asset.
+2,Main figure rendering,not_started,"Rendered Fig. 1-Fig. 6 or reduced final figure set, visual QA outputs, source-data panel mapping.",Choose Python or R before running the Nature figure workflow.
+3,Repository identifiers,missing,Data repository DOI/accession and code release DOI.,Resolve release rights and create archive only after final source-data scope is locked.
+4,Reporting Summary,incomplete,"Final answers for study design, sample handling, blinding, statistics, software, data and code.",Fill from frozen Methods and final figure/table set.
+5,Third-party rights,not_cleared,Licence decisions for derived artifacts and raw/third-party GPR data redistribution boundaries.,Review release readiness audit and exclude non-redistributable files from public package.
+6,Final reference numbering,not_locked,"Final prose, final reference order and manual verification of every cited candidate.",Keep `[P#]` markers until prose and figure/table references stop moving.

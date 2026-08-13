@@ -1,0 +1,17 @@
+{
+  "package": "natcomms_author_sendout_bundle_v2_20260810",
+  "total_bundled_files": 19,
+  "reply_forms": 8,
+  "fill_guides": 7,
+  "lifecycle_files": 4,
+  "report_zip": "D:\\百度网盘拉取包\\CNS1\\GPR-ProvenanceBench\\reports\\natcomms_author_sendout_bundle_v2_20260810\\NatComms_author_sendout_bundle_v2_20260810.zip",
+  "desktop_zip": "C:\\Users\\刘子轩\\Desktop\\NatComms_author_sendout_bundle_v2_20260810.zip",
+  "zip_fingerprint_file": "D:\\百度网盘拉取包\\CNS1\\GPR-ProvenanceBench\\reports\\natcomms_author_sendout_bundle_v2_20260810\\author_sendout_bundle_v2_zip_fingerprint.csv",
+  "qa_rows": 8,
+  "qa_pass": true,
+  "email_sent": false,
+  "author_replies_collected": false,
+  "backend_selected": false,
+  "submission_ready": false,
+  "status": "natcomms_author_sendout_bundle_v2_ready_not_sent"
+}

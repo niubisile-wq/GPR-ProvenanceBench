@@ -1,0 +1,6 @@
+acceptance_id,test,must_pass_before,current_result
+ACC-NEXT-001,Author reply validator reruns after replies are filled.,FM-001/FM-002/FM-003/FM-004/FM-005/FM-008 closure review,not_applicable_blank_replies
+ACC-NEXT-002,Gate evidence binder reruns and still requires concrete artifacts after replies.,any gate closure,passes_keep_open
+ACC-NEXT-003,Figure rendering starts only after backend is explicit.,FM-003 closure review,blocked_backend_undecided
+ACC-NEXT-004,Repository DOI/code DOI are externally verified before availability lock.,FM-004/FM-005/FM-008 closure review,blocked_no_doi
+ACC-NEXT-005,Final manuscript/SI assembly starts only after upstream gates are reviewed.,FM-007/FM-008 closure review,blocked_all_prior_gates_open

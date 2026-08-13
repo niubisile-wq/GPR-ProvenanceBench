@@ -1,0 +1,7 @@
+sequence,stage,required_status,current_status,allowed_now
+1,scan_return_inbox,candidate_return_files>0 only after real evidence arrives,candidate_return_files=0,no
+2,protected_manual_writeback,writeback_allowed_rows>0 after manual inspection,writeback_allowed_rows=0,no
+3,route_specific_validators,all currently_allowed commands pass after writeback,validation_command_rows=7,no
+4,gate_closure_binder,open_evidence_requirements=0,open_evidence_requirements=16,no
+5,submission_final_lock,open_master_gates=0 and portal_upload_ready=true,open_master_gates=8; portal_upload_ready=False,no
+6,portal_upload_or_submission,submission_ready=true,submission_ready=False,no

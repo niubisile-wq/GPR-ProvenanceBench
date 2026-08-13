@@ -1,0 +1,20 @@
+{
+  "package": "final_operator_execution_bundle_v2_20260810",
+  "manifest_rows": 20,
+  "missing_files": 0,
+  "operator_sequence_rows": 6,
+  "zip_members": 23,
+  "local_zip": "D:\\\u767e\u5ea6\u7f51\u76d8\u62c9\u53d6\u5305\\CNS1\\GPR-ProvenanceBench\\reports\\final_operator_execution_bundle_v2_20260810\\NatComms_final_operator_execution_bundle_v2_20260810.zip",
+  "local_zip_exists": true,
+  "desktop_zip": "C:\\Users\\\u5218\u5b50\u8f69\\Desktop\\NatComms_final_operator_execution_bundle_v2_20260810.zip",
+  "desktop_zip_exists": true,
+  "qa_rows": 4,
+  "qa_pass": true,
+  "commands_allowed_now": 0,
+  "candidate_return_files": 0,
+  "writeback_allowed_rows": 0,
+  "transition_allowed_rows": 0,
+  "submission_ready": false,
+  "status": "final_operator_execution_bundle_v2_ready_guarded_not_executed",
+  "desktop_plan_updated": true
+}

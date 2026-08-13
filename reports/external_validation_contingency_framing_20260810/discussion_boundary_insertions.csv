@@ -1,0 +1,3 @@
+branch_id,discussion_boundary,required_sentence
+TRACK-A,"Interpret the external result as one held-label confirmation layer, not as proof of deployment-wide robustness.","The external result should be interpreted within the asset, label and preprocessing boundaries defined before label release."
+TRACK-B,Interpret the paper as a local auditable evidence boundary and benchmark/resource contribution.,The absence of a completed blind external validation layer limits the manuscript to provenance-aware evidence auditing rather than external generalization.

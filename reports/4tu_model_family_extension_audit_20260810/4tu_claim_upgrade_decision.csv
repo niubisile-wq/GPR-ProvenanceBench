@@ -1,0 +1,4 @@
+decision_id,question,decision,evidence,allowed_use
+4TU-UPGRADE-001,Can 4TU be upgraded to a main five-model confirmation layer now?,NO,Group-aware repeated splits weaken the fixed-split effect; metadata labels are project-limited; model layers are not the same claim unit as Mojahid/Res-SAM environment transfer.,Use 4TU as counterfactual stress-test and feasibility-boundary evidence.
+4TU-UPGRADE-002,Can 4TU strengthen the Discussion without overclaiming?,YES,Five current evidence layers show where preprocessing/representation sensitivity appears and where grouped validation weakens it.,Report as a failure-mode/stress-test panel and as a reason to require asset-feasibility reporting.
+4TU-UPGRADE-003,Does this close the external validation gate?,NO,4TU is already in the local evidence stack and no held-label blind external asset has been acquired.,Keep external validation readiness NO-GO.

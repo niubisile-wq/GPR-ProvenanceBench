@@ -1,0 +1,6 @@
+check,result,detail
+runner_created,PASS,run_rb001_diagnostic_only.ps1
+runner_returncode_zero,PASS,returncode=0
+runner_excludes_forbidden_commands,PASS,writeback/transition/submission/guarded runner not present
+diagnostic_outputs_preserve_blocked_state,PASS,candidate_return_files=0; writeback_allowed_rows=0; commands_allowed_now=0
+submission_guard_preserved,PASS,open_master_gates=8; submission_ready=False

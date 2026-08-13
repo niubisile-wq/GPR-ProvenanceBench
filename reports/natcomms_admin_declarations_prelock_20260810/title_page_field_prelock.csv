@@ -1,0 +1,7 @@
+field,current_value,status,required_before_submission
+Manuscript title,Environment transfer exposes fragile generalization in ground-penetrating-radar recognition,track_b_prelocked_not_final,yes
+Author names and order,[AUTHOR LIST TO BE INSERTED],missing_author_input,yes
+Affiliations with full institutional addresses,[AFFILIATIONS TO BE INSERTED],missing_author_input,yes
+Corresponding author email and asterisk marker,[CORRESPONDING AUTHOR EMAIL TO BE INSERTED],missing_author_input,yes
+ORCID identifiers,[ORCID IDS TO BE INSERTED IF AVAILABLE/REQUIRED BY PORTAL],missing_author_input,portal_check
+Prior discussion with Nature Communications editor,[NONE/DETAILS TO BE CONFIRMED],missing_author_input,yes

@@ -1,0 +1,6 @@
+gate,current,required,passes_now
+rb001_closed,False,true,no
+writeback_allowed_rows,0,>0,no
+receipt_rows_complete,0,equals writeback_allowed_rows and >0,no
+receipt_permission_recorded,0,equals completed receipt rows,no
+transition_entry_allowed,False,true,no

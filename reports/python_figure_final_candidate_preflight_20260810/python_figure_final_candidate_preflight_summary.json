@@ -1,0 +1,18 @@
+{
+  "package": "python_figure_final_candidate_preflight_20260810",
+  "gate_rows": 5,
+  "candidate_rows": 6,
+  "command_rows": 4,
+  "stop_rules": 5,
+  "qa_rows": 5,
+  "qa_pass": true,
+  "approved_rows": 6,
+  "blank_rows": 0,
+  "manual_writeback_performed": true,
+  "final_candidate_generation_allowed": true,
+  "rendered_figures_final": 6,
+  "final_figures_ready": true,
+  "submission_ready": false,
+  "status": "python_figure_final_candidate_preflight_ready_enabled",
+  "desktop_plan_updated": true
+}

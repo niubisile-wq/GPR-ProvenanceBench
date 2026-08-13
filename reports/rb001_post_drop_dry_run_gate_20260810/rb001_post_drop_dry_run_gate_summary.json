@@ -1,0 +1,18 @@
+{
+  "package": "rb001_post_drop_dry_run_gate_20260810",
+  "sequence_rows": 6,
+  "guard_rows": 8,
+  "qa_rows": 5,
+  "qa_pass": true,
+  "candidate_return_files": 0,
+  "missing_source_register_rows": 0,
+  "hash_mismatch_rows": 0,
+  "reconciled_rows": 0,
+  "writeback_allowed_rows": 0,
+  "transition_allowed_rows": 0,
+  "commands_allowed_now": 0,
+  "open_master_gates": 8,
+  "submission_ready": false,
+  "status": "rb001_post_drop_dry_run_gate_ready_empty_state_refuses_writeback",
+  "desktop_plan_updated": true
+}

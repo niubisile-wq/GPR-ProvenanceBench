@@ -1,0 +1,15 @@
+{
+  "package": "final_manuscript_preassembly_guard_20260810",
+  "files_scanned": 11,
+  "marker_rows": 147,
+  "stop_rules": 5,
+  "blocked_reference_rows": 5,
+  "upload_allowed_rows": 0,
+  "qa_rows": 4,
+  "qa_pass": true,
+  "final_manuscript_allowed": false,
+  "portal_upload_ready": false,
+  "submission_ready": false,
+  "status": "final_manuscript_preassembly_guard_ready_not_final",
+  "desktop_plan_updated": true
+}

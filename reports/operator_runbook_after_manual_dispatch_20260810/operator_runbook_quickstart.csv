@@ -1,0 +1,6 @@
+step,operator_action,file_to_use,do_not_do
+1,Open the Desktop master dispatch zip and send/request the required materials manually.,<LOCAL_DESKTOP>\\NatComms_manual_dispatch_master_packet_20260810.zip,Do not mark email_sent or gate closure until real evidence exists.
+2,"When real evidence returns, open the worksheet and fill only the target fields listed.",reports\manual_evidence_intake_worksheet_20260810\manual_evidence_intake_worksheet.csv,"Do not edit checksum, recommendation, allowed-values, source, evidence or gate-effect fields."
+3,Rerun the post-dispatch evidence intake validator.,py scripts\build_post_dispatch_evidence_intake_validator.py,Do not run branch validators until the evidence row passes.
+4,Check the safe rerun guard and run only branches marked safe.,reports\post_evidence_safe_rerun_guard_20260810\post_evidence_branch_rerun_matrix.csv,Do not run finalization or portal upload while branch commands remain blocked.
+5,"After branch validators pass, rerun gate binder, dashboard, completion ledger and full M0-M2.",powershell -ExecutionPolicy Bypass -File scripts\run_m0_m2_checks.ps1,Do not interpret full checks as submission-ready unless dashboard says submission_ready=true.

@@ -1,0 +1,79 @@
+{
+  "run_id": "20260811_E30_local_signflip_permutation_audit",
+  "unified_rows": [
+    {
+      "audit_family": "unified_split_random_minus_protocol",
+      "unit": "deepmask_gpr",
+      "n_contrasts": 4,
+      "positive_count": 4,
+      "negative_count": 0,
+      "mean_delta": 0.11560537789335312,
+      "exact_sign_positive_tail_p": 0.0625,
+      "exact_signflip_mean_positive_p": 0.0625
+    },
+    {
+      "audit_family": "unified_split_random_minus_protocol",
+      "unit": "mojahid",
+      "n_contrasts": 4,
+      "positive_count": 4,
+      "negative_count": 0,
+      "mean_delta": 0.12334526366787019,
+      "exact_sign_positive_tail_p": 0.0625,
+      "exact_signflip_mean_positive_p": 0.0625
+    },
+    {
+      "audit_family": "unified_split_random_minus_protocol",
+      "unit": "tigpr",
+      "n_contrasts": 4,
+      "positive_count": 3,
+      "negative_count": 1,
+      "mean_delta": 0.01744840718804222,
+      "exact_sign_positive_tail_p": 0.3125,
+      "exact_signflip_mean_positive_p": 0.125
+    },
+    {
+      "audit_family": "unified_split_random_minus_protocol",
+      "unit": "zenodo_14637589",
+      "n_contrasts": 4,
+      "positive_count": 4,
+      "negative_count": 0,
+      "mean_delta": 0.10980749092106043,
+      "exact_sign_positive_tail_p": 0.0625,
+      "exact_signflip_mean_positive_p": 0.0625
+    },
+    {
+      "audit_family": "unified_split_random_minus_protocol",
+      "unit": "all_assets",
+      "n_contrasts": 16,
+      "positive_count": 15,
+      "negative_count": 1,
+      "mean_delta": 0.09155163491758149,
+      "exact_sign_positive_tail_p": 0.0002593994140625,
+      "exact_signflip_mean_positive_p": 3.0517578125e-05
+    }
+  ],
+  "four_tu_rows": [
+    {
+      "audit_family": "4tu_log_clip_stress_delta",
+      "unit": "fixed_split_seed_sweep",
+      "n_contrasts": 20,
+      "positive_count": 0,
+      "negative_count": 10,
+      "mean_delta": -0.0965638528138528,
+      "exact_sign_negative_tail_p": 0.0009765625,
+      "exact_signflip_mean_negative_p": 0.0009765625
+    },
+    {
+      "audit_family": "4tu_log_clip_stress_delta",
+      "unit": "group_aware_project_splits",
+      "n_contrasts": 5,
+      "positive_count": 0,
+      "negative_count": 2,
+      "mean_delta": -0.01687271062271062,
+      "exact_sign_negative_tail_p": 0.25,
+      "exact_signflip_mean_negative_p": 0.25
+    }
+  ],
+  "blind_external_eligible": false,
+  "status": "complete_local_signflip_permutation_audit"
+}

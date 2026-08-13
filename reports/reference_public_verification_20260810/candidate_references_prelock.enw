@@ -1,0 +1,66 @@
+%0 Journal Article
+%F P1
+%T Reservoir-enhanced segment anything model for subsurface diagnosis
+%J Nature Communications
+%V 16
+%P 11080
+%D 2025
+%8 2025-12-12
+%R 10.1038/s41467-025-67382-4
+%U https://www.nature.com/articles/s41467-025-67382-4
+%Z Prelock export only; verify final citation order and support boundary before submission.
+%0 Journal Article
+%F P2
+%T Mitigating data bias and ensuring reliable evaluation of AI models with shortcut hull learning
+%J Nature Communications
+%V 16
+%P 5513
+%D 2025
+%8 2025-07-01
+%R 10.1038/s41467-025-60801-6
+%U https://www.nature.com/articles/s41467-025-60801-6
+%Z Prelock export only; verify final citation order and support boundary before submission.
+%0 Journal Article
+%F P3
+%T Detecting shortcut learning for fair medical AI using shortcut testing
+%J Nature Communications
+%V 14
+%P 4314
+%D 2023
+%8 2023-07-18
+%R 10.1038/s41467-023-39902-7
+%U https://www.nature.com/articles/s41467-023-39902-7
+%Z Prelock export only; verify final citation order and support boundary before submission.
+%0 Journal Article
+%F P4
+%T Data leakage inflates prediction performance in connectome-based machine learning models
+%J Nature Communications
+%V 15
+%P 1829
+%D 2024
+%8 2024-02-28
+%R 10.1038/s41467-024-46150-w
+%U https://www.nature.com/articles/s41467-024-46150-w
+%Z Prelock export only; verify final citation order and support boundary before submission.
+%0 Journal Article
+%F P5
+%T Data splitting to avoid information leakage with DataSAIL
+%J Nature Communications
+%V 16
+%P 3337
+%D 2025
+%8 2025-04-08
+%R 10.1038/s41467-025-58606-8
+%U https://www.nature.com/articles/s41467-025-58606-8
+%Z Prelock export only; verify final citation order and support boundary before submission.
+%0 Journal Article
+%F P6
+%T Automatic correction of performance drift under acquisition shift in medical image classification
+%J Nature Communications
+%V 14
+%P 6608
+%D 2023
+%8 2023-10-19
+%R 10.1038/s41467-023-42396-y
+%U https://www.nature.com/articles/s41467-023-42396-y
+%Z Prelock export only; verify final citation order and support boundary before submission.

@@ -1,0 +1,9 @@
+recipient,attachment_id,bundle_file,send_instruction
+corresponding_author,ATT-001,attachments\author_finalization_reply_form_cn.csv,Manual send only; do not mark email_sent true until actually sent outside this script.
+corresponding_author,ATT-002,attachments\corresponding_author_metadata_form.csv,Manual send only; do not mark email_sent true until actually sent outside this script.
+corresponding_author,ATT-003,attachments\reviewer_and_policy_reply_sheet.csv,Manual send only; do not mark email_sent true until actually sent outside this script.
+author_advisor,ATT-004,attachments\track_branch_and_external_validation_reply.csv,Manual send only; do not mark email_sent true until actually sent outside this script.
+author_analysis,ATT-005,attachments\figure_backend_decision_ticket.csv,Manual send only; do not mark email_sent true until actually sent outside this script.
+repository_lead,ATT-006,attachments\licence_rights_reply_sheet.csv,Manual send only; do not mark email_sent true until actually sent outside this script.
+analysis_reference_lead,ATT-007,attachments\reporting_summary_author_reply_sheet.csv,Manual send only; do not mark email_sent true until actually sent outside this script.
+corresponding_author,ATT-008,attachments\coauthor_finalization_email_cn.md,Manual send only; do not mark email_sent true until actually sent outside this script.

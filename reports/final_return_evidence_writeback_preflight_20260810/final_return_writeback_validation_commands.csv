@@ -1,0 +1,8 @@
+sequence,route_id,worksheet_id,command,currently_allowed,reason
+1,RTE-001,MEW-001,py scripts\build_natcomms_author_response_log_validator.py,no,No writeback: candidate files are absent or target is not ready for protected manual entry.
+2,RTE-002,MEW-002,py scripts\build_natcomms_author_reply_ingestion_validator.py,no,No writeback: candidate files are absent or target is not ready for protected manual entry.
+3,RTE-003,MEW-003,py scripts\build_figure_backend_decision_validator.py,no,No writeback: candidate files are absent or target is not ready for protected manual entry.
+4,RTE-004,MEW-005,py scripts\build_rights_licence_completion_handoff.py,no,No writeback: candidate files are absent or target is not ready for protected manual entry.
+5,RTE-005,MEW-006,py scripts\build_reporting_summary_completion_handoff.py,no,No writeback: candidate files are absent or target is not ready for protected manual entry.
+6,RTE-006,MEW-007,py scripts\build_reference_completion_handoff.py,no,No writeback: candidate files are absent or target is not ready for protected manual entry.
+7,RTE-007,PORTAL-LOCK,py scripts/build_natcomms_submission_final_lock_validator.py,no,No writeback: portal submission evidence is forbidden until all upstream final lock gates close.

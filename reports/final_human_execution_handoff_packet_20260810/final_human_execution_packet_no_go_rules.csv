@@ -1,0 +1,5 @@
+rule_id,rule,reason
+PKT-NG-001,Do not edit generated summaries by hand.,They must be regenerated from validators after evidence writeback.
+PKT-NG-002,Do not treat the zip as proof that manual actions were executed.,The zip only packages instructions and templates.
+PKT-NG-003,Do not submit or upload portal files from this packet.,Submission remains blocked until all upstream gates close.
+PKT-NG-004,Do not run final figure export before figure approvals are ingested.,approved_figure_rows remains zero.

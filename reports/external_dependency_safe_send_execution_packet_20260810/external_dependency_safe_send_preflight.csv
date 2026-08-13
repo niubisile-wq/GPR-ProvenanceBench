@@ -1,0 +1,5 @@
+check,expected,current,passes_now
+message source exists,external_dependency_escalation_email.md exists,True,yes
+send receipt template exists,5 EDS rows,sendout_receipt_rows=5,yes
+automatic send is disabled,automatic_send_allowed=false,automatic_send_allowed=false,yes
+submission remains blocked,submission_ready=false,submission_ready=False,yes

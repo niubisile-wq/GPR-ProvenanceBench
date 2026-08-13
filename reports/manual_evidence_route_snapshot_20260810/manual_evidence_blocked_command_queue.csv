@@ -1,0 +1,8 @@
+blocked_item,primary_fmr,blocked_command,reason
+MOF-001,FMR-001,py scripts/validate_manual_only_execution_forms_20260810.py,candidate_files=0; filled_cells=0/10
+MOF-002,FMR-002,py scripts/validate_manual_only_execution_forms_20260810.py,candidate_files=0; filled_cells=0/10
+MOF-003,FMR-003,py scripts/validate_manual_only_execution_forms_20260810.py,candidate_files=0; filled_cells=0/10
+MOF-004,FMR-004,py scripts/validate_manual_only_execution_forms_20260810.py,candidate_files=0; filled_cells=0/10
+MOF-005,FMR-005,py scripts/validate_manual_only_execution_forms_20260810.py,candidate_files=0; filled_cells=0/10
+GLOBAL,FMR-001..FMR-006,any --execute-writeback,no downstream validation/preflight candidate is allowed
+GLOBAL,all,"guarded recheck, portal upload or submission",manual evidence incomplete and submission_ready=false

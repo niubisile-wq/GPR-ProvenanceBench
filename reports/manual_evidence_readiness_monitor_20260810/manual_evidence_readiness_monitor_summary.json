@@ -1,0 +1,17 @@
+{
+  "package": "manual_evidence_readiness_monitor_20260810",
+  "monitor_rows": 5,
+  "ready_for_downstream_validator_rows": 0,
+  "ready_for_writeback_rows": 0,
+  "human_only_next_action_rows": 5,
+  "blocked_command_rows": 2,
+  "validated_form_rows": 0,
+  "complete_receipt_rows": 0,
+  "allowed_commands_now": 0,
+  "portal_upload_allowed": false,
+  "submission_ready": false,
+  "qa_rows": 5,
+  "qa_pass": true,
+  "status": "manual_evidence_readiness_monitor_ready_waiting_real_manual_evidence",
+  "desktop_plan_updated": true
+}

@@ -1,0 +1,6 @@
+check,result,detail
+all upstream summaries loaded,PASS,"crosswalk, hash readiness, receipt, closeout and rb002 summaries loaded."
+bridge keeps closeout blocked when upstream is blocked,PASS,rb001_closeout_allowed=False
+bridge keeps writeback blocked,PASS,writeback_preflight_allowed=False
+bridge keeps rb002 blocked,PASS,rb002_entry_allowed=False
+submission remains false,PASS,bridge cannot make submission ready.

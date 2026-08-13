@@ -1,0 +1,6 @@
+check,result,detail
+all_closeout_actions_still_blocked,FAIL,blocked=6; closed=1
+manual_intake_still_blocked,PASS,manual_evidence_final_intake_allowed=False
+figures_not_final,FAIL,rendered_final=6; final_figures_ready=True
+availability_reporting_references_not_final,PASS,availability=False; reporting=False; references=False
+submission_still_blocked,PASS,submission_ready=False; open_master_gates=8

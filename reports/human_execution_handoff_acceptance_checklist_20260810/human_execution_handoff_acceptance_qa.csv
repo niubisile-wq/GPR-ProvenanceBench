@@ -1,0 +1,5 @@
+check,result,detail
+acceptance_rows_pass,PASS,ACCEPT-001=pass; ACCEPT-002=pass; ACCEPT-003=pass; ACCEPT-004=pass; ACCEPT-005=pass
+execution_acceptance_rows_indexed,PASS,execution_rows=6
+not_executed_state_preserved,PASS,manual_actions_executed=False; evidence_rows_passed=0
+submission_block_preserved,PASS,submission_ready=False

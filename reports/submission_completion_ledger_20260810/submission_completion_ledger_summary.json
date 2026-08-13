@@ -1,0 +1,15 @@
+{
+  "package": "submission_completion_ledger_20260810",
+  "open_gate_rows": 6,
+  "dispatch_crosswalk_rows": 6,
+  "final_verification_rows": 6,
+  "handoff_status_rows": 6,
+  "no_go_shortcuts": 4,
+  "qa_rows": 5,
+  "qa_pass": true,
+  "gate_closure_allowed": false,
+  "portal_upload_ready": false,
+  "submission_ready": false,
+  "status": "submission_completion_ledger_ready_gates_open",
+  "desktop_plan_updated": true
+}

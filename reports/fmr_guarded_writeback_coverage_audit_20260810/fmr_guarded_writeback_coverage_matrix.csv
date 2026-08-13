@@ -1,0 +1,7 @@
+receipt_id,preflight_summary_exists,applier_summary_exists,regression_summary_exists,preflight_candidate_rows,preflight_writeback_allowed,applier_writeback_preflight_allowed,applier_writeback_executed,real_fmr_template_modified,regression_pass,submission_ready_any_layer,coverage_complete
+FMR-001,yes,yes,yes,0,false,false,false,false,true,false,true
+FMR-002,yes,yes,yes,0,false,false,false,false,true,false,true
+FMR-003,yes,yes,yes,0,false,false,false,false,true,false,true
+FMR-004,yes,yes,yes,0,false,false,false,false,true,false,true
+FMR-005,yes,yes,yes,0,false,false,false,false,true,false,true
+FMR-006,yes,yes,yes,0,false,false,false,false,true,false,true

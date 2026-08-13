@@ -1,0 +1,8 @@
+order,action,owner,can_execute_now
+1,Confirm manuscript branch remains Track B or activate Track A only with real locked external validation.,author,yes
+2,"Choose exactly one figure backend, recommended Python unless author overrides.",author,yes
+3,Render and QA Figure 1-6 or final reduced figure set.,analysis,no_backend_blocked
+4,Create rights-approved repository/code release and archive DOI.,author,no_rights_blocked
+5,"Finalize Data Availability, Code Availability and Reporting Summary.",author_and_analysis,no_identifier_blocked
+6,Lock final references after final prose and figure/table calls.,analysis,no_final_text_blocked
+7,Assemble single initial-submission PDF/Word package and cover letter.,author_and_analysis,no

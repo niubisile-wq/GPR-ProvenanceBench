@@ -1,0 +1,9 @@
+field,value,status
+title,GPR-ProvenanceBench: source-aware evaluation artifacts for ground-penetrating radar recognition,draft
+creators,"Liu, Zixuan; collaborators to be added before deposit",needs_confirmation
+description,"Derived manifests, source-data tables, protocol files and audit artifacts supporting a provenance-aware GPR recognition benchmark checkpoint.",draft
+keywords,ground-penetrating radar; provenance-aware evaluation; environment transfer; data leakage; benchmark; source data,draft
+version,2026-08-10-predeposit,draft
+license,TBD; candidate permissive licence for code and CC-BY/CC0-compatible licence for derived metadata only after rights review,blocking
+related_identifiers,Manuscript DOI/preprint DOI to be added after submission or preprint; data/code DOI missing,blocking
+access_right,open for derived artifacts only after third-party rights review; restricted for raw third-party GPR files,blocking

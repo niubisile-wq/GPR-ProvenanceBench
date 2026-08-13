@@ -1,0 +1,6 @@
+request_item,required,provided_to_analyst,allowed_content,not_allowed
+Unlabeled GPR samples,yes,yes,Raw files or exported images without labels or label hints.,"Class names in folder names, filename label hints, notes that reveal outcome."
+Analyst-facing manifest,yes,yes,"sample_id, rel_path or abs_path, file_sha256, label_placeholder, source_group, asset_track, modality, target_task, notes.","Any real class label, diagnostic label, target-derived split, or label hint."
+Sealed label file,yes,no_until_unlock,"sample_id, sealed_label, label_space_version, label_holder, sealed_timestamp.",Transfer to analyst before prediction package is frozen and hashed.
+Source-group metadata,yes,yes,Project/site/device/collection group IDs that do not reveal labels.,Grouping variables derived from the hidden outcome.
+Rights statement,yes,yes,"Whether files can be used for validation, figures, derived metrics and public release.",Assuming redistribution is allowed without written permission.

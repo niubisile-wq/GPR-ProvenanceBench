@@ -1,0 +1,7 @@
+receipt_id,receipt_type,current_status,placeholder_value,blocks
+FMR-001,author_sendout_evidence,missing,FILL_AFTER_SEND,final guarded recheck launcher
+FMR-002,author_decision_values,missing,FILL_AFTER_REPLY,final guarded recheck launcher
+FMR-003,real_returned_evidence_drop,missing,FILL_AFTER_DROP,final guarded recheck launcher
+FMR-004,figure_author_review_decisions,missing,FILL_AFTER_FIGURE_REVIEW,final guarded recheck launcher
+FMR-005,repository_rights_doi_decisions,missing,FILL_AFTER_RIGHTS_DOI,final guarded recheck launcher
+FMR-006,guarded_recheck_receipt,waiting_for_FMR_001_to_FMR_005,FILL_AFTER_RECHECK,final guarded recheck launcher

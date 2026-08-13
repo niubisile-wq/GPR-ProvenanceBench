@@ -1,0 +1,8 @@
+check,result,detail
+Bundle v2 summary exists,PASS,<REPO_ROOT>\reports\natcomms_author_sendout_bundle_v2_20260810\author_sendout_bundle_v2_summary.json
+Bundle v2 QA passed,PASS,qa_pass=True
+Desktop zip exists,PASS,<LOCAL_DESKTOP>\\NatComms_author_sendout_bundle_v2_20260810.zip
+Zip member counts match,PASS,report_zip_members=24; desktop_zip_members=24
+Manual send remains unasserted,PASS,email_sent must stay false until real manual sendout.
+Author replies remain unasserted,PASS,author_replies_collected must stay false until returned files are validated.
+Submission readiness remains blocked,PASS,sendout preparation alone cannot make the manuscript ready.

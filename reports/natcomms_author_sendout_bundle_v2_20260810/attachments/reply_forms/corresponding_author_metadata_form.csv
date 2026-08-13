@@ -1,0 +1,7 @@
+metadata_id,source_field,required_value,current_status,author_reply,notes
+,Manuscript title,,author_required,,Do not infer this field from local files; corresponding author must confirm.
+,Author names and order,,author_required,,Do not infer this field from local files; corresponding author must confirm.
+,Affiliations with full institutional addresses,,author_required,,Do not infer this field from local files; corresponding author must confirm.
+,Corresponding author email and asterisk marker,,author_required,,Do not infer this field from local files; corresponding author must confirm.
+,ORCID identifiers,,author_required,,Do not infer this field from local files; corresponding author must confirm.
+,Prior discussion with Nature Communications editor,,author_required,,Do not infer this field from local files; corresponding author must confirm.

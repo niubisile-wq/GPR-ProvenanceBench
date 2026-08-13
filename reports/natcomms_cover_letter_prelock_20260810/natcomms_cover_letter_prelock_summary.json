@@ -1,0 +1,14 @@
+{
+  "run_id": "20260810_natcomms_cover_letter_prelock",
+  "cover_letter_words": 177,
+  "pitch_rows": 3,
+  "finalization_rows": 7,
+  "forbidden_language_rows": 7,
+  "qa_rows": 4,
+  "qa_pass": true,
+  "current_applicable_branch": "TRACK-B",
+  "cover_letter_final": false,
+  "submission_ready": false,
+  "status": "natcomms_cover_letter_prelock_ready_not_final",
+  "boundary": "This package drafts a bounded cover letter only; it does not finalize author details, figures, DOI, rights, Reporting Summary, references or submission."
+}

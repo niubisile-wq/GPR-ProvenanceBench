@@ -1,0 +1,9 @@
+attachment_id,recipient,return_status,returned_file_path,returned_datetime_local,validation_status,issue
+ATT-001,corresponding_author,not_returned,,,pass,
+ATT-002,corresponding_author,not_returned,,,pass,
+ATT-003,corresponding_author,not_returned,,,pass,
+ATT-004,author_advisor,not_returned,,,pass,
+ATT-005,author_analysis,not_returned,,,pass,
+ATT-006,repository_lead,not_returned,,,pass,
+ATT-007,analysis_reference_lead,not_returned,,,pass,
+ATT-008,corresponding_author,not_returned,,,pass,

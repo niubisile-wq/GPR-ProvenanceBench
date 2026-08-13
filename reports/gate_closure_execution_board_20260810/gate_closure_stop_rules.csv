@@ -1,0 +1,6 @@
+rule_id,rule,evidence_required
+GATE-STOP-001,Do not close a gate from recommended/default choices alone.,"real author, rights, repository, figure, or external-validation evidence"
+GATE-STOP-002,Do not run branch validators while manual evidence intake still reports missing rows.,post_dispatch_evidence_intake_validator row intake_status=present/passed
+GATE-STOP-003,Do not run portal upload checks before all six final verification rows are satisfied.,submission_completion_ledger final verification current_state=satisfied for every row
+GATE-STOP-004,Do not convert M0-M2 pass into submission readiness.,dashboard submission_ready=true and portal_upload_ready=true
+GATE-STOP-005,Do not remove external-validation limitations without a locked one-shot evaluation.,"strict-SHA manifest, frozen prediction and post-unlock evaluation result"

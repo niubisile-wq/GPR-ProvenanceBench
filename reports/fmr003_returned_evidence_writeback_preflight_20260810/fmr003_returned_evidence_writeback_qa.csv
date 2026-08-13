@@ -1,0 +1,6 @@
+check,result,detail
+FMR-003 row imported,PASS,fmr003_rows=1
+candidate generation follows all returned-evidence gates,PASS,candidate_rows=0; fmr003_writeback_allowed=False
+empty scanner does not unlock writeback,PASS,candidate_return_files=0; fmr003_writeback_allowed=False
+real FMR template untouched,PASS,real_fmr_template_modified=false
+submission remains false,PASS,guarded_recheck_allowed=false; portal_upload_allowed=false; submission_ready=false

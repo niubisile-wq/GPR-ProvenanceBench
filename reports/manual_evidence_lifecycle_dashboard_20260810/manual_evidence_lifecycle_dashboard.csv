@@ -1,0 +1,8 @@
+stage_order,stage,current_status,ready_artifacts,pass_metric,current_pass,next_required_action
+1,manual dispatch action,today_manual_action_minipack_ready_not_executed,action_rows=6; desktop_guide_exists=True,manual_actions_executed=true,False,Execute real manual send/request actions and capture evidence.
+2,inbox receiving,manual_evidence_inbox_scaffold_ready_empty,inbox_folders=6,candidate_evidence_files>0 after real returns,False,Drop real returned files into the matching MD inbox folders.
+3,inbox audit,manual_evidence_inbox_audit_ready_empty,candidate_evidence_files=0; sensitive_name_rows=0,candidate files audited and no blocking sensitive-name issues,False,Rerun inbox audit after files arrive; inspect any label/answer markers.
+4,tracker writeback queue,inbox_to_tracker_writeback_queue_ready_waiting_evidence,writeback_rows=7; writeback_allowed_rows=0,manual tracker writeback completed and documented,False,Fill only mapped tracker fields after candidate files pass audit.
+5,post-dispatch evidence intake,post_dispatch_evidence_intake_ready_waiting_manual_evidence,evidence_rows_passed=0; missing=7,all required evidence rows pass,False,Run post-dispatch validator after tracker writeback.
+6,safe branch rerun,post_evidence_safe_rerun_guard_ready_waiting_manual_evidence,branch_commands_safe_to_run_now=0,needed branch commands become safe and execute,False,Run only branch validators marked safe after intake passes.
+7,gate closure,gate_closure_execution_board_ready_gates_open,gate_rows=6; gate_closure_allowed=False,gate_closure_allowed=true and portal_upload_ready=true,False,Close gates only after evidence binder and final verification pass.

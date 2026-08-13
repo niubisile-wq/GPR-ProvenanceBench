@@ -1,0 +1,7 @@
+order,command,purpose
+1,py scripts\build_natcomms_author_response_log_validator.py,Verify manual send/return lifecycle logs before ingestion.
+2,py scripts\build_natcomms_author_reply_ingestion_validator.py,Ingest protected author/manual fields without treating blanks as approval.
+3,py scripts\build_figure_backend_decision_validator.py,Confirm whether figure rendering is allowed after backend/scope choices.
+4,py scripts\build_natcomms_gate_closure_evidence_binder.py,Bind every candidate gate closure to explicit evidence.
+5,py scripts\build_natcomms_finalization_command_dashboard_v3.py,Refresh the finalization dashboard and no-go register.
+6,powershell -ExecutionPolicy Bypass -File scripts\run_m0_m2_checks.ps1,Run the complete reproducibility and artifact existence chain.

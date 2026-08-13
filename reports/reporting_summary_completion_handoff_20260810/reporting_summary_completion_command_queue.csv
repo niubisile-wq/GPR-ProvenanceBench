@@ -1,0 +1,6 @@
+order,command_or_action,condition,expected_output,stop_rule
+1,Collect four Reporting Summary author confirmations,"author reply sheet has real replies, not placeholders",reporting_summary_author_reply_sheet.csv completed,Do not mark final Reporting Summary ready while any reply is blank.
+2,Close figure backend/scope and render final figures,backend and scope selected by author,"rendered figures, visual QA and final Source Data mapping",Do not fill final figure/source-data answers before visual QA.
+3,Resolve repository DOI/code DOI/licence/rights,release scope and final Source Data are locked,repository identifiers and availability wording,Do not write public availability claims without identifiers and rights.
+4,Resolve blind external status,real external asset exists or Track B fallback remains explicit,completed external validation fields or explicitly open-gate wording,Do not write completed blinding from templates or dry runs.
+5,Rerun reporting summary finalization prelock and full M0-M2,all upstream artifacts are updated,QA pass and finalization readiness only if all blockers are closed,Any unresolved high-risk row blocks final Reporting Summary.

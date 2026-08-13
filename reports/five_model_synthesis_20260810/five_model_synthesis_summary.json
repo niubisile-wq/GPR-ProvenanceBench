@@ -1,0 +1,162 @@
+{
+  "run_id": "20260810_E00_five_model_cross_model_synthesis",
+  "material_delta_threshold": 0.05,
+  "scope": "mojahid_and_res_sam_only",
+  "model_rows": [
+    {
+      "model_family": "hog_rbf_svm",
+      "dataset": "mojahid",
+      "contrast": "random_minus_grouped_balanced_accuracy",
+      "delta_mean": 0.09764457671126991,
+      "directional_support": true,
+      "material_support": true
+    },
+    {
+      "model_family": "hog_rbf_svm",
+      "dataset": "res_sam",
+      "contrast": "within_minus_transfer_synthetic_to_real_world",
+      "delta_mean": 0.4116666666666666,
+      "directional_support": true,
+      "material_support": true
+    },
+    {
+      "model_family": "hog_rbf_svm",
+      "dataset": "res_sam",
+      "contrast": "within_minus_transfer_real_world_to_synthetic",
+      "delta_mean": 0.5555555555555556,
+      "directional_support": true,
+      "material_support": true
+    },
+    {
+      "model_family": "lbp_linear_svm",
+      "dataset": "mojahid",
+      "contrast": "random_minus_grouped_balanced_accuracy",
+      "delta_mean": 0.036500972959389144,
+      "directional_support": true,
+      "material_support": false
+    },
+    {
+      "model_family": "lbp_linear_svm",
+      "dataset": "res_sam",
+      "contrast": "within_minus_transfer_synthetic_to_real_world",
+      "delta_mean": 0.3083333333333334,
+      "directional_support": true,
+      "material_support": true
+    },
+    {
+      "model_family": "lbp_linear_svm",
+      "dataset": "res_sam",
+      "contrast": "within_minus_transfer_real_world_to_synthetic",
+      "delta_mean": 0.23555555555555552,
+      "directional_support": true,
+      "material_support": true
+    },
+    {
+      "model_family": "tinycnn",
+      "dataset": "mojahid",
+      "contrast": "random_minus_grouped_balanced_accuracy",
+      "delta_mean": 0.009838784098062825,
+      "directional_support": true,
+      "material_support": false
+    },
+    {
+      "model_family": "tinycnn",
+      "dataset": "res_sam",
+      "contrast": "within_minus_transfer_synthetic_to_real_world",
+      "delta_mean": -0.010333333333333306,
+      "directional_support": false,
+      "material_support": false
+    },
+    {
+      "model_family": "tinycnn",
+      "dataset": "res_sam",
+      "contrast": "within_minus_transfer_real_world_to_synthetic",
+      "delta_mean": 0.29066666666666674,
+      "directional_support": true,
+      "material_support": true
+    },
+    {
+      "model_family": "resnet18_embedding_linear_svm",
+      "dataset": "mojahid",
+      "contrast": "random_minus_grouped_balanced_accuracy",
+      "delta_mean": 0.024998660811811124,
+      "directional_support": true,
+      "material_support": false
+    },
+    {
+      "model_family": "resnet18_embedding_linear_svm",
+      "dataset": "res_sam",
+      "contrast": "within_minus_transfer_synthetic_to_real_world",
+      "delta_mean": 0.5783333333333334,
+      "directional_support": true,
+      "material_support": true
+    },
+    {
+      "model_family": "resnet18_embedding_linear_svm",
+      "dataset": "res_sam",
+      "contrast": "within_minus_transfer_real_world_to_synthetic",
+      "delta_mean": 0.428888888888889,
+      "directional_support": true,
+      "material_support": true
+    },
+    {
+      "model_family": "efficientnet_b0_embedding_linear_svm",
+      "dataset": "mojahid",
+      "contrast": "random_minus_grouped_balanced_accuracy",
+      "delta_mean": 0.03401838349212272,
+      "directional_support": true,
+      "material_support": false
+    },
+    {
+      "model_family": "efficientnet_b0_embedding_linear_svm",
+      "dataset": "res_sam",
+      "contrast": "within_minus_transfer_synthetic_to_real_world",
+      "delta_mean": 0.5833333333333333,
+      "directional_support": true,
+      "material_support": true
+    },
+    {
+      "model_family": "efficientnet_b0_embedding_linear_svm",
+      "dataset": "res_sam",
+      "contrast": "within_minus_transfer_real_world_to_synthetic",
+      "delta_mean": 0.6088888888888889,
+      "directional_support": true,
+      "material_support": true
+    }
+  ],
+  "claim_summary": [
+    {
+      "dataset": "mojahid",
+      "contrast": "random_minus_grouped_balanced_accuracy",
+      "n_model_families": 5,
+      "directional_support_count": 5,
+      "material_support_count": 1,
+      "delta_mean_across_models": 0.040600275614531146,
+      "delta_min": 0.009838784098062825,
+      "delta_max": 0.09764457671126991,
+      "claim_status": "directional_only"
+    },
+    {
+      "dataset": "res_sam",
+      "contrast": "within_minus_transfer_real_world_to_synthetic",
+      "n_model_families": 5,
+      "directional_support_count": 5,
+      "material_support_count": 5,
+      "delta_mean_across_models": 0.4239111111111112,
+      "delta_min": 0.23555555555555552,
+      "delta_max": 0.6088888888888889,
+      "claim_status": "supported"
+    },
+    {
+      "dataset": "res_sam",
+      "contrast": "within_minus_transfer_synthetic_to_real_world",
+      "n_model_families": 5,
+      "directional_support_count": 4,
+      "material_support_count": 4,
+      "delta_mean_across_models": 0.37426666666666664,
+      "delta_min": -0.010333333333333306,
+      "delta_max": 0.5833333333333333,
+      "claim_status": "supported"
+    }
+  ]
+}

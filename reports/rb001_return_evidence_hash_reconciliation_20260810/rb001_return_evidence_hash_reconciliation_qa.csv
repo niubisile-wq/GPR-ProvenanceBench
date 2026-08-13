@@ -1,0 +1,6 @@
+check,result,detail
+scanner_manifest_readable,PASS,scanner_rows=0
+register_template_routes_present,PASS,register_rows=7
+empty_state_preserves_no_missing_registers,PASS,candidate_return_files=0; missing_register_rows=0
+no_hash_mismatch,PASS,hash_mismatch_rows=0
+writeback_guard_preserved,PASS,candidate_return_files=0; writeback_allowed_rows=0

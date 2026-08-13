@@ -1,0 +1,4 @@
+table_id,caption,source_files,boundary
+Table 1,Local executable GPR asset audit.,reports/figure1_table1_sources_20260810/table1_asset_audit.csv,"Counts are local executable rows, not global dataset sizes."
+Table 2,Model-family support for current benchmark claims.,reports/figure2_table2_sources_20260810/table2_model_family_support.csv,Excludes 4TU and true blind external validation from the main model-family matrix.
+Table 3,Open gates and remaining submission requirements.,checkpoints/gate_status_20260810.md; checkpoints/checkpoint_20260810.md,Internal/supplementary decision table unless the manuscript is framed as a benchmark/resource paper.

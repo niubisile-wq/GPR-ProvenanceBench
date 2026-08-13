@@ -1,0 +1,5 @@
+# Track A abstract scaffold
+
+Use only after a real external blind validation asset is acquired and evaluated under a locked protocol.
+
+Ground-penetrating radar (GPR) recognition models are often evaluated within curated datasets whose samples can share acquisition, environment or processing histories. We assembled GPR-ProvenanceBench as an auditable workflow linking dated manifests, grouped split logic, environment-transfer tests, model-family comparisons and source-data traceability. In the current local evidence matrix, Res-SAM environment transfer produced the strongest reproducible signal, with real-to-synthetic balanced-accuracy drops in all five model families and synthetic-to-real drops in four of five families. [Insert locked external-validation result only if prediction freeze, label unlock and one-shot evaluation are complete.] Together, these results would support a bounded claim that provenance-aware evaluation can expose GPR generalization fragility across both local environment transfer and one held-label external asset. The claim must remain limited to the validated asset scope, label definitions and preprocessing protocol.

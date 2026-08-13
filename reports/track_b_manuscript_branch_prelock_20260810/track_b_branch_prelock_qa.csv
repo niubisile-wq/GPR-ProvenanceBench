@@ -1,0 +1,6 @@
+qa_check,status,evidence
+track_b_currently_applicable,pass,TRACK-B
+abstract_under_nat_comms_limit,pass,abstract_words=130
+submission_not_ready_preserved,pass,dashboard and author manuscript summaries both record submission_ready=false
+no_completed_external_validation_wording,pass,Track B abstract states open gate
+no_final_repository_claim,pass,Track B abstract omits DOI/public release claims

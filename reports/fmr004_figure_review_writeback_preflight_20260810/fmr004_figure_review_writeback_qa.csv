@@ -1,0 +1,6 @@
+check,result,detail
+FMR-004 row imported,PASS,fmr004_rows=1
+six figure review rows imported,PASS,review_rows=6
+blank approvals do not unlock writeback,PASS,approved_rows=0; blank_rows=6; fmr004_writeback_allowed=False
+candidate generation follows figure-review gates,PASS,candidate_rows=0; fmr004_writeback_allowed=False
+submission remains false,PASS,guarded_recheck_allowed=false; portal_upload_allowed=false; submission_ready=false

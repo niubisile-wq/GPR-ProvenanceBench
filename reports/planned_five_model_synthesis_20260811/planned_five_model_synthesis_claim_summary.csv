@@ -1,0 +1,4 @@
+dataset,contrast,n_model_families,directional_support_count,material_support_count,delta_mean_across_models,delta_min,delta_max,claim_status
+mojahid,random_minus_grouped_balanced_accuracy,5,5,1,0.03712500291910399,0.009838784098062825,0.09764457671126991,directional_only
+res_sam,within_minus_transfer_real_world_to_synthetic,5,5,5,0.48880000000000007,0.29066666666666674,0.6088888888888889,supported
+res_sam,within_minus_transfer_synthetic_to_real_world,5,4,4,0.4139333333333333,-0.010333333333333306,0.5833333333333333,supported

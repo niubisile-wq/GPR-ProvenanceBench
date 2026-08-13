@@ -1,0 +1,6 @@
+check,result,detail
+six ordered FMR rows present,PASS,ordered_fmr_rows=6
+coverage audit is complete before order audit,PASS,coverage_complete_rows=6; coverage_qa_pass=True
+no commands are allowed in current no-evidence state,PASS,commands_allowed_now=0
+no writeback has executed,PASS,writeback_executed_rows=0; real_modified_rows=0
+submission remains false,PASS,portal_upload_allowed=false; submission_ready=false

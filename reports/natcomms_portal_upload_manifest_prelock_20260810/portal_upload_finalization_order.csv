@@ -1,0 +1,7 @@
+order,action,dependency,can_execute_now
+1,Confirm author/title page and declarations.,Author input from admin declarations prelock.,partially
+2,Choose one figure backend and render final figure set.,Author confirms Python or R; recommended Python.,requires_author_backend_choice
+3,Finalize Source Data and repository/DOI records.,"Rendered figure panel mapping, licence and rights decisions.",no
+4,Finalize Reporting Summary.,"Figures, validation status, availability and Methods locked.",no
+5,Replace candidate references and lock numbered bibliography.,Final prose and figure/table call order.,no
+6,Generate final initial-submission file and SI file.,Steps 1-5 complete.,no

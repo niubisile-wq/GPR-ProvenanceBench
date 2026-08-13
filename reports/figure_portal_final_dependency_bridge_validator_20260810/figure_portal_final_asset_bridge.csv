@@ -1,0 +1,23 @@
+asset_id,asset,source,upstream_allowed,bridge_allowed,reason
+Figure 1,,python_figure_final_candidate_queue,,yes,"Blocked until manual bridge, approvals and final candidate gates pass."
+Figure 2,,python_figure_final_candidate_queue,,yes,"Blocked until manual bridge, approvals and final candidate gates pass."
+Figure 3,,python_figure_final_candidate_queue,,yes,"Blocked until manual bridge, approvals and final candidate gates pass."
+Figure 4,,python_figure_final_candidate_queue,,yes,"Blocked until manual bridge, approvals and final candidate gates pass."
+Figure 5,,python_figure_final_candidate_queue,,yes,"Blocked until manual bridge, approvals and final candidate gates pass."
+Figure 6,,python_figure_final_candidate_queue,,yes,"Blocked until manual bridge, approvals and final candidate gates pass."
+Figure 1,,python_figure_final_export_qa_checklist,,yes,Blocked until final export QA and locks are complete.
+Figure 2,,python_figure_final_export_qa_checklist,,yes,Blocked until final export QA and locks are complete.
+Figure 3,,python_figure_final_export_qa_checklist,,yes,Blocked until final export QA and locks are complete.
+Figure 4,,python_figure_final_export_qa_checklist,,yes,Blocked until final export QA and locks are complete.
+Figure 5,,python_figure_final_export_qa_checklist,,yes,Blocked until final export QA and locks are complete.
+Figure 6,,python_figure_final_export_qa_checklist,,yes,Blocked until final export QA and locks are complete.
+,main_manuscript_docx_or_pdf,python_figure_portal_upload_blocker_overlay,no,no,Blocked until final figure export and source-data panel map are locked.
+,display_figures,python_figure_portal_upload_blocker_overlay,no,no,Blocked until final figure export and source-data panel map are locked.
+,source_data_files,python_figure_portal_upload_blocker_overlay,no,no,Blocked until final figure export and source-data panel map are locked.
+,supplementary_information,python_figure_portal_upload_blocker_overlay,no,no,Blocked until final figure export and source-data panel map are locked.
+Figure 1,,python_figure_source_data_panel_map_preflight,yes,yes,Blocked until panel-map lock is allowed and recorded.
+Figure 2,,python_figure_source_data_panel_map_preflight,yes,yes,Blocked until panel-map lock is allowed and recorded.
+Figure 3,,python_figure_source_data_panel_map_preflight,yes,yes,Blocked until panel-map lock is allowed and recorded.
+Figure 4,,python_figure_source_data_panel_map_preflight,yes,yes,Blocked until panel-map lock is allowed and recorded.
+Figure 5,,python_figure_source_data_panel_map_preflight,yes,yes,Blocked until panel-map lock is allowed and recorded.
+Figure 6,,python_figure_source_data_panel_map_preflight,yes,yes,Blocked until panel-map lock is allowed and recorded.

@@ -1,0 +1,6 @@
+rule_id,rule
+RECHECK-STOP-001,Do not run this as proof that manual emails were sent; send evidence must be entered separately.
+RECHECK-STOP-002,Do not write returned evidence into tracker files from this runner.
+RECHECK-STOP-003,Do not run branch validators unless the intake validator explicitly unlocks the branch.
+RECHECK-STOP-004,Do not close gates unless the evidence binder and finalization dashboard both allow closure.
+RECHECK-STOP-005,Do not upload while portal_upload_ready=false or submission_ready=false.

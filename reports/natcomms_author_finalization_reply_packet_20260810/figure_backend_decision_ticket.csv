@@ -1,0 +1,3 @@
+ticket_id,decision,recommended_choice,allowed_choices,current_choice,evidence_or_reason,after_choice_action
+FIG-BACKEND-001,Choose final rendering backend,Python,Python; R,Python,The current source packages are CSV/Markdown-driven and existing automation is Python-first.,Run the formal figure rendering workflow and visual QA; do not claim rendered figures before exports exist.
+FIG-BACKEND-002,Confirm figure set scope,Figure 1-Figure 6 unless journal-length reduction is required.,Figure 1-Figure 6; reduced display set with SI relocation,Figure 1-Figure 6,Current preassembly plans six display items but none is rendered.,"Lock final figure legends, Source Data mapping and Reporting Summary figure references."

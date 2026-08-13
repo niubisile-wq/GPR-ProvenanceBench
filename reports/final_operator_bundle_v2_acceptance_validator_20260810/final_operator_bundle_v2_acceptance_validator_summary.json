@@ -1,0 +1,17 @@
+{
+  "package": "final_operator_bundle_v2_acceptance_validator_20260810",
+  "required_members": 9,
+  "required_members_present": 9,
+  "category_rows": 7,
+  "manifest_rows": 20,
+  "local_zip_sha256": "fc5271f6bab67458dd11e1bf7ad3a7ddade11d778fd99fdbff315e29ba00192e",
+  "desktop_zip_sha256": "fc5271f6bab67458dd11e1bf7ad3a7ddade11d778fd99fdbff315e29ba00192e",
+  "zip_sha_match": true,
+  "guard_runner_returncode": 2,
+  "qa_rows": 6,
+  "qa_pass": true,
+  "commands_allowed_now": 0,
+  "submission_ready": false,
+  "status": "final_operator_bundle_v2_acceptance_passed_guarded_not_executed",
+  "desktop_plan_updated": true
+}

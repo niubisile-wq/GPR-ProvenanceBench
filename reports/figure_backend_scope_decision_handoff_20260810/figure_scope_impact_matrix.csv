@@ -1,0 +1,3 @@
+scope_option,decision_role,main_text_impact,si_impact,risk,allowed,current_choice
+Figure 1-Figure 6,recommended_default_not_selected,Preserves the current six-display-item Nat Comms preassembly and all current source-data locks.,No relocation required unless journal length constraints force reduction.,Six figures may be too broad if the final text is shortened; visual density must be controlled.,yes,Figure 1-Figure 6
+reduced display set with SI relocation,allowed_alternative_not_selected,Keeps Figure 2/Table 2 as lead evidence and moves lower-priority gate/context panels to SI.,Requires explicit SI relocation crosswalk and updated figure/table references.,Can improve narrative focus but increases cross-reference and Source Data remapping risk.,yes,Figure 1-Figure 6

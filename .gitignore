@@ -1,0 +1,60 @@
+# Local and third-party data caches
+external_blind/
+tmp/
+checkpoints/
+
+# Python cache and environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Large binary/intermediate artifacts
+*.pt
+*.pth
+*.ckpt
+*.npz
+*.npy
+*.tiff
+*.tif
+*.zip
+*.7z
+*.rar
+
+# LaTeX build products
+*.aux
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+*.lof
+*.lot
+
+# Keep manuscript-facing compiled outputs and bibliography files
+!manuscript/**/*.pdf
+!manuscript/**/*.png
+!manuscript/**/*.svg
+!manuscript/**/*.pptx
+!manuscript/**/*.bib
+!manuscript/**/*.bbl
+
+# Exclude bulky rendered report images while keeping manuscript figures
+reports/**/*.png
+reports/**/rendered/
+reports/**/candidate_files/**/*.tiff
+reports/**/figures/**/*.tiff
+reports/**/PDFs/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+
+# Manuscript-local scratch folders
+manuscript/**/tmp*/

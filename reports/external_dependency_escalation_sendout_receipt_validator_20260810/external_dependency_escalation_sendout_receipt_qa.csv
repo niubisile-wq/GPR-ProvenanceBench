@@ -1,0 +1,5 @@
+check,result,detail
+19.53 escalation imported,PASS,send_ready=True
+send-now requests mapped,PASS,sendout_receipt_rows=5
+no send receipts are fabricated,PASS,sent_receipt_rows=0; values are imported only from existing EDS rows and verified against sent_message_sha256
+submission remains false,PASS,submission_ready=False

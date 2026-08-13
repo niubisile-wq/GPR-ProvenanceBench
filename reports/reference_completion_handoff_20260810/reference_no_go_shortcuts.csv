@@ -1,0 +1,5 @@
+no_go_id,shortcut,reason,decision
+REF-NOGO-001,Replace [P#] markers before final prose and figure/table calls are stable,"Citation order can change while figures, submission text and references are still moving.",forbidden
+REF-NOGO-002,Use external references as evidence for this project's internal metrics,Balanced-accuracy deltas and gate statuses must be supported by internal figures/source data.,forbidden
+REF-NOGO-003,Treat metadata verification as final support verification,A DOI/title match does not prove that the cited sentence is appropriately supported.,forbidden
+REF-NOGO-004,Generate final RIS/ENW before numbering lock,Reference-manager exports must match final manuscript numbering.,forbidden

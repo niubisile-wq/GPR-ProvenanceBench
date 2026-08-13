@@ -1,0 +1,6 @@
+criterion,required_value,current_status,evidence
+real_file_copied,file_name is real and exists in relative_folder,not_met,candidate_return_files=0
+hash_recorded,sha256 is filled and matches scanner manifest,not_met,reconciled_rows=0
+source_recorded,source_person_or_system is filled,not_met,filled_register_rows=0
+diagnostic_runner_completed,diagnostic runner returncode is 0 after file drop,template_only,latest_runner_returncode=0
+no_writeback_claim,receipt never grants writeback by itself,met,writeback_allowed_by_this_receipt=no

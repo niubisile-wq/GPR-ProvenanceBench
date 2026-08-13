@@ -1,0 +1,6 @@
+no_go_id,shortcut,reason,current_decision
+EXT-NOGO-001,Use Res-SAM again as blind external validation,Res-SAM is already used in the model-family synthesis and cannot be relabelled blind external.,forbidden
+EXT-NOGO-002,Open labels before prediction freeze,This invalidates one-shot blind evaluation and converts the run to exploratory analysis.,forbidden
+EXT-NOGO-003,Accept external files without strict SHA manifest validation,The sample set and file identities would not be frozen before prediction.,forbidden
+EXT-NOGO-004,Treat template dry-run metrics as external validation,Template dry runs test software flow only and contain placeholder labels/predictions.,forbidden
+EXT-NOGO-005,Redistribute raw third-party GPR files without written rights,Public release rights and manuscript reporting rights are separate and must be explicit.,forbidden

@@ -1,0 +1,6 @@
+order,action,allowed_now
+1,"Finish RB-001 by placing real returned files, registering hashes and completing receipt validation.",manual_only
+2,Rerun RB-001 closeout dashboard and receipt completion validator.,diagnostic_only
+3,"Only after RB-001 closes, rerun final_return_evidence_writeback_preflight.",blocked_now
+4,"Only if writeback_allowed_rows>0, perform protected manual writeback into listed target fields.",blocked_now
+5,"After protected writeback, rerun transition validator and guarded runner.",blocked_now

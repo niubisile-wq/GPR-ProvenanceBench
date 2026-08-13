@@ -1,0 +1,14 @@
+{
+  "run_id": "20260810_natcomms_initial_submission_text_preassembly",
+  "body_words_excluding_title_abstract": 1931,
+  "abstract_words": 126,
+  "planned_display_items": 6,
+  "submission_items_tracked": 10,
+  "companion_statement_rows": 5,
+  "qa_rows": 7,
+  "qa_pass": true,
+  "current_applicable_branch": "TRACK-B",
+  "submission_ready": false,
+  "status": "natcomms_text_preassembly_ready_not_submission_final",
+  "boundary": "Text is preassembled for author review only; final submission remains blocked by figures, repository identifiers, rights, Reporting Summary, references and blind external validation."
+}

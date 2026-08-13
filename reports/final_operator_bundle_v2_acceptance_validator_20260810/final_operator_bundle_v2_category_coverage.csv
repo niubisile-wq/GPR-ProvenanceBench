@@ -1,0 +1,8 @@
+category,manifest_files,zip_members
+00_read_first,3,3
+01_inbox,3,3
+02_scan,3,3
+03_writeback,3,3
+04_transition,3,3
+05_guarded_runner,4,4
+06_original_materials,1,1

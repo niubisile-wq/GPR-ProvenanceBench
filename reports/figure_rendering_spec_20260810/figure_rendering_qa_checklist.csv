@@ -1,0 +1,7 @@
+qa_id,category,check,failure_condition
+QA001,Evidence boundary,Every panel title matches the current claim status and boundary.,"Any panel upgrades directional_only, stress-test, or NO-GO evidence into a completed main result."
+QA002,Source data,Every plotted number exists in the listed source-data CSV and has a panel-level mapping.,Any plotted value cannot be traced to a dated source-data file.
+QA003,Visual hierarchy,"Figure 2 is visually dominant as the main result; Figures 3-6 are secondary, stress-test or gate figures.",A secondary/gate figure appears to carry the main claim.
+QA004,Accessibility,Color choices are colorblind-safe and remain interpretable in greyscale.,Status or result meaning is encoded by color alone.
+QA005,Export,"Each rendered figure has PDF, SVG and 600-dpi PNG preview outputs.",Any final figure lacks vector export or preview QA file.
+QA006,Text safety,"No figure caption states that blind external validation, public release, DOI or full Res-SAM replication is complete.",Caption language contradicts current gate status.

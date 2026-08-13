@@ -1,0 +1,5 @@
+qa_check,status,evidence
+current_branch_track_b,pass,TRACK-B
+submission_not_ready_preserved,pass,assembly summary submission_ready=false
+no_completed_blind_validation_claim,pass,cover letter states bounded route
+placeholder_corresponding_author_visible,pass,placeholder retained for author completion

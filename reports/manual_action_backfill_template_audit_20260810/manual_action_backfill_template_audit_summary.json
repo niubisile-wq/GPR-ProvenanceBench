@@ -1,0 +1,14 @@
+{
+  "package": "manual_action_backfill_template_audit_20260810",
+  "template_rows": 50,
+  "required_field_rows": 10,
+  "forms_audited": 5,
+  "currently_complete_forms": 0,
+  "missing_required_cells": 50,
+  "allowed_commands_now": 0,
+  "submission_ready": false,
+  "qa_rows": 4,
+  "qa_pass": true,
+  "status": "manual_action_backfill_template_audit_ready_waiting_manual_evidence",
+  "desktop_plan_updated": true
+}

@@ -1,0 +1,7 @@
+paragraph_id,risk_type,risk_text,mitigation
+R1,forbidden_upgrade,do not treat asset counts as performance evidence,current executable evidence boundary
+R2,forbidden_upgrade,do not describe this as blind external validation or universal GPR generalization,Res-SAM environment-transfer fragility across five model families
+R3,forbidden_upgrade,do not call this universal leakage or a lead claim,directionally consistent but modest/model-dependent
+R4,forbidden_upgrade,"do not present as causal proof, main confirmation or blind external validation",multi-layer 4TU counterfactual stress test remains a feasibility boundary
+R5,forbidden_upgrade,do not present as model superiority or confirmation-matrix evidence,target-level feasibility boundary
+R6,forbidden_upgrade,do not claim completed external validation or external generalization,blind external validation remains open/NO-GO

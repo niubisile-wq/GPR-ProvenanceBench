@@ -1,0 +1,111 @@
+{
+  "run_id": "20260811_E01_ressam_hog_rbf_svm_coral_repair_seed_20260813",
+  "manifest": "D:\\百度网盘拉取包\\CNS1\\GPR-ProvenanceBench\\data_manifests\\res_sam_unified_samples_20260810.csv",
+  "data_root": "D:\\百度网盘拉取包\\CNS1\\external_assets\\res_sam_data",
+  "seed": 20260813,
+  "image_size": 64,
+  "feature": "simple_hog_cell8_bins9",
+  "model": "rbf_svm_C3_gamma_scale_class_weight_balanced",
+  "mitigation": "mean/std feature alignment and CORAL covariance alignment using unlabeled target environment images",
+  "n_samples": 1050,
+  "shared_labels": [
+    "cavity",
+    "crack",
+    "pipe"
+  ],
+  "transfer": [
+    {
+      "train_environment": "synthetic",
+      "test_environment": "real_world",
+      "label_space": [
+        "cavity",
+        "crack",
+        "pipe"
+      ],
+      "train_n": 450,
+      "test_n": 300,
+      "train_label_counts": {
+        "cavity": 150,
+        "crack": 150,
+        "pipe": 150
+      },
+      "test_label_counts": {
+        "cavity": 100,
+        "crack": 100,
+        "pipe": 100
+      },
+      "baseline_source_only": {
+        "accuracy": 0.43666666666666665,
+        "balanced_accuracy": 0.4366666666666667,
+        "macro_f1": 0.3423478099492822
+      },
+      "mean_std_unlabeled_target": {
+        "accuracy": 0.4633333333333333,
+        "balanced_accuracy": 0.4633333333333334,
+        "macro_f1": 0.4505682855898509
+      },
+      "coral_unlabeled_target": {
+        "accuracy": 0.4266666666666667,
+        "balanced_accuracy": 0.4266666666666666,
+        "macro_f1": 0.41036814925870396
+      },
+      "delta_mean_std_minus_baseline": {
+        "accuracy": 0.026666666666666672,
+        "balanced_accuracy": 0.026666666666666672,
+        "macro_f1": 0.10822047564056869
+      },
+      "delta_coral_minus_baseline": {
+        "accuracy": -0.009999999999999953,
+        "balanced_accuracy": -0.01000000000000012,
+        "macro_f1": 0.06802033930942175
+      }
+    },
+    {
+      "train_environment": "real_world",
+      "test_environment": "synthetic",
+      "label_space": [
+        "cavity",
+        "crack",
+        "pipe"
+      ],
+      "train_n": 300,
+      "test_n": 450,
+      "train_label_counts": {
+        "cavity": 100,
+        "crack": 100,
+        "pipe": 100
+      },
+      "test_label_counts": {
+        "cavity": 150,
+        "crack": 150,
+        "pipe": 150
+      },
+      "baseline_source_only": {
+        "accuracy": 0.3511111111111111,
+        "balanced_accuracy": 0.3511111111111111,
+        "macro_f1": 0.20336096463118916
+      },
+      "mean_std_unlabeled_target": {
+        "accuracy": 0.4777777777777778,
+        "balanced_accuracy": 0.4777777777777778,
+        "macro_f1": 0.4742066405750891
+      },
+      "coral_unlabeled_target": {
+        "accuracy": 0.43333333333333335,
+        "balanced_accuracy": 0.43333333333333335,
+        "macro_f1": 0.4223442442335715
+      },
+      "delta_mean_std_minus_baseline": {
+        "accuracy": 0.1266666666666667,
+        "balanced_accuracy": 0.1266666666666667,
+        "macro_f1": 0.27084567594389997
+      },
+      "delta_coral_minus_baseline": {
+        "accuracy": 0.08222222222222225,
+        "balanced_accuracy": 0.08222222222222225,
+        "macro_f1": 0.2189832796023823
+      }
+    }
+  ],
+  "boundary": "Internal transductive mitigation stress test; not blind external validation."
+}

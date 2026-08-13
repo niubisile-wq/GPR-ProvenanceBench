@@ -1,0 +1,6 @@
+priority,action,proof_required
+1,Use the Desktop manual action minipack to send/request real materials.,"send evidence, returned files, backend/scope choice, external asset, rights/replies"
+2,Place returned files into manual_evidence_inbox_20260810.,candidate_evidence_files > 0 in inbox audit
+3,Rerun inbox audit and inspect sensitive-name rows.,checksums recorded and sensitive_name_rows=0 or manually resolved
+4,Use writeback queue to fill only allowed tracker fields.,post-dispatch evidence intake rows pass
+5,Run safe branch validators and then full M0-M2.,gate_closure_allowed and submission dashboard updates

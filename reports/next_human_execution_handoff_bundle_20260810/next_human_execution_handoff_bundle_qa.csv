@@ -1,0 +1,5 @@
+check,result,detail
+all_sources_present,PASS,
+desktop_zip_created,PASS,<LOCAL_DESKTOP>\\NatComms_下一步人工执行handoff_20260810.zip
+zip_has_expected_members,PASS,zip_members=12; manifest_rows=12
+not_executed_state_preserved,PASS,manual_actions_executed=False; submission_ready=False

@@ -1,0 +1,34 @@
+field,required,type,description
+dataset_id,yes,string,Dataset short identifier such as mojahid four_tu tigpr res_sam
+asset_role,yes,string,core exploratory support external_blind or protocol_comparison
+sample_id,yes,string,Stable unique sample identifier
+label,yes,string,Target label used for task evaluation
+label_source,yes,string,Human annotation dataset annotation derived rule or unknown
+rel_path,yes,string,Path relative to dataset root or package root
+abs_path,no,string,Resolved local path when available
+file_sha256,yes,string,SHA256 hash of the sample file or raw trace object
+raw_trace_id,no,string,Raw trace identifier if image derives from raw trace
+project_id,no,string,Project or survey project identifier
+activity_id,no,string,Activity or collection batch identifier
+site_id,no,string,Site field or scene identifier
+survey_line_id,no,string,Survey line profile or transect identifier
+device_id,no,string,GPR device identifier if known
+antenna_frequency_mhz,no,number,Antenna frequency in MHz if known
+acquisition_date,no,string,Acquisition date or unknown
+operator_id,no,string,Operator identifier if known
+processing_chain_id,yes,string,Processing chain identifier raw standard zscore clip rendered augmented unknown
+export_format,no,string,Image or array file format
+width_px,no,integer,Image width
+height_px,no,integer,Image height
+is_augmented,yes,integer,1 if augmented otherwise 0
+augmentation_ancestor_id,no,string,Original sample id for augmentation ancestry
+exact_duplicate_group,no,string,Exact duplicate group id
+near_duplicate_group,no,string,Near duplicate group id
+source_group,yes,string,Primary grouping key for source-aware splitting
+fold_id,no,integer,Frozen fold id when assigned
+split_protocol,no,string,Split protocol name
+split_role,no,string,train val test external_blind or unused
+created_by,yes,string,Script or person that created this row
+created_date,yes,date,Creation date
+notes,no,string,Concise caveats
+

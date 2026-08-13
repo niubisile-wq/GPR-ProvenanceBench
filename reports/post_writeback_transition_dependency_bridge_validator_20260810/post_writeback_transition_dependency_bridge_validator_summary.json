@@ -1,0 +1,17 @@
+{
+  "package": "post_writeback_transition_dependency_bridge_validator_20260810",
+  "rb002_entry_allowed": false,
+  "post_writeback_transition_ready": false,
+  "guarded_runner_ready": false,
+  "transition_bridge_allowed": false,
+  "route_command_execution_allowed": false,
+  "gate_closure_allowed": false,
+  "commands_allowed_now": 0,
+  "transition_allowed_rows": 0,
+  "open_master_gates": 8,
+  "submission_ready": false,
+  "qa_rows": 5,
+  "qa_pass": true,
+  "status": "post_writeback_transition_dependency_bridge_validator_ready_blocked_by_rb002",
+  "desktop_plan_updated": true
+}

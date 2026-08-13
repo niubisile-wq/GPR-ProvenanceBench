@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="416.16pt" height="252.792pt" viewBox="0 0 416.16 252.792" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-08-13T08:27:53.462909</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.9, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 252.792 
+L 416.16 252.792 
+L 416.16 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 40.94784 58.692672 
+L 375.21216 58.692672 
+Q 382.44384 58.692672 382.44384 54.401616 
+L 382.44384 28.178496 
+Q 382.44384 23.88744 375.21216 23.88744 
+L 40.94784 23.88744 
+Q 33.71616 23.88744 33.71616 28.178496 
+L 33.71616 54.401616 
+Q 33.71616 58.692672 40.94784 58.692672 
+z
+" clip-path="url(#pf07690cd42)" style="fill: #ffffff; stroke: #4c78a8; stroke-width: 1.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 208.08 61.167386 
+Q 208.08 61.837165 208.08 61.38891 
+" clip-path="url(#pf07690cd42)" style="fill: none; stroke: #6b7280; stroke-linecap: round"/>
+    <path d="M 209.68 58.18891 
+L 208.08 61.38891 
+L 206.48 58.18891 
+z
+" clip-path="url(#pf07690cd42)" style="fill: #6b7280; stroke: #6b7280; stroke-linecap: round"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 40.94784 99.219312 
+L 375.21216 99.219312 
+Q 382.44384 99.219312 382.44384 94.928256 
+L 382.44384 68.705136 
+Q 382.44384 64.41408 375.21216 64.41408 
+L 40.94784 64.41408 
+Q 33.71616 64.41408 33.71616 68.705136 
+L 33.71616 94.928256 
+Q 33.71616 99.219312 40.94784 99.219312 
+z
+" clip-path="url(#pf07690cd42)" style="fill: #ffffff; stroke: #59a14f; stroke-width: 1.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 208.08 101.694026 
+Q 208.08 102.363805 208.08 101.91555 
+" clip-path="url(#pf07690cd42)" style="fill: none; stroke: #6b7280; stroke-linecap: round"/>
+    <path d="M 209.68 98.71555 
+L 208.08 101.91555 
+L 206.48 98.71555 
+z
+" clip-path="url(#pf07690cd42)" style="fill: #6b7280; stroke: #6b7280; stroke-linecap: round"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 40.94784 139.745952 
+L 375.21216 139.745952 
+Q 382.44384 139.745952 382.44384 135.454896 
+L 382.44384 109.231776 
+Q 382.44384 104.94072 375.21216 104.94072 
+L 40.94784 104.94072 
+Q 33.71616 104.94072 33.71616 109.231776 
+L 33.71616 135.454896 
+Q 33.71616 139.745952 40.94784 139.745952 
+z
+" clip-path="url(#pf07690cd42)" style="fill: #ffffff; stroke: #f28e2b; stroke-width: 1.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 208.08 142.220666 
+Q 208.08 142.890445 208.08 142.44219 
+" clip-path="url(#pf07690cd42)" style="fill: none; stroke: #6b7280; stroke-linecap: round"/>
+    <path d="M 209.68 139.24219 
+L 208.08 142.44219 
+L 206.48 139.24219 
+z
+" clip-path="url(#pf07690cd42)" style="fill: #6b7280; stroke: #6b7280; stroke-linecap: round"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 40.94784 180.272592 
+L 375.21216 180.272592 
+Q 382.44384 180.272592 382.44384 175.981536 
+L 382.44384 149.758416 
+Q 382.44384 145.46736 375.21216 145.46736 
+L 40.94784 145.46736 
+Q 33.71616 145.46736 33.71616 149.758416 
+L 33.71616 175.981536 
+Q 33.71616 180.272592 40.94784 180.272592 
+z
+" clip-path="url(#pf07690cd42)" style="fill: #ffffff; stroke: #9c755f; stroke-width: 1.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 208.08 182.747306 
+Q 208.08 183.417085 208.08 182.96883 
+" clip-path="url(#pf07690cd42)" style="fill: none; stroke: #6b7280; stroke-linecap: round"/>
+    <path d="M 209.68 179.76883 
+L 208.08 182.96883 
+L 206.48 179.76883 
+z
+" clip-path="url(#pf07690cd42)" style="fill: #6b7280; stroke: #6b7280; stroke-linecap: round"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 40.94784 220.799232 
+L 375.21216 220.799232 
+Q 382.44384 220.799232 382.44384 216.508176 
+L 382.44384 190.285056 
+Q 382.44384 185.994 375.21216 185.994 
+L 40.94784 185.994 
+Q 33.71616 185.994 33.71616 190.285056 
+L 33.71616 216.508176 
+Q 33.71616 220.799232 40.94784 220.799232 
+z
+" clip-path="url(#pf07690cd42)" style="fill: #ffffff; stroke: #e15759; stroke-width: 1.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <g id="patch_11">
+     <path d="M 51.3936 46.933942 
+C 53.080043 46.933942 54.697641 46.263912 55.890136 45.071416 
+C 57.082632 43.878921 57.752662 42.261323 57.752662 40.57488 
+C 57.752662 38.888437 57.082632 37.270839 55.890136 36.078344 
+C 54.697641 34.885848 53.080043 34.215817 51.3936 34.215817 
+C 49.707157 34.215817 48.089559 34.885848 46.897064 36.078344 
+C 45.704568 37.270839 45.034537 38.888437 45.034537 40.57488 
+C 45.034537 42.261323 45.704568 43.878921 46.897064 45.071416 
+C 48.089559 46.263912 49.707157 46.933942 51.3936 46.933942 
+z
+" style="fill: #4c78a8"/>
+    </g>
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #ffffff" x="51.3936" y="42.907849" transform="rotate(-0 51.3936 42.907849)">1</text>
+   </g>
+   <g id="text_2">
+    <text style="font-weight: 700; font-size: 7.7px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #1f2937" x="75.4992" y="36.372672" transform="rotate(-0 75.4992 36.372672)">Asset audit</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 6.5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #1f2937" x="75.4992" y="46.309419" transform="rotate(-0 75.4992 46.309419)">Three local executable assets are available; TIGPR remains supporting-only.</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 6.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; fill: #4c78a8" transform="translate(326.629038 38.898846)">complete current</text>
+    <text style="font-size: 6.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; fill: #4c78a8" transform="translate(343.162694 45.456508)">checkpoint</text>
+   </g>
+   <g id="text_5">
+    <g id="patch_12">
+     <path d="M 51.3936 87.460582 
+C 53.080043 87.460582 54.697641 86.790552 55.890136 85.598056 
+C 57.082632 84.405561 57.752662 82.787963 57.752662 81.10152 
+C 57.752662 79.415077 57.082632 77.797479 55.890136 76.604984 
+C 54.697641 75.412488 53.080043 74.742457 51.3936 74.742457 
+C 49.707157 74.742457 48.089559 75.412488 46.897064 76.604984 
+C 45.704568 77.797479 45.034537 79.415077 45.034537 81.10152 
+C 45.034537 82.787963 45.704568 84.405561 46.897064 85.598056 
+C 48.089559 86.790552 49.707157 87.460582 51.3936 87.460582 
+z
+" style="fill: #59a14f"/>
+    </g>
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #ffffff" x="51.3936" y="83.434489" transform="rotate(-0 51.3936 83.434489)">2</text>
+   </g>
+   <g id="text_6">
+    <text style="font-weight: 700; font-size: 7.7px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #1f2937" x="75.4992" y="76.946234" transform="rotate(-0 75.4992 76.946234)">Split and transfer baselines</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 6.5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #1f2937" x="75.4992" y="86.836059" transform="rotate(-0 75.4992 86.836059)">Res-SAM environment transfer is the strongest current cross-model signal.</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 6.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #59a14f" x="372.8016" y="82.704317" transform="rotate(-0 372.8016 82.704317)">partial complete</text>
+   </g>
+   <g id="text_9">
+    <g id="patch_13">
+     <path d="M 51.3936 127.987222 
+C 53.080043 127.987222 54.697641 127.317192 55.890136 126.124696 
+C 57.082632 124.932201 57.752662 123.314603 57.752662 121.62816 
+C 57.752662 119.941717 57.082632 118.324119 55.890136 117.131624 
+C 54.697641 115.939128 53.080043 115.269097 51.3936 115.269097 
+C 49.707157 115.269097 48.089559 115.939128 46.897064 117.131624 
+C 45.704568 118.324119 45.034537 119.941717 45.034537 121.62816 
+C 45.034537 123.314603 45.704568 124.932201 46.897064 126.124696 
+C 48.089559 127.317192 49.707157 127.987222 51.3936 127.987222 
+z
+" style="fill: #f28e2b"/>
+    </g>
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #ffffff" x="51.3936" y="123.961129" transform="rotate(-0 51.3936 123.961129)">3</text>
+   </g>
+   <g id="text_10">
+    <text style="font-weight: 700; font-size: 7.7px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #1f2937" x="75.4992" y="117.425952" transform="rotate(-0 75.4992 117.425952)">Raw-trace counterfactual stress test</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 6.5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #1f2937" x="75.4992" y="127.362699" transform="rotate(-0 75.4992 127.362699)">4TU fixed-split sensitivity weakens under project-level repeated splits.</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 6.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #f28e2b" x="372.8016" y="123.230957" transform="rotate(-0 372.8016 123.230957)">stress test complete</text>
+   </g>
+   <g id="text_13">
+    <g id="patch_14">
+     <path d="M 51.3936 168.513862 
+C 53.080043 168.513862 54.697641 167.843832 55.890136 166.651336 
+C 57.082632 165.458841 57.752662 163.841243 57.752662 162.1548 
+C 57.752662 160.468357 57.082632 158.850759 55.890136 157.658264 
+C 54.697641 156.465768 53.080043 155.795737 51.3936 155.795737 
+C 49.707157 155.795737 48.089559 156.465768 46.897064 157.658264 
+C 45.704568 158.850759 45.034537 160.468357 45.034537 162.1548 
+C 45.034537 163.841243 45.704568 165.458841 46.897064 166.651336 
+C 48.089559 167.843832 49.707157 168.513862 51.3936 168.513862 
+z
+" style="fill: #9c755f"/>
+    </g>
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #ffffff" x="51.3936" y="164.487769" transform="rotate(-0 51.3936 164.487769)">4</text>
+   </g>
+   <g id="text_14">
+    <text style="font-weight: 700; font-size: 7.7px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #1f2937" x="75.4992" y="157.952592" transform="rotate(-0 75.4992 157.952592)">Blind external protocol</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 6.5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #1f2937" x="75.4992" y="167.887816" transform="rotate(-0 75.4992 167.887816)">Protocol, intake templates and locked evaluator exist.</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 6.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #9c755f" x="372.8016" y="163.721269" transform="rotate(-0 372.8016 163.721269)">template ready no go</text>
+   </g>
+   <g id="text_17">
+    <g id="patch_15">
+     <path d="M 51.3936 209.040502 
+C 53.080043 209.040502 54.697641 208.370472 55.890136 207.177976 
+C 57.082632 205.985481 57.752662 204.367883 57.752662 202.68144 
+C 57.752662 200.994997 57.082632 199.377399 55.890136 198.184904 
+C 54.697641 196.992408 53.080043 196.322377 51.3936 196.322377 
+C 49.707157 196.322377 48.089559 196.992408 46.897064 198.184904 
+C 45.704568 199.377399 45.034537 200.994997 45.034537 202.68144 
+C 45.034537 204.367883 45.704568 205.985481 46.897064 207.177976 
+C 48.089559 208.370472 49.707157 209.040502 51.3936 209.040502 
+z
+" style="fill: #e15759"/>
+    </g>
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #ffffff" x="51.3936" y="205.014409" transform="rotate(-0 51.3936 205.014409)">5</text>
+   </g>
+   <g id="text_18">
+    <text style="font-weight: 700; font-size: 7.7px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #1f2937" x="75.4992" y="198.428701" transform="rotate(-0 75.4992 198.428701)">Manuscript claim boundary</text>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 6.5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #1f2937" x="75.4992" y="208.415979" transform="rotate(-0 75.4992 208.415979)">Current manuscript lead should be Res-SAM environment-transfer fragility.</text>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 6.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #e15759" x="372.8016" y="204.247909" transform="rotate(-0 372.8016 204.247909)">active boundary</text>
+   </g>
+   <g id="text_21">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start" x="15.2352" y="23.88744" transform="rotate(-0 15.2352 23.88744)">a</text>
+   </g>
+   <g id="text_22">
+    <text style="font-size: 7.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #1f2937" x="208.08" y="235.5354" transform="rotate(-0 208.08 235.5354)">Evidence is interpreted only after the asset role and evaluation gate are fixed.</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pf07690cd42">
+   <rect x="7.2" y="7.2" width="401.76" height="238.392"/>
+  </clipPath>
+ </defs>
+</svg>

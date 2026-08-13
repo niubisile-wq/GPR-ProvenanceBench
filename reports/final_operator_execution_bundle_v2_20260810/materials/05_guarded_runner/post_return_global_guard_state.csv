@@ -1,0 +1,6 @@
+guard,required,current,passes
+candidate_return_files_present,candidate_return_files > 0,candidate_return_files=0,no
+writeback_allowed,writeback_allowed_rows > 0,writeback_allowed_rows=0,no
+transition_allowed,transition_allowed_rows > 0,transition_allowed_rows=0,no
+gate_closure_allowed,gate_closure_allowed = true,gate_closure_allowed=False,no
+submission_ready,submission_ready = true,submission_ready=False,no

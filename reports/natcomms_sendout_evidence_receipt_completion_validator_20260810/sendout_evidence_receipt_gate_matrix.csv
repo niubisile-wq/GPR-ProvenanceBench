@@ -1,0 +1,12 @@
+gate,current,required,passes_now
+v2_lifecycle_consistent,True,true,yes
+before_send_evidence_complete,False,true,no
+after_send_evidence_complete,False,true,no
+response_send_log_complete,False,true,no
+send_receipt_complete,False,true,no
+return_evidence_complete,False,true,no
+response_return_log_complete,False,true,no
+return_intake_allowed,False,true,no
+rb001_drop_allowed,False,true,no
+rb001_closed,False,true,no
+submission_ready,False,false,yes

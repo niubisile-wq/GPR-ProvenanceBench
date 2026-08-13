@@ -1,0 +1,4 @@
+decision_item,current_default,recommended_action,status
+Transparent peer review,[PORTAL DEFAULT/OPTION TO BE CHECKED AT SUBMISSION],Make a deliberate author decision rather than leaving this to habit.,needs_author_confirmation
+Preprint deposition or prior public posting,[UNKNOWN],"Confirm whether any preprint, thesis chapter, code repository or public plan contains overlapping text/results.",needs_author_confirmation
+Previous editor discussion,[UNKNOWN],State none or provide details in the cover letter.,needs_author_confirmation

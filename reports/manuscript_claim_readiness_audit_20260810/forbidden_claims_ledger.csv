@@ -1,0 +1,13 @@
+risk_id,forbidden_claim,gate,required_evidence_before_upgrade
+F01,Do not claim blind external validation or external generalization.,Real blind external validation,"Real manifest with strict SHA256 checksums, label-holder confirmation, frozen prediction submission, timestamped one-shot evaluation and signed boundary note for any reruns."
+F02,"Do not submit, cite or circulate planned figures as final manuscript figures.",Main figure rendering,"Final Fig. 1-Fig. 6 files, panel labels, source-data panel map, visual QA checklist and exported publication formats."
+F03,Do not state that code or data are deposited.,Repository identifiers,"Data repository DOI/accession, code release DOI, repository metadata, archived release files and public landing pages."
+F04,Do not label the Reporting Summary as final.,Reporting Summary,"Final answers linked to frozen Methods, figure/table set, blinding/external-validation status, software versions and repository identifiers."
+F05,Do not release raw or third-party-derived material publicly.,Third-party rights,"Licence decisions for code, derived data and raw/third-party material, plus exclusion list for non-redistributable files."
+F06,Do not treat candidate citation markers as final references.,Final reference numbering,"Final prose, final figure/table references, verified bibliographic records and numbered reference list."
+F07,do not treat asset counts as performance evidence,claim_R1,"Table 1 local executable rows: Mojahid=2524, 4TU=99, Res-SAM=1050, TIGPR=0. TIGPR local rows are 0 and remain supporting-only."
+F08,do not describe this as blind external validation or universal GPR generalization,claim_R2,"real-to-synthetic: directional=5/5, material=5/5, mean_delta=0.4239; synthetic-to-real: directional=4/5, material=4/5, mean_delta=0.3743."
+F09,do not call this universal leakage or a lead claim,claim_R3,"directional=5/5, material=1/5, mean_delta=0.0406; Table 2 status=directional_only."
+F10,"do not present as causal proof, main confirmation or blind external validation",claim_R4,"fixed log_clip delta=-0.3429, flip=0.8583; group log_clip delta=-0.0422, flip=0.4693; evidence boundary layers=5."
+F11,do not present as model superiority or confirmation-matrix evidence,claim_R5,"Land type status=usable_with_caution, feasible_fraction=0.9365; Land use and Construction workers are not viable; Land cover and groundwater are weak."
+F12,do not claim completed external validation or external generalization,claim_R6,"External gate status=NO-GO; boundary=No current track satisfies blind external validation readiness. The next concrete step is acquisition or restoration, not additional internal modeling."

@@ -1,0 +1,5 @@
+audit_id,audit_item,expected,current,passes_now
+GRE-AUD-001,launcher script exists,run_final_guarded_recheck_after_receipts.ps1 exists,True,yes
+GRE-AUD-002,launcher decision matches 19.50,refuse,refuse,yes
+GRE-AUD-003,current refusal has zero command execution,recheck_executed=false,launcher_will_execute_recheck=False,yes
+GRE-AUD-004,portal upload remains forbidden,portal_upload_allowed=false,portal_upload_allowed=False,yes

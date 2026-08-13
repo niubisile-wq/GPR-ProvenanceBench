@@ -1,0 +1,17 @@
+{
+  "package": "external_dependency_sendout_receipt_preservation_regression_20260810",
+  "regression_cases": 2,
+  "valid_case_sent_receipt_rows": 5,
+  "valid_case_unlock_allowed": true,
+  "corrupt_hash_case_sent_receipt_rows": 4,
+  "corrupt_hash_case_unlock_allowed": false,
+  "preservation_verified": true,
+  "sha256_rejection_verified": true,
+  "portal_upload_allowed": false,
+  "submission_ready": false,
+  "qa_rows": 3,
+  "qa_pass": true,
+  "status": "external_dependency_sendout_receipt_preservation_regression_passed",
+  "regression_pass": true,
+  "desktop_plan_updated": true
+}

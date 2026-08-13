@@ -1,0 +1,6 @@
+rule_id,rule
+FIG-EXPORT-STOP-001,Do not call preview PNG/PDF/SVG final submission figures.
+FIG-EXPORT-STOP-002,"Do not call final candidates final until PDF, SVG and 600-dpi TIFF checks pass."
+FIG-EXPORT-STOP-003,Do not lock captions while required boundary sentences are draft-only or author-unapproved.
+FIG-EXPORT-STOP-004,Do not close final_figures_ready without Source Data panel mapping.
+FIG-EXPORT-STOP-005,Do not use Figure 6 export QA to claim completed blind external validation.

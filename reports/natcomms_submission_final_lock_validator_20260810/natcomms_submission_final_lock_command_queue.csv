@@ -1,0 +1,7 @@
+order,command,run_now,purpose
+1,py scripts\build_natcomms_finalization_master_checklist.py,yes,Refresh master gate state.
+2,py scripts\build_natcomms_finalization_command_dashboard_v3.py,yes,Refresh command and portal overlay state.
+3,py scripts\build_natcomms_portal_upload_manifest_prelock.py,yes,Refresh portal upload prelock.
+4,py scripts\build_portal_submission_file_preflight.py,yes,Refresh portal file preflight.
+5,py scripts\build_natcomms_submission_final_lock_validator.py,yes,Refresh this final lock validator.
+6,Upload or submit files in Nature Communications portal,no,Forbidden until all final submission gates pass.

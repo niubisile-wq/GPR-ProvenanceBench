@@ -1,0 +1,9 @@
+upstream_gate,downstream_gate,dependency_type
+FM-001 Author/admin declarations,FM-007 Final manuscript and SI files,metadata_text_lock
+FM-002 Manuscript branch,FM-007 Final manuscript and SI files,claim_scope_lock
+FM-003 Formal figures,FM-004 Source Data and repository/code release,panel_source_data_mapping
+FM-003 Formal figures,FM-005 Reporting Summary,figure_set_lock
+FM-004 Source Data and repository/code release,FM-005 Reporting Summary,availability_lock
+FM-005 Reporting Summary,FM-007 Final manuscript and SI files,statement_alignment
+FM-006 Final references,FM-007 Final manuscript and SI files,bibliography_lock
+FM-007 Final manuscript and SI files,FM-008 Portal upload readiness,final_file_generation

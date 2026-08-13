@@ -1,0 +1,6 @@
+check,result,detail
+all_source_summaries_loaded,PASS,7
+submission_not_ready_preserved,PASS,All source summaries report not submission-ready or no ready flag.
+track_b_current,PASS,TRACK-B
+hard_gates_recorded,PASS,6
+acceptance_tests_imported,PASS,5

@@ -1,0 +1,21 @@
+Title: Crack depth measurement and key points of accurate identification in concrete structures: a review
+DOI: 10.1080/10589759.2024.2340645
+Source URL: https://www.tandfonline.com/doi/full/10.1080/10589759.2024.2340645
+Page title: Crack depth measurement and key points of accurate identification in concrete structures: a review: Nondestructive Testing and Evaluation: Vol 39 , No 8 - Get Access
+H1: Crack depth measurement and key points of accurate identification in concrete structures: a review
+Status: ok
+
+ABSTRACT
+
+The cracks with a width of more than 0.3 mm can seriously affect the safety and stability of concrete structures. Presently, there are many techniques for measuring the crack depth, each with its own advantages and disadvantages. However, due to the technical limitations and different applicability of each method, their accuracy in actual crack detection is often insufficient. In this article, to improve the detection accuracy in technological applications, the mature concrete crack depth detection technologies are summarised. The currently popular non-destructive testing technologies are divided into two categories: stress wave detection technology and electromagnetic wave detection technology. The specific detection methods and development status of the two technologies are discussed. Further, based on the detection principles, the advantages and disadvantages of various detection methods are systematically compared. The application conditions of each detection method are explored, and their feasibility for different forms of cracks are comprehensively analysed. A set of optimal methods for crack depth detection is proposed. Besides, the key points for the accurate measurement of concrete crack depth are discussed.
+
+KEYWORDS:
+
+Concrete crack detectionstress wave detection technologyelectromagnetic wave detection technologyaccurate identification points
+Disclosure statement
+
+No potential conflict of interest was reported by the author(s).
+
+Additional information
+Funding
+This work is supported by the National Natural Science Foundation of China (Grant No. 52109162), the National Key Research and Development Program of China (Grant No. 2021YFC3090104), and Fundamental Research Funds for Central Public Welfare Research Institutes (Y421007, Y421003), and Special fund project for basic scientific research of State Key Laboratory of Hydrology and Water Resources and Hydraulic Engineering Science(Y422010).

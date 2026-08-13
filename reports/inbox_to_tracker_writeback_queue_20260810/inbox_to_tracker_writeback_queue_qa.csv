@@ -1,0 +1,5 @@
+check,result,detail
+seven_writeback_rows_indexed,PASS,writeback_rows=7
+current_empty_inbox_blocks_writeback,PASS,candidate_files_total=0
+post_dispatch_state_preserved,PASS,evidence_rows_passed=0
+no_tracker_write_performed,PASS,This package is a writeback queue only.

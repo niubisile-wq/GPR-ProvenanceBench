@@ -1,0 +1,8 @@
+component,current_evidence,current_state,ready_for_review,ready_for_final_submission,blocking_reason
+Data Availability wording,availability_statement_prelock_20260810,variants=3; repository_identifier_created=False,yes,no,"Repository DOI/accession, rights/licence and final Source Data lock are missing."
+Code Availability wording,availability_statement_prelock_20260810,variants=3; code_doi_created=False,yes,no,"Public code release tag, software licence and code DOI are missing."
+Repository metadata prefill,repository_predeposit_handoff_20260810,fields=9; blocked_fields=4,yes,no,"Author list, licence, related identifiers and access rights are not final."
+Repository upload queue,repository_predeposit_handoff_20260810,upload_queue_files=37; public_release_ready=False,yes,no,Rights/licence clearance and DOI creation are absent.
+Rights and licence,rights_licence_completion_handoff_20260810,decision_rows=4; licence_selected=False; third_party_rights_cleared=False,yes,no,Licence selection and third-party rights clearance remain open.
+Figure Source Data,source_data_panel_map_review_packet_20260811,figures_mapped=6; source_files_packaged=12; source_data_panel_map_locked=False,yes,no,Final figure exports and panel-level Source Data lock are absent.
+Release manifest,repository_release_manifest_lock_20260810,locked_candidate_files=37; repository_doi_created=False; public_release_ready=False,yes,no,"Repository DOI, code DOI, licence and rights clearance are missing."

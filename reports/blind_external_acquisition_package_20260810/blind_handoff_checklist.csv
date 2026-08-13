@@ -1,0 +1,8 @@
+step,owner,action,evidence,go_no_go
+1,Data holder,Prepare unlabeled files in a dated folder and remove label-bearing folder names or filenames.,Folder listing and file hashes.,NO-GO if filenames or folders reveal labels.
+2,Data holder,Create the analyst-facing manifest using the required external_blind columns.,CSV manifest with stable sample_id and file_sha256.,NO-GO if sample IDs are duplicated or SHA256 values are missing.
+3,Label holder,Create and store the sealed label file outside the analyst workflow.,"Hash of sealed label file, but no label values sent to analyst.",NO-GO if labels are opened before prediction freeze.
+4,Analyst,Run strict intake validation before model prediction.,PASS report from validate_external_blind_intake.py --strict-sha.,NO-GO if validator reports label leakage or hash problems.
+5,Analyst and auditor,"Freeze preprocessing, model family, seeds, thresholds, scripts and one prediction submission.",Frozen prediction CSV and hash record.,NO-GO if any model choice is made after labels are seen.
+6,Unlocker,Release labels only after prediction freeze and authorization.,unlock_timestamp and unlock_authorized_by fields.,NO-GO if unlock precedes prediction freeze.
+7,Analyst,Run locked evaluation once for the main claim.,evaluate_external_blind_submission.py --main-claim output.,Later reruns are exploratory only.

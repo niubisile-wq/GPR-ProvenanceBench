@@ -1,0 +1,4 @@
+balanced_accuracy,mae,model,r2,task,test_bin_counts,test_n
+,0.1466217041015625,ridge_pixel32,-11.641353607177734,foreground_ratio_regression,,168
+,0.045371520079781055,extra_trees_pixel32,-0.15118561280122123,foreground_ratio_regression,,168
+0.5304817038307604,,extra_trees_pixel32,,foreground_ratio_tertile_classification,"{""high"": 99, ""low"": 16, ""mid"": 53}",168

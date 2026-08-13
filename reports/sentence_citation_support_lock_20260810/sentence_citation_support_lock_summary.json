@@ -1,0 +1,13 @@
+{
+  "run_id": "20260810_sentence_citation_support_lock",
+  "sentence_citation_rows": 5,
+  "replacement_plan_rows": 5,
+  "guardrail_rows": 4,
+  "qa_rows": 4,
+  "qa_pass": true,
+  "candidate_markers_replaced": false,
+  "final_references_ready": false,
+  "submission_ready": false,
+  "status": "sentence_citation_support_lock_ready_final_references_not_locked",
+  "boundary": "This package maps current citation markers to sentence-level support boundaries; it does not finalize numbering or references."
+}

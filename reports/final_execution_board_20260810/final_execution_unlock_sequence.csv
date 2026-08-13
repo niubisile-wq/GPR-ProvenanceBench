@@ -1,0 +1,7 @@
+receipt_id,current_status,operator_rows,primary_inbox,first_validator,writeback_allowed_now,unlock_condition
+FMR-001,missing,1,manual_evidence/external_dependency_sendout_20260810,py scripts\build_natcomms_author_response_log_validator.py,no,real evidence present and matching preflight emits one allowed candidate
+FMR-002,missing,2,manual_evidence_inbox_20260810,py scripts\build_figure_backend_decision_validator.py,no,real evidence present and matching preflight emits one allowed candidate
+FMR-003,missing,2,final_return_evidence_inbox_20260810,py scripts\build_natcomms_author_reply_ingestion_validator.py,no,real evidence present and matching preflight emits one allowed candidate
+FMR-004,missing,1,reports/python_figure_author_review_return_inbox_20260810/returned_author_review_files,py scripts/build_python_figure_author_review_intake_validator.py,no,real evidence present and matching preflight emits one allowed candidate
+FMR-005,missing,1,final_return_evidence_inbox_20260810/04_repository_rights_doi,py scripts\build_rights_licence_completion_handoff.py,no,real evidence present and matching preflight emits one allowed candidate
+FMR-006,waiting_for_FMR_001_to_FMR_005,1,reports/latest_run_m0_m2_checks_20260810.log,py scripts/build_fmr006_guarded_recheck_receipt_writeback_preflight.py,no,all FMR-001 to FMR-005 complete and guarded recheck PASS

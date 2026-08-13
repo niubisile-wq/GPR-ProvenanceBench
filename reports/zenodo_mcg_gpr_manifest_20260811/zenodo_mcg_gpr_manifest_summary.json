@@ -1,0 +1,23 @@
+{
+  "run_id": "20260811_E38_zenodo_mcg_gpr_manifest",
+  "manifest": "data_manifests/zenodo_mcg_gpr_manifest_20260811.csv",
+  "rows": 8100,
+  "annotated_rows": 966,
+  "pretext_rows": 7134,
+  "label_counts": {
+    "foreground_present": 966,
+    "unlabelled_pretext": 7134
+  },
+  "split_role_counts": {
+    "test": 168,
+    "train": 630,
+    "val": 168,
+    "pretext_train": 4400,
+    "pretext_val": 2734
+  },
+  "source_groups": 5,
+  "image_sha_unique": 8100,
+  "mask_sha_unique": 966,
+  "blind_external_eligible": false,
+  "status": "complete_public_mcg_gpr_manifest"
+}

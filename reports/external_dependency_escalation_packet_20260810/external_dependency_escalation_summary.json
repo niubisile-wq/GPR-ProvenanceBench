@@ -1,0 +1,18 @@
+{
+  "package": "external_dependency_escalation_packet_20260810",
+  "external_request_rows": 6,
+  "send_now_rows": 5,
+  "blocked_receipt_rows": 6,
+  "evidence_contract_rows": 5,
+  "send_ready": true,
+  "receipt_completion_allowed": false,
+  "launcher_execution_allowed": false,
+  "portal_upload_allowed": false,
+  "submission_ready": false,
+  "qa_rows": 4,
+  "qa_pass": true,
+  "status": "external_dependency_escalation_packet_ready_to_send_requests",
+  "desktop_escalation": "C:\\Users\\刘子轩\\Desktop\\NatComms_19.53_external_dependency_escalation_20260810.md",
+  "desktop_escalation_exists": true,
+  "desktop_plan_updated": true
+}

@@ -1,0 +1,132 @@
+{
+  "audit": "tigpr_local_asset_audit",
+  "date": "2026-08-10",
+  "status": "GO",
+  "blockers": [],
+  "manifest_exists": true,
+  "sample_index_rows": 7169,
+  "prior_gate_exists": true,
+  "candidate_archive_exists": true,
+  "candidate_archive_identity": "possible_tigpr",
+  "candidate_archive_sha256": "f609c9e29cdb76f83c13d6d7f9986250842e03836b75acb567c48753d34a8c9a",
+  "candidate_archive_expected_sha256": "f609c9e29cdb76f83c13d6d7f9986250842e03836b75acb567c48753d34a8c9a",
+  "candidate_archive_visible_members": [
+    "TIGPR\\3D GPR (B-scan+C-scan)\\1-Bscan.png",
+    "TIGPR\\3D GPR (B-scan+C-scan)\\1-Cscan.png",
+    "TIGPR\\3D GPR (B-scan+C-scan)\\10-Bscan.png",
+    "TIGPR\\3D GPR (B-scan+C-scan)\\10-Cscan.png",
+    "TIGPR\\3D GPR (B-scan+C-scan)\\100-Bscan.png",
+    "TIGPR\\3D GPR (B-scan+C-scan)\\100-Cscan.png",
+    "TIGPR\\3D GPR (B-scan+C-scan)\\101-Bscan.png",
+    "TIGPR\\3D GPR (B-scan+C-scan)\\101-Cscan.png",
+    "TIGPR\\3D GPR (B-scan+C-scan)\\102-Bscan.png",
+    "TIGPR\\3D GPR (B-scan+C-scan)\\102-Cscan.png",
+    "TIGPR\\3D GPR (B-scan+C-scan)\\103-Bscan.png",
+    "TIGPR\\3D GPR (B-scan+C-scan)\\103-Cscan.png",
+    "TIGPR\\3D GPR (B-scan+C-scan)\\104-Bscan.png",
+    "TIGPR\\3D GPR (B-scan+C-scan)\\104-Cscan.png",
+    "TIGPR\\3D GPR (B-scan+C-scan)\\105-Bscan.png",
+    "TIGPR\\3D GPR (B-scan+C-scan)\\105-Cscan.png",
+    "TIGPR\\3D GPR (B-scan+C-scan)\\106-Bscan.png",
+    "TIGPR\\3D GPR (B-scan+C-scan)\\106-Cscan.png",
+    "TIGPR\\3D GPR (B-scan+C-scan)\\107-Bscan.png",
+    "TIGPR\\3D GPR (B-scan+C-scan)\\107-Cscan.png",
+    "TIGPR\\3D GPR (B-scan+C-scan)\\108-Bscan.png",
+    "TIGPR\\3D GPR (B-scan+C-scan)\\108-Cscan.png",
+    "TIGPR\\3D GPR (B-scan+C-scan)\\109-Bscan.png",
+    "TIGPR\\3D GPR (B-scan+C-scan)\\109-Cscan.png",
+    "TIGPR\\3D GPR (B-scan+C-scan)\\11-Bscan.png",
+    "TIGPR\\3D GPR (B-scan+C-scan)\\11-Cscan.png",
+    "TIGPR\\3D GPR (B-scan+C-scan)\\110-Bscan.png",
+    "TIGPR\\3D GPR (B-scan+C-scan)\\110-Cscan.png",
+    "TIGPR\\3D GPR (B-scan+C-scan)\\111-Bscan.png",
+    "TIGPR\\3D GPR (B-scan+C-scan)\\111-Cscan.png",
+    "TIGPR\\3D GPR (B-scan+C-scan)\\112-Bscan.png",
+    "TIGPR\\3D GPR (B-scan+C-scan)\\112-Cscan.png",
+    "TIGPR\\3D GPR (B-scan+C-scan)\\113-Bscan.png",
+    "TIGPR\\3D GPR (B-scan+C-scan)\\113-Cscan.png",
+    "TIGPR\\3D GPR (B-scan+C-scan)\\114-Bscan.png",
+    "TIGPR\\3D GPR (B-scan+C-scan)\\114-Cscan.png",
+    "TIGPR\\3D GPR (B-scan+C-scan)\\115-Bscan.png",
+    "TIGPR\\3D GPR (B-scan+C-scan)\\115-Cscan.png",
+    "TIGPR\\3D GPR (B-scan+C-scan)\\116-Bscan.png",
+    "TIGPR\\3D GPR (B-scan+C-scan)\\116-Cscan.png",
+    "TIGPR\\3D GPR (B-scan+C-scan)\\117-Bscan.png",
+    "TIGPR\\3D GPR (B-scan+C-scan)\\117-Cscan.png",
+    "TIGPR\\3D GPR (B-scan+C-scan)\\118-Bscan.png",
+    "TIGPR\\3D GPR (B-scan+C-scan)\\118-Cscan.png",
+    "TIGPR\\3D GPR (B-scan+C-scan)\\119-Bscan.png",
+    "TIGPR\\3D GPR (B-scan+C-scan)\\119-Cscan.png",
+    "TIGPR\\3D GPR (B-scan+C-scan)\\12-Bscan.png",
+    "TIGPR\\3D GPR (B-scan+C-scan)\\12-Cscan.png",
+    "TIGPR\\3D GPR (B-scan+C-scan)\\120-Bscan.png",
+    "TIGPR\\3D GPR (B-scan+C-scan)\\120-Cscan.png",
+    "TIGPR\\3D GPR (B-scan+C-scan)\\121-Bscan.png",
+    "TIGPR\\3D GPR (B-scan+C-scan)\\121-Cscan.png",
+    "TIGPR\\3D GPR (B-scan+C-scan)\\122-Bscan.png",
+    "TIGPR\\3D GPR (B-scan+C-scan)\\122-Cscan.png",
+    "TIGPR\\3D GPR (B-scan+C-scan)\\123-Bscan.png",
+    "TIGPR\\3D GPR (B-scan+C-scan)\\123-Cscan.png",
+    "TIGPR\\3D GPR (B-scan+C-scan)\\124-Bscan.png",
+    "TIGPR\\3D GPR (B-scan+C-scan)\\124-Cscan.png",
+    "TIGPR\\3D GPR (B-scan+C-scan)\\125-Bscan.png",
+    "TIGPR\\3D GPR (B-scan+C-scan)\\125-Cscan.png"
+  ],
+  "candidate_roots": [
+    {
+      "path": "D:\\百度网盘拉取包\\CNS1\\external_assets\\tigpr\\extracted\\TIGPR\\Damage Classification",
+      "relative_path": "external_assets\\tigpr\\extracted\\TIGPR\\Damage Classification",
+      "classes_found": [
+        "Crack",
+        "Interlayer_bonding_deficiency",
+        "Loose",
+        "No_damage",
+        "Void"
+      ],
+      "missing_classes": [],
+      "complete": true
+    }
+  ],
+  "non_tigpr_class_dir_hits": [
+    {
+      "class_name": "Crack",
+      "path": "D:\\百度网盘拉取包\\CNS1\\external_assets\\res_sam_data\\GPR_data\\real_world\\crack",
+      "relative_path": "external_assets\\res_sam_data\\GPR_data\\real_world\\crack"
+    },
+    {
+      "class_name": "Crack",
+      "path": "D:\\百度网盘拉取包\\CNS1\\external_assets\\res_sam_data\\GPR_data\\synthetic\\crack",
+      "relative_path": "external_assets\\res_sam_data\\GPR_data\\synthetic\\crack"
+    },
+    {
+      "class_name": "Loose",
+      "path": "D:\\百度网盘拉取包\\CNS1\\external_assets\\res_sam_data\\GPR_data\\real_world\\loose",
+      "relative_path": "external_assets\\res_sam_data\\GPR_data\\real_world\\loose"
+    }
+  ],
+  "expected_class_counts": {
+    "Crack": 1224,
+    "Interlayer_bonding_deficiency": 2020,
+    "Loose": 2100,
+    "No_damage": 1520,
+    "Void": 305
+  },
+  "prior_gate_summary": {
+    "n_images": 7169,
+    "exact_duplicate_group_count": 243,
+    "exact_duplicate_image_count": 486,
+    "cross_label_exact_duplicate_group_count": 2,
+    "geometry_filesize_jpeg_quantization_balanced_accuracy": 0.8116729078940541
+  },
+  "paths": {
+    "manifest": "D:\\百度网盘拉取包\\CNS1\\manifest\\tigpr_manifest_v1.yaml",
+    "manifest_rel": "manifest\\tigpr_manifest_v1.yaml",
+    "sample_index": "D:\\百度网盘拉取包\\CNS1\\manifest\\tigpr_sample_index_v1.csv",
+    "sample_index_rel": "manifest\\tigpr_sample_index_v1.csv",
+    "prior_gate": "D:\\百度网盘拉取包\\CNS1\\gpr_leakage_research\\tigpr_provenance_gate_v1.json",
+    "prior_gate_rel": "gpr_leakage_research\\tigpr_provenance_gate_v1.json",
+    "candidate_archive": "D:\\百度网盘拉取包\\CNS1\\external_assets\\tigpr\\TIGPR.rar",
+    "candidate_archive_rel": "external_assets\\tigpr\\TIGPR.rar"
+  },
+  "protocol_consequence": "TIGPR local sample-level asset is restored; blind external validation remains a separate gate."
+}

@@ -1,0 +1,6 @@
+check,result,detail
+send log rows present,PASS,rows=5
+no stale v1 references,PASS,stale_rows=0
+all send rows reference v2 package,PASS,v2_rows=5
+zip fingerprints match current artifacts,PASS,report and Desktop zip hashes must match the recorded fingerprint file.
+manual send state remains false,PASS,audit must not assert a real send.

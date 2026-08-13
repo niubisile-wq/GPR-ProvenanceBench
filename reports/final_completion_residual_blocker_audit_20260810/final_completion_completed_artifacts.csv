@@ -1,0 +1,7 @@
+artifact,proof,status
+final_operator_bundle_v2_acceptance,local/Desktop zip SHA match; required members present; guard runner refuses,complete_as_guarded_package
+canonical_return_inbox,seven routes mapped and folders created,complete_empty
+return_evidence_scanner,seven routes scanned; no invalid files,complete_empty
+writeback_preflight,seven routes mapped to protected targets,complete_no_writeback
+gate_transition_validator,seven route transitions and eight gate rows mapped,complete_all_blocked
+guarded_runner,seven commands guarded and refused,complete_refusing_execution

@@ -1,0 +1,9 @@
+attachment_id,file,recipient,purpose,exists,send_ready,must_remain_blank_before_author
+ATT-001,reports\natcomms_author_finalization_reply_packet_20260810\author_finalization_reply_form_cn.csv,corresponding_author,Core 12-field author finalization replies.,yes,yes,author_reply
+ATT-002,reports\natcomms_author_finalization_reply_packet_20260810\corresponding_author_metadata_form.csv,corresponding_author,Title page and corresponding-author metadata.,yes,yes,author_reply
+ATT-003,reports\natcomms_author_finalization_reply_packet_20260810\reviewer_and_policy_reply_sheet.csv,corresponding_author,Suggested/excluded reviewers and editorial policy choices.,yes,yes,author_reply
+ATT-004,reports\natcomms_author_finalization_reply_packet_20260810\track_branch_and_external_validation_reply.csv,author_advisor,Track B confirmation or real external blind validation route.,yes,yes,author_reply
+ATT-005,reports\natcomms_author_finalization_reply_packet_20260810\figure_backend_decision_ticket.csv,author_analysis,Single formal figure backend decision.,yes,yes,current_choice
+ATT-006,reports\natcomms_author_finalization_reply_packet_20260810\licence_rights_reply_sheet.csv,repository_lead,"Licence, rights and repository release route.",yes,yes,author_reply
+ATT-007,reports\natcomms_author_finalization_reply_packet_20260810\reporting_summary_author_reply_sheet.csv,analysis_reference_lead,Reporting Summary author confirmations.,yes,yes,author_reply
+ATT-008,reports\natcomms_author_finalization_reply_packet_20260810\coauthor_finalization_email_cn.md,corresponding_author,Chinese email body for collecting finalization replies.,yes,yes,not_applicable

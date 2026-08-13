@@ -1,0 +1,6 @@
+blocker_id,blocker,evidence,required_to_clear
+EMB-001,No real manual evidence files detected,candidate_files_detected=0,Place real evidence in the mapped inboxes.
+EMB-002,MOF forms are not backfilled,missing_required_cells=50,Fill all required MOF fields after real manual actions.
+EMB-003,Manual form validation launcher is locked,global_launch_allowed=False,Complete backfill and evidence detection before launching 19.84.
+EMB-004,Final manual receipts are incomplete,complete_receipt_rows=0; incomplete_receipt_rows=6,Complete FMR-001 through FMR-006 from validated evidence.
+EMB-005,Portal and submission remain prohibited,submission_ready=False; goal_complete=False,"Only after receipts, guarded recheck and final gate pass."

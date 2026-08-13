@@ -1,0 +1,6 @@
+day_window,focus,actions,exit_condition
+Day 0-1,Author decisions,"Confirm figure backend, external blind asset route, repository route and licence constraints.",Decision log has no empty owner-critical fields.
+Day 1-4,Figures and source data,Render figure set after backend choice; create panel-level source-data anchors and visual QA records.,"Figure files, source-data map and QA checklist exist for every retained panel."
+Day 1-7,Blind external validation,"If an asset holder exists, execute blind handoff, prediction freeze, label unlock and one-shot evaluation.","Locked metrics table exists, or manuscript framing is downgraded with no external-validation claim."
+Day 4-10,Repository and rights,"Finalize release manifest, exclusions, licences, repository metadata and DOI/accession path.",Public identifiers or explicit restriction language can be truthfully inserted.
+Day 7-14,Manuscript lock,"Update claims, figure calls, availability statements, Reporting Summary and numbered references.","Submission-readiness dashboard has no open hard gate, or the paper is explicitly held."

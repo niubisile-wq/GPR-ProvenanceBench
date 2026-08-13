@@ -1,0 +1,6 @@
+check,result,detail
+manifest route rows present,PASS,rows=7
+empty manifest does not pass readiness,PASS,filled_manifest_rows=0
+scanner empty keeps receipt closeout blocked,PASS,scanner_file_rows=0
+writeback remains blocked,PASS,writeback_allowed_rows=0
+submission remains false,PASS,hash readiness cannot make submission ready.

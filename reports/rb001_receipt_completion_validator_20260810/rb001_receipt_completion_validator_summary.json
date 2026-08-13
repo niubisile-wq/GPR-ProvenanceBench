@@ -1,0 +1,17 @@
+{
+  "package": "rb001_receipt_completion_validator_20260810",
+  "receipt_rows_validated": 7,
+  "scanner_file_rows": 0,
+  "completed_receipt_rows": 0,
+  "scanner_match_rows": 0,
+  "hash_reconciliation_match_rows": 0,
+  "ready_rows": 0,
+  "gate_rows": 7,
+  "qa_rows": 5,
+  "qa_pass": true,
+  "receipt_complete": false,
+  "writeback_preflight_entry_allowed": false,
+  "submission_ready": false,
+  "status": "rb001_receipt_completion_validator_ready_empty_receipt_blocked",
+  "desktop_plan_updated": true
+}

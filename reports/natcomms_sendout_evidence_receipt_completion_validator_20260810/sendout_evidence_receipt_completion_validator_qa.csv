@@ -1,0 +1,6 @@
+check,result,detail
+evidence rows present,PASS,rows=5
+v2 lifecycle must already pass,PASS,status=natcomms_sendout_v2_lifecycle_consistency_audit_passed_not_sent
+empty evidence does not grant send receipt,PASS,filled_rows=0
+return intake stays blocked,PASS,log_return_complete=False
+RB-001 drop stays blocked,PASS,candidate_return_files=0

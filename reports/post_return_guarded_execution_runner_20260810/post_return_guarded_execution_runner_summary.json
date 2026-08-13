@@ -1,0 +1,19 @@
+{
+  "package": "post_return_guarded_execution_runner_20260810",
+  "guarded_commands": 7,
+  "commands_allowed_now": 0,
+  "commands_blocked_now": 7,
+  "global_guards": 5,
+  "global_guards_passing": 0,
+  "runner_script": "D:\\\u767e\u5ea6\u7f51\u76d8\u62c9\u53d6\u5305\\CNS1\\GPR-ProvenanceBench\\reports\\post_return_guarded_execution_runner_20260810\\run_post_return_guarded_execution.ps1",
+  "runner_script_exists": true,
+  "qa_rows": 5,
+  "qa_pass": true,
+  "candidate_return_files": 0,
+  "writeback_allowed_rows": 0,
+  "transition_allowed_rows": 0,
+  "gate_closure_allowed": false,
+  "submission_ready": false,
+  "status": "post_return_guarded_execution_runner_ready_refusing_all_commands",
+  "desktop_plan_updated": true
+}

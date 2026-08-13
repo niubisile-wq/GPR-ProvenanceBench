@@ -1,0 +1,4 @@
+sequence,command,purpose,allowed_now
+1,py scripts/build_final_manual_receipt_completion_validator.py,refresh 19.50 receipt completion state,yes
+2,reports/manual_post_handoff_recheck_runner_20260810/run_after_manual_evidence_recheck.ps1,guarded diagnostic recheck only after 19.50 passes,no
+3,powershell -ExecutionPolicy Bypass -File scripts/run_m0_m2_checks.ps1,full re-evaluation only after all receipts complete,no

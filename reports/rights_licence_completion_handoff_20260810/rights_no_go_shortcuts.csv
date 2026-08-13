@@ -1,0 +1,5 @@
+no_go_id,shortcut,reason,decision
+RIGHTS-NOGO-001,Publish raw third-party GPR files without explicit provider permission,Raw-file redistribution rights are separate from using aggregate derived metrics.,forbidden
+RIGHTS-NOGO-002,Treat candidate licence text as selected licence,MIT/BSD and CC BY/CC0 are candidates only until author and rights confirmation.,forbidden
+RIGHTS-NOGO-003,Claim public data/code availability before DOI/release tag exists,Repository identifiers and software/data releases do not exist.,forbidden
+RIGHTS-NOGO-004,Release final figure Source Data before figures are rendered and QAed,"Panel-level Source Data depends on final figure scope, rendering and visual QA.",forbidden

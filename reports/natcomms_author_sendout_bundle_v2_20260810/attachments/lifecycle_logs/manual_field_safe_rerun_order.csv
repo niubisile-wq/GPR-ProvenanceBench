@@ -1,0 +1,6 @@
+order,command,purpose
+1,py scripts\build_natcomms_author_finalization_reply_packet.py,Regenerate author-facing forms while preserving manual fields.
+2,py scripts\build_natcomms_author_sendout_preflight.py,Audit current manual-field stage without treating nonblank values as overwrite errors.
+3,py scripts\build_natcomms_author_response_tracker.py,Regenerate send/return lifecycle tracker while preserving manual send/return logs.
+4,py scripts\build_natcomms_author_response_log_validator.py,Validate manual send/return lifecycle before author reply ingestion.
+5,py scripts\build_figure_backend_decision_validator.py,Validate explicit backend and figure-scope choices before formal rendering.

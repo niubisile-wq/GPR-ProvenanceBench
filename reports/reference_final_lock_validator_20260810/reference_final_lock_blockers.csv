@@ -1,0 +1,5 @@
+blocker_id,blocker,evidence,next_required_evidence
+REF-BLOCK-001,final_prose_not_locked,citation_marker_final_replacement_queue.csv keeps all replacement_allowed_now=false,Stable final manuscript with final figure/table calls.
+REF-BLOCK-002,manual_reference_checks_open,reference_manual_verification_queue.csv has zero closed rows,Manual verification rows closed with publisher DOI/title/support evidence.
+REF-BLOCK-003,support_lock_prelock_only,sentence_citation_support_lock_summary.json has final_references_ready=false,Final sentence-to-reference support audit after prose freeze.
+REF-BLOCK-004,final_exports_not_allowed,reference_export_finalization_queue.csv has zero allowed_now=yes rows,Final numbered list and RIS/ENW regenerated from locked order.

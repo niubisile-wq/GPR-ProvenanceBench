@@ -1,0 +1,7 @@
+declaration,current_text,status,finalization_trigger
+Author Contributions,[AUTHOR CONTRIBUTIONS TO BE COMPLETED FROM INTAKE MATRIX],missing_author_input,Every listed author and contribution role confirmed.
+Competing Interests,[COMPETING INTERESTS STATEMENT TO BE CONFIRMED BY CORRESPONDING AUTHOR],missing_author_input,Financial and non-financial interests checked for all authors.
+Acknowledgements,"[FUNDING, NON-AUTHOR CONTRIBUTIONS AND DATA-PROVIDER ACKNOWLEDGEMENTS TO BE INSERTED]",missing_author_input,"Funding, facilities, contributors and data-provider permissions confirmed."
+Ethics/consent statement,Current GPR benchmark package does not include human participants or animal research based on available evidence; confirm no ethics approval is required.,needs_author_confirmation,Author confirms study scope contains no human/animal subject data.
+Data Availability,"Use availability prelock only; DOI/accession, rights and final Source Data remain open.",not_final,"Repository identifiers, licences, rights and final source-data mapping complete."
+Code Availability,"Use availability prelock only; code repository URL, release tag, licence and code DOI remain open.",not_final,Public code release and archive DOI complete.

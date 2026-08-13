@@ -1,0 +1,8 @@
+worksheet_id,evidence_type,safe_to_edit_now,safe_to_rerun_after_edit,reason,required_next_proof
+MEW-001,real_author_sendout,yes,no,Real evidence is still absent or incomplete.,send_status=sent; sent_datetime_local=YYYY-MM-DD HH:MM; sender=real sender name/account
+MEW-002,returned_author_reply_files,yes,no,Real evidence is still absent or incomplete.,return_status=returned; returned_file_path=existing returned file; returned_datetime_local=YYYY-MM-DD HH:MM
+MEW-003,backend_and_scope_choice,yes,no,Real evidence is still absent or incomplete.,Python or R; Figure 1-Figure 6 or reduced display set with SI relocation
+MEW-004,external_blind_asset_payload,no,no,Real external blind asset must be acquired and manifest must pass strict SHA before rerun.,No labels or label hints before prediction freeze; strict SHA manifest required
+MEW-005,rights_licence_decisions,no,no,One or more worksheet fields are absent from the target file.,explicit licence or explicit exclusion/permission decision; raw third-party data excluded unless written permission
+MEW-006,reporting_summary_author_replies,yes,no,Real evidence is still absent or incomplete.,specific confirmation text; no placeholder such as yes/ok without context
+MEW-007,reference_replacement_authorized,yes,no,Real evidence is still absent or incomplete.,"replacement_allowed_now=true only after final prose, figure/table calls and reference order are stable"

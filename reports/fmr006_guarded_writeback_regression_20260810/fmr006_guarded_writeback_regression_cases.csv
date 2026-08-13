@@ -1,0 +1,4 @@
+case,candidate_present,execute,writeback_preflight_allowed,writeback_executed,real_fmr_template_modified,fmr006_status,fmr006_value,qa_pass
+candidate_default,True,False,True,False,False,waiting_for_FMR_001_to_FMR_005,FILL_AFTER_RECHECK,True
+candidate_execute,True,True,True,True,True,complete,M0-M2 guarded recheck completed; log=synthetic; sha256=abc123,True
+no_candidate_execute,False,True,False,False,False,waiting_for_FMR_001_to_FMR_005,FILL_AFTER_RECHECK,True

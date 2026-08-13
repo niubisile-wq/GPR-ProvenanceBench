@@ -1,0 +1,9 @@
+contribution_area,required_author_entry,current_status,notes
+Conceptualization and study design,[AUTHOR INITIALS],missing_author_input,Map only authors who substantially contributed to project design.
+Data acquisition or asset restoration,[AUTHOR INITIALS],missing_author_input,Separate public/local asset handling from third-party permission work.
+Data curation and manifest generation,[AUTHOR INITIALS],missing_author_input,"Include unified manifests, source-data maps and release-boundary curation."
+Software and reproducibility scripts,[AUTHOR INITIALS],missing_author_input,"Include benchmark scripts, checks, validators and package builders."
+Formal analysis,[AUTHOR INITIALS],missing_author_input,"Include five-model matrix, 4TU stress tests and synthesis."
+Writing original draft,[AUTHOR INITIALS],missing_author_input,Do not list AI/tooling as author; acknowledge assistance if required by policy.
+Writing review and editing,[AUTHOR INITIALS],missing_author_input,All authors should approve the submitted version.
+Supervision and project administration,[AUTHOR INITIALS],missing_author_input,Include advisor/senior contributors only if authorship criteria are met.

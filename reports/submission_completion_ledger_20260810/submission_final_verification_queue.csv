@@ -1,0 +1,7 @@
+order,verification,required_state,current_state
+1,manual sendout and author reply validators,"email_sent=true, all required replies returned, author reply ingestion allowed",not satisfied
+2,figure backend validator plus rendered figure visual QA,"backend_selected=true, scope_confirmed=true, rendered figures and source-data QA pass",not satisfied
+3,external blind strict-SHA intake and locked one-shot evaluation,"real asset, held labels, frozen prediction, one locked evaluation",not satisfied
+4,repository/release/rights availability chain,"repository DOI, code DOI, licence, rights review, release readiness pass",not satisfied
+5,Reporting Summary and reference finalization,"final Reporting Summary, final numbered references, final RIS/ENW",not satisfied
+6,full .\scripts\run_m0_m2_checks.ps1 and portal upload readiness,"M0-M2 checks completed, gate_closure_allowed=true, portal_upload_ready=true, submission_ready=true",not satisfied

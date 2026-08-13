@@ -1,0 +1,4 @@
+export_item,current_status,final_export_trigger,allowed_now
+candidate_references_prelock.ris,prelock_export_available,final manuscript citation order is stable and candidate markers are replaced,no
+candidate_references_prelock.enw,prelock_export_available,final manuscript citation order is stable and candidate markers are replaced,no
+final_numbered_reference_list,not_created,manual publisher verification and sentence support audit are complete,no

@@ -1,0 +1,21 @@
+{
+  "package": "external_asset_triage_register_20260810",
+  "route_rows": 4,
+  "primary_route": "Track B new third-party blind GPR image set",
+  "acceptance_gates": 5,
+  "acceptance_gates_closed": 0,
+  "contact_packet_rows": 3,
+  "contact_packets_sent": 0,
+  "no_go_shortcuts": 5,
+  "external_workspace_payload_files": 0,
+  "real_external_asset_acquired": false,
+  "strict_sha_manifest_passed": false,
+  "one_shot_prediction_frozen": false,
+  "locked_external_evaluation_complete": false,
+  "blind_external_gate_closed": false,
+  "qa_rows": 6,
+  "qa_pass": true,
+  "submission_ready": false,
+  "status": "external_asset_triage_ready_waiting_real_asset",
+  "desktop_plan_updated": true
+}

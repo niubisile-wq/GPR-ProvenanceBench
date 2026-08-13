@@ -1,0 +1,6 @@
+blocker_id,gate,severity,current_evidence,required_closure
+NC-B01,Figures,hard,rendered_figures=0; final_figures_ready=False,"Choose backend, render figures, export PDF/SVG/PNG previews and pass visual QA."
+NC-B02,Repository identifiers and rights,hard,repository_doi_created=False; code_doi_created=False; public_release_ready=False,Create public deposit/release identifiers after licence and rights decisions.
+NC-B03,Reporting Summary,hard,final_reporting_summary_ready=False,"Finalize Reporting Summary only after methods, blinding, figures, availability and validation status are locked."
+NC-B04,References,medium,final_references_ready=False; candidate_markers_replaced=False,Replace candidate markers after final prose and figure/table calls are stable.
+NC-B05,External validation language,hard,current_applicable_branch=TRACK-B,Either keep Track B open-gate wording or complete real blind external validation before Track A activation.

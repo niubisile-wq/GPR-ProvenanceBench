@@ -1,0 +1,5 @@
+check,result,detail
+All active files exist,PASS,missing=0
+No obsolete R4 boundary markers,PASS,obsolete_hits=0
+Current R4 markers present in manuscript-facing layer,PASS,At least one active package contains the current R4 wording.
+No submission readiness asserted,PASS,"R4 text synchronization does not close figure rendering, blind external validation, DOI/rights or Reporting Summary gates."

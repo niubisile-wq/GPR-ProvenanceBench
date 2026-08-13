@@ -1,0 +1,15 @@
+{
+  "run_id": "20260810_conservative_manuscript_draft_v0_1",
+  "title_candidates": 4,
+  "terminology_terms": 8,
+  "paragraph_map_rows": 9,
+  "abstract_words": 127,
+  "nat_comms_abstract_limit": 150,
+  "abstract_within_limit": true,
+  "draft_sections": 3,
+  "claim_trace_rows": 3,
+  "qa_rows": 5,
+  "submission_ready": false,
+  "status": "conservative_draft_ready_not_submission_final",
+  "boundary": "Draft is conservative manuscript prose based on audited claims; final submission remains blocked by figures, external validation, DOI, rights and Reporting Summary."
+}

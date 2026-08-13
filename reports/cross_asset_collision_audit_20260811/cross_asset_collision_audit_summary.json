@@ -1,0 +1,175 @@
+{
+  "run_id": "20260811_E34_cross_asset_collision_audit",
+  "datasets": [
+    "mojahid",
+    "tigpr",
+    "zenodo_14637589",
+    "deepmask_gpr",
+    "zenodo_mcg_gpr_14270869"
+  ],
+  "dataset_rows": {
+    "mojahid": 2524,
+    "tigpr": 7169,
+    "zenodo_14637589": 914,
+    "deepmask_gpr": 2524,
+    "zenodo_mcg_gpr_14270869": 8100
+  },
+  "pair_rows": [
+    {
+      "left_dataset": "mojahid",
+      "right_dataset": "tigpr",
+      "left_rows": 2524,
+      "right_rows": 7169,
+      "left_unique_hashes": 2524,
+      "right_unique_hashes": 6926,
+      "shared_hashes": 0,
+      "left_overlap_fraction": "0.000000",
+      "right_overlap_fraction": "0.000000",
+      "label_mismatches": 0,
+      "independent_by_hash": true
+    },
+    {
+      "left_dataset": "mojahid",
+      "right_dataset": "zenodo_14637589",
+      "left_rows": 2524,
+      "right_rows": 914,
+      "left_unique_hashes": 2524,
+      "right_unique_hashes": 882,
+      "shared_hashes": 0,
+      "left_overlap_fraction": "0.000000",
+      "right_overlap_fraction": "0.000000",
+      "label_mismatches": 0,
+      "independent_by_hash": true
+    },
+    {
+      "left_dataset": "mojahid",
+      "right_dataset": "deepmask_gpr",
+      "left_rows": 2524,
+      "right_rows": 2524,
+      "left_unique_hashes": 2524,
+      "right_unique_hashes": 2524,
+      "shared_hashes": 2524,
+      "left_overlap_fraction": "1.000000",
+      "right_overlap_fraction": "1.000000",
+      "label_mismatches": 0,
+      "independent_by_hash": false
+    },
+    {
+      "left_dataset": "mojahid",
+      "right_dataset": "zenodo_mcg_gpr_14270869",
+      "left_rows": 2524,
+      "right_rows": 8100,
+      "left_unique_hashes": 2524,
+      "right_unique_hashes": 8100,
+      "shared_hashes": 0,
+      "left_overlap_fraction": "0.000000",
+      "right_overlap_fraction": "0.000000",
+      "label_mismatches": 0,
+      "independent_by_hash": true
+    },
+    {
+      "left_dataset": "tigpr",
+      "right_dataset": "zenodo_14637589",
+      "left_rows": 7169,
+      "right_rows": 914,
+      "left_unique_hashes": 6926,
+      "right_unique_hashes": 882,
+      "shared_hashes": 0,
+      "left_overlap_fraction": "0.000000",
+      "right_overlap_fraction": "0.000000",
+      "label_mismatches": 0,
+      "independent_by_hash": true
+    },
+    {
+      "left_dataset": "tigpr",
+      "right_dataset": "deepmask_gpr",
+      "left_rows": 7169,
+      "right_rows": 2524,
+      "left_unique_hashes": 6926,
+      "right_unique_hashes": 2524,
+      "shared_hashes": 0,
+      "left_overlap_fraction": "0.000000",
+      "right_overlap_fraction": "0.000000",
+      "label_mismatches": 0,
+      "independent_by_hash": true
+    },
+    {
+      "left_dataset": "tigpr",
+      "right_dataset": "zenodo_mcg_gpr_14270869",
+      "left_rows": 7169,
+      "right_rows": 8100,
+      "left_unique_hashes": 6926,
+      "right_unique_hashes": 8100,
+      "shared_hashes": 0,
+      "left_overlap_fraction": "0.000000",
+      "right_overlap_fraction": "0.000000",
+      "label_mismatches": 0,
+      "independent_by_hash": true
+    },
+    {
+      "left_dataset": "zenodo_14637589",
+      "right_dataset": "deepmask_gpr",
+      "left_rows": 914,
+      "right_rows": 2524,
+      "left_unique_hashes": 882,
+      "right_unique_hashes": 2524,
+      "shared_hashes": 0,
+      "left_overlap_fraction": "0.000000",
+      "right_overlap_fraction": "0.000000",
+      "label_mismatches": 0,
+      "independent_by_hash": true
+    },
+    {
+      "left_dataset": "zenodo_14637589",
+      "right_dataset": "zenodo_mcg_gpr_14270869",
+      "left_rows": 914,
+      "right_rows": 8100,
+      "left_unique_hashes": 882,
+      "right_unique_hashes": 8100,
+      "shared_hashes": 0,
+      "left_overlap_fraction": "0.000000",
+      "right_overlap_fraction": "0.000000",
+      "label_mismatches": 0,
+      "independent_by_hash": true
+    },
+    {
+      "left_dataset": "deepmask_gpr",
+      "right_dataset": "zenodo_mcg_gpr_14270869",
+      "left_rows": 2524,
+      "right_rows": 8100,
+      "left_unique_hashes": 2524,
+      "right_unique_hashes": 8100,
+      "shared_hashes": 0,
+      "left_overlap_fraction": "0.000000",
+      "right_overlap_fraction": "0.000000",
+      "label_mismatches": 0,
+      "independent_by_hash": true
+    }
+  ],
+  "overlap_clusters": [
+    [
+      "deepmask_gpr",
+      "mojahid"
+    ],
+    [
+      "tigpr"
+    ],
+    [
+      "zenodo_14637589"
+    ],
+    [
+      "zenodo_mcg_gpr_14270869"
+    ]
+  ],
+  "independent_asset_clusters_by_hash": 4,
+  "fully_duplicate_pairs": [
+    [
+      "mojahid",
+      "deepmask_gpr"
+    ]
+  ],
+  "mojahid_deepmask_complete_sha_overlap": true,
+  "deepmask_independent_external_evidence_eligible": false,
+  "blind_external_eligible": false,
+  "status": "complete_local_cross_asset_collision_audit"
+}

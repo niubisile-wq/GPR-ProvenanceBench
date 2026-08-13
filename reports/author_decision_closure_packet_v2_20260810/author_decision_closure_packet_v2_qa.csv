@@ -1,0 +1,6 @@
+check,result,detail
+dashboard_loaded,PASS,dashboard_rows=6
+backend_options_loaded,PASS,backend_options=2
+track_b_available,PASS,Track B fallback present.
+no_gate_closure_claimed,PASS,Packet asks for decisions only.
+decision_count,PASS,4

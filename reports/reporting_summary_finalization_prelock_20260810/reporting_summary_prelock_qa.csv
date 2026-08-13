@@ -1,0 +1,6 @@
+check,result,detail
+final_reporting_summary_not_claimed,PASS,final_reporting_summary_ready=False
+all_items_marked_not_lockable_now,PASS,rows=8
+high_risk_items_preserved,PASS,high_risk_items=4
+availability_not_final,PASS,availability_statement_prelock_ready_not_final
+unresolved_items_preserved,PASS,unresolved_items=6

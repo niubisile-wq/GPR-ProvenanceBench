@@ -1,0 +1,3 @@
+POST-RETURN GUARDED EXECUTION REFUSED
+No commands are allowed because real returned evidence/writeback/gate transitions are not ready.
+Run build_post_return_guarded_execution_runner.py after real evidence writeback to regenerate guard state.

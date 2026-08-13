@@ -1,0 +1,44 @@
+{
+  "run_id": "20260811_E39_zenodo_mcg_gpr_nonblind_baseline",
+  "annotated_rows": 966,
+  "split_counts": {
+    "test": 168,
+    "train": 630,
+    "val": 168
+  },
+  "target_foreground_ratio": {
+    "train_mean": 0.17616792023181915,
+    "test_mean": 0.21825192868709564,
+    "train_min": 0.029750820249319077,
+    "train_max": 0.35656455159187317
+  },
+  "runs": [
+    {
+      "model": "ridge_pixel32",
+      "task": "foreground_ratio_regression",
+      "test_n": 168,
+      "mae": 0.1466217041015625,
+      "r2": -11.641353607177734
+    },
+    {
+      "model": "extra_trees_pixel32",
+      "task": "foreground_ratio_regression",
+      "test_n": 168,
+      "mae": 0.045371520079781055,
+      "r2": -0.15118561280122123
+    },
+    {
+      "model": "extra_trees_pixel32",
+      "task": "foreground_ratio_tertile_classification",
+      "test_n": 168,
+      "balanced_accuracy": 0.5304817038307604,
+      "test_bin_counts": {
+        "high": 99,
+        "low": 16,
+        "mid": 53
+      }
+    }
+  ],
+  "blind_external_eligible": false,
+  "status": "complete_public_mcg_gpr_nonblind_baseline"
+}

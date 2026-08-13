@@ -1,0 +1,12 @@
+dependency,source,current,required,passes_now
+return_tracker_to_rb001_ready,19.38 crosswalk,False,true,no
+rb001_drop_allowed,19.38 crosswalk,False,true,no
+hash_manifest_ready,19.39 hash readiness,False,true,no
+receipt_closeout_allowed,19.39 hash readiness,False,true,no
+receipt_complete,RB-001 receipt validator,False,true,no
+receipt_validator_allows_writeback_preflight,RB-001 receipt validator,False,true,no
+rb001_closed,RB-001 closeout dashboard,False,true,no
+rb001_closeout_allowed,bridge decision,False,true,no
+writeback_preflight_allowed,bridge decision,False,true,no
+rb002_entry_allowed,bridge decision,False,true,no
+submission_ready,bridge boundary,False,false,yes

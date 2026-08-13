@@ -1,0 +1,24 @@
+item_id,item,source,current_status,bridge_allowed,reason
+ADC2-001,Choose figure rendering backend,author_decision_closure_form_v2,decision_required,no,"Blocked until author decisions, residual blockers and figure/portal gates all close."
+ADC2-002,Name a real external blind GPR data holder or confirm none is available before manuscript lock,author_decision_closure_form_v2,decision_required,no,"Blocked until author decisions, residual blockers and figure/portal gates all close."
+ADC2-003,Confirm code and derived-data licence direction,author_decision_closure_form_v2,decision_required,no,"Blocked until author decisions, residual blockers and figure/portal gates all close."
+ADC2-004,Confirm manuscript route if external validation remains unavailable,author_decision_closure_form_v2,decision_required,no,"Blocked until author decisions, residual blockers and figure/portal gates all close."
+0-2,Reply with figure backend: Python or R. Recommended: Python.,next_24h_decision_closure_queue,pending_author_action,no,Blocked as final closeout evidence; manual action remains required.
+0-6,"Reply with external data holder name/contact, or confirm no real blind asset is available now.",next_24h_decision_closure_queue,pending_author_action,no,Blocked as final closeout evidence; manual action remains required.
+6-12,Confirm provisional code licence and derived-data licence direction.,next_24h_decision_closure_queue,pending_author_action,no,Blocked as final closeout evidence; manual action remains required.
+12-24,Confirm Track B if no external asset exists.,next_24h_decision_closure_queue,pending_author_action,no,Blocked as final closeout evidence; manual action remains required.
+HEC-001,"Send the prepared author decision and reply packet, then capture send evidence.",final_human_execution_action_queue,blocked,no,Blocked until all human execution actions are closed.
+HEC-002,"Collect all author replies, backend/scope decisions and administrative confirmations.",final_human_execution_action_queue,blocked,no,Blocked until all human execution actions are closed.
+HEC-003,Collect figure preview approvals or revision decisions for Figure 1-Figure 6.,final_human_execution_action_queue,blocked,no,Blocked until all human execution actions are closed.
+HEC-004,"Create repository records, select licences, clear third-party rights and record DOI identifiers.",final_human_execution_action_queue,blocked,no,Blocked until all human execution actions are closed.
+HEC-005,"Complete final Reporting Summary answers after author, figure and repository gates close.",final_human_execution_action_queue,blocked,no,Blocked until all human execution actions are closed.
+HEC-006,Manually verify citations and export final numbered references.,final_human_execution_action_queue,blocked,no,Blocked until all human execution actions are closed.
+HEC-007,"Only after all upstream gates close, assemble final files and perform portal upload.",final_human_execution_action_queue,blocked,no,Blocked until all human execution actions are closed.
+RB-001,Collect real returned evidence,final_residual_blocker_closure_packet,candidate_return_files=0,no,Blocked until every residual blocker is ready to close.
+RB-002,Perform protected evidence writeback,final_residual_blocker_closure_packet,writeback_allowed_rows=0,no,Blocked until every residual blocker is ready to close.
+RB-003,Fill and validate author replies,final_residual_blocker_closure_packet,blank_author_reply_fields=12,no,Blocked until every residual blocker is ready to close.
+RB-004,Ingest final figure approvals,final_residual_blocker_closure_packet,final_figures_ready=false,no,Blocked until every residual blocker is ready to close.
+RB-005,"Finalize repository DOI, licence and third-party rights",final_residual_blocker_closure_packet,final_availability_ready=false,no,Blocked until every residual blocker is ready to close.
+RB-006,Lock the final Reporting Summary,final_residual_blocker_closure_packet,final_reporting_summary_ready=false,no,Blocked until every residual blocker is ready to close.
+RB-007,Verify and lock final references,final_residual_blocker_closure_packet,final_references_ready=false,no,Blocked until every residual blocker is ready to close.
+RB-008,Run final submission gate and portal upload readiness,final_residual_blocker_closure_packet,open_master_gates=8; submission_ready=False,no,Blocked until every residual blocker is ready to close.

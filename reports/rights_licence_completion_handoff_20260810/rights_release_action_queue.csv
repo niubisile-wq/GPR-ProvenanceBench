@@ -1,0 +1,7 @@
+release_item,current_status,required_action,release_blocker,handoff_status
+Derived source-data CSV/JSON/Markdown files,candidate_after_review,Assign repository licence and verify no local absolute paths remain.,licence_missing,open
+Unified sample manifests,needs_review,Sanitize local paths and verify each third-party dataset permits redistribution of derived metadata.,third_party_rights_and_path_sanitization,open
+Code and scripts,local_only,"Create public repository, add software licence, release tag and archive DOI.",code_release_missing,open
+Third-party raw GPR files,not_in_release,Do not redistribute unless original licences permit; cite providers instead.,licence_verification_required,open
+Final rendered figures,not_created,Render after plotting backend is selected and add panel-level source-data mapping.,final_figures_missing,open
+Repository metadata,missing,"Create DOI/accession, title, creators, description, keywords, version, licence and related identifiers.",repository_record_missing,open

@@ -1,0 +1,6 @@
+check,result,detail
+route snapshot covers all watcher route rows,PASS,route_rows=5
+current state has no runnable validation rows,PASS,runnable_validation_rows=0
+current state has five manual action rows,PASS,manual_action_queue_rows=5
+watcher agrees no candidate files are present,PASS,candidate_files_detected=0
+submission remains blocked,PASS,submission_ready=False

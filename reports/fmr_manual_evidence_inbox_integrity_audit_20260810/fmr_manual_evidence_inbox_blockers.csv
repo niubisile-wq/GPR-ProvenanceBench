@@ -1,0 +1,7 @@
+receipt_id,blocker,evidence,blocks
+FMR-001,no candidate evidence files in mapped inboxes,primary=0; secondary_support_artifacts=2,manual evidence writeback and FMR completion
+FMR-002,no candidate evidence files in mapped inboxes,primary=0; secondary_support_artifacts=2,manual evidence writeback and FMR completion
+FMR-003,no candidate evidence files in mapped inboxes,primary=0; secondary_support_artifacts=8,manual evidence writeback and FMR completion
+FMR-004,no candidate evidence files in mapped inboxes,primary=0; secondary_support_artifacts=2,manual evidence writeback and FMR completion
+FMR-005,no candidate evidence files in mapped inboxes,primary=0; secondary_support_artifacts=9,manual evidence writeback and FMR completion
+FMR-006,no candidate evidence files in mapped inboxes,primary=0; secondary_support_artifacts=7,manual evidence writeback and FMR completion

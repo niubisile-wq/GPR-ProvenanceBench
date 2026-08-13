@@ -1,0 +1,14 @@
+{
+  "run_id": "20260810_natcomms_author_sendout_bundle",
+  "copied_attachments": 8,
+  "report_zip": "D:\\百度网盘拉取包\\CNS1\\GPR-ProvenanceBench\\reports\\natcomms_author_sendout_bundle_20260810\\NatComms_author_sendout_bundle_20260810.zip",
+  "desktop_zip": "C:\\Users\\刘子轩\\Desktop\\NatComms_author_sendout_bundle_20260810.zip",
+  "qa_rows": 5,
+  "qa_pass": true,
+  "email_sent": false,
+  "author_replies_collected": false,
+  "backend_selected": false,
+  "submission_ready": false,
+  "status": "natcomms_author_sendout_bundle_ready_not_sent",
+  "boundary": "Bundle packages ready-to-send files only; it does not send, collect replies, close gates or make submission ready."
+}

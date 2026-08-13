@@ -1,0 +1,5 @@
+time_window,owner,action,output_unlocked
+0-24 h,author,回复 D001：Python 或 R。若无强偏好，按当前环境选择 Python。,Figure 1-6 formal rendering and visual QA can start.
+0-24 h,author/advisor,确定是否存在可独立持有标签的真实外部 GPR 数据联系人。,Blind external acquisition package can be sent to a named holder.
+24-48 h,author/institution,初步确认代码许可和衍生数据许可是否可公开。,Repository metadata draft can become deposit-ready.
+48-72 h,author,选择投稿叙事：等待真实外部验证，或按 benchmark/resource framing 先推进。,"Title, abstract, cover letter and claim strength can be locked."

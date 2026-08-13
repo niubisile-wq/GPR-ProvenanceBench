@@ -1,0 +1,18 @@
+{
+  "package": "external_dependency_eds_guarded_writeback_applier_20260810",
+  "candidate_rows": 0,
+  "complete_candidate_rows": 0,
+  "candidate_ids_exact": false,
+  "intake_allows_writeback": false,
+  "writeback_preflight_allowed": false,
+  "execute_flag_supplied": false,
+  "writeback_executed": false,
+  "real_eds_template_modified": false,
+  "backup_path": "",
+  "portal_upload_allowed": false,
+  "submission_ready": false,
+  "qa_rows": 4,
+  "qa_pass": true,
+  "status": "external_dependency_eds_guarded_writeback_applier_ready_refusing_current_state",
+  "desktop_plan_updated": true
+}

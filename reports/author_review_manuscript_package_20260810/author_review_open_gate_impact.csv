@@ -1,0 +1,7 @@
+gate,draft_impact,required_before_submission
+Formal figures,Figure calls and legends remain non-final.,Rendered Figure 1-Figure 6 or final reduced figure set with visual QA.
+Blind external validation,Generalization wording remains bounded.,"Real held-label asset, strict SHA manifest, frozen predictions and one locked evaluation."
+Repository identifiers,Data/Code Availability cannot be final.,Data repository DOI/accession and code release DOI.
+Rights clearance,Public release and source-data scope remain provisional.,Licence decisions and third-party redistribution boundaries.
+Reporting Summary,Reporting Summary remains draft-only.,"Final answers linked to frozen Methods, figures, data/code and validation status."
+Final references,Candidate [P#] markers remain.,Manual verification and Nature-style numbered references.

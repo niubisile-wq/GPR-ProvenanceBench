@@ -1,0 +1,6 @@
+send_receipt_id,receipt_id,sent_status_passes_now,blocking_reason
+EDS-001,FMR-001,no,Missing or placeholder fields: sent_datetime_local; sender; recipient_or_channel; sent_message_path; sent_message_sha256
+EDS-002,FMR-002,no,Missing or placeholder fields: sent_datetime_local; sender; recipient_or_channel; sent_message_path; sent_message_sha256
+EDS-003,FMR-003,no,Missing or placeholder fields: sent_datetime_local; sender; recipient_or_channel; sent_message_path; sent_message_sha256
+EDS-004,FMR-004,no,Missing or placeholder fields: sent_datetime_local; sender; recipient_or_channel; sent_message_path; sent_message_sha256
+EDS-005,FMR-005,no,Missing or placeholder fields: sent_datetime_local; sender; recipient_or_channel; sent_message_path; sent_message_sha256

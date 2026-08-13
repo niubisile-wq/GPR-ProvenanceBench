@@ -1,0 +1,6 @@
+gate_id,requirement,current_value,passes_now,blocks_final_candidate
+FIG-FINAL-GATE-001,All six author approval rows are approve_preview_for_final_candidate.,approved_rows=6; blank_rows=0; revision_rows=0; rejected_rows=0,yes,yes
+FIG-FINAL-GATE-002,Manual writeback has been performed from a real returned author-review file.,manual_writeback_performed=True; candidate_return_files=0,yes,yes
+FIG-FINAL-GATE-003,All preview figures passed visual QA and export-triplet checks.,author_review_preview_ready_rows=6; qa_pass=True,yes,yes
+FIG-FINAL-GATE-004,All caption boundaries still match the manifest and no forbidden upgrade is introduced.,caption_boundary_rows=6; boundary_matches=6,yes,yes
+FIG-FINAL-GATE-005,Figure 6 remains an open-gate placeholder and does not claim blind external validation.,Open-gate placeholder only; no completed blind external validation.,yes,yes

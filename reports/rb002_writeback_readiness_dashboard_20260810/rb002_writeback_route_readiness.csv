@@ -1,0 +1,8 @@
+route_id,evidence_type,target_status,candidate_files,safe_to_edit_now,writeback_allowed_now,editable_target_ready,rb002_ready_now,hard_blocker
+RTE-001,real_author_sendout,ready_for_manual_entry,0,yes,no,yes,no,rb001_not_closed
+RTE-002,returned_author_reply_files,ready_for_manual_entry,0,yes,no,yes,no,rb001_not_closed
+RTE-003,backend_and_scope_choice,ready_for_manual_entry,0,yes,no,yes,no,rb001_not_closed
+RTE-004,rights_licence_decisions,schema_mismatch,0,no,no,no,no,rb001_not_closed
+RTE-005,reporting_summary_author_replies,ready_for_manual_entry,0,yes,no,yes,no,rb001_not_closed
+RTE-006,reference_replacement_authorized,ready_for_manual_entry,0,yes,no,yes,no,rb001_not_closed
+RTE-007,submission_portal_upload,blocked_until_all_upstream_gates_close,0,no,no,no,no,rb001_not_closed

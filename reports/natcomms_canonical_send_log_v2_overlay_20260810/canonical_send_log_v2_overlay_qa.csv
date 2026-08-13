@@ -1,0 +1,7 @@
+check,result,detail
+send log rows present,PASS,rows=5
+v2 hash available,PASS,hash_len=64
+no stale v1 rows after overlay,PASS,stale_after=0
+manual status preserved,PASS,send_status is not changed by overlay.
+tracker summary fingerprint updated,PASS,summary bundle_zip_sha256 must match v2 desktop zip hash.
+submission remains false,PASS,overlay cannot change submission readiness.

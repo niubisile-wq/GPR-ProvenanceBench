@@ -1,0 +1,6 @@
+blocker,evidence,blocks
+real returned files absent,candidate_return_files=0; returned_rows=0,return_tracker_to_rb001_ready; hash_manifest_ready
+hash manifest still template,filled_manifest_rows=0; scanner_file_rows=0,hash_manifest_ready; receipt_closeout_allowed
+manual receipt incomplete,completed_receipt_rows=0; receipt_complete=False,rb001_closeout_allowed; writeback_preflight_allowed
+RB-001 not closed,rb001_closed=False,writeback_preflight_allowed; rb002_entry_allowed
+RB-002 not ready,rb002_ready=False; writeback_allowed_rows=0,rb002_entry_allowed

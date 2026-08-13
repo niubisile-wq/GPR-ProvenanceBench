@@ -1,0 +1,6 @@
+check,result,detail
+All source files exist,PASS,sources=5
+Five 4TU evidence layers audited,PASS,layers=5
+Matrix rows generated,PASS,rows=63
+No main confirmation upgrade asserted,PASS,4TU remains stress-test/feasibility-boundary evidence.
+Submission readiness remains false,PASS,"This audit does not close external validation, figures, DOI/rights or Reporting Summary gates."

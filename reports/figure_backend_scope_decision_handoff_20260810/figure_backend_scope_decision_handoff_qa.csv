@@ -1,0 +1,6 @@
+check,result,detail
+backend_choice_selected,PASS,backend_current=Python
+scope_choice_selected,PASS,scope_current=Figure 1-Figure 6
+all_planned_figures_have_sources,PASS,source_ready_count=6; kickoff_rows=6
+source_data_lock_passes_upstream,PASS,figures_locked=6
+no_rendering_claimed_yet,PASS,"handoff only; backend and scope are selected, but rendering has not started."

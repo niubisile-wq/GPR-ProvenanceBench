@@ -1,0 +1,22 @@
+{
+  "package": "reporting_summary_final_lock_validator_20260810",
+  "gate_rows": 6,
+  "item_status_rows": 8,
+  "blocker_rows": 5,
+  "command_rows": 5,
+  "forbidden_wording_rows": 4,
+  "qa_rows": 5,
+  "qa_pass": true,
+  "reporting_items": 8,
+  "lockable_reporting_items_now": 0,
+  "author_confirmation_rows": 4,
+  "author_confirmations_collected": 0,
+  "open_dependency_rows": 3,
+  "open_availability_crosswalk_rows": 5,
+  "unresolved_items_imported": 6,
+  "high_risk_items": 4,
+  "final_reporting_summary_ready": false,
+  "submission_ready": false,
+  "status": "reporting_summary_final_lock_validator_ready_blocked",
+  "desktop_plan_updated": true
+}

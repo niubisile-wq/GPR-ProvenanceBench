@@ -1,0 +1,7 @@
+gate_id,requirement,current_state,passes_now,blocking_reason
+SUBMIT-FINAL-001,All master finalization gates are closed,open_gates=8 of 8,no,All master gates remain open.
+SUBMIT-FINAL-002,All finalization commands are unblocked,blocked_commands=8 of 8,no,Every finalization command remains blocked.
+SUBMIT-FINAL-003,Portal upload manifest is upload-ready,upload_ready_rows=0 of 9,no,All portal upload rows remain blocked.
+SUBMIT-FINAL-004,Portal file preflight allows upload,upload_allowed_now=False; portal_file_rows=10,no,No final portal file is upload-allowed.
+SUBMIT-FINAL-005,"Reporting Summary, references and availability are final",reporting_summary=False; references=False; availability=False,no,"Reporting Summary, references and availability validators are all blocked."
+SUBMIT-FINAL-006,Submission package is ready,submission_ready flags: assembly=False; dashboard=False; portal=False,no,Submission package is not ready in any upstream validator.

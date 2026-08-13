@@ -1,0 +1,6 @@
+gate,minimum_acceptance_test,current_state
+blind_external_validation,"Prediction file exists before label unlock, labels are released once, and locked metrics are written.",open
+formal_figures,"Every retained figure panel has final export, source data and visual QA status.",open
+repository_rights_doi,"Release manifest, licence, rights checklist and DOI/accession or restriction statement exist.",open
+broad_interest_framing,"Title, abstract, introduction opening and schematic caption state cross-field relevance without overclaiming.",draft_only
+references,No [P#] placeholders remain and each numbered citation supports its local claim.,open

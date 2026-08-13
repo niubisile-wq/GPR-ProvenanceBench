@@ -1,0 +1,5 @@
+slot,allowed_content,must_avoid
+lead_problem,GPR recognition needs evaluation beyond single curated collections.,stating that the benchmark already proves field deployment robustness.
+main_result,Res-SAM environment-transfer tests show the strongest reproducible drop across five model families.,calling the result blind external validation.
+secondary_result,Mojahid is directional/modest and 4TU is stress-test/failure-mode evidence.,presenting Mojahid or 4TU as full independent confirmation.
+limitation,"Blind external validation, rendered figures and repository identifiers remain open gates.",omitting open gates from the current checkpoint framing.

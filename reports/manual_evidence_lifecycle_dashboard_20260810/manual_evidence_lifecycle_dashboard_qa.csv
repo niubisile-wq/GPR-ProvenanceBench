@@ -1,0 +1,5 @@
+check,result,detail
+seven_lifecycle_stages_indexed,PASS,stage_rows=7
+current_blocking_chain_preserved,PASS,manual_actions_executed=false; evidence_rows_passed=0
+no_downstream_execution_claim,PASS,commands_executed=False; gate_closure_allowed=False
+all_source_summaries_pass_qa,PASS,manual_action=True; inbox_scaffold=True; inbox_audit=True; writeback_queue=True; post_dispatch_intake=True; safe_rerun=True; gate_closure=True

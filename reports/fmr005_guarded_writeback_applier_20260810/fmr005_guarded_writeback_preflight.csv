@@ -1,0 +1,5 @@
+guard,current,required,passes_now
+preflight_allows_FMR_005_writeback,False,true,no
+single_FMR_005_row_present,1,1,yes
+single_candidate_present,0,1,no
+explicit_execute_flag,False,true for real writeback,no

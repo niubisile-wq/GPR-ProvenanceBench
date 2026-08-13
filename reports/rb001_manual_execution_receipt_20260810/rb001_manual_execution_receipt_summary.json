@@ -1,0 +1,18 @@
+{
+  "package": "rb001_manual_execution_receipt_20260810",
+  "receipt_template_rows": 7,
+  "completed_receipt_rows": 0,
+  "incomplete_receipt_rows": 7,
+  "acceptance_criteria_rows": 5,
+  "qa_rows": 5,
+  "qa_pass": true,
+  "candidate_return_files": 0,
+  "filled_register_rows": 0,
+  "reconciled_rows": 0,
+  "writeback_allowed_rows": 0,
+  "submission_ready": false,
+  "desktop_receipt": "C:\\Users\\\u5218\u5b50\u8f69\\Desktop\\RB001_manual_execution_receipt_20260810.csv",
+  "desktop_guide": "C:\\Users\\\u5218\u5b50\u8f69\\Desktop\\RB001_manual_execution_receipt_guide_20260810.md",
+  "status": "rb001_manual_execution_receipt_template_ready_not_filled",
+  "desktop_plan_updated": true
+}

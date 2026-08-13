@@ -1,0 +1,15 @@
+{
+  "package": "portal_submission_file_preflight_20260810",
+  "portal_file_rows": 10,
+  "gate_to_file_rows": 6,
+  "no_upload_rules": 5,
+  "final_verification_rows": 6,
+  "manuscript_blocker_rows_imported": 8,
+  "qa_rows": 4,
+  "qa_pass": true,
+  "upload_allowed_now": false,
+  "portal_upload_ready": false,
+  "submission_ready": false,
+  "status": "portal_file_preflight_ready_upload_blocked",
+  "desktop_plan_updated": true
+}

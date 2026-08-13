@@ -1,0 +1,8 @@
+worksheet_id,dispatch_id,risk_type,detail,operator_action
+MEW-001,MD-001,external_or_missing_evidence,No candidate inbox evidence file is present.,Collect real evidence first; rerun inbox audit; only then fill mapped fields manually.
+MEW-002,MD-001,external_or_missing_evidence,No candidate inbox evidence file is present.,Collect real evidence first; rerun inbox audit; only then fill mapped fields manually.
+MEW-003,MD-002,external_or_missing_evidence,No candidate inbox evidence file is present.,Collect real evidence first; rerun inbox audit; only then fill mapped fields manually.
+MEW-004,MD-003,external_or_missing_evidence,"External payload must use strict-SHA manifest workflow, not tracker writeback.",Collect real evidence first; rerun inbox audit; only then fill mapped fields manually.
+MEW-005,MD-004,schema_mismatch,current_decision plus documented evidence in returned rights file,Collect real evidence first; rerun inbox audit; only then fill mapped fields manually.
+MEW-006,MD-005,external_or_missing_evidence,No candidate inbox evidence file is present.,Collect real evidence first; rerun inbox audit; only then fill mapped fields manually.
+MEW-007,MD-006,external_or_missing_evidence,No candidate inbox evidence file is present.,Collect real evidence first; rerun inbox audit; only then fill mapped fields manually.

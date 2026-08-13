@@ -1,0 +1,5 @@
+blocker,evidence,blocks
+transition bridge blocks gate closure,gate_closure_allowed=False; route_command_execution_allowed=False,gate closure execution
+evidence binder has open requirements,open_evidence_requirements=16; binder_rows=8,master gate closure
+execution board keeps gates open,gate_closure_allowed=False; portal_upload_ready=False,portal upload
+final lock refuses submission,open_master_gates=8; portal_file_upload_allowed_rows=0; blocker_rows=5,submission-ready state

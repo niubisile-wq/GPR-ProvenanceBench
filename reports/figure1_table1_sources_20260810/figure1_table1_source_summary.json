@@ -1,0 +1,12 @@
+{
+  "run_id": "20260810_figure1_table1_sources",
+  "table1_rows": 4,
+  "figure1_steps": 5,
+  "asset_row_counts": {
+    "Mojahid": 2524,
+    "4TU": 99,
+    "Res-SAM": 1050,
+    "TIGPR": 0
+  },
+  "boundary": "Local executable asset audit only; not all confirmation gates are closed."
+}

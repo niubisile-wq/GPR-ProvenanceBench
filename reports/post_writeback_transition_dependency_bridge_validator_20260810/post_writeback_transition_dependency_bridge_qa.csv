@@ -1,0 +1,6 @@
+check,result,detail
+all upstream summaries loaded,PASS,"rb002 bridge, transition and runner summaries loaded."
+bridge keeps transition blocked,PASS,transition_bridge_allowed=False
+bridge keeps route commands blocked,PASS,route_command_execution_allowed=False
+runner has zero allowed commands,PASS,commands_allowed_now=0
+submission remains false,PASS,submission_ready=False

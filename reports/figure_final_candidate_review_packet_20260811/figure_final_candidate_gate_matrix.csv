@@ -1,0 +1,7 @@
+gate,current_state,passes_for_review_packet,passes_for_final_submission
+preview files available,preview_complete_figures=6; preview_export_files=24,yes,no
+preview visual QA,visual_qa_pass=True,yes,no
+caption lock,caption_lock_rows=6; captions_locked_final=True,yes,no
+source data panel map,source_data_panel_map_rows=6; source_data_panel_map_locked=True,yes,no
+final export QA,export_qa_rows=6; final_export_qa_allowed_rows=6,yes,no
+stop rules,stop_rules=5,yes,yes_as_guardrail_only

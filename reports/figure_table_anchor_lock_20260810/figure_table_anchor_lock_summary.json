@@ -1,0 +1,12 @@
+{
+  "run_id": "20260810_figure_table_anchor_lock",
+  "numbered_items": 9,
+  "source_anchor_rows": 9,
+  "narrative_pointer_resolutions": 3,
+  "internal_metric_citation_rows": 4,
+  "figure_table_placeholders_remaining": 0,
+  "final_numbering_ready": false,
+  "status": "planned_anchors_locked_not_rendered",
+  "manuscript_ready": false,
+  "boundary": "Planned figure/table/source-data anchors are locked to current source files, but figures are not rendered and final numbering is not submission-ready."
+}

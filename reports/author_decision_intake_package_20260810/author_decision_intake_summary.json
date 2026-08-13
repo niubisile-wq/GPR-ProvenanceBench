@@ -1,0 +1,10 @@
+{
+  "run_id": "20260810_author_decision_intake_package",
+  "decisions": 7,
+  "dependencies": 5,
+  "next_author_actions": 4,
+  "open_gates_imported": 6,
+  "local_work_can_continue_without_author_decisions": false,
+  "status": "author_decisions_required",
+  "boundary": "Decision intake package is ready, but figure rendering, DOI creation, external validation and final Reporting Summary remain blocked until decisions or external inputs arrive."
+}

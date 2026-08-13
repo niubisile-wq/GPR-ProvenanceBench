@@ -1,0 +1,6 @@
+check_id,check,result
+EMAIL-001,Mentions submission-prelock status,PASS
+EMAIL-002,Mentions Track B or external blind data holder,PASS
+EMAIL-003,Mentions Python or R backend choice,PASS
+EMAIL-004,Mentions licence/rights,PASS
+EMAIL-005,States not author approval or final completion,PASS

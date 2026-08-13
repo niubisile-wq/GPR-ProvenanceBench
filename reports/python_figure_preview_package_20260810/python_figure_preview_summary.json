@@ -1,0 +1,15 @@
+{
+  "package": "python_figure_preview_package_20260810",
+  "figures_rendered": 6,
+  "export_quads": 6,
+  "backend": "python",
+  "qa_rows": 5,
+  "qa_pass": true,
+  "rendered_figures_preview": 6,
+  "rendered_figures_final": 0,
+  "final_figures_ready": false,
+  "blind_external_validation_claimed": false,
+  "submission_ready": false,
+  "status": "python_figure_preview_package_rendered_not_final",
+  "desktop_plan_updated": true
+}

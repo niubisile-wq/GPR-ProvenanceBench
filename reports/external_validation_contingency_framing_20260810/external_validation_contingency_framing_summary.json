@@ -1,0 +1,15 @@
+{
+  "run_id": "20260810_external_validation_contingency_framing",
+  "branches": 2,
+  "title_rows": 4,
+  "abstract_scaffolds": 2,
+  "discussion_boundary_rows": 2,
+  "no_go_rows": 3,
+  "qa_rows": 5,
+  "qa_pass": true,
+  "current_applicable_branch": "TRACK-B",
+  "blind_external_gate_status": "NO-GO",
+  "submission_ready": false,
+  "status": "external_validation_contingency_framing_ready_not_submission_final",
+  "boundary": "This package provides manuscript framing contingencies; it does not create or complete external validation."
+}

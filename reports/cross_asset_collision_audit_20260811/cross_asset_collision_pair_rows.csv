@@ -1,0 +1,11 @@
+left_dataset,right_dataset,left_rows,right_rows,left_unique_hashes,right_unique_hashes,shared_hashes,left_overlap_fraction,right_overlap_fraction,label_mismatches,independent_by_hash
+mojahid,tigpr,2524,7169,2524,6926,0,0.000000,0.000000,0,True
+mojahid,zenodo_14637589,2524,914,2524,882,0,0.000000,0.000000,0,True
+mojahid,deepmask_gpr,2524,2524,2524,2524,2524,1.000000,1.000000,0,False
+mojahid,zenodo_mcg_gpr_14270869,2524,8100,2524,8100,0,0.000000,0.000000,0,True
+tigpr,zenodo_14637589,7169,914,6926,882,0,0.000000,0.000000,0,True
+tigpr,deepmask_gpr,7169,2524,6926,2524,0,0.000000,0.000000,0,True
+tigpr,zenodo_mcg_gpr_14270869,7169,8100,6926,8100,0,0.000000,0.000000,0,True
+zenodo_14637589,deepmask_gpr,914,2524,882,2524,0,0.000000,0.000000,0,True
+zenodo_14637589,zenodo_mcg_gpr_14270869,914,8100,882,8100,0,0.000000,0.000000,0,True
+deepmask_gpr,zenodo_mcg_gpr_14270869,2524,8100,2524,8100,0,0.000000,0.000000,0,True

@@ -1,0 +1,20 @@
+recipient,attachment_id,bundle_file,send_instruction
+corresponding_author,ATT-001,attachments\reply_forms\author_finalization_reply_form_cn.csv,Manual send only; do not mark email_sent true until actually sent outside this script.
+corresponding_author,ATT-002,attachments\reply_forms\corresponding_author_metadata_form.csv,Manual send only; do not mark email_sent true until actually sent outside this script.
+corresponding_author,ATT-003,attachments\reply_forms\reviewer_and_policy_reply_sheet.csv,Manual send only; do not mark email_sent true until actually sent outside this script.
+author_advisor,ATT-004,attachments\reply_forms\track_branch_and_external_validation_reply.csv,Manual send only; do not mark email_sent true until actually sent outside this script.
+author_analysis,ATT-005,attachments\reply_forms\figure_backend_decision_ticket.csv,Manual send only; do not mark email_sent true until actually sent outside this script.
+repository_lead,ATT-006,attachments\reply_forms\licence_rights_reply_sheet.csv,Manual send only; do not mark email_sent true until actually sent outside this script.
+analysis_reference_lead,ATT-007,attachments\reply_forms\reporting_summary_author_reply_sheet.csv,Manual send only; do not mark email_sent true until actually sent outside this script.
+corresponding_author,ATT-008,attachments\reply_forms\coauthor_finalization_email_cn.md,Manual send only; do not mark email_sent true until actually sent outside this script.
+all_recipients,GUIDE-001,attachments\fill_guides\AUTHOR_FILL_GUIDE_CN.md,Manual send only; do not mark email_sent true until actually sent outside this script.
+corresponding_author,GUIDE-002,attachments\fill_guides\author_core_reply_fill_guide.csv,Manual send only; do not mark email_sent true until actually sent outside this script.
+author_analysis,GUIDE-003,attachments\fill_guides\backend_and_scope_fill_guide.csv,Manual send only; do not mark email_sent true until actually sent outside this script.
+all_recipients,GUIDE-004,attachments\fill_guides\ancillary_reply_sheet_fill_guide.csv,Manual send only; do not mark email_sent true until actually sent outside this script.
+all_recipients,GUIDE-005,attachments\fill_guides\owner_specific_fill_assignments.csv,Manual send only; do not mark email_sent true until actually sent outside this script.
+all_recipients,GUIDE-006,attachments\fill_guides\prohibited_short_replies.csv,Manual send only; do not mark email_sent true until actually sent outside this script.
+sender,GUIDE-007,attachments\fill_guides\send_return_log_fill_guide.csv,Manual send only; do not mark email_sent true until actually sent outside this script.
+sender,LOG-001,attachments\lifecycle_logs\author_response_send_log_template.csv,Manual send only; do not mark email_sent true until actually sent outside this script.
+sender,LOG-002,attachments\lifecycle_logs\author_response_return_tracker.csv,Manual send only; do not mark email_sent true until actually sent outside this script.
+sender,LOG-003,attachments\lifecycle_logs\AUTHOR_RESPONSE_LOG_VALIDATOR_README.md,Manual send only; do not mark email_sent true until actually sent outside this script.
+analysis,LOG-004,attachments\lifecycle_logs\manual_field_safe_rerun_order.csv,Manual send only; do not mark email_sent true until actually sent outside this script.

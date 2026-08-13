@@ -1,0 +1,18 @@
+{
+  "package": "python_figure_final_export_qa_template_20260810",
+  "export_qa_rows": 6,
+  "source_data_panel_map_rows": 6,
+  "caption_lock_rows": 6,
+  "stop_rules": 5,
+  "qa_rows": 5,
+  "qa_pass": true,
+  "final_candidate_generation_allowed": true,
+  "final_export_qa_allowed_rows": 6,
+  "source_data_panel_map_locked": true,
+  "captions_locked_final": true,
+  "rendered_figures_final": 6,
+  "final_figures_ready": true,
+  "submission_ready": false,
+  "status": "python_figure_final_export_qa_template_ready_enabled",
+  "desktop_plan_updated": true
+}

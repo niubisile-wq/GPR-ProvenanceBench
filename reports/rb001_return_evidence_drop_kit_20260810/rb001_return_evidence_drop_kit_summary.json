@@ -1,0 +1,16 @@
+{
+  "package": "rb001_return_evidence_drop_kit_20260810",
+  "route_rows": 7,
+  "manifest_template_rows": 7,
+  "after_drop_command_rows": 5,
+  "package_manifest_rows": 5,
+  "qa_rows": 5,
+  "qa_pass": true,
+  "candidate_return_files": 0,
+  "ready_to_close_rows": 0,
+  "writeback_allowed_rows": 0,
+  "submission_ready": false,
+  "desktop_guide": "C:\\Users\\\u5218\u5b50\u8f69\\Desktop\\RB001_return_evidence_drop_kit_20260810.md",
+  "status": "rb001_return_evidence_drop_kit_ready_waiting_for_real_returned_files",
+  "desktop_plan_updated": true
+}

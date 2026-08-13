@@ -1,0 +1,19 @@
+{
+  "package": "natcomms_author_sendout_dispatch_preflight_20260810",
+  "bundle_manifest_rows": 19,
+  "recipient_dispatch_rows": 8,
+  "dispatch_preflight_checks": 5,
+  "evidence_template_rows": 5,
+  "no_go_rules": 5,
+  "qa_rows": 5,
+  "qa_pass": true,
+  "report_zip_members": 24,
+  "desktop_zip_members": 24,
+  "zip_sha_match": true,
+  "email_sent": false,
+  "author_replies_collected": false,
+  "backend_selected": false,
+  "submission_ready": false,
+  "status": "author_sendout_dispatch_preflight_ready_not_sent",
+  "desktop_plan_updated": true
+}

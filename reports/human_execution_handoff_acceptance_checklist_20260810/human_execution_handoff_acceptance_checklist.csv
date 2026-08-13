@@ -1,0 +1,6 @@
+check_id,acceptance_check,evidence_to_confirm,current_status,blocks_if_fail
+ACCEPT-001,Desktop handoff zip exists and opens.,<LOCAL_DESKTOP>\\NatComms_下一步人工执行handoff_20260810.zip,pass,yes
+ACCEPT-002,Zip member count matches handoff manifest.,zip_members=12; manifest_rows=12,pass,yes
+ACCEPT-003,Five same-day actions are available and one reference action is deferred.,can_execute_today=5; deferred=1,pass,yes
+ACCEPT-004,Next-action sequence is present from sendout through final M0-M2.,next_actions=5,pass,yes
+ACCEPT-005,Bundle preserves not-executed and not-submission-ready state.,manual_actions_executed=False; submission_ready=False,pass,yes

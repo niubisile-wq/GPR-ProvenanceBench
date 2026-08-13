@@ -1,0 +1,15 @@
+{
+  "package": "gate_closure_execution_board_20260810",
+  "gate_rows": 6,
+  "command_rows": 7,
+  "stop_rules": 5,
+  "final_verification_rows_imported": 6,
+  "manual_blocker_rows_imported": 7,
+  "qa_rows": 4,
+  "qa_pass": true,
+  "gate_closure_allowed": false,
+  "portal_upload_ready": false,
+  "submission_ready": false,
+  "status": "gate_closure_execution_board_ready_gates_open",
+  "desktop_plan_updated": true
+}

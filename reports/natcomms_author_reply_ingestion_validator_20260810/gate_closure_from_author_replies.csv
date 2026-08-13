@@ -1,0 +1,9 @@
+gate_id,gate,master_closed_status,reply_fields_required,missing_reply_fields,reply_evidence_status,gate_closure_recommendation,reason
+FM-001,Author/admin declarations,no,AFR-001; AFR-002; AFR-003; AFR-004; AFR-005; AFR-006; AFR-010,AFR-001; AFR-002; AFR-003; AFR-004; AFR-005; AFR-006; AFR-010,missing_replies,keep_open,Required author replies are missing.
+FM-002,Manuscript branch,no,AFR-007,AFR-007,missing_replies,keep_open,Required author replies are missing.
+FM-003,Formal figures,no,AFR-008,AFR-008,missing_replies,keep_open,Required author replies are missing.
+FM-004,Source Data and repository/code release,no,AFR-009,AFR-009,missing_replies,keep_open,Required author replies are missing.
+FM-005,Reporting Summary,no,AFR-006; AFR-011,AFR-006; AFR-011,missing_replies,keep_open,Required author replies are missing.
+FM-006,Final references,no,,,reply_fields_present_manual_review_required,keep_open,Replies alone are insufficient; gate also requires artifact/evidence review.
+FM-007,Final manuscript and SI files,no,AFR-012,AFR-012,missing_replies,keep_open,Required author replies are missing.
+FM-008,Portal upload readiness,no,AFR-001; AFR-010; AFR-012,AFR-001; AFR-010; AFR-012,missing_replies,keep_open,Required author replies are missing.

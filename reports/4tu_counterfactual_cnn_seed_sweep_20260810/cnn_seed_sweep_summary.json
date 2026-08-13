@@ -1,0 +1,929 @@
+{
+  "task_manifest": "D:\\百度网盘拉取包\\CNS1\\GPR-ProvenanceBench\\reports\\4tu_p4v2_multitarget_20260810\\4tu_p4v2_task_labels_20260810.csv",
+  "seeds": [
+    20260810,
+    20260811,
+    20260812,
+    20260813,
+    20260814
+  ],
+  "targets": [
+    "Land type"
+  ],
+  "image_size": 64,
+  "epochs": 40,
+  "feature": "cnn_pixels",
+  "n_metric_rows": 40,
+  "runs": [
+    {
+      "seed": 20260810,
+      "targets": [
+        {
+          "target_field": "Land type",
+          "records": 93,
+          "split_counts": {
+            "train": 54,
+            "val": 15,
+            "test": 24
+          },
+          "label_counts": {
+            "Greenery": 24,
+            "Sidewalk": 44,
+            "Street/Cycling road": 14,
+            "Pedestrian/parking area": 11
+          },
+          "split_label_counts": {
+            "train": {
+              "Greenery": 15,
+              "Sidewalk": 25,
+              "Street/Cycling road": 10,
+              "Pedestrian/parking area": 4
+            },
+            "val": {
+              "Sidewalk": 5,
+              "Greenery": 4,
+              "Street/Cycling road": 4,
+              "Pedestrian/parking area": 2
+            },
+            "test": {
+              "Sidewalk": 14,
+              "Pedestrian/parking area": 5,
+              "Greenery": 5
+            }
+          },
+          "is_viable": true,
+          "feature": "cnn_pixels",
+          "image_size": 64,
+          "epochs": 40,
+          "seed": 20260810,
+          "models": [
+            {
+              "model": "small_cnn",
+              "best_epoch": 39,
+              "val_balanced_accuracy": 0.375,
+              "val_macro_f1": 0.25,
+              "variant_rows": [
+                {
+                  "variant": "original",
+                  "accuracy": 0.2916666666666667,
+                  "balanced_accuracy": 0.42380952380952386,
+                  "macro_f1": 0.31777777777777777,
+                  "n_predicted_classes_not_in_test": 0,
+                  "predicted_classes_not_in_test": [],
+                  "prediction_flip_rate_vs_original": 0.0,
+                  "balanced_accuracy_delta_vs_original": 0.0,
+                  "macro_f1_delta_vs_original": 0.0
+                },
+                {
+                  "variant": "log_clip",
+                  "accuracy": 0.041666666666666664,
+                  "balanced_accuracy": 0.023809523809523808,
+                  "macro_f1": 0.03333333333333333,
+                  "n_predicted_classes_not_in_test": 1,
+                  "predicted_classes_not_in_test": [
+                    3
+                  ],
+                  "prediction_flip_rate_vs_original": 1.0,
+                  "balanced_accuracy_delta_vs_original": -0.4,
+                  "macro_f1_delta_vs_original": -0.28444444444444444
+                },
+                {
+                  "variant": "zscore_clip",
+                  "accuracy": 0.125,
+                  "balanced_accuracy": 0.19999999999999998,
+                  "macro_f1": 0.11538461538461539,
+                  "n_predicted_classes_not_in_test": 1,
+                  "predicted_classes_not_in_test": [
+                    3
+                  ],
+                  "prediction_flip_rate_vs_original": 0.9166666666666666,
+                  "balanced_accuracy_delta_vs_original": -0.22380952380952387,
+                  "macro_f1_delta_vs_original": -0.20239316239316238
+                },
+                {
+                  "variant": "amplitude_jitter",
+                  "accuracy": 0.2916666666666667,
+                  "balanced_accuracy": 0.42380952380952386,
+                  "macro_f1": 0.31777777777777777,
+                  "n_predicted_classes_not_in_test": 0,
+                  "predicted_classes_not_in_test": [],
+                  "prediction_flip_rate_vs_original": 0.0,
+                  "balanced_accuracy_delta_vs_original": 0.0,
+                  "macro_f1_delta_vs_original": 0.0
+                },
+                {
+                  "variant": "remove_top_band",
+                  "accuracy": 0.3333333333333333,
+                  "balanced_accuracy": 0.49047619047619045,
+                  "macro_f1": 0.2761904761904762,
+                  "n_predicted_classes_not_in_test": 1,
+                  "predicted_classes_not_in_test": [
+                    3
+                  ],
+                  "prediction_flip_rate_vs_original": 0.08333333333333333,
+                  "balanced_accuracy_delta_vs_original": 0.0666666666666666,
+                  "macro_f1_delta_vs_original": -0.04158730158730156
+                },
+                {
+                  "variant": "remove_bottom_band",
+                  "accuracy": 0.2916666666666667,
+                  "balanced_accuracy": 0.42380952380952386,
+                  "macro_f1": 0.31777777777777777,
+                  "n_predicted_classes_not_in_test": 0,
+                  "predicted_classes_not_in_test": [],
+                  "prediction_flip_rate_vs_original": 0.0,
+                  "balanced_accuracy_delta_vs_original": 0.0,
+                  "macro_f1_delta_vs_original": 0.0
+                },
+                {
+                  "variant": "remove_border",
+                  "accuracy": 0.3333333333333333,
+                  "balanced_accuracy": 0.49047619047619045,
+                  "macro_f1": 0.3631257631257631,
+                  "n_predicted_classes_not_in_test": 0,
+                  "predicted_classes_not_in_test": [],
+                  "prediction_flip_rate_vs_original": 0.041666666666666664,
+                  "balanced_accuracy_delta_vs_original": 0.0666666666666666,
+                  "macro_f1_delta_vs_original": 0.04534798534798534
+                },
+                {
+                  "variant": "time_reverse",
+                  "accuracy": 0.20833333333333334,
+                  "balanced_accuracy": 0.3333333333333333,
+                  "macro_f1": 0.1149425287356322,
+                  "n_predicted_classes_not_in_test": 0,
+                  "predicted_classes_not_in_test": [],
+                  "prediction_flip_rate_vs_original": 0.16666666666666666,
+                  "balanced_accuracy_delta_vs_original": -0.09047619047619054,
+                  "macro_f1_delta_vs_original": -0.20283524904214556
+                }
+              ]
+            }
+          ],
+          "selected_model": "small_cnn",
+          "class_map": {
+            "0": "Greenery",
+            "1": "Pedestrian/parking area",
+            "2": "Sidewalk",
+            "3": "Street/Cycling road"
+          }
+        }
+      ]
+    },
+    {
+      "seed": 20260811,
+      "targets": [
+        {
+          "target_field": "Land type",
+          "records": 93,
+          "split_counts": {
+            "train": 54,
+            "val": 15,
+            "test": 24
+          },
+          "label_counts": {
+            "Greenery": 24,
+            "Sidewalk": 44,
+            "Street/Cycling road": 14,
+            "Pedestrian/parking area": 11
+          },
+          "split_label_counts": {
+            "train": {
+              "Greenery": 15,
+              "Sidewalk": 25,
+              "Street/Cycling road": 10,
+              "Pedestrian/parking area": 4
+            },
+            "val": {
+              "Sidewalk": 5,
+              "Greenery": 4,
+              "Street/Cycling road": 4,
+              "Pedestrian/parking area": 2
+            },
+            "test": {
+              "Sidewalk": 14,
+              "Pedestrian/parking area": 5,
+              "Greenery": 5
+            }
+          },
+          "is_viable": true,
+          "feature": "cnn_pixels",
+          "image_size": 64,
+          "epochs": 40,
+          "seed": 20260811,
+          "models": [
+            {
+              "model": "small_cnn",
+              "best_epoch": 19,
+              "val_balanced_accuracy": 0.4375,
+              "val_macro_f1": 0.2409090909090909,
+              "variant_rows": [
+                {
+                  "variant": "original",
+                  "accuracy": 0.125,
+                  "balanced_accuracy": 0.20000000000000004,
+                  "macro_f1": 0.12037037037037036,
+                  "n_predicted_classes_not_in_test": 0,
+                  "predicted_classes_not_in_test": [],
+                  "prediction_flip_rate_vs_original": 0.0,
+                  "balanced_accuracy_delta_vs_original": 0.0,
+                  "macro_f1_delta_vs_original": 0.0
+                },
+                {
+                  "variant": "log_clip",
+                  "accuracy": 0.0,
+                  "balanced_accuracy": 0.0,
+                  "macro_f1": 0.0,
+                  "n_predicted_classes_not_in_test": 1,
+                  "predicted_classes_not_in_test": [
+                    3
+                  ],
+                  "prediction_flip_rate_vs_original": 1.0,
+                  "balanced_accuracy_delta_vs_original": -0.20000000000000004,
+                  "macro_f1_delta_vs_original": -0.12037037037037036
+                },
+                {
+                  "variant": "zscore_clip",
+                  "accuracy": 0.16666666666666666,
+                  "balanced_accuracy": 0.26666666666666666,
+                  "macro_f1": 0.10256410256410257,
+                  "n_predicted_classes_not_in_test": 0,
+                  "predicted_classes_not_in_test": [],
+                  "prediction_flip_rate_vs_original": 0.4166666666666667,
+                  "balanced_accuracy_delta_vs_original": 0.06666666666666662,
+                  "macro_f1_delta_vs_original": -0.01780626780626779
+                },
+                {
+                  "variant": "amplitude_jitter",
+                  "accuracy": 0.125,
+                  "balanced_accuracy": 0.20000000000000004,
+                  "macro_f1": 0.12037037037037036,
+                  "n_predicted_classes_not_in_test": 0,
+                  "predicted_classes_not_in_test": [],
+                  "prediction_flip_rate_vs_original": 0.0,
+                  "balanced_accuracy_delta_vs_original": 0.0,
+                  "macro_f1_delta_vs_original": 0.0
+                },
+                {
+                  "variant": "remove_top_band",
+                  "accuracy": 0.125,
+                  "balanced_accuracy": 0.19999999999999998,
+                  "macro_f1": 0.07894736842105263,
+                  "n_predicted_classes_not_in_test": 1,
+                  "predicted_classes_not_in_test": [
+                    3
+                  ],
+                  "prediction_flip_rate_vs_original": 0.20833333333333334,
+                  "balanced_accuracy_delta_vs_original": -5.551115123125783e-17,
+                  "macro_f1_delta_vs_original": -0.041423001949317736
+                },
+                {
+                  "variant": "remove_bottom_band",
+                  "accuracy": 0.125,
+                  "balanced_accuracy": 0.20000000000000004,
+                  "macro_f1": 0.12037037037037036,
+                  "n_predicted_classes_not_in_test": 0,
+                  "predicted_classes_not_in_test": [],
+                  "prediction_flip_rate_vs_original": 0.0,
+                  "balanced_accuracy_delta_vs_original": 0.0,
+                  "macro_f1_delta_vs_original": 0.0
+                },
+                {
+                  "variant": "remove_border",
+                  "accuracy": 0.125,
+                  "balanced_accuracy": 0.20000000000000004,
+                  "macro_f1": 0.0900735294117647,
+                  "n_predicted_classes_not_in_test": 1,
+                  "predicted_classes_not_in_test": [
+                    3
+                  ],
+                  "prediction_flip_rate_vs_original": 0.08333333333333333,
+                  "balanced_accuracy_delta_vs_original": 0.0,
+                  "macro_f1_delta_vs_original": -0.03029684095860566
+                },
+                {
+                  "variant": "time_reverse",
+                  "accuracy": 0.20833333333333334,
+                  "balanced_accuracy": 0.3333333333333333,
+                  "macro_f1": 0.1149425287356322,
+                  "n_predicted_classes_not_in_test": 0,
+                  "predicted_classes_not_in_test": [],
+                  "prediction_flip_rate_vs_original": 0.4583333333333333,
+                  "balanced_accuracy_delta_vs_original": 0.13333333333333328,
+                  "macro_f1_delta_vs_original": -0.0054278416347381675
+                }
+              ]
+            }
+          ],
+          "selected_model": "small_cnn",
+          "class_map": {
+            "0": "Greenery",
+            "1": "Pedestrian/parking area",
+            "2": "Sidewalk",
+            "3": "Street/Cycling road"
+          }
+        }
+      ]
+    },
+    {
+      "seed": 20260812,
+      "targets": [
+        {
+          "target_field": "Land type",
+          "records": 93,
+          "split_counts": {
+            "train": 54,
+            "val": 15,
+            "test": 24
+          },
+          "label_counts": {
+            "Greenery": 24,
+            "Sidewalk": 44,
+            "Street/Cycling road": 14,
+            "Pedestrian/parking area": 11
+          },
+          "split_label_counts": {
+            "train": {
+              "Greenery": 15,
+              "Sidewalk": 25,
+              "Street/Cycling road": 10,
+              "Pedestrian/parking area": 4
+            },
+            "val": {
+              "Sidewalk": 5,
+              "Greenery": 4,
+              "Street/Cycling road": 4,
+              "Pedestrian/parking area": 2
+            },
+            "test": {
+              "Sidewalk": 14,
+              "Pedestrian/parking area": 5,
+              "Greenery": 5
+            }
+          },
+          "is_viable": true,
+          "feature": "cnn_pixels",
+          "image_size": 64,
+          "epochs": 40,
+          "seed": 20260812,
+          "models": [
+            {
+              "model": "small_cnn",
+              "best_epoch": 40,
+              "val_balanced_accuracy": 0.5,
+              "val_macro_f1": 0.3464285714285714,
+              "variant_rows": [
+                {
+                  "variant": "original",
+                  "accuracy": 0.20833333333333334,
+                  "balanced_accuracy": 0.3333333333333333,
+                  "macro_f1": 0.13157894736842105,
+                  "n_predicted_classes_not_in_test": 1,
+                  "predicted_classes_not_in_test": [
+                    3
+                  ],
+                  "prediction_flip_rate_vs_original": 0.0,
+                  "balanced_accuracy_delta_vs_original": 0.0,
+                  "macro_f1_delta_vs_original": 0.0
+                },
+                {
+                  "variant": "log_clip",
+                  "accuracy": 0.0,
+                  "balanced_accuracy": 0.0,
+                  "macro_f1": 0.0,
+                  "n_predicted_classes_not_in_test": 1,
+                  "predicted_classes_not_in_test": [
+                    3
+                  ],
+                  "prediction_flip_rate_vs_original": 0.875,
+                  "balanced_accuracy_delta_vs_original": -0.3333333333333333,
+                  "macro_f1_delta_vs_original": -0.13157894736842105
+                },
+                {
+                  "variant": "zscore_clip",
+                  "accuracy": 0.20833333333333334,
+                  "balanced_accuracy": 0.3333333333333333,
+                  "macro_f1": 0.10869565217391304,
+                  "n_predicted_classes_not_in_test": 1,
+                  "predicted_classes_not_in_test": [
+                    3
+                  ],
+                  "prediction_flip_rate_vs_original": 0.3333333333333333,
+                  "balanced_accuracy_delta_vs_original": 0.0,
+                  "macro_f1_delta_vs_original": -0.022883295194508005
+                },
+                {
+                  "variant": "amplitude_jitter",
+                  "accuracy": 0.20833333333333334,
+                  "balanced_accuracy": 0.3333333333333333,
+                  "macro_f1": 0.13157894736842105,
+                  "n_predicted_classes_not_in_test": 1,
+                  "predicted_classes_not_in_test": [
+                    3
+                  ],
+                  "prediction_flip_rate_vs_original": 0.0,
+                  "balanced_accuracy_delta_vs_original": 0.0,
+                  "macro_f1_delta_vs_original": 0.0
+                },
+                {
+                  "variant": "remove_top_band",
+                  "accuracy": 0.20833333333333334,
+                  "balanced_accuracy": 0.3333333333333333,
+                  "macro_f1": 0.16666666666666666,
+                  "n_predicted_classes_not_in_test": 1,
+                  "predicted_classes_not_in_test": [
+                    3
+                  ],
+                  "prediction_flip_rate_vs_original": 0.20833333333333334,
+                  "balanced_accuracy_delta_vs_original": 0.0,
+                  "macro_f1_delta_vs_original": 0.03508771929824561
+                },
+                {
+                  "variant": "remove_bottom_band",
+                  "accuracy": 0.20833333333333334,
+                  "balanced_accuracy": 0.3333333333333333,
+                  "macro_f1": 0.13157894736842105,
+                  "n_predicted_classes_not_in_test": 1,
+                  "predicted_classes_not_in_test": [
+                    3
+                  ],
+                  "prediction_flip_rate_vs_original": 0.0,
+                  "balanced_accuracy_delta_vs_original": 0.0,
+                  "macro_f1_delta_vs_original": 0.0
+                },
+                {
+                  "variant": "remove_border",
+                  "accuracy": 0.2916666666666667,
+                  "balanced_accuracy": 0.38095238095238093,
+                  "macro_f1": 0.19407894736842105,
+                  "n_predicted_classes_not_in_test": 1,
+                  "predicted_classes_not_in_test": [
+                    3
+                  ],
+                  "prediction_flip_rate_vs_original": 0.2916666666666667,
+                  "balanced_accuracy_delta_vs_original": 0.047619047619047616,
+                  "macro_f1_delta_vs_original": 0.0625
+                },
+                {
+                  "variant": "time_reverse",
+                  "accuracy": 0.5833333333333334,
+                  "balanced_accuracy": 0.3333333333333333,
+                  "macro_f1": 0.24561403508771928,
+                  "n_predicted_classes_not_in_test": 0,
+                  "predicted_classes_not_in_test": [],
+                  "prediction_flip_rate_vs_original": 1.0,
+                  "balanced_accuracy_delta_vs_original": 0.0,
+                  "macro_f1_delta_vs_original": 0.11403508771929824
+                }
+              ]
+            }
+          ],
+          "selected_model": "small_cnn",
+          "class_map": {
+            "0": "Greenery",
+            "1": "Pedestrian/parking area",
+            "2": "Sidewalk",
+            "3": "Street/Cycling road"
+          }
+        }
+      ]
+    },
+    {
+      "seed": 20260813,
+      "targets": [
+        {
+          "target_field": "Land type",
+          "records": 93,
+          "split_counts": {
+            "train": 54,
+            "val": 15,
+            "test": 24
+          },
+          "label_counts": {
+            "Greenery": 24,
+            "Sidewalk": 44,
+            "Street/Cycling road": 14,
+            "Pedestrian/parking area": 11
+          },
+          "split_label_counts": {
+            "train": {
+              "Greenery": 15,
+              "Sidewalk": 25,
+              "Street/Cycling road": 10,
+              "Pedestrian/parking area": 4
+            },
+            "val": {
+              "Sidewalk": 5,
+              "Greenery": 4,
+              "Street/Cycling road": 4,
+              "Pedestrian/parking area": 2
+            },
+            "test": {
+              "Sidewalk": 14,
+              "Pedestrian/parking area": 5,
+              "Greenery": 5
+            }
+          },
+          "is_viable": true,
+          "feature": "cnn_pixels",
+          "image_size": 64,
+          "epochs": 40,
+          "seed": 20260813,
+          "models": [
+            {
+              "model": "small_cnn",
+              "best_epoch": 37,
+              "val_balanced_accuracy": 0.4375,
+              "val_macro_f1": 0.25,
+              "variant_rows": [
+                {
+                  "variant": "original",
+                  "accuracy": 0.08333333333333333,
+                  "balanced_accuracy": 0.13333333333333333,
+                  "macro_f1": 0.06666666666666667,
+                  "n_predicted_classes_not_in_test": 0,
+                  "predicted_classes_not_in_test": [],
+                  "prediction_flip_rate_vs_original": 0.0,
+                  "balanced_accuracy_delta_vs_original": 0.0,
+                  "macro_f1_delta_vs_original": 0.0
+                },
+                {
+                  "variant": "log_clip",
+                  "accuracy": 0.08333333333333333,
+                  "balanced_accuracy": 0.047619047619047616,
+                  "macro_f1": 0.0625,
+                  "n_predicted_classes_not_in_test": 1,
+                  "predicted_classes_not_in_test": [
+                    3
+                  ],
+                  "prediction_flip_rate_vs_original": 1.0,
+                  "balanced_accuracy_delta_vs_original": -0.08571428571428572,
+                  "macro_f1_delta_vs_original": -0.004166666666666666
+                },
+                {
+                  "variant": "zscore_clip",
+                  "accuracy": 0.20833333333333334,
+                  "balanced_accuracy": 0.3333333333333333,
+                  "macro_f1": 0.08928571428571429,
+                  "n_predicted_classes_not_in_test": 1,
+                  "predicted_classes_not_in_test": [
+                    3
+                  ],
+                  "prediction_flip_rate_vs_original": 0.4166666666666667,
+                  "balanced_accuracy_delta_vs_original": 0.19999999999999998,
+                  "macro_f1_delta_vs_original": 0.022619047619047622
+                },
+                {
+                  "variant": "amplitude_jitter",
+                  "accuracy": 0.08333333333333333,
+                  "balanced_accuracy": 0.13333333333333333,
+                  "macro_f1": 0.06666666666666667,
+                  "n_predicted_classes_not_in_test": 0,
+                  "predicted_classes_not_in_test": [],
+                  "prediction_flip_rate_vs_original": 0.0,
+                  "balanced_accuracy_delta_vs_original": 0.0,
+                  "macro_f1_delta_vs_original": 0.0
+                },
+                {
+                  "variant": "remove_top_band",
+                  "accuracy": 0.16666666666666666,
+                  "balanced_accuracy": 0.26666666666666666,
+                  "macro_f1": 0.1590643274853801,
+                  "n_predicted_classes_not_in_test": 0,
+                  "predicted_classes_not_in_test": [],
+                  "prediction_flip_rate_vs_original": 0.20833333333333334,
+                  "balanced_accuracy_delta_vs_original": 0.13333333333333333,
+                  "macro_f1_delta_vs_original": 0.09239766081871344
+                },
+                {
+                  "variant": "remove_bottom_band",
+                  "accuracy": 0.08333333333333333,
+                  "balanced_accuracy": 0.13333333333333333,
+                  "macro_f1": 0.06666666666666667,
+                  "n_predicted_classes_not_in_test": 0,
+                  "predicted_classes_not_in_test": [],
+                  "prediction_flip_rate_vs_original": 0.0,
+                  "balanced_accuracy_delta_vs_original": 0.0,
+                  "macro_f1_delta_vs_original": 0.0
+                },
+                {
+                  "variant": "remove_border",
+                  "accuracy": 0.08333333333333333,
+                  "balanced_accuracy": 0.13333333333333333,
+                  "macro_f1": 0.057971014492753624,
+                  "n_predicted_classes_not_in_test": 0,
+                  "predicted_classes_not_in_test": [],
+                  "prediction_flip_rate_vs_original": 0.125,
+                  "balanced_accuracy_delta_vs_original": 0.0,
+                  "macro_f1_delta_vs_original": -0.008695652173913042
+                },
+                {
+                  "variant": "time_reverse",
+                  "accuracy": 0.20833333333333334,
+                  "balanced_accuracy": 0.3333333333333333,
+                  "macro_f1": 0.1149425287356322,
+                  "n_predicted_classes_not_in_test": 0,
+                  "predicted_classes_not_in_test": [],
+                  "prediction_flip_rate_vs_original": 0.625,
+                  "balanced_accuracy_delta_vs_original": 0.19999999999999998,
+                  "macro_f1_delta_vs_original": 0.04827586206896553
+                }
+              ]
+            }
+          ],
+          "selected_model": "small_cnn",
+          "class_map": {
+            "0": "Greenery",
+            "1": "Pedestrian/parking area",
+            "2": "Sidewalk",
+            "3": "Street/Cycling road"
+          }
+        }
+      ]
+    },
+    {
+      "seed": 20260814,
+      "targets": [
+        {
+          "target_field": "Land type",
+          "records": 93,
+          "split_counts": {
+            "train": 54,
+            "val": 15,
+            "test": 24
+          },
+          "label_counts": {
+            "Greenery": 24,
+            "Sidewalk": 44,
+            "Street/Cycling road": 14,
+            "Pedestrian/parking area": 11
+          },
+          "split_label_counts": {
+            "train": {
+              "Greenery": 15,
+              "Sidewalk": 25,
+              "Street/Cycling road": 10,
+              "Pedestrian/parking area": 4
+            },
+            "val": {
+              "Sidewalk": 5,
+              "Greenery": 4,
+              "Street/Cycling road": 4,
+              "Pedestrian/parking area": 2
+            },
+            "test": {
+              "Sidewalk": 14,
+              "Pedestrian/parking area": 5,
+              "Greenery": 5
+            }
+          },
+          "is_viable": true,
+          "feature": "cnn_pixels",
+          "image_size": 64,
+          "epochs": 40,
+          "seed": 20260814,
+          "models": [
+            {
+              "model": "small_cnn",
+              "best_epoch": 4,
+              "val_balanced_accuracy": 0.3125,
+              "val_macro_f1": 0.25,
+              "variant_rows": [
+                {
+                  "variant": "original",
+                  "accuracy": 0.041666666666666664,
+                  "balanced_accuracy": 0.023809523809523808,
+                  "macro_f1": 0.03125,
+                  "n_predicted_classes_not_in_test": 1,
+                  "predicted_classes_not_in_test": [
+                    3
+                  ],
+                  "prediction_flip_rate_vs_original": 0.0,
+                  "balanced_accuracy_delta_vs_original": 0.0,
+                  "macro_f1_delta_vs_original": 0.0
+                },
+                {
+                  "variant": "log_clip",
+                  "accuracy": 0.20833333333333334,
+                  "balanced_accuracy": 0.3333333333333333,
+                  "macro_f1": 0.1149425287356322,
+                  "n_predicted_classes_not_in_test": 0,
+                  "predicted_classes_not_in_test": [],
+                  "prediction_flip_rate_vs_original": 0.4166666666666667,
+                  "balanced_accuracy_delta_vs_original": 0.30952380952380953,
+                  "macro_f1_delta_vs_original": 0.0836925287356322
+                },
+                {
+                  "variant": "zscore_clip",
+                  "accuracy": 0.20833333333333334,
+                  "balanced_accuracy": 0.3333333333333333,
+                  "macro_f1": 0.1149425287356322,
+                  "n_predicted_classes_not_in_test": 0,
+                  "predicted_classes_not_in_test": [],
+                  "prediction_flip_rate_vs_original": 0.4166666666666667,
+                  "balanced_accuracy_delta_vs_original": 0.30952380952380953,
+                  "macro_f1_delta_vs_original": 0.0836925287356322
+                },
+                {
+                  "variant": "amplitude_jitter",
+                  "accuracy": 0.041666666666666664,
+                  "balanced_accuracy": 0.023809523809523808,
+                  "macro_f1": 0.03125,
+                  "n_predicted_classes_not_in_test": 1,
+                  "predicted_classes_not_in_test": [
+                    3
+                  ],
+                  "prediction_flip_rate_vs_original": 0.0,
+                  "balanced_accuracy_delta_vs_original": 0.0,
+                  "macro_f1_delta_vs_original": 0.0
+                },
+                {
+                  "variant": "remove_top_band",
+                  "accuracy": 0.3333333333333333,
+                  "balanced_accuracy": 0.4047619047619047,
+                  "macro_f1": 0.19240196078431374,
+                  "n_predicted_classes_not_in_test": 1,
+                  "predicted_classes_not_in_test": [
+                    3
+                  ],
+                  "prediction_flip_rate_vs_original": 0.5416666666666666,
+                  "balanced_accuracy_delta_vs_original": 0.38095238095238093,
+                  "macro_f1_delta_vs_original": 0.16115196078431374
+                },
+                {
+                  "variant": "remove_bottom_band",
+                  "accuracy": 0.041666666666666664,
+                  "balanced_accuracy": 0.023809523809523808,
+                  "macro_f1": 0.03125,
+                  "n_predicted_classes_not_in_test": 1,
+                  "predicted_classes_not_in_test": [
+                    3
+                  ],
+                  "prediction_flip_rate_vs_original": 0.0,
+                  "balanced_accuracy_delta_vs_original": 0.0,
+                  "macro_f1_delta_vs_original": 0.0
+                },
+                {
+                  "variant": "remove_border",
+                  "accuracy": 0.20833333333333334,
+                  "balanced_accuracy": 0.11904761904761905,
+                  "macro_f1": 0.125,
+                  "n_predicted_classes_not_in_test": 1,
+                  "predicted_classes_not_in_test": [
+                    3
+                  ],
+                  "prediction_flip_rate_vs_original": 0.4583333333333333,
+                  "balanced_accuracy_delta_vs_original": 0.09523809523809525,
+                  "macro_f1_delta_vs_original": 0.09375
+                },
+                {
+                  "variant": "time_reverse",
+                  "accuracy": 0.0,
+                  "balanced_accuracy": 0.0,
+                  "macro_f1": 0.0,
+                  "n_predicted_classes_not_in_test": 1,
+                  "predicted_classes_not_in_test": [
+                    3
+                  ],
+                  "prediction_flip_rate_vs_original": 0.7916666666666666,
+                  "balanced_accuracy_delta_vs_original": -0.023809523809523808,
+                  "macro_f1_delta_vs_original": -0.03125
+                }
+              ]
+            }
+          ],
+          "selected_model": "small_cnn",
+          "class_map": {
+            "0": "Greenery",
+            "1": "Pedestrian/parking area",
+            "2": "Sidewalk",
+            "3": "Street/Cycling road"
+          }
+        }
+      ]
+    }
+  ],
+  "aggregate": [
+    {
+      "target_field": "Land type",
+      "model": "small_cnn",
+      "variant": "amplitude_jitter",
+      "n_seeds": 5,
+      "val_balanced_accuracy_mean": 0.4125,
+      "val_balanced_accuracy_std": 0.0637377439199098,
+      "test_balanced_accuracy_mean": 0.22285714285714286,
+      "test_balanced_accuracy_std": 0.14194630264458147,
+      "balanced_accuracy_delta_mean": 0.0,
+      "balanced_accuracy_delta_std": 0.0,
+      "prediction_flip_rate_mean": 0.0,
+      "prediction_flip_rate_std": 0.0,
+      "all_delta_nonpositive": true
+    },
+    {
+      "target_field": "Land type",
+      "model": "small_cnn",
+      "variant": "log_clip",
+      "n_seeds": 5,
+      "val_balanced_accuracy_mean": 0.4125,
+      "val_balanced_accuracy_std": 0.0637377439199098,
+      "test_balanced_accuracy_mean": 0.08095238095238096,
+      "test_balanced_accuracy_std": 0.1274198872405681,
+      "balanced_accuracy_delta_mean": -0.1419047619047619,
+      "balanced_accuracy_delta_std": 0.2504309211309646,
+      "prediction_flip_rate_mean": 0.8583333333333334,
+      "prediction_flip_rate_std": 0.2260776661041756,
+      "all_delta_nonpositive": false
+    },
+    {
+      "target_field": "Land type",
+      "model": "small_cnn",
+      "variant": "original",
+      "n_seeds": 5,
+      "val_balanced_accuracy_mean": 0.4125,
+      "val_balanced_accuracy_std": 0.0637377439199098,
+      "test_balanced_accuracy_mean": 0.22285714285714286,
+      "test_balanced_accuracy_std": 0.14194630264458147,
+      "balanced_accuracy_delta_mean": 0.0,
+      "balanced_accuracy_delta_std": 0.0,
+      "prediction_flip_rate_mean": 0.0,
+      "prediction_flip_rate_std": 0.0,
+      "all_delta_nonpositive": true
+    },
+    {
+      "target_field": "Land type",
+      "model": "small_cnn",
+      "variant": "remove_border",
+      "n_seeds": 5,
+      "val_balanced_accuracy_mean": 0.4125,
+      "val_balanced_accuracy_std": 0.0637377439199098,
+      "test_balanced_accuracy_mean": 0.26476190476190475,
+      "test_balanced_accuracy_std": 0.14638810900496627,
+      "balanced_accuracy_delta_mean": 0.04190476190476189,
+      "balanced_accuracy_delta_std": 0.03742263372264475,
+      "prediction_flip_rate_mean": 0.2,
+      "prediction_flip_rate_std": 0.15456030825826172,
+      "all_delta_nonpositive": false
+    },
+    {
+      "target_field": "Land type",
+      "model": "small_cnn",
+      "variant": "remove_bottom_band",
+      "n_seeds": 5,
+      "val_balanced_accuracy_mean": 0.4125,
+      "val_balanced_accuracy_std": 0.0637377439199098,
+      "test_balanced_accuracy_mean": 0.22285714285714286,
+      "test_balanced_accuracy_std": 0.14194630264458147,
+      "balanced_accuracy_delta_mean": 0.0,
+      "balanced_accuracy_delta_std": 0.0,
+      "prediction_flip_rate_mean": 0.0,
+      "prediction_flip_rate_std": 0.0,
+      "all_delta_nonpositive": true
+    },
+    {
+      "target_field": "Land type",
+      "model": "small_cnn",
+      "variant": "remove_top_band",
+      "n_seeds": 5,
+      "val_balanced_accuracy_mean": 0.4125,
+      "val_balanced_accuracy_std": 0.0637377439199098,
+      "test_balanced_accuracy_mean": 0.339047619047619,
+      "test_balanced_accuracy_std": 0.10183798435107276,
+      "balanced_accuracy_delta_mean": 0.11619047619047615,
+      "balanced_accuracy_delta_std": 0.14131228183612501,
+      "prediction_flip_rate_mean": 0.25,
+      "prediction_flip_rate_std": 0.15365907428821476,
+      "all_delta_nonpositive": false
+    },
+    {
+      "target_field": "Land type",
+      "model": "small_cnn",
+      "variant": "time_reverse",
+      "n_seeds": 5,
+      "val_balanced_accuracy_mean": 0.4125,
+      "val_balanced_accuracy_std": 0.0637377439199098,
+      "test_balanced_accuracy_mean": 0.26666666666666666,
+      "test_balanced_accuracy_std": 0.13333333333333333,
+      "balanced_accuracy_delta_mean": 0.043809523809523784,
+      "balanced_accuracy_delta_std": 0.10670917520327088,
+      "prediction_flip_rate_mean": 0.6083333333333333,
+      "prediction_flip_rate_std": 0.28455618464939786,
+      "all_delta_nonpositive": false
+    },
+    {
+      "target_field": "Land type",
+      "model": "small_cnn",
+      "variant": "zscore_clip",
+      "n_seeds": 5,
+      "val_balanced_accuracy_mean": 0.4125,
+      "val_balanced_accuracy_std": 0.0637377439199098,
+      "test_balanced_accuracy_mean": 0.29333333333333333,
+      "test_balanced_accuracy_std": 0.05333333333333334,
+      "balanced_accuracy_delta_mean": 0.07047619047619044,
+      "balanced_accuracy_delta_std": 0.18193716988798106,
+      "prediction_flip_rate_mean": 0.4999999999999999,
+      "prediction_flip_rate_std": 0.21081851067789192,
+      "all_delta_nonpositive": false
+    }
+  ],
+  "flat_csv": "cnn_seed_sweep_metrics.csv"
+}

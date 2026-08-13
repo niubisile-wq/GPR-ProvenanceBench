@@ -1,0 +1,6 @@
+record_id,field,stage,when_to_fill,current_value_filled,validation_status,issue
+EVID-001,sent_zip_path,after_send,after real manual sendout,False,missing,manual_evidence_not_filled
+EVID-002,sent_datetime_local,after_send,after real manual sendout,False,missing,manual_evidence_not_filled
+EVID-003,recipient_list_confirmed,before_send,before send,False,missing,manual_evidence_not_filled
+EVID-004,email_body_boundary_checked,before_send,before send,False,missing,manual_evidence_not_filled
+EVID-005,all_returned_files_stored,return_intake,after return intake,False,missing,manual_evidence_not_filled

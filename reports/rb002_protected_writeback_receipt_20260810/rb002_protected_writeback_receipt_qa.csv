@@ -1,0 +1,6 @@
+check,result,detail
+all_routes_have_receipt_rows,PASS,receipt_rows=7
+protected_targets_listed,PASS,protected_targets=9
+template_not_completed,PASS,completed_rows=0
+writeback_not_granted,PASS,writeback_allowed_rows=0; rb002_ready=False
+submission_guard_preserved,PASS,submission_ready=False

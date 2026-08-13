@@ -1,0 +1,21 @@
+{
+  "package": "author_final_closeout_dependency_bridge_validator_20260810",
+  "figure_portal_bridge_allows_closeout": false,
+  "author_decisions_closed": false,
+  "human_closeout_closed": false,
+  "residual_blockers_closed": false,
+  "author_final_closeout_allowed": false,
+  "decision_rows": 4,
+  "next24_rows": 4,
+  "closed_action_rows": 0,
+  "blocked_action_rows": 7,
+  "ready_to_close_rows": 0,
+  "blocked_validation_commands": 7,
+  "open_master_gates": 8,
+  "candidate_return_files": 0,
+  "submission_ready": false,
+  "qa_rows": 5,
+  "qa_pass": true,
+  "status": "author_final_closeout_dependency_bridge_validator_ready_blocked",
+  "desktop_plan_updated": true
+}

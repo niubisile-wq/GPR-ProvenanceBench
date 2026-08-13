@@ -1,0 +1,17 @@
+{
+  "run_id": "20260810_natcomms_portal_upload_manifest_prelock",
+  "portal_upload_rows": 9,
+  "upload_ready_rows": 0,
+  "blocked_upload_rows": 9,
+  "stage_strategy_rows": 3,
+  "blocker_crosswalk_rows": 10,
+  "finalization_order_rows": 6,
+  "official_source_rows": 2,
+  "qa_rows": 5,
+  "qa_pass": true,
+  "current_applicable_branch": "TRACK-B",
+  "portal_upload_ready": false,
+  "submission_ready": false,
+  "status": "natcomms_portal_upload_manifest_prelock_ready_not_upload_ready",
+  "boundary": "Portal upload manifest is prelocked for planning only; author details, figures, Source Data, DOI/rights, Reporting Summary, references and blind external validation remain open."
+}

@@ -1,0 +1,19 @@
+{
+  "package": "natcomms_canonical_tracker_v2_consistency_validator_20260810",
+  "send_log_rows": 5,
+  "send_log_v2_rows": 5,
+  "send_log_stale_v1_rows": 0,
+  "send_log_sha_match_rows": 5,
+  "tracker_summary_path_matches_v2": true,
+  "tracker_summary_sha_matches_v2": true,
+  "overlay_summary_pass": true,
+  "response_log_guarded": true,
+  "receipt_validator_guarded": true,
+  "email_sent": false,
+  "author_replies_collected": false,
+  "submission_ready": false,
+  "qa_rows": 5,
+  "qa_pass": true,
+  "status": "natcomms_canonical_tracker_v2_consistency_validator_passed_guarded_not_sent",
+  "desktop_plan_updated": true
+}

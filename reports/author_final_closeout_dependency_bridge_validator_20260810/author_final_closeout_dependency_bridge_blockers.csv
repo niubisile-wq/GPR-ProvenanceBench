@@ -1,0 +1,5 @@
+blocker,evidence,blocks
+19.45 figure/portal bridge blocks closeout,figure_portal_upload_allowed=False; portal_upload_ready=False,author final closeout
+author decisions remain required,decision_rows=4; next24_rows=4,branch/backend/licence/framing lock
+human execution actions all blocked,blocked_action_rows=7; closed_action_rows=0; open_master_gates=8,final closeout board
+residual blockers not closeable,ready_to_close_rows=0; blocked_validation_commands=7; candidate_return_files=0,final submission gate

@@ -1,0 +1,7 @@
+gate_id,requirement,current_state,passes_now,blocking_reason
+RS-FINAL-001,All Reporting Summary rows are lockable,lockable=0 of 8,no,Every Reporting Summary item remains draft/prelock or gate-blocked.
+RS-FINAL-002,Author confirmations are collected,confirmed=0 of 4,no,Author confirmation rows remain blank.
+RS-FINAL-003,Availability/repository gates are closed,open_availability_gates=5; repository_doi_created=False,no,"Repository DOI, code DOI, licence and rights gates remain open."
+RS-FINAL-004,Final figures and source data are locked,final_figures_ready=False; source_data_panel_map_locked=False,no,Final rendered figures and panel-level Source Data are not locked.
+RS-FINAL-005,Final references are locked,final_references_ready=False; marker_replacements_allowed_now=0,no,Candidate citation markers and final reference exports remain blocked.
+RS-FINAL-006,External/blinding status is resolved,blind external validation remains NO-GO or explicitly open-gate Track B,no,No real strict-SHA blind external asset and locked held-label evaluation are available.

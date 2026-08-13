@@ -1,0 +1,17 @@
+{
+  "package": "python_figure_author_review_return_inbox_20260810",
+  "inbox_rows": 1,
+  "candidate_return_files": 0,
+  "stop_rules": 5,
+  "qa_rows": 5,
+  "qa_pass": true,
+  "author_return_file_present": false,
+  "writeback_allowed_now": false,
+  "approved_rows": 0,
+  "blank_rows": 6,
+  "final_candidate_generation_allowed": false,
+  "final_figures_ready": false,
+  "submission_ready": false,
+  "status": "python_figure_author_review_return_inbox_ready_empty",
+  "desktop_plan_updated": true
+}

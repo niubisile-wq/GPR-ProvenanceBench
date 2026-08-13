@@ -1,0 +1,7 @@
+receipt_id,receipt_type,owner,current_status,placeholder_value,completion_passes_now,blocking_reason,first_validator
+FMR-001,author_sendout_evidence,corresponding_author,missing,FILL_AFTER_SEND,no,Receipt is not complete or still contains a FILL_AFTER placeholder.,py scripts/build_natcomms_author_response_log_validator.py
+FMR-002,author_decision_values,author_and_advisor,missing,FILL_AFTER_REPLY,no,Receipt is not complete or still contains a FILL_AFTER placeholder.,py scripts/build_manual_evidence_final_intake_validator.py
+FMR-003,real_returned_evidence_drop,author_or_data_holder,missing,FILL_AFTER_DROP,no,Receipt is not complete or still contains a FILL_AFTER placeholder.,py scripts/build_final_return_evidence_intake_scanner.py
+FMR-004,figure_author_review_decisions,figure_owner_and_author_team,missing,FILL_AFTER_FIGURE_REVIEW,no,Receipt is not complete or still contains a FILL_AFTER placeholder.,py scripts/build_python_figure_author_review_intake_validator.py
+FMR-005,repository_rights_doi_decisions,repository_or_rights_owner,missing,FILL_AFTER_RIGHTS_DOI,no,Receipt is not complete or still contains a FILL_AFTER placeholder.,py scripts/build_availability_repository_finalization_validator.py
+FMR-006,guarded_recheck_receipt,manuscript_operator,waiting_for_FMR_001_to_FMR_005,FILL_AFTER_RECHECK,no,Receipt is not complete or still contains a FILL_AFTER placeholder.,powershell -ExecutionPolicy Bypass -File scripts/run_m0_m2_checks.ps1

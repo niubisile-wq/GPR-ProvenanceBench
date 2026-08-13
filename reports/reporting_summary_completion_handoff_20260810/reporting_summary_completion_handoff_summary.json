@@ -1,0 +1,17 @@
+{
+  "package": "reporting_summary_completion_handoff_20260810",
+  "reporting_items_mapped": 8,
+  "draft_items": 8,
+  "author_confirmation_rows": 4,
+  "author_confirmations_collected": 0,
+  "gate_dependency_rows": 3,
+  "completion_command_rows": 5,
+  "unresolved_items_imported": 6,
+  "high_risk_items": 4,
+  "qa_rows": 5,
+  "qa_pass": true,
+  "final_reporting_summary_ready": false,
+  "submission_ready": false,
+  "status": "reporting_summary_completion_handoff_ready_not_final",
+  "desktop_plan_updated": true
+}

@@ -1,0 +1,5 @@
+check,result,detail
+FMR-001 row imported,PASS,fmr001_rows=1
+candidate generation follows EDS and revalidation gates,PASS,candidate_rows=0; fmr001_writeback_allowed=False
+real FMR template is not modified,PASS,real_fmr_template_modified=false
+submission remains false,PASS,guarded_recheck_allowed=false; submission_ready=false

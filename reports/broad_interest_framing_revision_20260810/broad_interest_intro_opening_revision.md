@@ -1,0 +1,9 @@
+# Broad-interest Introduction opening revision v0.2
+
+Ground-penetrating radar (GPR) recognition is moving from controlled dataset studies toward applications in subsurface inspection, infrastructure assessment and field decision support. In these settings, the central question is not only whether a model scores well on a held-out test split, but whether that score reflects transferable subsurface signal rather than the history of how the data were acquired, processed and partitioned.
+
+This distinction matters beyond GPR. Many scientific machine-learning benchmarks are built from datasets that carry provenance structure, including site, device, rendering pipeline, project identity or environment. If those structures are shared across training and test partitions, conventional performance estimates can overstate practical generalization. Conversely, if evaluation deliberately separates environment or provenance structure, it can expose where a model's apparent competence is brittle.
+
+GPR B-scan recognition provides a concrete test bed for this problem because target labels are often entangled with site conditions, instrument settings and dataset construction. Yet many evaluation workflows still report model performance without making the executable asset boundary, split logic and environment-transfer evidence equally visible. This leaves a gap between model comparison and benchmark trust.
+
+Here we assemble GPR-ProvenanceBench as an auditable workflow for testing how provenance and environment structure affect GPR recognition. The current evidence boundary contains executable Mojahid, 4TU and Res-SAM assets, with Res-SAM environment transfer providing the lead cross-model signal. Mojahid is retained as directional secondary evidence and 4TU as stress-test and feasibility evidence. Blind external validation, final figures and repository identifiers remain open gates rather than completed results.

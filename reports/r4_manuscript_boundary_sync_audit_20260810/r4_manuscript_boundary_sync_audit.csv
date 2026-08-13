@@ -1,0 +1,16 @@
+relative_path,exists,current_marker_hits,obsolete_marker_hits,status,detail
+reports/results_section_skeleton_20260810/results_section_skeleton.md,True,4,0,pass,No obsolete R4 marker detected.
+reports/results_section_skeleton_20260810/results_paragraph_claim_evidence_map.csv,True,4,0,pass,No obsolete R4 marker detected.
+reports/submission_package_skeleton_20260810/title_abstract_significance.md,True,4,0,pass,No obsolete R4 marker detected.
+reports/submission_package_skeleton_20260810/submission_claim_evidence_map.csv,True,4,0,pass,No obsolete R4 marker detected.
+reports/manuscript_claim_readiness_audit_20260810/manuscript_claim_readiness_audit.csv,True,4,0,pass,No obsolete R4 marker detected.
+reports/manuscript_claim_readiness_audit_20260810/allowed_manuscript_claims.md,True,2,0,pass,No obsolete R4 marker detected.
+reports/conservative_manuscript_draft_20260810/conservative_manuscript_draft_v0_1.md,True,4,0,pass,No obsolete R4 marker detected.
+reports/conservative_methods_draft_20260810/methods_draft_v0_1.md,True,4,0,pass,No obsolete R4 marker detected.
+reports/author_review_manuscript_package_20260810/author_review_manuscript_v0_1.md,True,4,0,pass,No obsolete R4 marker detected.
+reports/natcomms_initial_submission_text_preassembly_20260810/natcomms_initial_submission_text_preassembly.md,True,4,0,pass,No obsolete R4 marker detected.
+reports/natcomms_initial_submission_text_preassembly_20260810/natcomms_display_item_preassembly.csv,True,3,0,pass,No obsolete R4 marker detected.
+reports/natcomms_supplementary_info_preassembly_20260810/supplementary_information_preassembly.md,True,2,0,pass,No obsolete R4 marker detected.
+reports/natcomms_supplementary_info_preassembly_20260810/supplementary_source_data_boundary_map.csv,True,3,0,pass,No obsolete R4 marker detected.
+reports/figure4_sources_20260810/figure4_source_summary.md,True,2,0,pass,No obsolete R4 marker detected.
+reports/figure4_sources_20260810/figure4_evidence_layer_boundary.csv,True,0,0,pass,No obsolete R4 marker detected.

@@ -1,0 +1,10 @@
+{
+  "run_id": "20260810_release_readiness_audit",
+  "files_audited": 53,
+  "files_with_local_path_markers": 8,
+  "files_with_placeholder_markers": 5,
+  "candidate_files_after_licence_review": 37,
+  "rights_rows": 6,
+  "release_ready": false,
+  "boundary": "Release readiness audit only; public repository, DOI, licence and third-party rights verification are still missing."
+}

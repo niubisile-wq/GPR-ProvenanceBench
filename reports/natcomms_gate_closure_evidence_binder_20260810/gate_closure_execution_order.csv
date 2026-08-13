@@ -1,0 +1,9 @@
+order,gate_id,action,blocked_by
+1,FM-001,Collect and validate author/admin replies; generate final declarations only after replies are complete.,blank author replies
+2,FM-002,Confirm Track B or supply real Track A blind external asset evidence.,blank branch reply; no blind external asset
+3,FM-003,"Select backend, render figures, run visual QA and lock captions.",blank backend reply; rendered_figures=0
+4,FM-004,"Finalize rights/licences, Source Data and repository/code DOI records.",blank licence reply; no DOI
+5,FM-005,"Finalize Reporting Summary from locked Methods, figures, availability and validation status.",Reporting Summary prelock only
+6,FM-006,Replace citation markers and lock final numbered bibliography.,final prose and figure/table call order not locked
+7,FM-007,Generate final manuscript and SI files.,all prior gates open
+8,FM-008,Confirm portal metadata and upload-ready package.,final files and metadata missing

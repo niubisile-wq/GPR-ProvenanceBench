@@ -1,0 +1,18 @@
+{
+  "package": "rb002_writeback_receipt_completion_validator_20260810",
+  "receipt_rows_validated": 7,
+  "complete_receipt_rows": 0,
+  "permission_rows": 0,
+  "transition_ready_rows": 0,
+  "gate_rows": 5,
+  "qa_rows": 5,
+  "qa_pass": true,
+  "receipt_complete": false,
+  "transition_entry_allowed": false,
+  "rb001_closed": false,
+  "writeback_allowed_rows": 0,
+  "transition_allowed_rows": 0,
+  "submission_ready": false,
+  "status": "rb002_writeback_receipt_completion_validator_ready_blocked_no_writeback",
+  "desktop_plan_updated": true
+}

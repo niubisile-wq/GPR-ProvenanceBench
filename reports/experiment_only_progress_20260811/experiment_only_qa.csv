@@ -1,0 +1,41 @@
+check,result,detail
+weights sum to 100,PASS,total_weight=100
+module evidence exists,PASS,"all listed evidence paths checked, including semicolon-separated paths"
+planned five-model architecture matrix included,PASS,"The exact five architecture families named in the frozen plan must have a Mojahid/Res-SAM directional matrix, including five-seed DeiT-Tiny evidence"
+unified local split manifests included,PASS,"Mojahid, TIGPR, Zenodo and DeepMask/GPR_data should each have five local split protocol manifests"
+group-disjoint split protocols leakage-audited,PASS,"Source-group holdout, P4-style and DataSAIL-like local protocols must have zero train-test group overlap"
+unified split baseline included,PASS,Every generated split manifest should have one local lightweight baseline run
+unified split model-ranking audit included,PASS,Every generated split manifest should have two local model-family runs for ranking sensitivity
+unified split effect statistics included,PASS,Random-minus-protocol split effects should have bootstrap intervals and per-sample prediction rows
+unified split seed stability included,PASS,Every generated split manifest should have five local SGD seeds for stability auditing
+unified split five-family matrix included,PASS,Three assets should each have five local families over five unified split protocols
+local signflip permutation audit included,PASS,Unified split and 4TU stress contrasts should have exact sign/sign-flip statistics
+frozen experiment registry included,PASS,"Frozen local experiment registry must hash current evidence, scripts, environment and entrypoints"
+zenodo mcg gpr public asset included,PASS,"Zenodo MCG GPR must be downloaded, MD5-verified, manifested and evaluated only as non-blind public stress evidence"
+cross-asset collision audit included,PASS,DeepMask/GPR_data must be prevented from being counted as an independent external/cross-asset dataset
+deepmask gpr duplicate mirror asset included,PASS,"DeepMask/GPR_data is retained as a local/public duplicate mirror stress asset, not independent external evidence"
+repair experiments included,PASS,"Transductive, non-transductive and train-only mitigation sweeps required"
+mojahid train-only source reweighting repair included,PASS,Train-only repair must be separated from target-statistic and blind-external repair evidence
+mojahid validation-only temperature calibration repair included,PASS,Calibration repair must tune on validation fold only and stay separated from blind-external repair evidence
+mojahid train-only source residualization repair included,PASS,Residualization repair must learn source basis on train folds and use a source signal shared across test folds
+mojahid train-only group dro repair included,PASS,Group-DRO repair must remain train-only and report source-group plus processing-role robust optimization
+mojahid train-only domain adversarial repair included,PASS,"Gradient-reversal repair must run two grouped protocols, four strengths and five seeds using train folds only"
+leakage dose experiment included,PASS,Mojahid lineage and TIGPR duplicate leakage-dose sweeps required
+tigpr duplicate leakage dose included,PASS,TIGPR duplicate dose should run five doses across five seeds while staying non-blind
+leakage confidence metrics included,PASS,Leakage dose sweep must include confidence and ECE metrics
+leakage error-structure metrics included,PASS,Leakage dose sweep must include class recall and prediction-distribution error structure
+source predictability experiment included,PASS,Mojahid and Res-SAM internal source-signal probes required
+target-source association audit included,PASS,Manifest-level target/source coupling metrics required
+ressam transfer bootstrap ci included,PASS,Res-SAM lead transfer contrast needs cross-model uncertainty
+4tu task-source association audit included,PASS,4TU task-level metadata labels need project/split association audit
+4tu stress stability audit included,PASS,4TU fixed versus group-aware stress boundary needs stability audit
+tigpr local asset audit refreshed,PASS,TIGPR audit must explicitly record GO or NO-GO state
+tigpr restored sample-level media verified,PASS,status=GO; rows=7169
+tigpr duplicate-aware sweep included,PASS,TIGPR restored asset needs duplicate-aware random-vs-group split evidence
+tigpr model-family duplicate matrix included,PASS,TIGPR duplicate effect should be checked beyond one HOG model
+external raw-gpr candidate downloaded and manifested,PASS,Track C public raw-GPR candidate should be recorded separately from blind validation
+synthetic external blind freeze regression passed,PASS,Synthetic fixture must pass strict intake and locked evaluation while remaining non-eligible for real blind claims
+zenodo trackc nonblind baseline included,PASS,Zenodo raw-GPR stress test must remain marked non-blind
+hidden evaluation candidate audit included,PASS,Current hidden-test/challenge candidates must be audited before the blind external gate can remain closed
+experiment gate consistency validator passed,PASS,"Readiness, hidden-eval candidates, synthetic freeze regression, collision audit and progress summary must agree on NO-GO"
+blind external gate remains protected,PASS,external_gate=NO-GO

@@ -1,0 +1,36 @@
+{
+  "run_id": "20260811_E32_deepmask_gpr_asset_audit",
+  "dataset": "deepmask_gpr",
+  "manifest": "data_manifests/deepmask_gpr_unified_samples_20260811.csv",
+  "data_root": "D:\\百度网盘拉取包\\CNS1\\gpr_leakage_research\\dataset_inspect\\GPR_data",
+  "archive": "D:\\百度网盘拉取包\\CNS1\\gpr_leakage_research\\GPR_data.rar",
+  "archive_exists": true,
+  "archive_sha256": "223868f1b9432a674a129e4fc852eafcdde95d76241993825085b4435d3974f7",
+  "rows": 2524,
+  "label_counts": {
+    "cavity": 632,
+    "intact": 975,
+    "utility": 917
+  },
+  "raw_label_dir_counts": {
+    "cavities": 79,
+    "augmented_cavities": 553,
+    "intact": 75,
+    "augmented_intact": 900,
+    "Utilities": 131,
+    "augmented_utilities": 786
+  },
+  "augmentation_status_counts": {
+    "original": 285,
+    "augmented": 2239
+  },
+  "base_source_groups": 285,
+  "augmented_groups_with_original": 285,
+  "augmented_groups_without_original": 0,
+  "exact_duplicate_hash_groups": 0,
+  "exact_duplicate_image_rows": 0,
+  "cross_label_duplicate_hash_groups": 0,
+  "status": "complete_local_public_asset_manifest",
+  "blind_external_eligible": false,
+  "reason_not_blind": "Local/public labelled image folders and augmentation lineage are visible before prediction freeze."
+}

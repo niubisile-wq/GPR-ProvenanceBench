@@ -1,0 +1,8 @@
+layer,ready,current
+operator_bundle,yes,final_operator_bundle_v2_acceptance_passed_guarded_not_executed
+manual_evidence,no,evidence_rows_passed=0
+figures,no,final_figures_ready=False
+availability,no,final_availability_ready=False
+reporting_summary,no,final_reporting_summary_ready=False
+references,no,final_references_ready=False
+submission,no,submission_ready=False

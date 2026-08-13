@@ -1,0 +1,3 @@
+option,decision_role,fit_to_current_sources,reason,implementation_cost,risk,allowed,current_choice
+Python,recommended_default_not_selected,high,"Current evidence tables, audit builders and validation scripts are Python-first CSV/JSON/Markdown workflows.",lowest,Requires disciplined Nature-style visual QA because default matplotlib styling is not submission-grade.,yes,Python
+R,allowed_alternative_not_selected,medium,R is viable for ggplot2/patchwork style figure assembly but would require reimplementing source ingestion and QA helpers.,higher,Mixed backend outputs are forbidden; choosing R means all final figures and previews must use R consistently.,yes,Python

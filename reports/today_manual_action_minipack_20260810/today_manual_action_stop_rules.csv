@@ -1,0 +1,6 @@
+rule_id,rule
+TODAY-STOP-001,Do not mark email_sent=true until the message is actually sent outside this script.
+TODAY-STOP-002,Do not record backend/scope from recommendation; record only author/analysis-owner choice.
+TODAY-STOP-003,Do not place external labels in analyst-visible folders before prediction freeze.
+TODAY-STOP-004,Do not close rights/licence from silence or missing replies.
+TODAY-STOP-005,Do not replace references today unless final prose and figure/table calls are stable.

@@ -1,0 +1,3 @@
+RB-001 DIAGNOSTIC-ONLY RUNNER
+Running scanner, hash reconciliation and dry-run gate only.
+RB-001 diagnostic-only runner completed. No writeback, transition, guarded runner or submission command was executed.

@@ -1,0 +1,14 @@
+{
+  "package": "manual_evidence_inbox_audit_20260810",
+  "inbox_folders_audited": 6,
+  "candidate_evidence_files": 0,
+  "sensitive_name_rows": 0,
+  "qa_rows": 4,
+  "qa_pass": true,
+  "tracker_entry_allowed_now": false,
+  "manual_evidence_written": false,
+  "evidence_rows_passed": 0,
+  "submission_ready": false,
+  "status": "manual_evidence_inbox_audit_ready_empty",
+  "desktop_plan_updated": true
+}

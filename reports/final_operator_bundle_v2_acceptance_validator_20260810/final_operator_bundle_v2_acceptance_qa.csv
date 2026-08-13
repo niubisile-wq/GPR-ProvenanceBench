@@ -1,0 +1,7 @@
+check,result,detail
+local_and_desktop_zip_exist,PASS,local=True; desktop=True
+local_and_desktop_zip_match,PASS,local_sha=fc5271f6bab67458dd11e1bf7ad3a7ddade11d778fd99fdbff315e29ba00192e; desktop_sha=fc5271f6bab67458dd11e1bf7ad3a7ddade11d778fd99fdbff315e29ba00192e
+required_members_present,PASS,required=9
+manifest_matches_summary,PASS,manifest_rows=20; summary=20
+guard_runner_refuses,PASS,returncode=2
+blocked_state_preserved,PASS,commands_allowed_now=0; submission_ready=False

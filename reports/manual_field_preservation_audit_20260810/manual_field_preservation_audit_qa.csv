@@ -1,0 +1,6 @@
+check_id,check,observed,expected,pass
+QA-001,manual field targets enumerated,9,9,True
+QA-002,all manual field artifacts exist,9,9,True
+QA-003,preservation detected for all manual field targets,9,9,True
+QA-004,sendout preflight is stage-aware,['pass_blank_ready_before_send'],stage-aware statuses,True
+QA-005,audit does not mark submission ready,submission_ready=false,submission_ready=false,True

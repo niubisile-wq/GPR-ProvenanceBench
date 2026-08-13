@@ -1,0 +1,17 @@
+{
+  "package": "manual_evidence_arrival_watcher_20260810",
+  "watched_locations": 5,
+  "candidate_files_detected": 0,
+  "forms_with_any_fill": 0,
+  "ready_for_validation_rows": 0,
+  "validated_form_rows": 0,
+  "handoff_acceptance_ready": true,
+  "manual_actions_executed": false,
+  "allowed_commands_now": 0,
+  "portal_upload_allowed": false,
+  "submission_ready": false,
+  "qa_rows": 5,
+  "qa_pass": true,
+  "status": "manual_evidence_arrival_watcher_ready_waiting_candidate_files",
+  "desktop_plan_updated": true
+}

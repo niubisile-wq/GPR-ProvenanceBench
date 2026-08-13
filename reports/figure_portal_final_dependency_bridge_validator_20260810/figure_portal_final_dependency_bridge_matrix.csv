@@ -1,0 +1,9 @@
+dependency,source,current,required,passes_now
+post_gate_manual_bridge_allowed,19.44 post-gate manual evidence bridge,False,true,no
+source_data_lock_ready,figure source-data lock,True,true,yes
+final_candidate_ready,Python figure final candidate preflight,True,all candidates approved and final figures ready,yes
+final_export_ready,Python figure final export QA template,True,"all export QA rows allowed, captions and panel map locked",yes
+source_data_panel_map_ready,Python figure source-data panel-map preflight,True,locked panel map with no missing sources,yes
+figure_portal_upload_allowed,Python figure portal upload blocker,False,true,no
+portal_file_upload_allowed,portal submission file preflight,False,true,no
+submission_ready,19.45 bridge boundary,False,false in current blocked state,yes

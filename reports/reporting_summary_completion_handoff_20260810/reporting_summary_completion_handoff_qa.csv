@@ -1,0 +1,6 @@
+check,result,detail
+all_draft_items_mapped_to_completion_rows,PASS,completion_rows=8; draft_rows=8
+blocked_dependencies_preserved,PASS,"Blinding, data/code availability and external validation must remain blocked."
+author_confirmations_remain_uncollected,PASS,blank_author_reply_rows=4; author_reply_rows=4
+upstream_gate_handoffs_imported,PASS,"figure, external and repository handoff summaries imported."
+final_reporting_summary_not_claimed,PASS,This package is a handoff only; final Reporting Summary remains false.

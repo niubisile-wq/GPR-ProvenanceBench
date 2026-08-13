@@ -1,0 +1,6 @@
+risk_id,risk,trigger_terms,required_replacement,evidence_source
+NR1,Overstating external validation,validated externally; blind test passed; independent external result,protocol-ready but not complete; open blind external gate,R6 and external_validation_readiness_20260810
+NR2,Overstating Mojahid,universal leakage; decisive split inflation,directionally consistent but modest/model-dependent split sensitivity,R3 and Table 2 status directional_only
+NR3,Overstating 4TU,causal proof; main confirmation; robust 4TU generalization,raw-trace-derived stress-test and failure-mode evidence,R4/R5 and 4TU group-aware feasibility audit
+NR4,Overstating release readiness,public repository available; data deposited; source data complete,"source-data and sanitized release skeletons exist, but DOI, licence and rights are unresolved","source_data_deposit_summary, release_readiness_summary and sanitized_release_summary"
+NR5,Overstating method replication,full Res-SAM replication; TIGPR core asset,Res-SAM lightweight asset is executable; full SAM checkpoint/runtime and TIGPR local executable asset remain NO-GO,TIGPR local asset audit and Res-SAM go/no-go

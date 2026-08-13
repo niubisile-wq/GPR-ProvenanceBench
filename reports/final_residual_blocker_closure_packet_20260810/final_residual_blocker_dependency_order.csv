@@ -1,0 +1,9 @@
+order,blocker_id,dependency,can_start_without_external_return,stop_rule
+1,RB-001,none,yes_manual_collection_only,Do not write evidence into protected targets before scanner acceptance.
+2,RB-002,RB-001 accepted,no,Do not write back when writeback_allowed_rows=0.
+3,RB-003,RB-002 writeback evidence,no,Do not rerun author-dependent branches while blank_author_reply_fields>0.
+4,RB-004,RB-002 writeback evidence,no,Do not call figures final while author approvals are absent.
+5,RB-005,RB-002 writeback evidence,no,Do not claim DOI/rights/licence readiness before accepted repository evidence.
+6,RB-007,RB-002 writeback evidence,no,Do not remove reference placeholders without manual verification.
+7,RB-006,RB-003/RB-004/RB-005,no,Do not lock Reporting Summary while any dependency remains open.
+8,RB-008,RB-003/RB-004/RB-005/RB-006/RB-007 all closed,no,Do not upload or submit while open_master_gates>0.

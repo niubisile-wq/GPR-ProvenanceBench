@@ -1,0 +1,20 @@
+{
+  "package": "natcomms_canonical_send_log_v2_overlay_20260810",
+  "send_log_rows": 5,
+  "rows_overlaid": 5,
+  "stale_v1_rows_before": 5,
+  "stale_v1_rows_after": 0,
+  "v2_reference_rows_after": 5,
+  "manual_status_preserved": true,
+  "tracker_summary_updated": true,
+  "tracker_summary_sha_before": "a037f39e698272aadd9f30eb6679e80e0cb7c6c9831f1b15419d96c9dae1cd7a",
+  "tracker_summary_sha_after": "7b64c7f43f10c909a8f77ed940ea8a8e92eb31b102686cb0f7998779fa8e5c36",
+  "tracker_summary_sha_matches_v2": true,
+  "email_sent": false,
+  "author_replies_collected": false,
+  "submission_ready": false,
+  "qa_rows": 6,
+  "qa_pass": true,
+  "status": "natcomms_canonical_send_log_v2_overlay_applied_not_sent",
+  "desktop_plan_updated": true
+}

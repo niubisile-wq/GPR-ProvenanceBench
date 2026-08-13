@@ -1,0 +1,17 @@
+{
+  "package": "final_return_evidence_inbox_scaffold_20260810",
+  "canonical_root": "D:\\百度网盘拉取包\\CNS1\\GPR-ProvenanceBench\\final_return_evidence_inbox_20260810",
+  "canonical_folders": 7,
+  "folder_readmes": 7,
+  "routes_mapped": 7,
+  "route_migrations_flagged": 0,
+  "candidate_return_files": 0,
+  "qa_rows": 4,
+  "qa_pass": true,
+  "manual_actions_executed": false,
+  "evidence_writeback_performed": false,
+  "gate_closure_allowed": false,
+  "submission_ready": false,
+  "status": "final_return_evidence_inbox_scaffold_ready_empty",
+  "desktop_plan_updated": true
+}

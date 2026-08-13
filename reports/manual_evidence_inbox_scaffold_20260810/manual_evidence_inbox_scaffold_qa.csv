@@ -1,0 +1,5 @@
+check,result,detail
+six_inbox_folders_created,PASS,inbox_rows=6
+capture_targets_imported,PASS,capture_rows=5
+desktop_readme_created,PASS,<LOCAL_DESKTOP>\\NatComms_人工证据回收Inbox说明_20260810.md
+no_evidence_written,PASS,evidence_rows_passed=0

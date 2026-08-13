@@ -1,0 +1,7 @@
+check,result,detail
+TOC exists,PASS,7 SI items preassembled.
+Methods modules mapped,PASS,7 method rows mapped.
+Main-text crosswalk exists,PASS,6 result rows linked.
+Figure rendering not upgraded,PASS,Every figure remains marked not_rendered.
+Open gates preserved,PASS,6 unresolved Reporting Summary/open-gate rows preserved.
+Final SI not claimed,PASS,Boundary wording prevents final-SI claim.

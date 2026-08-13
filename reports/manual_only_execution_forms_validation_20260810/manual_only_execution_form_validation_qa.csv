@@ -1,0 +1,5 @@
+check,result,detail
+all generated forms were inspected,PASS,validation_rows=5; form_rows=5
+blank current forms remain blocked,PASS,incomplete_form_rows=5
+no downstream validators are allowed in current state,PASS,allowed_downstream_validators=0
+writeback and submission remain blocked,PASS,allowed_commands_now=0; portal_upload_allowed=false; submission_ready=false

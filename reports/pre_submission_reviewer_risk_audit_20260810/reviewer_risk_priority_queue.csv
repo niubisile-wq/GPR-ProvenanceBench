@@ -1,0 +1,6 @@
+priority,risk,reviewer_axis,current_evidence,required_resolution
+1,Missing real blind external validation,technical_soundness,Protocol templates and dry run only,"Acquire held-label asset and run one locked evaluation, or downgrade framing."
+2,Main figures not rendered,readability_and_technical_soundness,Figure specs and source packages only,Render Figure 1-Figure 6 or final reduced set and complete visual QA.
+3,Repository and rights unresolved,technical_soundness_reproducibility,Metadata drafts and staging preview only,"Resolve licence, rights, repository route and DOI/accession."
+4,Broad-interest case not fully established,scientific_importance_interdisciplinary_interest,GPR-focused argument with general ML benchmark implications,Sharpen cross-field implications and visual workflow explanation.
+5,References not final,originality_readability,Candidate [P#] markers and local citation pass,Manual verification and Nature-style numbered references.

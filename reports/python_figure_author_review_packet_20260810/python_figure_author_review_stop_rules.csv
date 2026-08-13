@@ -1,0 +1,6 @@
+rule_id,rule
+FIG-AUTHOR-STOP-001,Do not mark a figure final from this packet alone.
+FIG-AUTHOR-STOP-002,Do not remove boundary language from any caption during author review.
+FIG-AUTHOR-STOP-003,Do not treat Figure 6 as completed blind external validation.
+FIG-AUTHOR-STOP-004,Do not portal-upload preview figures.
+FIG-AUTHOR-STOP-005,Do not close the figure gate until all six author approvals and final export QA are recorded.

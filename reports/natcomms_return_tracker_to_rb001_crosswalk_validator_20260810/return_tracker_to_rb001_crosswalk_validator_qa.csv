@@ -1,0 +1,6 @@
+check,result,detail
+return rows present,PASS,rows=8
+all return rows have RB-001 route mapping,PASS,mapped=8
+empty return tracker blocks drop,PASS,returned_rows=0; rb001_drop_allowed=False
+scanner remains blocked,PASS,candidate_return_files=0
+writeback remains blocked,PASS,writeback_allowed_rows=0

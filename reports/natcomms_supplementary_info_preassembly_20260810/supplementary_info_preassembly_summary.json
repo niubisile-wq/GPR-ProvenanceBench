@@ -1,0 +1,16 @@
+{
+  "run_id": "20260810_natcomms_supplementary_info_preassembly",
+  "toc_rows": 7,
+  "supplementary_methods_rows": 7,
+  "main_text_crosswalk_rows": 6,
+  "figure_role_rows": 6,
+  "source_data_boundary_rows": 9,
+  "open_gate_rows": 6,
+  "qa_rows": 6,
+  "qa_pass": true,
+  "current_applicable_branch": "TRACK-B",
+  "supplementary_info_final": false,
+  "submission_ready": false,
+  "status": "natcomms_supplementary_info_preassembly_ready_not_final",
+  "boundary": "SI is preassembled for author review only; final SI remains blocked by figures, Source Data, repository identifiers, rights, Reporting Summary, references and blind external validation."
+}

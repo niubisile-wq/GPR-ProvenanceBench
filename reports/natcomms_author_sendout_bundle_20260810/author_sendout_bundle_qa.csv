@@ -1,0 +1,6 @@
+check,result,detail
+All attachments copied,PASS,8 copied attachments.
+Checksums generated,PASS,SHA256 recorded for each copied file.
+Zip created in report directory,PASS,<REPO_ROOT>\reports\natcomms_author_sendout_bundle_20260810\NatComms_author_sendout_bundle_20260810.zip
+Zip copied to Desktop,PASS,<LOCAL_DESKTOP>\\NatComms_author_sendout_bundle_20260810.zip
+No send state asserted,PASS,email_sent remains false by design.

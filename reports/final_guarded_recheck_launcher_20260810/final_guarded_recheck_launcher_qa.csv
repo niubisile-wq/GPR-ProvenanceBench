@@ -1,0 +1,5 @@
+check,result,detail
+19.50 summary loaded,PASS,guarded_recheck_allowed=False
+launcher refuses current incomplete receipts,PASS,blocked_receipt_rows=6
+old runner remains wrapped,PASS,old_runner=reports/manual_post_handoff_recheck_runner_20260810/run_after_manual_evidence_recheck.ps1
+portal upload remains impossible,PASS,portal_upload_allowed=False

@@ -1,0 +1,6 @@
+check,result,detail
+all_routes_have_writeback_decision,PASS,writeback_rows=7; routes_scanned=7
+no_writeback_without_candidate_files,PASS,candidate_return_files=0; writeback_allowed_rows=0
+protected_fields_imported,PASS,protected_rows=9
+no_safe_rerun_after_edit,PASS,safe_rerun_rows=0
+submission_still_blocked,PASS,submission_ready=False

@@ -1,0 +1,5 @@
+rule_id,rule
+SD-PANEL-STOP-001,Do not call candidate Source Data files final before final figures exist.
+SD-PANEL-STOP-002,Do not upload Source Data without panel-level mapping to final rendered figures.
+SD-PANEL-STOP-003,Do not include raw third-party data beyond allowed derived artifacts.
+SD-PANEL-STOP-004,Do not use Figure 6 Source Data to imply completed blind external validation.

@@ -1,0 +1,6 @@
+check_id,check,observed,expected,pass
+QA-001,all 12 AFR fields represented,12,12,True
+QA-002,backend rows represented,2,2,True
+QA-003,owner tasks represented,6,6,True
+QA-004,manual field preservation imported,9,9,True
+QA-005,guide keeps submission blocked,submission_ready=false,submission_ready=false,True

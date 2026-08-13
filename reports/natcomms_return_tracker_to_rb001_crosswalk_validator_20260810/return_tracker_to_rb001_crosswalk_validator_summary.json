@@ -1,0 +1,19 @@
+{
+  "package": "natcomms_return_tracker_to_rb001_crosswalk_validator_20260810",
+  "send_log_rows": 5,
+  "send_log_ready": false,
+  "return_tracker_rows": 8,
+  "mapped_return_rows": 8,
+  "returned_rows": 0,
+  "drop_ready_rows": 0,
+  "return_tracker_to_rb001_ready": false,
+  "rb001_drop_allowed": false,
+  "scanner_allowed_now": false,
+  "candidate_return_files": 0,
+  "writeback_allowed_rows": 0,
+  "submission_ready": false,
+  "qa_rows": 5,
+  "qa_pass": true,
+  "status": "natcomms_return_tracker_to_rb001_crosswalk_validator_ready_blocked_no_returns",
+  "desktop_plan_updated": true
+}

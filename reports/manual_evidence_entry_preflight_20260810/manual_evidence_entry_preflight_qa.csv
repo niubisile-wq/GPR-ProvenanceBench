@@ -1,0 +1,5 @@
+check,result,detail
+worksheet_rows_imported,PASS,worksheet_rows=7
+schema_checks_have_rows,PASS,target_rows=7; field_rows=14
+known_missing_evidence_preserved,PASS,evidence_rows_passed=0; branch_commands_safe_to_run_now=0
+no_gate_closure_claim,PASS,Preflight does not write evidence or close gates.

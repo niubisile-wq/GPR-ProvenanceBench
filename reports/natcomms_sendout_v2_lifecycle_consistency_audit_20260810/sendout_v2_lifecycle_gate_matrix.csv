@@ -1,0 +1,7 @@
+gate,current,required,passes_now
+v2_send_log_in_manifest,1,1,yes
+no_stale_v1_zip_references,0,0,yes
+all_send_rows_point_to_v2_zip,5,5,yes
+zip_fingerprints_match,True,true,yes
+manual_send_state_not_asserted,False,false,yes
+submission_ready,False,false,yes

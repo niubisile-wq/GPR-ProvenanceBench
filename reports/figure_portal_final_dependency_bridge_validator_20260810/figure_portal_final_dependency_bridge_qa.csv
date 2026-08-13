@@ -1,0 +1,6 @@
+check,result,detail
+all upstream summaries loaded,PASS,"post-gate, figure lock, final candidate, export QA, figure portal, panel map and portal file summaries loaded."
+post-gate manual bridge remains blocking,PASS,post_gate_manual_bridge_allowed=False
+final figures remain not ready,FAIL,figure_final_assets_ready=True
+portal upload remains blocked,PASS,portal_upload_ready=False
+submission remains false,PASS,submission_ready=False

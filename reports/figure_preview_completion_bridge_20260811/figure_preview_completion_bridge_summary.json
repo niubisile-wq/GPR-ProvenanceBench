@@ -1,0 +1,18 @@
+{
+  "package": "figure_preview_completion_bridge_20260811",
+  "preview_complete_figures": 6,
+  "preview_export_files": 24,
+  "visual_qa_pass": true,
+  "author_review_preview_ready_rows": 6,
+  "source_data_missing_source_rows": 0,
+  "source_data_panel_map_locked": false,
+  "final_figures_ready": false,
+  "final_candidate_generation_allowed": false,
+  "figure_portal_upload_allowed": false,
+  "submission_ready": false,
+  "qa_rows": 4,
+  "qa_pass": true,
+  "desktop_report": "C:\\Users\\刘子轩\\Desktop\\NatComms_20260811_figure_preview_completion_bridge.md",
+  "status": "figure_preview_complete_final_figures_blocked",
+  "desktop_plan_updated": true
+}

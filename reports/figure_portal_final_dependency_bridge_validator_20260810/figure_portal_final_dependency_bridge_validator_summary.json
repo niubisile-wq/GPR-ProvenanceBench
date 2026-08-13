@@ -1,0 +1,22 @@
+{
+  "package": "figure_portal_final_dependency_bridge_validator_20260810",
+  "post_gate_manual_bridge_allowed": false,
+  "source_data_lock_ready": true,
+  "final_candidate_ready": true,
+  "final_export_ready": true,
+  "source_data_panel_map_ready": true,
+  "figure_final_assets_ready": true,
+  "figure_portal_upload_allowed": false,
+  "portal_file_upload_allowed": false,
+  "portal_upload_ready": false,
+  "submission_ready": false,
+  "rendered_figures_final": 6,
+  "approved_rows": 6,
+  "final_export_qa_allowed_rows": 6,
+  "panel_map_lock_allowed_rows": 6,
+  "figure_portal_upload_allowed_rows": 0,
+  "qa_rows": 5,
+  "qa_pass": false,
+  "status": "figure_portal_final_dependency_bridge_validator_ready_blocked",
+  "desktop_plan_updated": true
+}

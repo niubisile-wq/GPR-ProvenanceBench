@@ -1,0 +1,7 @@
+statement_type,variant_id,status,usable_now,reason
+data_availability,DA-PUBLIC-FINAL,not_usable_yet,no,"Only after repository DOI/accession, licence, rights review and final figure source data exist."
+data_availability,DA-RESTRICTED-FINAL,not_usable_yet,no,Use if derived source data can be public but raw third-party or external blind assets cannot be redistributed.
+data_availability,DA-CURRENT-DRAFT,author_review_only,yes,Internal author-review draft only before DOI/licence/rights closure.
+code_availability,CODE-PUBLIC-FINAL,not_usable_yet,no,"Only after public repository URL, release tag, software licence and archive DOI exist."
+code_availability,CODE-RESTRICTED-FINAL,not_usable_yet,no,Use only if institutional restrictions prevent full public code release and a specific access route exists.
+code_availability,CODE-CURRENT-DRAFT,author_review_only,yes,Internal author-review draft only before repository/licence/archive closure.

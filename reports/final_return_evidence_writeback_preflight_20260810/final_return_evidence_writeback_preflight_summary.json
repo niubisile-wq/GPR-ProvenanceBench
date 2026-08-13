@@ -1,0 +1,19 @@
+{
+  "package": "final_return_evidence_writeback_preflight_20260810",
+  "writeback_route_rows": 7,
+  "safe_edit_rows": 5,
+  "safe_rerun_rows": 0,
+  "writeback_allowed_rows": 0,
+  "protected_target_rows": 9,
+  "validation_command_rows": 7,
+  "no_go_rules": 4,
+  "qa_rows": 5,
+  "qa_pass": true,
+  "candidate_return_files": 0,
+  "manual_actions_executed": false,
+  "evidence_writeback_performed": false,
+  "gate_closure_allowed": false,
+  "submission_ready": false,
+  "status": "final_return_evidence_writeback_preflight_ready_no_writeback",
+  "desktop_plan_updated": true
+}

@@ -1,0 +1,11 @@
+queue_id,priority,owner,action,recommended_response,unlocks,if_not_done
+ADC2-001,1,author,Choose figure rendering backend,Python,Formal Figure 1-Figure 6 rendering and visual QA.,Figure gate remains open; manuscript figures cannot become final.
+ADC2-002,2,author,Name a real external blind GPR data holder or confirm none is available before manuscript lock,"If no named holder exists now, proceed with Track B.",Either Track A external validation workflow or Track B benchmark/resource framing lock.,External-validation language must remain open-gate only.
+ADC2-003,3,author,Confirm code and derived-data licence direction,Code: MIT or BSD-3-Clause; derived source data: CC BY 4.0 or restricted if rights review fails.,Repository metadata can move from draft to deposit preparation.,Data/code availability remains current-draft only.
+ADC2-004,4,author,Confirm manuscript route if external validation remains unavailable,Track B: benchmark/resource plus evidence-boundary paper.,"Title, abstract, cover-letter framing and claim strength can be aligned.",Manuscript branch remains provisional.
+PORTAL-1,1,author_and_analysis,Confirm author/title page and declarations.,Author input from admin declarations prelock.,Portal upload row readiness,Portal upload package remains not ready.
+PORTAL-2,2,author_and_analysis,Choose one figure backend and render final figure set.,Author confirms Python or R; recommended Python.,Portal upload row readiness,Portal upload package remains not ready.
+PORTAL-3,3,author_and_analysis,Finalize Source Data and repository/DOI records.,"Rendered figure panel mapping, licence and rights decisions.",Portal upload row readiness,Portal upload package remains not ready.
+PORTAL-4,4,author_and_analysis,Finalize Reporting Summary.,"Figures, validation status, availability and Methods locked.",Portal upload row readiness,Portal upload package remains not ready.
+PORTAL-5,5,author_and_analysis,Replace candidate references and lock numbered bibliography.,Final prose and figure/table call order.,Portal upload row readiness,Portal upload package remains not ready.
+PORTAL-6,6,author_and_analysis,Generate final initial-submission file and SI file.,Steps 1-5 complete.,Portal upload row readiness,Portal upload package remains not ready.

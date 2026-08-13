@@ -1,0 +1,6 @@
+check,result,detail
+all_expected_attachments_copied,PASS,copied=15; expected=15
+manual_actions_not_claimed_done,PASS,author email and backend choice remain open.
+external_and_rights_gates_remain_open,PASS,external validation and rights are not closed.
+reporting_and_reference_gates_remain_open,PASS,Reporting Summary and final references remain not final.
+desktop_zip_created,PASS,desktop_zip=<LOCAL_DESKTOP>\\NatComms_manual_dispatch_master_packet_20260810.zip; zip_members=22

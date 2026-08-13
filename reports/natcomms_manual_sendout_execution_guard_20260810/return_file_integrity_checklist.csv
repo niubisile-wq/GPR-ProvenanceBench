@@ -1,0 +1,6 @@
+check_id,returned_file_group,check,tool_or_file,must_pass_before
+RET-001,author reply forms,Every required CSV is returned or explicitly marked not applicable with reason.,<REPO_ROOT>\reports\natcomms_author_response_tracker_20260810\author_response_return_tracker.csv,author_reply_ingestion_validator
+RET-002,backend decision,Backend choice is exactly Python or R; scope is one of the allowed scope strings.,<REPO_ROOT>\reports\figure_backend_decision_validator_20260810\figure_backend_decision_validation.csv,figure_rendering
+RET-003,track decision,Track A requires a real held-label blind asset; otherwise Track B remains the bounded route.,<REPO_ROOT>\reports\natcomms_author_reply_ingestion_validator_20260810\gate_closure_from_author_replies.csv,external_validation_claims
+RET-004,licence and rights,"Licence, third-party rights and repository route are explicit before any public deposit claim.",<REPO_ROOT>\reports\natcomms_gate_closure_evidence_binder_20260810\gate_closure_evidence_binder.csv,repository_release
+RET-005,final approval,Final author approval cannot be accepted until final manuscript/SI/figures/source data exist.,<REPO_ROOT>\reports\natcomms_finalization_command_dashboard_v3_20260810\finalization_command_dashboard_v3.csv,portal_upload

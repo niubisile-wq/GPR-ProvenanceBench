@@ -1,0 +1,9 @@
+dependency,source,current,required,passes_now
+rb001_bridge_allows_rb002,19.40 RB-001 bridge,False,true,no
+writeback_preflight_ready,final return evidence writeback preflight,False,true,no
+rb002_dashboard_ready,RB-002 readiness dashboard,False,true,no
+protected_receipt_ready,RB-002 protected writeback receipt,False,true,no
+rb002_receipt_complete,RB-002 receipt completion validator,False,true,no
+rb002_entry_allowed,bridge decision,False,true,no
+transition_allowed,bridge decision,False,true,no
+submission_ready,bridge boundary,False,false,yes

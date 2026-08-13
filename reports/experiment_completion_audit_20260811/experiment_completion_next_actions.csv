@@ -1,0 +1,5 @@
+priority,action,can_start_now,expected_completion_gain_percent,reason
+1,Finalize figure captions and source-data wording against the current review packets.,yes_review_only,2,Figure candidates and Source Data review packets already exist; this is the remaining local prose/scope cleanup.
+2,Lock figure-to-Source-Data panel maps after final-candidate approval.,after_final_candidate_approval,3,Source Data cannot be final until final figure candidates are approved.
+3,Align repository / availability wording with the current lock and rights state.,yes_review_only,1,"Repository and rights wording can still be prepared locally, but identifiers remain missing."
+4,Acquire or restore a true blind external asset.,no_local_only_solution,20,This is required for full formal experiment closure but cannot be faked locally.

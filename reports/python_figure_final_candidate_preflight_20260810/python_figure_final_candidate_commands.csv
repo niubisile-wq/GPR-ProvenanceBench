@@ -1,0 +1,5 @@
+order,condition,command,run_now,purpose
+1,after_author_review_writeback,py scripts\build_python_figure_author_review_intake_validator.py,yes,Validate approval statuses.
+2,after_intake_validation,py scripts\build_python_figure_final_candidate_preflight.py,yes,Refresh final candidate preflight.
+3,if final_candidate_generation_allowed=true,build final figure candidate package,no,"Generate final-candidate exports, not submission-final figures."
+4,after final candidates,final export QA and source-data panel mapping lock,no,Required before final_figures_ready can become true.

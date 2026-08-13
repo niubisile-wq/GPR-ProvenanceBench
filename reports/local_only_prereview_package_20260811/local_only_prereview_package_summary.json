@@ -1,0 +1,17 @@
+{
+  "package": "local_only_prereview_package_20260811",
+  "local_prereview_ready": true,
+  "included_items": 3,
+  "excluded_formal_submission_items": 7,
+  "copied_package_files": 3,
+  "formal_submission_ready": false,
+  "portal_upload_allowed": false,
+  "external_manual_actions_required_for_formal_submission": true,
+  "submission_ready": false,
+  "qa_rows": 4,
+  "qa_pass": true,
+  "desktop_guide": "C:\\Users\\刘子轩\\Desktop\\NatComms_20260811_local_only_prereview_package.md",
+  "desktop_guide_exists": true,
+  "status": "local_only_prereview_package_ready_formal_submission_blocked",
+  "desktop_plan_updated": true
+}

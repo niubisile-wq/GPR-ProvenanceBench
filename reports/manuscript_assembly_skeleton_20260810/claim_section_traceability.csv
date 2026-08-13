@@ -1,0 +1,7 @@
+claim_id,manuscript_location,claim,evidence_status,prose_rule
+R1,Results paragraph 1; Methods M1/M7; Figure 1; Table 1,The executable local evidence set is bounded and auditable.,supported,"Use as study-design context, not performance evidence."
+R2,Results paragraph 2; Methods M2/M3/M7; Figure 2; Table 2,Res-SAM environment transfer exposes the strongest current cross-model generalization fragility.,supported,Lead the Results with this claim and include quantitative transfer drops.
+R3,Results paragraph 3; Methods M2/M3/M7; Figure 3; Table 2,Mojahid random-minus-grouped split inflation is directionally consistent but modest.,directional_only,Frame as secondary support; do not call it decisive leakage proof.
+R4,Results paragraph 4; Methods M4/M7; Figure 4,4TU fixed-split counterfactual sensitivity weakens under group-aware repeated splits.,stress_test,"Use as failure-mode and boundary evidence, not main confirmation."
+R5,Results paragraph 5; Methods M5/M7; Figure 5,4TU label and project structure constrain which tasks can support grouped evaluation.,supported_boundary,Report feasibility limits before any 4TU generalization claim.
+R6,Results paragraph 6; Methods M6/M7; Figure 6,External blind validation is protocol-ready but not complete.,open_gate,Write as a remaining gate only; no main-claim language.

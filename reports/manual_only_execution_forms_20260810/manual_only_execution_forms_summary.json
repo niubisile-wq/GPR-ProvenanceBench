@@ -1,0 +1,16 @@
+{
+  "package": "manual_only_execution_forms_20260810",
+  "manual_only_steps": 5,
+  "form_rows": 5,
+  "manifest_rows": 5,
+  "stop_rules": 4,
+  "ready_blank_forms": 5,
+  "filled_evidence_rows": 0,
+  "allowed_commands_now": 0,
+  "portal_upload_allowed": false,
+  "submission_ready": false,
+  "qa_rows": 4,
+  "qa_pass": true,
+  "status": "manual_only_execution_forms_ready_blank_waiting_real_actions",
+  "desktop_plan_updated": true
+}

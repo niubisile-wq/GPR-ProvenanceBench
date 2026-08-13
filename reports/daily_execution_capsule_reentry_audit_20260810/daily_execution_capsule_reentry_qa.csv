@@ -1,0 +1,4 @@
+check,result,detail
+all re-entry checks pass,PASS,passed=8; total=8
+no command execution is allowed,PASS,runnable_validation_rows=0
+submission remains false,PASS,submission_ready=False

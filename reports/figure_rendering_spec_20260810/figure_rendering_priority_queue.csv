@@ -1,0 +1,7 @@
+render_priority,figure_id,citation_label,reason,requires_user_backend_choice,ready_to_render_after_backend_choice
+1,Figure 2,Fig. 2,Lead result,yes,yes
+2,Figure 1,Fig. 1,The study separates executable local evidence from unresolved confirmation gates.,yes,yes
+3,Figure 3,Fig. 3,Mojahid split sensitivity is directionally consistent but modest and model-dependent.,yes,yes
+4,Figure 4,Fig. 4,4TU multi-layer counterfactual stress-test evidence remains a feasibility-boundary layer rather than main confirmation.,yes,yes
+5,Figure 5,Fig. 5,Current 4TU labels are insufficient for the main cross-model confirmation layer.,yes,yes
+6,Figure 6,Fig. 6,Blind external validation remains unavailable under the frozen protocol.,yes,yes

@@ -1,0 +1,6 @@
+check_id,check,current_state,passes_now,action_before_send
+DISPATCH-001,v2_bundle_summary_passed,qa_pass=True; files=19,yes,Use only the v2 bundle and do not substitute older zips.
+DISPATCH-002,desktop_and_report_zip_match,report_members=24; desktop_members=24; sha_match=True,yes,"If this fails, rebuild bundle v2 and manual sendout guard before sending."
+DISPATCH-003,recipient_routes_defined,route_rows=19; recipients=8,yes,Confirm the real recipients for each logical recipient role.
+DISPATCH-004,manual_sendout_guard_ready,qa_pass=True; manual_steps=9,yes,Follow the manual sendout execution guard in order.
+DISPATCH-005,send_log_still_not_sent,send_rows=5; not_sent_rows=5,yes,Fill send status only after real manual transmission.

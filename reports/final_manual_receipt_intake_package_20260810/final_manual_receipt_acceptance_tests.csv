@@ -1,0 +1,5 @@
+check,expected,current,passes_now
+19.48 imported,manual_action_rows=6,manual_action_rows=6,yes
+19.47 still blocks submission,final_submission_master_allowed=false,final_submission_master_allowed=False,yes
+all required receipts start incomplete,completed_receipt_rows=0,completed_receipt_rows=0,yes
+forbidden actions preserved,forbidden_submission_action_rows>=5,forbidden_submission_action_rows=5,yes

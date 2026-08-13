@@ -1,0 +1,2 @@
+inbox_id,linked_dispatch,folder,expected_return_file,allowed_next_validator,writeback_allowed_now
+FIG-RETURN-001,MD-002_main_figure_rendering,reports/python_figure_author_review_return_inbox_20260810/returned_author_review_files,filled python_figure_author_review_form.csv or equivalent author-marked review sheet,py scripts\build_python_figure_author_review_intake_validator.py,no

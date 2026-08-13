@@ -1,0 +1,5 @@
+rank,title,type,status,boundary
+1,Environment transfer exposes brittle generalization in ground-penetrating radar recognition,finding-led,most_defensible_current_title,Lead claim is Res-SAM environment transfer; external blind validation is not complete.
+2,A provenance-aware benchmark for evaluating ground-penetrating radar recognition,resource/method-led,fallback_if_framed_as_benchmark,Use if external validation remains open and the paper is downgraded to benchmark/resource framing.
+3,Source and environment structure reshape performance estimates in GPR image recognition,mechanism/phenomenon-led,balanced_scope,Avoids claiming completed mitigation or blind validation.
+4,Provenance-aware evaluation of GPR recognition under split and environment shifts,methods-led,conservative,Best if the manuscript emphasizes evaluation protocol rather than a standalone discovery.

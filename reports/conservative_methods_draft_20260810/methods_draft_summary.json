@@ -1,0 +1,10 @@
+{
+  "run_id": "20260810_conservative_methods_draft_v0_1",
+  "modules_traced": 7,
+  "methods_words": 760,
+  "qa_rows": 5,
+  "qa_pass": true,
+  "submission_ready": false,
+  "status": "methods_draft_ready_not_submission_final",
+  "boundary": "Methods v0.1 is reproducibility prose based on current modules; final Methods remain blocked by figures, repository identifiers, rights, Reporting Summary and external validation status."
+}

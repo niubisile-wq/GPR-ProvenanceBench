@@ -1,0 +1,5 @@
+guard,current,required,passes_now
+single_FMR_001_row_present,1,1,yes
+all_EDS_rows_sent_verified,0,5,no
+post_revalidation_unlock_confirmed,False,true,no
+FMR_001_writeback_allowed,False,true,no

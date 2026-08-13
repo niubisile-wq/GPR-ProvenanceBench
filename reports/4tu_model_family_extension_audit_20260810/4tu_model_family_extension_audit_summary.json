@@ -1,0 +1,14 @@
+{
+  "package": "4tu_model_family_extension_audit_20260810",
+  "evidence_layers": 5,
+  "matrix_rows": 63,
+  "decision_rows": 3,
+  "qa_rows": 5,
+  "qa_pass": true,
+  "upgrade_to_main_confirmation": false,
+  "allowed_use": "stress_test_and_feasibility_boundary",
+  "external_validation_closed": false,
+  "submission_ready": false,
+  "status": "4tu_model_family_extension_audit_ready_stress_test_only",
+  "desktop_plan_updated": true
+}

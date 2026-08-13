@@ -1,0 +1,4 @@
+paragraph_id,paragraph_job,target_words,sentence_contract,evidence_anchor,overclaim_guard
+C1,contribution,70,Restate that GPR-ProvenanceBench turns provenance-aware GPR evaluation into an auditable benchmark workflow.,R1/M1/M7 plus manuscript assembly skeleton,Do not say the benchmark is final or complete.
+C2,decisive current evidence,80,Name Res-SAM environment transfer as the strongest current cross-model result and Mojahid/4TU as bounded support.,R2 supported_current_main; R3 directional_only; R4 stress_test_supported,Do not describe Mojahid or 4TU as equal-strength confirmation.
+C3,implication and boundary,80,"End with the narrow implication: provenance-aware evaluation should precede claims of GPR generalization, while final submission still requires blind external validation and public release closure.",R6 open gate and assembly blockers,"Do not promise clinical, infrastructure or field deployment performance."

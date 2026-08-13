@@ -1,0 +1,5 @@
+rule_id,rule,evidence
+GT-NG-001,Do not execute route-specific validators as gate-closing commands before protected writeback is allowed.,writeback_allowed_rows=0
+GT-NG-002,Do not close any finalization gate while artifact evidence requirements remain open.,open_evidence_requirements=16
+GT-NG-003,Do not treat dashboard commands as executable while they remain blocked.,blocked_commands=8
+GT-NG-004,Do not perform portal upload or submission while portal upload rows are not ready.,portal_upload_ready_rows=0

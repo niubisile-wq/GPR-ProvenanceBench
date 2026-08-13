@@ -1,0 +1,6 @@
+check,result,detail
+all_routes_scanned,PASS,scanned=7; inbox_routes=7; handoff_routes=7
+all_canonical_folders_present,PASS,folders_missing=0
+no_invalid_return_file_extensions,PASS,rejected_extension_files=0
+empty_inbox_preserves_blocked_state,PASS,candidate_files=0; submission_ready=False
+no_automatic_writeback,PASS,all route writeback_allowed_now values must remain no

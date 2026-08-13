@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "protocol_present": true,
+  "manifest_checked": "D:\\百度网盘拉取包\\CNS1\\GPR-ProvenanceBench\\data_manifests\\external_blind_manifest_template_20260810.csv",
+  "strict_sha": false,
+  "asset_root": "",
+  "manifest_summary": {
+    "rows": 1,
+    "unique_sample_ids": 1,
+    "source_groups": [
+      "site_or_project_001"
+    ],
+    "asset_tracks": [
+      "third_party_blind"
+    ],
+    "modalities": [
+      "image"
+    ],
+    "target_tasks": [
+      "predeclared_task"
+    ],
+    "hash_verified_rows": 0
+  },
+  "issues": [],
+  "note": "PASS validates structure and blinding contract only; it does not mean a real blind external asset is available."
+}

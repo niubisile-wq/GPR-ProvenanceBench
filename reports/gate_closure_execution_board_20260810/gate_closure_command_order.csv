@@ -1,0 +1,8 @@
+order,command,purpose,run_now,execution_condition
+1,py scripts\build_post_dispatch_evidence_intake_validator.py,Re-evaluate real manual evidence after any worksheet target file is filled.,yes,safe diagnostic command only
+2,Run only branch validators whose blocked_now becomes no,Avoid running downstream commands on missing evidence.,no,only after relevant manual evidence row passes intake
+3,py scripts\build_natcomms_gate_closure_evidence_binder.py,Bind candidate closure to explicit evidence after branch validators pass.,no,only after relevant manual evidence row passes intake
+4,py scripts\build_natcomms_finalization_command_dashboard_v3.py,Refresh finalization status after evidence binder changes.,no,only after relevant manual evidence row passes intake
+5,py scripts\build_submission_completion_ledger.py,Refresh the top-level gate ledger.,no,only after relevant manual evidence row passes intake
+6,py scripts\build_post_evidence_safe_rerun_guard.py,Refresh this rerun guard after branch status changes.,yes,safe diagnostic command only
+7,powershell -ExecutionPolicy Bypass -File scripts\run_m0_m2_checks.ps1,Final full-chain verification after evidence-dependent packages are updated.,no,only after relevant manual evidence row passes intake

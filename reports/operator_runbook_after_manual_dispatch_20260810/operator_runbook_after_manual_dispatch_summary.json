@@ -1,0 +1,13 @@
+{
+  "package": "operator_runbook_after_manual_dispatch_20260810",
+  "quickstart_rows": 5,
+  "desktop_runbook": "C:\\Users\\刘子轩\\Desktop\\NatComms_人工证据填写与重跑说明_20260810.md",
+  "desktop_runbook_exists": true,
+  "qa_rows": 4,
+  "qa_pass": true,
+  "manual_evidence_written": false,
+  "branch_commands_safe_to_run_now": 0,
+  "submission_ready": false,
+  "status": "operator_runbook_ready_manual_evidence_not_entered",
+  "desktop_plan_updated": true
+}

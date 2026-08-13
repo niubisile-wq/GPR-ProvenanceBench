@@ -1,0 +1,16 @@
+{
+  "package": "manual_evidence_inbox_scaffold_20260810",
+  "inbox_root": "D:\\百度网盘拉取包\\CNS1\\GPR-ProvenanceBench\\manual_evidence_inbox_20260810",
+  "inbox_folders": 6,
+  "operator_steps": 3,
+  "stop_rules": 5,
+  "desktop_readme": "C:\\Users\\刘子轩\\Desktop\\NatComms_人工证据回收Inbox说明_20260810.md",
+  "desktop_readme_exists": true,
+  "qa_rows": 4,
+  "qa_pass": true,
+  "manual_evidence_written": false,
+  "evidence_rows_passed": 0,
+  "submission_ready": false,
+  "status": "manual_evidence_inbox_scaffold_ready_empty",
+  "desktop_plan_updated": true
+}

@@ -1,0 +1,5 @@
+check,result,detail
+safe-send task list imported,PASS,safe_send_rows=5
+metadata template has one row per EDS task,PASS,metadata_rows=5
+writeback is gated by complete evidence files,PASS,complete_metadata_rows=0; eds_writeback_allowed=False
+preflight does not alter submission state,PASS,portal_upload_allowed=false; submission_ready=false

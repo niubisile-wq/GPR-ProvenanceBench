@@ -1,0 +1,6 @@
+rule_id,rule
+STOP-001,Do not mark email_sent=true until a human records a real send timestamp and sender.
+STOP-002,Do not mark any attachment returned until the filled file path and return timestamp are recorded.
+STOP-003,Do not infer a figure backend from recommendations; require explicit author choice.
+STOP-004,Do not close a gate from replies alone; require matching artifact evidence and validator pass.
+STOP-005,"Do not assemble, upload or submit until full checks pass and submission_ready is explicitly true."

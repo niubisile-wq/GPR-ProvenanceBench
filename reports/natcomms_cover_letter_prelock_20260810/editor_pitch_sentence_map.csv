@@ -1,0 +1,4 @@
+pitch_job,sentence,status,boundary
+what_the_finding_is,"GPR-ProvenanceBench shows that source and environment structure can substantially reshape apparent GPR recognition generalization, with the strongest current evidence from Res-SAM real-world/synthetic transfer across five model families.",allowed_track_b,Do not call this completed blind external validation.
+what_is_new,"The work links dated asset manifests, grouped split logic, environment-transfer tests, model-family comparisons, counterfactual 4TU stress tests and explicit validation gates in one auditable workflow.",allowed_track_b,Do not claim repository DOI or final public release.
+why_it_matters,"The paper should interest geophysics, infrastructure sensing and machine-learning evaluation readers because it separates benchmark trust from dataset-source or processing-chain shortcuts.",allowed_track_b,Do not claim deployment robustness across all GPR settings.

@@ -1,0 +1,5 @@
+guard,current,required,passes_now
+single_FMR_002_row_present,1,1,yes
+all_four_author_decision_response_fields_resolved,0,4,no
+backend_selected_and_scope_confirmed,backend_selected=False; scope_confirmed=False,both true,no
+manual_evidence_final_intake_allowed,False,true,no

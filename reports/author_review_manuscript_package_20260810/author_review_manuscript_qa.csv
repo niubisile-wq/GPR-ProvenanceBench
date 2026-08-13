@@ -1,0 +1,6 @@
+check,result,detail
+Nat Comms abstract length,PASS,127 words; limit 150.
+Nat Comms main body budget,PASS,1942 words excluding title/abstract; approximate Article limit is 5000 including Methods.
+Blind external validation overclaim,PASS,Draft explicitly marks blind external validation as open/not completed.
+Repository/Reporting Summary non-final,PASS,Draft does not claim final repository identifiers or Reporting Summary.
+Citation markers not final,WARN,Candidate citation markers remain and require final reference conversion.

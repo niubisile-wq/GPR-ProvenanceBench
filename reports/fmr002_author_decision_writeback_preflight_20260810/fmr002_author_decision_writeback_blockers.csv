@@ -1,0 +1,4 @@
+blocker,evidence,blocks
+author decision response fields missing,ADC2-001;ADC2-002;ADC2-003;ADC2-004,FMR-002 writeback candidate
+figure backend/scope not selected,backend_selected=False; scope_confirmed=False,FMR-002 writeback candidate and figure rendering gate
+manual evidence final intake not allowed,blank_author_reply_fields=12; evidence_rows_passed=0,FMR-002 writeback candidate

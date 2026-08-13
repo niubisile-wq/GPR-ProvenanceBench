@@ -1,0 +1,8 @@
+module_id,module_title,role_in_results,draft_section,boundary
+M1,Executable asset boundary and unified sample manifests,"Supports R1, Figure 1 and Table 1.",Executable asset boundary and unified sample manifests,"This module defines asset status, not model performance."
+M2,Split and environment-transfer task construction,Supports R2 and R3.,Split and environment-transfer task construction,"Current split/transfer evidence covers Mojahid and Res-SAM, not true blind external validation."
+M3,Five-model family matrix,Supports main claim R2 and boundary claim R3.,Five-model family matrix,The first five-model matrix excludes 4TU and real blind external validation.
+M4,4TU raw-trace counterfactual stress tests,Supports R4.,4TU raw-trace counterfactual stress tests,"This is stress-test and feasibility-boundary evidence, not final causal proof, main confirmation or blind validation."
+M5,4TU target-level grouped feasibility audit,Supports R5.,4TU target-level grouped feasibility audit,"This module is a feasibility gate, not a model-comparison result."
+M6,Blind external validation protocol and locked evaluation template,Supports R6 as an open gate.,Blind external validation protocol and locked evaluation template,Protocol/template readiness does not constitute completed blind external validation.
+M7,Reproducibility checks and dated checkpoints,Supports reproducibility and gate reporting across all Results modules.,Reproducibility checks and dated checkpoints,Passing M0-M2 checks proves current artifacts regenerate; it does not close future G1-G6 scientific gates.

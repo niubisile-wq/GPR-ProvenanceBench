@@ -1,0 +1,6 @@
+rule_id,rule
+FIG-FINAL-STOP-001,Do not generate final candidates unless all six approval rows are approved.
+FIG-FINAL-STOP-002,Do not treat preview visual QA as final export QA.
+FIG-FINAL-STOP-003,Do not close final figure gate without final source-data panel mapping and caption lock.
+FIG-FINAL-STOP-004,Do not upload final candidates before portal preflight and full M0-M2 pass.
+FIG-FINAL-STOP-005,Do not use Figure 6 finalization to claim completed blind external validation.

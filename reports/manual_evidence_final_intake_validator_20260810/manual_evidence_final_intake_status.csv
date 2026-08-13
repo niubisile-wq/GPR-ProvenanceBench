@@ -1,0 +1,8 @@
+evidence_type,observed_evidence,intake_status,gate_effect,final_intake_allowed_now
+real_author_sendout,sent_rows=0; total_send_rows=5,missing,no_gate_closure,no
+returned_author_reply_files,returned_rows=0; total_return_rows=8,missing,no_gate_closure,no
+backend_and_scope_choice,backend_valid=False; scope_valid=False,missing,no_gate_closure,no
+external_blind_asset_payload,external_payload_files=0,missing,no_gate_closure,no
+rights_licence_decisions,rights_closed=False,missing,no_gate_closure,no
+reporting_summary_author_replies,reporting_replies=0; total_reporting_rows=4,missing,no_gate_closure,no
+reference_replacement_authorized,replacement_allowed_rows=0; total_replacement_rows=5,missing,no_gate_closure,no

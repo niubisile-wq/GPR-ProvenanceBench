@@ -1,0 +1,5 @@
+category,release_decision,reason,remaining_condition
+third_party_raw_gpr_files,exclude_by_default,Raw data redistribution requires original-provider permission.,Use citations/access instructions rather than bundling raw files unless explicit rights are available.
+filled_blind_label_files,exclude_until_policy_set,"Blind external labels may be held, restricted, or delayed depending on data-holder agreement.",Define release policy with data holder after main evaluation.
+local_absolute_path_records,exclude_or_sanitize,Local machine paths are not reusable and can leak private filesystem details.,Use relative paths or repository paths only.
+final_rendered_figures,include_after_creation,Figures do not exist yet.,"Render figures, QA outputs and panel-level Source Data first."

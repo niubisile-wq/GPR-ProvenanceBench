@@ -1,0 +1,15 @@
+{
+  "run_id": "20260810_narrative_section_drafts_v0",
+  "paragraphs": 12,
+  "sections": [
+    "Introduction",
+    "Discussion",
+    "Conclusion"
+  ],
+  "total_words": 885,
+  "citation_placeholders": 2,
+  "figure_table_placeholders": 1,
+  "overclaim_scan_status": "PASS",
+  "manuscript_ready": false,
+  "boundary": "V0 prose only; citations, final figure calls, repository identifiers and blind external validation remain open."
+}

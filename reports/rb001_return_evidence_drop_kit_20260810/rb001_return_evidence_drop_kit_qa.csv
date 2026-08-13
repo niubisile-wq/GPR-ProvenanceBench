@@ -1,0 +1,6 @@
+check,result,detail
+all_route_folders_exist,PASS,folders=7
+all_route_readmes_exist,PASS,readmes=7
+no_evidence_fabricated,PASS,candidate_return_files=0
+writeback_guard_preserved,PASS,writeback_allowed_rows=0
+desktop_guide_created,PASS,Desktop/RB001_return_evidence_drop_kit_20260810.md

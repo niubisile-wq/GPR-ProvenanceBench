@@ -1,0 +1,8 @@
+gate,current,required,passes_now
+real_files_present,0,>0,no
+receipt_rows_completed,0,>= scanner file rows and >0,no
+scanner_matches_receipt,0,all completed receipt rows,no
+hash_reconciliation_matches,0,all scanner file rows,no
+diagnostic_runner_recorded,0,0 after real file drop,no
+receipt_complete,False,true,no
+writeback_preflight_entry_allowed,False,true,no

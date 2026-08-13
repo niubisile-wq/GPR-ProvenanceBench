@@ -1,0 +1,5 @@
+confirmation_id,owner,question,blocks
+RS-C001,corresponding author,Confirm final figure set and whether Figure 1-Figure 6 or a reduced set will be used.,"Study design, randomization/split strategy, source-data mapping"
+RS-C002,analysis/statistics reviewer,Confirm whether the final paper reports descriptive metrics only or adds inferential tests/uncertainty intervals.,Statistical analysis Reporting Summary fields
+RS-C003,external data holder,"Confirm whether a real blind external asset exists, whether labels can be held back and whether aggregate metrics may be published.",Blinding and external validation fields
+RS-C004,repository/rights lead,"Confirm data DOI/accession, code DOI, licences and third-party redistribution boundaries.",Data availability and software/code availability fields

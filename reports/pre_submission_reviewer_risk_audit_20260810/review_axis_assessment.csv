@@ -1,0 +1,6 @@
+axis,status,evidence,risk
+originality,promising_not_final,Provenance-aware GPR evaluation workflow,Prior-work distinction not final without verified references.
+scientific_importance,promising_but_not_far_reaching_yet,Res-SAM environment-transfer fragility,External validation and broad implication are not yet established.
+interdisciplinary_readership,possible_but_needs_sharper_framing,"Links GPR, benchmark trust and environment shift",May read as field-internal without figure-led explanation.
+technical_soundness,internally_auditable_but_incomplete,M0-M2 checks and dated artifacts,"External validation, figures and DOI gates remain open."
+readability_for_nonspecialists,serviceable_needs_figures,Coherent author-review manuscript,Nonspecialist readers need workflow and result figures.

@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use these derived artifacts, please cite the associated manuscript and repository DOI once available."
+title: "GPR-ProvenanceBench: source-aware evaluation artifacts for ground-penetrating radar recognition"
+version: "2026-08-10-predeposit"
+date-released: "2026-08-10"
+authors:
+  - family-names: "Liu"
+    given-names: "Zixuan"
+keywords:
+  - "ground-penetrating radar"
+  - "provenance-aware evaluation"
+  - "environment transfer"
+  - "data leakage"
+  - "benchmark"
+license: "TBD"
+repository-code: "TBD"
+doi: "TBD"

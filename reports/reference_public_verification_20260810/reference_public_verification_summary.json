@@ -1,0 +1,16 @@
+{
+  "run_id": "20260810_reference_public_verification",
+  "candidate_rows": 6,
+  "current_manuscript_used_rows": 4,
+  "metadata_match_failures": 0,
+  "support_boundary_rows": 6,
+  "remaining_action_rows": 4,
+  "exports": [
+    "candidate_references_prelock.ris",
+    "candidate_references_prelock.enw"
+  ],
+  "final_references_ready": false,
+  "submission_ready": false,
+  "status": "reference_public_verification_ready_final_references_not_locked",
+  "boundary": "This package verifies public metadata and prelock exports only; it does not finalize numbered references or support mapping."
+}

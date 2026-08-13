@@ -1,0 +1,5 @@
+component,candidate_licence,decision_status,risk
+Code/scripts,MIT or BSD-3-Clause,needs_author_confirmation,Cannot archive code as reusable without an explicit software licence.
+Derived source-data CSV/JSON/Markdown,CC BY 4.0 or CC0 if permitted,needs_rights_review,Derived metadata may still reflect third-party data; redistribution boundaries must be checked.
+Third-party raw GPR data,provider licence only,exclude_by_default,Do not redistribute raw files without explicit provider permission.
+Rendered figures,same as article/source-data policy after journal decision,not_created,Figures cannot be deposited before rendering and panel-level source-data QA.

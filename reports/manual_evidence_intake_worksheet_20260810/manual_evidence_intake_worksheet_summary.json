@@ -1,0 +1,13 @@
+{
+  "package": "manual_evidence_intake_worksheet_20260810",
+  "worksheet_rows": 7,
+  "field_dictionary_rows": 6,
+  "dispatch_writeback_rows": 6,
+  "qa_rows": 4,
+  "qa_pass": true,
+  "manual_evidence_written": false,
+  "evidence_rows_passed": 0,
+  "submission_ready": false,
+  "status": "manual_evidence_intake_worksheet_ready_waiting_real_inputs",
+  "desktop_plan_updated": true
+}

@@ -1,0 +1,5 @@
+gate,current_state,passes_for_source_data_review,passes_for_final_source_data_lock
+final-candidate review packet,review_packet_ready=True,yes,no
+source files,figures_mapped=6; missing_source_files=0,yes,no
+repository identifier,repository_identifier=None,yes,no
+lock requirements,requirements=4; all_pass_now=False,yes,no

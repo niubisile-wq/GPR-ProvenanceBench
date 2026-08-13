@@ -1,0 +1,7 @@
+panel,dataset,model,split,metric,mean,std,min,max,n_runs,interpretation
+Figure 3A,Mojahid,HOG + RBF-SVM,random_stratified_80_20,accuracy,0.958,0.0051,0.9525,0.9644,5,random split higher
+Figure 3A,Mojahid,HOG + RBF-SVM,random_stratified_80_20,balanced_accuracy,0.9543,0.0049,0.9489,0.9603,5,random split higher
+Figure 3A,Mojahid,HOG + RBF-SVM,random_stratified_80_20,macro_f1,0.9546,0.0051,0.9492,0.9614,5,random split higher
+Figure 3A,Mojahid,HOG + RBF-SVM,grouped_fold_0_test_fold_1_val,accuracy,0.8669,0.0,0.8669,0.8669,5,grouped split lower
+Figure 3A,Mojahid,HOG + RBF-SVM,grouped_fold_0_test_fold_1_val,balanced_accuracy,0.8566,0.0,0.8566,0.8566,5,grouped split lower
+Figure 3A,Mojahid,HOG + RBF-SVM,grouped_fold_0_test_fold_1_val,macro_f1,0.8579,0.0,0.8579,0.8579,5,grouped split lower

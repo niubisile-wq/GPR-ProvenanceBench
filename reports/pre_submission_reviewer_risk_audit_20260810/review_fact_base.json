@@ -1,0 +1,7 @@
+{
+  "input_scope": "Author-review manuscript package v0.1 with title, abstract, Introduction, Results, Discussion, Methods and Conclusion.",
+  "assessment_boundary": "No rendered figures, no real blind external validation, no repository/code DOI, no rights clearance, no final Reporting Summary and no final Nature-style references.",
+  "shared_claim": "GPR-ProvenanceBench argues that environment and provenance structure can reshape apparent GPR recognition generalization, with Res-SAM environment transfer as the current main signal and Mojahid/4TU as bounded secondary and stress-test evidence.",
+  "visible_evidence": "Mojahid/4TU/Res-SAM manifests, five-model Mojahid/Res-SAM synthesis, Res-SAM transfer deltas, Mojahid grouped-vs-random contrast, 4TU counterfactual stress tests and feasibility audit, and a blind external protocol dry run.",
+  "missing_materials": "Rendered figures, independent held-label external asset, final repository identifiers, final rights decision, final Reporting Summary and final references."
+}

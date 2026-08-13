@@ -1,0 +1,5 @@
+check,result,detail
+capsule includes required six status items,PASS,capsule_items=6
+manual action queue remains five,PASS,manual_action_queue_rows=5
+no runnable validation rows,PASS,runnable_validation_rows=0
+submission remains false,PASS,submission_ready=False

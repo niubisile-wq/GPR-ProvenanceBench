@@ -1,0 +1,5 @@
+title_id,title,type,recommendation,boundary
+TB-T1,Environment transfer exposes fragile generalization in ground-penetrating-radar recognition,finding_led,recommended_current_default,Finding-led but bounded to current executable evidence; does not imply completed external validation.
+TB-T2,GPR-ProvenanceBench audits benchmark trust under environment transfer,resource_plus_argument,strong_track_b_alternative,Emphasizes benchmark/resource contribution and avoids external generalization wording.
+TB-T3,Auditing provenance sensitivity in ground-penetrating-radar recognition benchmarks,workflow_led,conservative_low_risk,Most conservative; weaker hook but lowest overclaim risk.
+TB-T4,Environment-aware evaluation reveals brittle GPR recognition across model families,broad_interest,use_only_if_figures_support_visual_hierarchy,Requires Figure 2 to remain dominant and no external-validation wording.

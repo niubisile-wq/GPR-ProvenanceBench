@@ -1,0 +1,6 @@
+check,result,detail
+affected_portal_items_indexed,PASS,overlay_rows=4
+preview_state_imported,PASS,preview=6; review_ready=6
+final_upload_blocked,PASS,final_figures_ready=False
+portal_upload_still_blocked,PASS,portal_upload_ready=False; submission_ready=False
+source_data_and_caption_locks_absent,PASS,source_data_panel_map_locked=False; captions_locked_final=False

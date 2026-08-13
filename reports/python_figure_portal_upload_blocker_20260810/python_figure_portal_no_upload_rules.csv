@@ -1,0 +1,6 @@
+rule_id,rule
+FIG-PORTAL-STOP-001,Do not upload preview PNG/PDF/SVG files as final display figures.
+FIG-PORTAL-STOP-002,Do not upload final candidates without final export QA and full M0-M2 pass.
+FIG-PORTAL-STOP-003,Do not upload Source Data until panel maps match final rendered figures.
+FIG-PORTAL-STOP-004,Do not upload the main manuscript until figure captions and figure callouts are final.
+FIG-PORTAL-STOP-005,Do not let Figure 6 upload language imply completed blind external validation.

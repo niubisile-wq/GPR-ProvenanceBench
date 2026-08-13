@@ -1,0 +1,6 @@
+blocker,evidence,blocks
+RB-001 bridge does not allow RB-002,rb002_entry_allowed=False; rb001_closed=False,all RB-002 writeback entry
+writeback preflight has no allowed rows,writeback_allowed_rows=0; evidence_writeback_performed=False,protected writeback receipt completion
+RB-002 dashboard not ready,rb002_ready=False; rb002_ready_rows=0,RB-002 entry
+protected writeback receipt incomplete,completed_receipt_rows=0; writeback_allowed_rows=0,transition entry
+RB-002 receipt completion blocked,receipt_complete=False; transition_entry_allowed=False,transition execution

@@ -1,0 +1,5 @@
+blocker,evidence,blocks
+19.43 gate bridge blocks manual closeout,gate_closure_allowed=False; portal_upload_ready=False,post-gate manual closeout
+post-dispatch evidence missing,evidence_rows_passed=0; evidence_rows_missing=7,branch validation commands
+manual evidence not written,worksheet_manual_evidence_written=False; entry_manual_evidence_written=False,manual evidence writeback and safe rerun
+safe rerun guard has zero runnable branch commands,branch_commands_safe_to_run_now=0; commands_executed=False,rerun execution and submission-ready state

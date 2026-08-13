@@ -1,0 +1,6 @@
+check,result,detail
+all_manuscript_candidate_ids_in_library,PASS,P1;P4;P5;P2
+ris_export_exists,PASS,<REPO_ROOT>\reports\narrative_citation_pass_20260810\references_narrative_citation_pass.ris
+html_browser_exists,PASS,<REPO_ROOT>\reports\narrative_citation_pass_20260810\citation_pass_browser.html
+final_numbered_references_not_claimed,PASS,This package is prelock only and does not replace candidate markers.
+manual_verification_required,PASS,Every candidate row remains marked for manual verification.

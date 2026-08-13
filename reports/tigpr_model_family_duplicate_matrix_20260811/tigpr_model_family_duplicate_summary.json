@@ -1,0 +1,148 @@
+{
+  "run_id": "20260811_E15_tigpr_model_family_duplicate_matrix",
+  "n_samples": 7169,
+  "label_counts": {
+    "Crack": 1224,
+    "Interlayer_bonding_deficiency": 2020,
+    "Loose": 2100,
+    "No_damage": 1520,
+    "Void": 305
+  },
+  "seeds": [
+    20260811,
+    20260812,
+    20260813,
+    20260814,
+    20260815
+  ],
+  "material_delta_threshold": 0.05,
+  "model_family_summary": [
+    {
+      "model_family": "hog_logistic_sgd",
+      "random_balanced_accuracy": {
+        "mean": 0.7313719312890242,
+        "std": 0.019166648636928796,
+        "min": 0.7131145921066724,
+        "max": 0.7620274440942711
+      },
+      "group_balanced_accuracy": {
+        "mean": 0.6776801095792974,
+        "std": 0.013633683661613062,
+        "min": 0.6548675795832194,
+        "max": 0.6905910712676746
+      },
+      "random_minus_group_balanced_accuracy": {
+        "mean": 0.05369182170972706,
+        "std": 0.016205460665762898,
+        "min": 0.04034108395424085,
+        "max": 0.07969040205260047
+      },
+      "directional_support": true,
+      "material_support": true
+    },
+    {
+      "model_family": "pixel_logistic_sgd",
+      "random_balanced_accuracy": {
+        "mean": 0.47520285531925205,
+        "std": 0.021254306330126017,
+        "min": 0.45080552088594433,
+        "max": 0.5075955720450988
+      },
+      "group_balanced_accuracy": {
+        "mean": 0.40088362348039325,
+        "std": 0.016226592235285536,
+        "min": 0.3791567104946538,
+        "max": 0.41390596250803346
+      },
+      "random_minus_group_balanced_accuracy": {
+        "mean": 0.07431923183885886,
+        "std": 0.021194533820806546,
+        "min": 0.04059948676781816,
+        "max": 0.09368960953706529
+      },
+      "directional_support": true,
+      "material_support": true
+    },
+    {
+      "model_family": "metadata_logistic_sgd",
+      "random_balanced_accuracy": {
+        "mean": 0.6175493082649817,
+        "std": 0.020759232533109254,
+        "min": 0.5878749876581221,
+        "max": 0.6385692439355397
+      },
+      "group_balanced_accuracy": {
+        "mean": 0.6416884055695761,
+        "std": 0.03319494022626427,
+        "min": 0.6082422100241548,
+        "max": 0.6783619686263436
+      },
+      "random_minus_group_balanced_accuracy": {
+        "mean": -0.024139097304594535,
+        "std": 0.0201768824674357,
+        "min": -0.04185026895097843,
+        "max": -0.0008666593032641279
+      },
+      "directional_support": false,
+      "material_support": false
+    },
+    {
+      "model_family": "hog_metadata_logistic_sgd",
+      "random_balanced_accuracy": {
+        "mean": 0.7749439143224073,
+        "std": 0.011427435071017534,
+        "min": 0.7552687147181377,
+        "max": 0.7839675849837453
+      },
+      "group_balanced_accuracy": {
+        "mean": 0.719191492289533,
+        "std": 0.01344283532732981,
+        "min": 0.6981438124201065,
+        "max": 0.7344106686995716
+      },
+      "random_minus_group_balanced_accuracy": {
+        "mean": 0.05575242203287423,
+        "std": 0.0038295104584086448,
+        "min": 0.04955691628417369,
+        "max": 0.059355425851529975
+      },
+      "directional_support": true,
+      "material_support": true
+    },
+    {
+      "model_family": "hog_extra_trees",
+      "random_balanced_accuracy": {
+        "mean": 0.7860170334478113,
+        "std": 0.016451760638051052,
+        "min": 0.7622546260322357,
+        "max": 0.8082325685466012
+      },
+      "group_balanced_accuracy": {
+        "mean": 0.7037421455674522,
+        "std": 0.004727603671208886,
+        "min": 0.6981275355901652,
+        "max": 0.7085715604780088
+      },
+      "random_minus_group_balanced_accuracy": {
+        "mean": 0.08227488788035908,
+        "std": 0.016503686686594854,
+        "min": 0.06412709044207054,
+        "max": 0.10871773455656031
+      },
+      "directional_support": true,
+      "material_support": true
+    }
+  ],
+  "claim_summary": {
+    "dataset": "tigpr",
+    "contrast": "random_minus_hash_group_balanced_accuracy",
+    "n_model_families": 5,
+    "directional_support_count": 4,
+    "material_support_count": 4,
+    "delta_mean_across_models": 0.04837985323144493,
+    "delta_min": -0.024139097304594535,
+    "delta_max": 0.08227488788035908,
+    "claim_status": "supported"
+  },
+  "claim_boundary": "Restored-local TIGPR model-family duplicate test; not blind external validation."
+}

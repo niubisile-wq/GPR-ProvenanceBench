@@ -1,0 +1,5 @@
+check,result,detail
+six_dispatch_actions_indexed,PASS,action_rows=6
+desktop_guide_created,PASS,<LOCAL_DESKTOP>\\NatComms_今日人工动作最小包_20260810.md
+no_done_state_claimed,PASS,Action packet is instruction-only.
+dispatch_state_preserved,PASS,email_sent=False; submission_ready=False

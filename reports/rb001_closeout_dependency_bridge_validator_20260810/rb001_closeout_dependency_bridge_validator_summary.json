@@ -1,0 +1,20 @@
+{
+  "package": "rb001_closeout_dependency_bridge_validator_20260810",
+  "return_tracker_to_rb001_ready": false,
+  "rb001_drop_allowed": false,
+  "hash_manifest_ready": false,
+  "receipt_closeout_allowed": false,
+  "receipt_complete": false,
+  "receipt_validator_allows_writeback_preflight": false,
+  "rb001_closed": false,
+  "rb001_closeout_allowed": false,
+  "writeback_preflight_allowed": false,
+  "rb002_entry_allowed": false,
+  "candidate_return_files": 0,
+  "writeback_allowed_rows": 0,
+  "submission_ready": false,
+  "qa_rows": 5,
+  "qa_pass": true,
+  "status": "rb001_closeout_dependency_bridge_validator_ready_blocked_upstream_missing",
+  "desktop_plan_updated": true
+}

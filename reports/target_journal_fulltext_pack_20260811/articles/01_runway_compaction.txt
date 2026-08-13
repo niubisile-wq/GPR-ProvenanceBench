@@ -1,0 +1,52 @@
+Title: Non-destructive compaction quality evaluation of runway construction based on GPR data
+DOI: 10.1080/10589759.2023.2255363
+Source URL: https://www.tandfonline.com/doi/full/10.1080/10589759.2023.2255363
+Final URL: https://www.tandfonline.com/doi/full/10.1080/10589759.2023.2255363
+Page title: Non-destructive compaction quality evaluation of runway construction based on GPR data: Nondestructive Testing and Evaluation: Vol 39 , No 6 - Get Access
+H1: Non-destructive compaction quality evaluation of runway construction based on GPR data
+Status: ok
+
+ABSTRACT
+
+Assessing the compaction quality of rockfill materials is an essential link in the runway construction. However, traditional on-site limited sampling detection is not only time-consuming and labour-intensive, but also destructive. Common ground penetrating radar (GPR) calculates the relative permittivity of a material by measuring its thickness. Nonetheless, assessing the thickness of runway construction materials poses a significant challenge. To address this challenge, this paper focuses on the Hilbert -Huang transform (HHT) analysis of GPR signal of different compacting materials, and then replaces the traditional method of calculating the relative permittivity by measuring the thickness of materials. At the same time, taking the runway as an example, this work verified a crest factor (CF) index effectiveness in predicting the relative compaction of rockfill material through HHT analysis of GPR signals collected in the field, with an average error rate of 4.03%. Finally, Kriging interpolation method is used to estimate the compaction quality of any point, and the corresponding heat map of compaction quality evaluation is generated to determine the area of insufficient compaction in the construction process.
+
+Highlights
+
+The GPR method is used for non-destructive testing of the compaction quality of runway rockfill materials;
+
+Compaction quality evaluation by multiple indicators of GPR data signal processing.
+
+The influence of number of roller passes, materials mix ratios and different rockfill materials on the compaction quality of runway are analysed.
+
+The applicability of the GPR method is verified by runway construction tests.
+
+KEYWORDS:
+
+Runwayrockfill compaction evaluationnon-destructive testingground penetrating radarHilbert-huang transformKriging interpolation
+Acknowledgments
+
+We gratefully acknowledge Yong Zhang, Yan Wang, and Xiaojin Xiao of Wuhan Municipal Construction Group Co., Ltd. for their strong support in the project, and Rao Li, Ying Liu, and Jiaxi Chen et al. of Huazhong University of Science and Technology for their great help in the experiments.
+
+Disclosure statement
+
+No potential conflict of interest was reported by the author(s).
+
+Authors’ contributions
+
+Cheng Zhou: Provided financial and equipment support, overall research ideas and technical routes, guidance for writing and revising paper. Ji Lu: Provided equipment support, advised on experiments. Lili Cheng: Performed experiments, designed algorithms, wrote the paper, revised the paper.
+
+Availability of data and material
+
+The datasets generated and analysed in the current study are available from the corresponding author on reasonable request. The images in this article do not cite other people’s work, in accordance with the licence of the paper.
+
+Consent for publication
+
+The Author certifies that the work described has not been published before (except in the form of an abstract or as part of a published lecture, review, or thesis); that it is not under consideration for publication elsewhere; that its publication has been approved by all co-authors. Copyright in the English language article is transferred to Springer effective when the article is accepted for publication. The author warrants that his/her contribution is original and that he/she has full authority to make this grant. The author signs for and accepts responsibility for the release of this material on behalf of all co-authors.
+
+Ethics approval and consent to participate
+
+No live vertebrate and/or higher invertebrate experiments are included in the report and are subject to ethical approval and consent.
+
+Additional information
+Funding
+This work is partly supported by “National Natural Science Foundation of China” (Grant nos. 52192664), “National Natural Science Foundation of China” (Grant No. 72171092), “National Natural Science Foundation of China” (Grant No. 71821001) and “The Major Science and Technology Project in Hubei Province, China: Key Technologies and Applications of Intelligent Construction” (2020ACA006).

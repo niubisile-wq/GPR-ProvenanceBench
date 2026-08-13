@@ -1,0 +1,17 @@
+{
+  "package": "manual_evidence_lifecycle_dashboard_20260810",
+  "lifecycle_stages": 7,
+  "blocker_rows": 4,
+  "next_action_rows": 5,
+  "qa_rows": 4,
+  "qa_pass": true,
+  "manual_actions_executed": false,
+  "candidate_evidence_files": 0,
+  "writeback_allowed_rows": 0,
+  "evidence_rows_passed": 0,
+  "branch_commands_safe_to_run_now": 0,
+  "gate_closure_allowed": false,
+  "submission_ready": false,
+  "status": "manual_evidence_lifecycle_dashboard_ready_waiting_manual_execution",
+  "desktop_plan_updated": true
+}

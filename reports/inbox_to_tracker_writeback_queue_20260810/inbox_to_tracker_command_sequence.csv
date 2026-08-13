@@ -1,0 +1,5 @@
+order,command,purpose,run_now
+1,py scripts\build_manual_evidence_inbox_audit.py,"Refresh inbox file counts, checksums and sensitive-name scan after files are dropped.",yes
+2,manual worksheet writeback,Fill only mapped fields for rows whose writeback_allowed_now is manual_review_required.,no
+3,py scripts\build_post_dispatch_evidence_intake_validator.py,Confirm written tracker evidence is accepted before branch validators.,yes
+4,run branch validators listed by post-dispatch next commands,Run only rows whose blocked_now becomes no.,no

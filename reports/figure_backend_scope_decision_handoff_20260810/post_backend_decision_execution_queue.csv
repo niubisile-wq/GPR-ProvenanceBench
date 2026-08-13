@@ -1,0 +1,6 @@
+order,command_or_action,condition,expected_output,stop_rule
+1,Fill figure_backend_decision_ticket.csv,Author/corresponding author chooses exactly one backend and one figure scope.,current_choice fields contain allowed values.,Do not render figures while either field is blank.
+2,py scripts\build_figure_backend_decision_validator.py,Ticket has been manually filled.,rendering_allowed=true only if backend and scope are valid.,"If rendering_allowed=false, return to ticket; do not start rendering."
+3,Run formal figure workflow using the chosen backend only,rendering_allowed=true.,"Figure exports, previews and visual QA artifacts.",Do not mix Python and R output families.
+4,Rebuild figure source-data lock and Nat Comms preassembly,Figures are rendered and visually QAed.,Final panel-level Source Data and manuscript/SI crosswalks.,Do not mark final figures ready before source-data and caption boundary QA pass.
+5,Rerun .\scripts\run_m0_m2_checks.ps1,All figure artifacts are regenerated.,M0-M2 checks completed.,"Any failed encoding, source-data or boundary check blocks submission."

@@ -1,0 +1,7 @@
+item,current_value,status,interpretation
+single_handoff_entry,<LOCAL_DESKTOP>\\NatComms_19.90_daily_execution_status_capsule_20260810.md,ready,Open this capsule first for the current state.
+human_action_queue,5,open,Only these external/manual actions can move the project forward.
+runnable_validation_queue,0,blocked,No validation command is allowed until real evidence and MOF forms are complete.
+manual_receipts_complete,0,blocked,FMR receipt completion is still zero.
+handoff_acceptance,true,ready,The brief is safe to hand to a human; actions are not executed.
+submission_ready,false,blocked,Portal upload and submission remain prohibited.

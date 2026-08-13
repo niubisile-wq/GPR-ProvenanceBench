@@ -1,0 +1,16 @@
+{
+  "run_id": "20260810_natcomms_admin_declarations_prelock",
+  "official_source_rows": 3,
+  "title_page_fields": 6,
+  "author_contribution_rows": 8,
+  "declaration_rows": 6,
+  "cover_letter_crosscheck_rows": 7,
+  "reviewer_suggestion_rows": 4,
+  "editorial_policy_decision_rows": 3,
+  "qa_rows": 6,
+  "qa_pass": true,
+  "admin_declarations_final": false,
+  "submission_ready": false,
+  "status": "natcomms_admin_declarations_prelock_ready_not_final",
+  "boundary": "Administrative declarations are prelocked for author intake only; author details, competing interests, acknowledgements, DOI/rights, Reporting Summary, references, figures and blind external validation remain open."
+}

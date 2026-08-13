@@ -1,0 +1,6 @@
+rule_id,rule
+FIG-INTAKE-STOP-001,Do not treat blank approvals as approval.
+FIG-INTAKE-STOP-002,Do not proceed if any author requests revision or rejects claim framing.
+FIG-INTAKE-STOP-003,Do not generate final candidates until all six figures are approved.
+FIG-INTAKE-STOP-004,Do not close final figure gate without final export QA and caption lock.
+FIG-INTAKE-STOP-005,Do not use Figure 6 approval to claim completed blind external validation.

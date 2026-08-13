@@ -1,0 +1,14 @@
+{
+  "run_id": "20260810_track_b_manuscript_branch_prelock",
+  "current_applicable_branch": "TRACK-B",
+  "title_candidates": 4,
+  "abstract_words": 130,
+  "claim_role_rows": 6,
+  "forbidden_upgrade_rows": 7,
+  "section_action_rows": 4,
+  "qa_rows": 5,
+  "qa_pass": true,
+  "submission_ready": false,
+  "status": "track_b_manuscript_branch_prelock_ready_not_submission_final",
+  "boundary": "This package locks Track B branch wording and boundaries; it does not finalize manuscript, figures, references, DOI, rights or Reporting Summary."
+}

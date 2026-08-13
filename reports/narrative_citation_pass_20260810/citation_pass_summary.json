@@ -1,0 +1,12 @@
+{
+  "run_id": "20260810_narrative_citation_pass",
+  "scope": "local Nature Communications candidates",
+  "candidate_count": 6,
+  "segment_count": 9,
+  "strong_or_strong_background_segments": 2,
+  "partial_or_internal_segments": 6,
+  "reference_export": "reports\\narrative_citation_pass_20260810\\references_narrative_citation_pass.ris",
+  "browser": "reports\\narrative_citation_pass_20260810\\citation_pass_browser.html",
+  "status": "citation_mapping_ready_not_final_references",
+  "boundary": "Use as a conservative citation placement guide; final prose, figure numbering and repository identifiers remain open."
+}

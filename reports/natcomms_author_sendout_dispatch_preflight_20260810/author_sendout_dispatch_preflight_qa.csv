@@ -1,0 +1,6 @@
+check,result,detail
+bundle_v2_manifest_complete,PASS,manifest_rows=19
+zip_copies_match,PASS,zip_sha_match=True; report_members=24; desktop_members=24
+recipient_dispatch_sheet_ready,PASS,recipient_rows=8
+send_log_preserves_not_sent_state,PASS,send_rows=5; not_sent_rows=5
+guard_inputs_indexed,PASS,guard_rows=9; guard_qa_pass=True

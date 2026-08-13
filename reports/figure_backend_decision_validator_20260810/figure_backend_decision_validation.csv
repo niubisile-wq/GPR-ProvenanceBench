@@ -1,0 +1,5 @@
+item,current_value,allowed_values,decision,issue
+backend_choice,Python,Python; R,pass,
+figure_scope,Figure 1-Figure 6,Figure 1-Figure 6; reduced display set with SI relocation,pass,
+source_preflight,ready=True; missing_sources=0,ready=true; missing_sources=0,pass,
+rendered_figures_boundary,0,0 before formal rendering,pass,

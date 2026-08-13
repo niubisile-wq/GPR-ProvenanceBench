@@ -1,0 +1,14 @@
+{
+  "package": "manual_evidence_entry_preflight_20260810",
+  "worksheet_rows": 7,
+  "target_preflight_rows": 7,
+  "field_constraint_rows": 14,
+  "blocker_rows": 7,
+  "qa_rows": 4,
+  "qa_pass": true,
+  "manual_evidence_written": false,
+  "branch_commands_safe_to_run_now": 0,
+  "submission_ready": false,
+  "status": "manual_evidence_entry_preflight_ready_waiting_real_evidence",
+  "desktop_plan_updated": true
+}

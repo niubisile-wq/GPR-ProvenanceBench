@@ -1,0 +1,16 @@
+{
+  "package": "manual_only_execution_forms_validation_20260810",
+  "form_rows": 5,
+  "validated_form_rows": 0,
+  "incomplete_form_rows": 5,
+  "missing_required_field_cells": 35,
+  "evidence_paths_existing": 0,
+  "allowed_downstream_validators": 0,
+  "allowed_commands_now": 0,
+  "portal_upload_allowed": false,
+  "submission_ready": false,
+  "qa_rows": 4,
+  "qa_pass": true,
+  "status": "manual_only_execution_forms_validation_blocked_waiting_real_form_evidence",
+  "desktop_plan_updated": true
+}

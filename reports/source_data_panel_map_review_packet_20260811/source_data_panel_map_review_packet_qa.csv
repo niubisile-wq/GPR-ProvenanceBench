@@ -1,0 +1,5 @@
+check,result,detail
+six figure Source Data rows mapped,PASS,figures_mapped=6
+no source files missing,PASS,missing_source_files=0
+final Source Data lock remains blocked,PASS,lock requirements intentionally not satisfied before final figures
+repository identifier remains absent,PASS,repository_identifier=None

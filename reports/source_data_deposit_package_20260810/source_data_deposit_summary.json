@@ -1,0 +1,9 @@
+{
+  "run_id": "20260810_source_data_deposit_package",
+  "indexed_files": 53,
+  "mapping_rows": 9,
+  "has_checksums": true,
+  "repository_identifier": null,
+  "submission_ready": false,
+  "boundary": "Derived source-data deposit skeleton only; final rendered figures, DOI/accession and licence are missing."
+}

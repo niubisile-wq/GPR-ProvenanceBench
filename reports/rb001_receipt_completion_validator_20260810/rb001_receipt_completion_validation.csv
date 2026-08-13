@@ -1,0 +1,8 @@
+receipt_id,route_id,receipt_row_complete,scanner_manifest_match,hash_reconciliation_match,diagnostic_returncode_recorded_zero,writeback_claim_safe,receipt_ready_for_writeback_preflight,blocker
+RB001-REC-001,RTE-001,no,no,no,no,yes,no,"missing real file, completed receipt fields, scanner match or hash/source reconciliation"
+RB001-REC-002,RTE-002,no,no,no,no,yes,no,"missing real file, completed receipt fields, scanner match or hash/source reconciliation"
+RB001-REC-003,RTE-003,no,no,no,no,yes,no,"missing real file, completed receipt fields, scanner match or hash/source reconciliation"
+RB001-REC-004,RTE-004,no,no,no,no,yes,no,"missing real file, completed receipt fields, scanner match or hash/source reconciliation"
+RB001-REC-005,RTE-005,no,no,no,no,yes,no,"missing real file, completed receipt fields, scanner match or hash/source reconciliation"
+RB001-REC-006,RTE-006,no,no,no,no,yes,no,"missing real file, completed receipt fields, scanner match or hash/source reconciliation"
+RB001-REC-007,RTE-007,no,no,no,no,yes,no,"missing real file, completed receipt fields, scanner match or hash/source reconciliation"

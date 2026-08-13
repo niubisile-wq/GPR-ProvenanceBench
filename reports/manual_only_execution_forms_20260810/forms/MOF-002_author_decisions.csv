@@ -1,0 +1,2 @@
+execution_step,primary_fmr,performed_by,performed_at_local_time,evidence_file_or_folder,evidence_sha256,source_channel,counterparty_or_owner,decision_or_return_summary,sensitive_content_checked,validator_ran,validator_result,notes
+FEB-002 author_decisions,FMR-002,,,,,,,,not_checked,no,not_run,

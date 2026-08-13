@@ -1,0 +1,17 @@
+{
+  "package": "human_execution_handoff_acceptance_checklist_20260810",
+  "acceptance_rows": 5,
+  "execution_acceptance_rows": 6,
+  "stop_rules": 5,
+  "qa_rows": 4,
+  "qa_pass": true,
+  "desktop_zip_exists": true,
+  "zip_members": 12,
+  "manifest_rows": 12,
+  "manual_actions_executed": false,
+  "candidate_evidence_files": 0,
+  "evidence_rows_passed": 0,
+  "submission_ready": false,
+  "status": "human_execution_handoff_acceptance_ready_not_executed",
+  "desktop_plan_updated": true
+}

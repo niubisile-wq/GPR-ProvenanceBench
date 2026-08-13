@@ -1,0 +1,17 @@
+{
+  "run_id": "20260810_repository_release_manifest_lock",
+  "locked_candidate_files": 37,
+  "locked_categories": 7,
+  "source_data_manifest_rows": 53,
+  "exclusion_rows": 4,
+  "rights_blocker_rows": 4,
+  "availability_crosswalk_rows": 5,
+  "qa_rows": 4,
+  "qa_pass": true,
+  "repository_doi_created": false,
+  "code_doi_created": false,
+  "public_release_ready": false,
+  "submission_ready": false,
+  "status": "repository_release_manifest_lock_ready_release_not_public",
+  "boundary": "This package locks predeposit candidates and release blockers; it does not create DOI, licence, rights clearance or a public release."
+}

@@ -1,0 +1,6 @@
+panel,evidence_layer,model_family,aggregate_rows,strongest_target,strongest_variant,strongest_delta_mean,claim_use,upgrade_to_main_confirmation,figure4_allowed_role,boundary_note
+Figure 4 boundary inset,summary_feature_fixed_split,summary_feature_classifiers,7,Land type,log_clip,-0.38571428571428573,stress_test_only,False,stress-test boundary layer,Uses hand-engineered trace summary features under a fixed split.
+Figure 4 boundary inset,raw_pixel_fixed_split,rawtrace_pixel_classifiers,14,Land cover,amplitude_jitter,0.0,stress_test_only,False,stress-test boundary layer,Uses rendered raw-trace pixels under a fixed split.
+Figure 4 boundary inset,hog_seed_sweep_fixed_split,hog_image_classifiers,21,Land type,log_clip,-0.33928571428571425,stress_test_only,False,stress-test boundary layer,Repeats model seeds but keeps the split fixed.
+Figure 4 boundary inset,small_cnn_seed_sweep_fixed_split,small_cnn,7,Land type,log_clip,-0.14190476190476192,stress_test_only,False,stress-test boundary layer,CPU-scale CNN seed sweep; currently limited to Land type.
+Figure 4 boundary inset,hog_group_aware_repeated_split,hog_group_aware_classifiers,14,Land type,remove_top_band,-0.0625,feasibility_boundary,False,stress-test boundary layer,Group-aware repeated splits weaken the fixed-split effect and remain label-limited.

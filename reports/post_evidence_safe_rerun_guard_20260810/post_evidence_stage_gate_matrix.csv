@@ -1,0 +1,5 @@
+stage,stage_name,allowed_action,blocked_action,current_state
+S0,before_manual_evidence_entry,Read worksheets and dispatch packets only.,Do not run downstream ingestion/rendering/release finalization.,active
+S1,after_partial_manual_evidence_entry,Run post-dispatch evidence intake validator to identify which branch is unlocked.,Do not run full finalization commands for branches whose evidence is still missing.,waiting
+S2,after_branch_evidence_passes,Run only the branch validator listed for the passed evidence row.,Do not close gates until evidence binder and finalization dashboard pass.,waiting
+S3,after_all_branch_validators_pass,"Run gate binder, finalization dashboard, completion ledger and full M0-M2.",Do not portal-upload until portal_upload_ready=true and submission_ready=true.,waiting

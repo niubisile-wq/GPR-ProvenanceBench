@@ -1,0 +1,4 @@
+blocker,evidence,blocks
+figure author-review approvals missing,approved_rows=0; blank_rows=6; invalid_rows=0,FMR-004 writeback candidate and final figure candidate generation
+figure review writeback evidence not complete,candidate_return_files=0; writeback_allowed_rows=0; manual_writeback_performed=False,FMR-004 writeback candidate
+final figure candidate gate not ready,final_candidate_generation_allowed=False; final_figures_ready=False,FMR-004 writeback candidate and final manuscript figure assembly

@@ -1,0 +1,16 @@
+{
+  "run_id": "20260810_availability_statement_prelock",
+  "access_route_rows": 5,
+  "data_statement_variants": 3,
+  "code_statement_variants": 3,
+  "gate_rows": 5,
+  "fair_rows": 4,
+  "qa_rows": 5,
+  "qa_pass": true,
+  "repository_identifier_created": false,
+  "code_doi_created": false,
+  "public_release_ready": false,
+  "submission_ready": false,
+  "status": "availability_statement_prelock_ready_not_final",
+  "boundary": "This package prepares availability wording; it does not create repository DOI, code DOI, licences, rights clearance, final source data or blind external data access."
+}

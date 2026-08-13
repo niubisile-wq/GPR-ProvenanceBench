@@ -1,0 +1,16 @@
+{
+  "package": "python_figure_preview_visual_qa_20260810",
+  "preview_figures_audited": 6,
+  "caption_boundary_rows": 6,
+  "finalization_queue_rows": 6,
+  "qa_rows": 7,
+  "qa_pass": true,
+  "author_review_preview_ready_rows": 6,
+  "finalization_blocked_rows": 6,
+  "rendered_figures_final": 0,
+  "final_figures_ready": false,
+  "blind_external_validation_claimed": false,
+  "submission_ready": false,
+  "status": "python_figure_preview_visual_qa_ready_final_blocked",
+  "desktop_plan_updated": true
+}

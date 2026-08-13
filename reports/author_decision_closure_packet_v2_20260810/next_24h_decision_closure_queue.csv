@@ -1,0 +1,5 @@
+hour,owner,action,output
+0-2,author,Reply with figure backend: Python or R. Recommended: Python.,Figure rendering workflow can start.
+0-6,author/advisor,"Reply with external data holder name/contact, or confirm no real blind asset is available now.",Track A or Track B branch can be locked.
+6-12,author/institution,Confirm provisional code licence and derived-data licence direction.,Repository package can move toward deposit preparation.
+12-24,author,Confirm Track B if no external asset exists.,Conservative manuscript framing can be locked for author review.

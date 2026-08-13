@@ -1,0 +1,5 @@
+sequence_step,purpose,command,allowed_now,blocking_reason
+REVAL-001,Revalidate real EDS template after guarded writeback.,py scripts/build_external_dependency_escalation_sendout_receipt_validator.py,no,19.58 has not executed real EDS writeback.
+REVAL-002,Refresh safe-send state from the revalidated EDS summary.,py scripts/build_external_dependency_safe_send_execution_packet.py,no,19.58 has not executed real EDS writeback.
+REVAL-003,Re-run final manual receipt completion after FMR rows are manually updated.,py scripts/build_final_manual_receipt_completion_validator.py,no,FMR-001 through FMR-006 are still incomplete; this orchestrator does not fill FMR rows.
+REVAL-004,Run final guarded recheck only after all final manual receipts are complete.,reports/final_guarded_recheck_launcher_20260810/run_final_guarded_recheck_after_receipts.ps1,no,19.50 guarded_recheck_allowed is false.

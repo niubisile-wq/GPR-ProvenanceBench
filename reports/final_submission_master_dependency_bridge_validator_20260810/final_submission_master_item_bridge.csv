@@ -1,0 +1,29 @@
+item_id,item,source,current_state,bridge_allowed,reason
+1,Real blind external validation,submission_completion_gate_ledger,NO-GO,no,Blocked until ledger has zero open gates and final verification passes.
+2,Main figure rendering,submission_completion_gate_ledger,not_started,no,Blocked until ledger has zero open gates and final verification passes.
+3,Repository identifiers,submission_completion_gate_ledger,missing,no,Blocked until ledger has zero open gates and final verification passes.
+4,Reporting Summary,submission_completion_gate_ledger,incomplete,no,Blocked until ledger has zero open gates and final verification passes.
+5,Third-party rights,submission_completion_gate_ledger,not_cleared,no,Blocked until ledger has zero open gates and final verification passes.
+6,Final reference numbering,submission_completion_gate_ledger,not_locked,no,Blocked until ledger has zero open gates and final verification passes.
+1,manual sendout and author reply validators,submission_final_verification_queue,not satisfied,no,Blocked until every final submission dependency passes.
+2,figure backend validator plus rendered figure visual QA,submission_final_verification_queue,not satisfied,no,Blocked until every final submission dependency passes.
+3,external blind strict-SHA intake and locked one-shot evaluation,submission_final_verification_queue,not satisfied,no,Blocked until every final submission dependency passes.
+4,repository/release/rights availability chain,submission_final_verification_queue,not satisfied,no,Blocked until every final submission dependency passes.
+5,Reporting Summary and reference finalization,submission_final_verification_queue,not satisfied,no,Blocked until every final submission dependency passes.
+6,full .\scripts\run_m0_m2_checks.ps1 and portal upload readiness,submission_final_verification_queue,not satisfied,no,Blocked until every final submission dependency passes.
+SUBMIT-FINAL-001,All master finalization gates are closed,natcomms_submission_final_lock_gate_matrix,open_gates=8 of 8,no,All master gates remain open.
+SUBMIT-FINAL-002,All finalization commands are unblocked,natcomms_submission_final_lock_gate_matrix,blocked_commands=8 of 8,no,Every finalization command remains blocked.
+SUBMIT-FINAL-003,Portal upload manifest is upload-ready,natcomms_submission_final_lock_gate_matrix,upload_ready_rows=0 of 9,no,All portal upload rows remain blocked.
+SUBMIT-FINAL-004,Portal file preflight allows upload,natcomms_submission_final_lock_gate_matrix,upload_allowed_now=False; portal_file_rows=10,no,No final portal file is upload-allowed.
+SUBMIT-FINAL-005,"Reporting Summary, references and availability are final",natcomms_submission_final_lock_gate_matrix,reporting_summary=False; references=False; availability=False,no,"Reporting Summary, references and availability validators are all blocked."
+SUBMIT-FINAL-006,Submission package is ready,natcomms_submission_final_lock_gate_matrix,submission_ready flags: assembly=False; dashboard=False; portal=False,no,Submission package is not ready in any upstream validator.
+main_manuscript_docx_or_pdf,reports/manuscript_assembly_skeleton_20260810/manuscript_assembly_skeleton.md,portal_submission_file_inventory,skeleton_only,no,"Final prose, rendered figures, DOI/accessions and numbered references are not locked."
+cover_letter,reports/submission_package_skeleton_20260810/cover_letter_skeleton.md,portal_submission_file_inventory,skeleton_only,no,Author approval and final manuscript state are missing.
+title_abstract_significance,reports/submission_package_skeleton_20260810/title_abstract_significance.md,portal_submission_file_inventory,draft_skeleton,no,Abstract must match final figure set and open-gate wording.
+display_figures,reports/figure_source_data_lock_20260810/figure_panel_claim_lock.csv,portal_submission_file_inventory,source_data_locked_not_rendered,no,No rendered figure exports or visual QA outputs exist.
+source_data_files,reports/source_data_deposit_package_20260810/source_data_file_manifest.csv,portal_submission_file_inventory,deposit_skeleton,no,Panel-level source data must match final rendered figures and licence scope.
+data_availability_statement,reports/companion_artifacts_skeleton_20260810/data_availability_skeleton.md,portal_submission_file_inventory,skeleton_only,no,Repository DOI/accession and rights boundaries are missing.
+code_availability_statement,reports/companion_artifacts_skeleton_20260810/code_availability_skeleton.md,portal_submission_file_inventory,skeleton_only,no,"Public code release, tag, DOI and licence are missing."
+reporting_summary,reports/reporting_summary_completion_handoff_20260810/reporting_summary_item_completion_matrix.csv,portal_submission_file_inventory,handoff_only,no,Author confirmations and final Methods/figure references are missing.
+references,reports/reference_completion_handoff_20260810/citation_marker_final_replacement_queue.csv,portal_submission_file_inventory,markers_not_replaced,no,"Final prose, figure/table calls and reference order are not locked."
+supplementary_information,reports/manuscript_table_drafts_20260810/manuscript_table_drafts.md,portal_submission_file_inventory,candidate_material_only,no,Display-vs-SI scope has not been selected and figures are unrendered.

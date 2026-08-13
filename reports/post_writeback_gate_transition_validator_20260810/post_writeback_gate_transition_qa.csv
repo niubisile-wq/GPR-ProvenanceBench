@@ -1,0 +1,6 @@
+check,result,detail
+all_writeback_commands_mapped,PASS,transition_rows=7; validation_command_rows=7
+no_transition_allowed_without_writeback,PASS,writeback_allowed_rows=0; transition_allowed_rows=0
+all_master_gates_still_open,PASS,open_gate_rows=8; master_gates=8
+dashboard_commands_still_blocked,PASS,blocked_commands=8
+submission_still_blocked,PASS,submission_ready=False; open_master_gates=8

@@ -1,0 +1,4 @@
+handoff_item,path,ready_for_human_handoff,manual_actions_executed,allowed_next_state
+Desktop execution brief,<LOCAL_DESKTOP>\\NatComms_19.86_manual_execution_brief_20260810.md,yes,no,human reads brief and performs real external/manual actions
+Machine-readable action table,reports/manual_execution_brief_20260810/manual_execution_brief_actions.csv,yes,no,human fills MOF forms only after real evidence exists
+Machine-readable no-go table,reports/manual_execution_brief_20260810/manual_execution_brief_no_go.csv,yes,no,"no system writeback, recheck, portal upload or submission"

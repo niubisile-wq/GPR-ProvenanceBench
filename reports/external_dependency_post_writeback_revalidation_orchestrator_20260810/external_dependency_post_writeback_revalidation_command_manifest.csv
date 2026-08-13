@@ -1,0 +1,5 @@
+command_id,command,execute_now,reason
+REVAL-001,py scripts/build_external_dependency_escalation_sendout_receipt_validator.py,no,Current package is an orchestrator/no-go audit; commands are not executed automatically.
+REVAL-002,py scripts/build_external_dependency_safe_send_execution_packet.py,no,Current package is an orchestrator/no-go audit; commands are not executed automatically.
+REVAL-003,py scripts/build_final_manual_receipt_completion_validator.py,no,Current package is an orchestrator/no-go audit; commands are not executed automatically.
+REVAL-004,reports/final_guarded_recheck_launcher_20260810/run_final_guarded_recheck_after_receipts.ps1,no,Current package is an orchestrator/no-go audit; commands are not executed automatically.

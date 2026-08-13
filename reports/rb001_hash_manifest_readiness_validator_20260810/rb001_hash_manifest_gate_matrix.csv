@@ -1,0 +1,11 @@
+gate,current,required,passes_now
+scanner_has_candidate_files,0,>0,no
+manifest_rows_complete_for_scanner_files,0,>= scanner_file_rows (0),no
+hash_reconciliation_complete,0,scanner_file_rows (0),no
+no_missing_source_register_rows,0,0,yes
+no_hash_mismatch_rows,0,0,yes
+crosswalk_drop_ready,False,true,no
+hash_manifest_ready,False,true,no
+receipt_closeout_allowed,False,true,no
+writeback_preflight_allowed,False,true,no
+submission_ready,False,false,yes

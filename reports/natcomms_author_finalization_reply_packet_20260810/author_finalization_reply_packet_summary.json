@@ -1,0 +1,16 @@
+{
+  "run_id": "20260810_natcomms_author_finalization_reply_packet",
+  "reply_fields": 12,
+  "metadata_fields": 6,
+  "decision_tickets": 8,
+  "reviewer_policy_rows": 7,
+  "reporting_author_rows": 4,
+  "owner_queue_rows_imported": 10,
+  "qa_rows": 6,
+  "qa_pass": true,
+  "preserved_manual_fields": 0,
+  "author_replies_collected": false,
+  "submission_ready": false,
+  "status": "natcomms_author_finalization_reply_packet_ready_replies_not_collected",
+  "boundary": "Author reply packet collects required replies only; it is not author approval and does not close any finalization gate."
+}

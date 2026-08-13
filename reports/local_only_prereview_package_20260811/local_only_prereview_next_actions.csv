@@ -1,0 +1,4 @@
+priority,action,allowed_now,does_not_require_external_manual_action
+1,Use the local package for internal scientific review and prose editing.,yes,yes
+2,"Revise text, title, abstract and cover letter within local package boundaries.",yes,yes
+3,Submit to journal portal.,no,no

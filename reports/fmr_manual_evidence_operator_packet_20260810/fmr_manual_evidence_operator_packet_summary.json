@@ -1,0 +1,15 @@
+{
+  "package": "fmr_manual_evidence_operator_packet_20260810",
+  "fmr_rows": 6,
+  "operator_rows": 8,
+  "stop_rules": 4,
+  "commands_allowed_now": 0,
+  "candidate_evidence_files": 0,
+  "manual_evidence_writeback_allowed": false,
+  "portal_upload_allowed": false,
+  "submission_ready": false,
+  "qa_rows": 5,
+  "qa_pass": true,
+  "status": "fmr_manual_evidence_operator_packet_ready_waiting_real_evidence",
+  "desktop_plan_updated": true
+}

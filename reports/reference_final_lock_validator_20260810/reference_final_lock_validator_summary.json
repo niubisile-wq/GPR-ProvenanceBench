@@ -1,0 +1,22 @@
+{
+  "package": "reference_final_lock_validator_20260810",
+  "gate_rows": 5,
+  "blocker_rows": 4,
+  "command_rows": 5,
+  "no_go_rules": 4,
+  "qa_rows": 5,
+  "qa_pass": true,
+  "replacement_rows": 5,
+  "marker_replacements_allowed_now": 0,
+  "manual_verification_rows": 8,
+  "manual_verification_rows_closed": 0,
+  "metadata_match_failures": 0,
+  "public_final_reference_ready_rows": 0,
+  "sentence_support_rows": 5,
+  "final_export_allowed_rows": 0,
+  "candidate_markers_replaced": false,
+  "final_references_ready": false,
+  "submission_ready": false,
+  "status": "reference_final_lock_validator_ready_blocked",
+  "desktop_plan_updated": true
+}

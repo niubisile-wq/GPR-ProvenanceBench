@@ -1,0 +1,5 @@
+check,result,detail
+19.53 send-ready state imported,PASS,send_ready=True
+five manual send tasks generated,PASS,send_task_rows=5
+19.54 still has zero sent receipts,PASS,sent_receipt_rows=0
+automatic send remains disabled,PASS,automatic_send_allowed=false

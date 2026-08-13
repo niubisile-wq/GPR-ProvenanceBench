@@ -1,0 +1,10 @@
+{
+  "run_id": "20260810_reporting_summary_draft",
+  "draft_items": 8,
+  "high_risk_items": 4,
+  "unresolved_items": 6,
+  "method_trace_rows": 8,
+  "final_reporting_summary_ready": false,
+  "status": "reporting_summary_draft_ready_not_final",
+  "boundary": "Draft answers are mapped to current evidence, but final Reporting Summary cannot be locked before external validation, figures, repository identifiers, licence and rights are resolved."
+}

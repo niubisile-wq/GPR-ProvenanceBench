@@ -1,0 +1,20 @@
+{
+  "package": "final_submission_master_dependency_bridge_validator_20260810",
+  "author_closeout_allows_submission": false,
+  "ledger_allows_submission": false,
+  "natcomms_final_lock_allows_submission": false,
+  "portal_file_preflight_allows_upload": false,
+  "dashboard_allows_submission": false,
+  "final_submission_master_allowed": false,
+  "open_gate_rows": 6,
+  "open_master_gates": 8,
+  "portal_upload_ready_rows": 0,
+  "portal_file_upload_allowed_rows": 0,
+  "dashboard_open_gates": 6,
+  "dashboard_hard_no_go_or_not_ready_areas": 6,
+  "submission_ready": false,
+  "qa_rows": 5,
+  "qa_pass": true,
+  "status": "final_submission_master_dependency_bridge_validator_ready_blocked",
+  "desktop_plan_updated": true
+}

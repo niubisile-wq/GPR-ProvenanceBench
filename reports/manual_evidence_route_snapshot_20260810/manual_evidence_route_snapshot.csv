@@ -1,0 +1,6 @@
+form_id,primary_fmr,phase,candidate_files,filled_cells,tracked_cells,route_state,next_allowed_action,system_command_allowed_now,writeback_allowed_now,portal_upload_allowed_now
+MOF-001,FMR-001,external_sendout,0,0,10,manual_action_required,Complete real manual evidence capture and fill the matching MOF form.,no,no,no
+MOF-002,FMR-002,author_decisions,0,0,10,manual_action_required,Complete real manual evidence capture and fill the matching MOF form.,no,no,no
+MOF-003,FMR-003,returned_files,0,0,10,manual_action_required,Complete real manual evidence capture and fill the matching MOF form.,no,no,no
+MOF-004,FMR-004,figure_approval,0,0,10,manual_action_required,Complete real manual evidence capture and fill the matching MOF form.,no,no,no
+MOF-005,FMR-005,repository_rights_doi,0,0,10,manual_action_required,Complete real manual evidence capture and fill the matching MOF form.,no,no,no

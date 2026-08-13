@@ -1,0 +1,6 @@
+action,reason
+Upload any file to the Nature Communications portal.,portal_upload_ready=false and portal_file_upload_allowed_rows=0.
+Mark the manuscript submission-ready.,final_submission_master_allowed=false and submission_ready=false.
+Close master gates or residual blockers manually.,open_master_gates=8 and ready_to_close_rows=0.
+Run route/writeback/transition commands as if evidence were present.,candidate_return_files=0 and writeback/transition remain blocked.
+Replace open-gate language with final external-validation claims.,real blind external validation remains NO-GO.

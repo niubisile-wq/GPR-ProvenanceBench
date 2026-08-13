@@ -1,0 +1,6 @@
+form_id,primary_fmr,phase,evidence_location,candidate_files,location_status
+MOF-001,FMR-001,external_sendout,manual_evidence/external_dependency_sendout_20260810,0,empty_or_support_only
+MOF-002,FMR-002,author_decisions,manual_evidence_inbox_20260810,0,empty_or_support_only
+MOF-003,FMR-003,returned_files,final_return_evidence_inbox_20260810,0,empty_or_support_only
+MOF-004,FMR-004,figure_approval,reports/python_figure_author_review_return_inbox_20260810/returned_author_review_files,0,empty_or_support_only
+MOF-005,FMR-005,repository_rights_doi,final_return_evidence_inbox_20260810/04_repository_rights_doi,0,empty_or_support_only

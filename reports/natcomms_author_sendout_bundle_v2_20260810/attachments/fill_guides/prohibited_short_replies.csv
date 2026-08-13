@@ -1,0 +1,6 @@
+item,prohibited_reply,reason
+backend,recommended; either; TBD,Formal rendering requires exactly Python or R.
+external validation,we have external validation,Allowed only with strict blind intake and one locked evaluation.
+author approval,approved now,Final approval cannot precede final manuscript/SI/figures/source-data files.
+repository DOI,DOI done,"DOI must be an actual created and verified accession, not a plan."
+submission readiness,ready,Submission_ready remains false until every upstream gate has evidence and full checks pass.

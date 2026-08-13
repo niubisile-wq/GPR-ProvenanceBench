@@ -1,0 +1,96 @@
+{
+  "run_id": "20260810_manuscript_figure_table_plan",
+  "n_items": 9,
+  "items": [
+    {
+      "item_id": "Figure 1",
+      "role": "Study design and evidence gates",
+      "claim": "The project separates executable local evidence from unresolved confirmation gates.",
+      "evidence": "Asset inventory, unified manifests, TIGPR local NO-GO, Res-SAM local manifest, 4TU metadata/groupholdout feasibility, external validation readiness gate.",
+      "source_artifacts": "data_manifests/*_unified_samples_20260810.csv; reports/tigpr_local_asset_audit_20260810.md; reports/external_validation_readiness_20260810/external_validation_readiness_summary.md",
+      "status": "ready_for_schematic",
+      "boundary": "This figure is a protocol/asset map, not a performance result.",
+      "next_action": "Draw workflow schematic after finalizing visual style."
+    },
+    {
+      "item_id": "Figure 2",
+      "role": "Five-model cross-model result matrix",
+      "claim": "Res-SAM environment transfer is the strongest current cross-model signal.",
+      "evidence": "res_sam within_minus_transfer_real_world_to_synthetic: directional=5/5, material=5/5, mean_delta=0.4239, status=supported; res_sam within_minus_transfer_synthetic_to_real_world: directional=4/5, material=4/5, mean_delta=0.3743, status=supported; mojahid random_minus_grouped_balanced_accuracy: directional=5/5, material=1/5, mean_delta=0.0406, status=directional_only.",
+      "source_artifacts": "reports/five_model_synthesis_20260810/five_model_synthesis_summary.md; reports/five_model_synthesis_20260810/five_model_synthesis_model_rows.csv",
+      "status": "ready_for_plot",
+      "boundary": "Scope is Mojahid and Res-SAM only; 4TU and blind external assets are not included in this matrix.",
+      "next_action": "Plot model-family deltas and claim-level support counts."
+    },
+    {
+      "item_id": "Figure 3",
+      "role": "Mojahid split inflation baseline",
+      "claim": "Mojahid random-minus-grouped performance inflation is directionally consistent but modest/model-dependent.",
+      "evidence": "mojahid random_minus_grouped_balanced_accuracy: directional=5/5, material=1/5, mean_delta=0.0406, status=directional_only",
+      "source_artifacts": "reports/mojahid_hog_rbf_svm_seed_sweep_20260810/seed_sweep_summary.md; reports/five_model_synthesis_20260810/five_model_synthesis_claim_summary.csv",
+      "status": "ready_with_caution",
+      "boundary": "Do not frame as a universal leakage effect; only 1/5 model families reaches material support.",
+      "next_action": "Use as secondary panel or combine with Figure 2 rather than lead result."
+    },
+    {
+      "item_id": "Figure 4",
+      "role": "4TU raw-trace counterfactual stress test",
+      "claim": "4TU multi-layer counterfactual stress-test evidence remains a feasibility-boundary layer rather than main confirmation.",
+      "evidence": "HOG fixed-split Land type ExtraTrees log_clip BA_mean=0.0905, delta_mean=-0.3429, flip_mean=0.8583; group-aware selected ExtraTrees appears in 2/5 splits with log_clip delta_mean=-0.0422; the five-layer 4TU extension audit keeps all 4TU evidence as stress-test/feasibility-boundary evidence.",
+      "source_artifacts": "reports/4tu_counterfactual_hog_seed_sweep_20260810/hog_seed_sweep_summary.md; reports/4tu_counterfactual_hog_group_splits_20260810/hog_group_split_summary.md; reports/4tu_model_family_extension_audit_20260810/4tu_model_family_extension_audit.md",
+      "status": "ready_with_caution",
+      "boundary": "This is stress-test and feasibility-boundary evidence, not final causal proof, main confirmation or blind external validation.",
+      "next_action": "Plot fixed-split versus group-aware sensitivity side by side and add a five-layer evidence-boundary inset."
+    },
+    {
+      "item_id": "Figure 5",
+      "role": "4TU feasibility and failure-mode map",
+      "claim": "Current 4TU labels are insufficient for the main cross-model confirmation layer.",
+      "evidence": "Land type=usable_with_caution; Land use=not_viable_for_group_holdout; Land cover=weak_due_to_single_project_labels; Utility crossing=usable_with_caution; Construction workers=not_viable_for_group_holdout; Relative groundwater level=weak_due_to_single_project_labels",
+      "source_artifacts": "reports/4tu_group_feasibility_20260810/4tu_group_feasibility_summary.md; reports/4tu_group_feasibility_20260810/4tu_group_feasibility_targets.csv",
+      "status": "ready_for_table_or_supplement",
+      "boundary": "This is a gate/failure-mode result; it supports study design decisions, not model superiority.",
+      "next_action": "Consider moving to Extended Data if main text is too crowded."
+    },
+    {
+      "item_id": "Figure 6",
+      "role": "External blind validation gate",
+      "claim": "Blind external validation remains unavailable under the frozen protocol.",
+      "evidence": "External readiness gate=NO-GO; tracks: A=not_ready; B=not_started; C=not_ready; D=already_used_in_model_matrix; locked evaluation mode=template_dry_run with status=PASS.",
+      "source_artifacts": "reports/external_validation_readiness_20260810/external_validation_readiness_summary.md; reports/external_blind_locked_evaluation_20260810/external_blind_locked_evaluation_summary.md",
+      "status": "gate_open_not_result",
+      "boundary": "The locked evaluation is template dry-run only; no manuscript claim can call it real blind external validation.",
+      "next_action": "Replace with real external result only after strict-sha manifest, frozen prediction and label unlock."
+    },
+    {
+      "item_id": "Table 1",
+      "role": "Dataset and asset audit",
+      "claim": "Only Mojahid, 4TU and Res-SAM are executable local assets at this checkpoint; TIGPR is supporting-only.",
+      "evidence": "Mojahid=2524 rows; 4TU=99 rows; Res-SAM=1050 rows; TIGPR=0 local executable rows.",
+      "source_artifacts": "data_manifests/*_unified_samples_20260810.csv; reports/tigpr_local_asset_audit_20260810.md",
+      "status": "ready_for_table",
+      "boundary": "Counts are local executable rows, not global dataset sizes.",
+      "next_action": "Render as dataset audit table."
+    },
+    {
+      "item_id": "Table 2",
+      "role": "Model-family support summary",
+      "claim": "Cross-model material support is strong for Res-SAM transfer and weak for Mojahid split inflation.",
+      "evidence": "mojahid random_minus_grouped_balanced_accuracy: directional=5/5, material=1/5, mean_delta=0.0406, status=directional_only; res_sam within_minus_transfer_real_world_to_synthetic: directional=5/5, material=5/5, mean_delta=0.4239, status=supported; res_sam within_minus_transfer_synthetic_to_real_world: directional=4/5, material=4/5, mean_delta=0.3743, status=supported",
+      "source_artifacts": "reports/five_model_synthesis_20260810/five_model_synthesis_claim_summary.csv",
+      "status": "ready_for_table",
+      "boundary": "Summary excludes 4TU and true blind external validation.",
+      "next_action": "Use as main or extended table depending on Figure 2 density."
+    },
+    {
+      "item_id": "Table 3",
+      "role": "Gate status and remaining requirements",
+      "claim": "The Nature Communications route remains conditional rather than submission-ready.",
+      "evidence": "External validation NO-GO; TIGPR NO-GO; 4TU not main confirmation; blind intake/evaluation template-ready only.",
+      "source_artifacts": "checkpoints/gate_status_20260810.md; checkpoints/checkpoint_20260810.md",
+      "status": "ready_for_internal_decision_table",
+      "boundary": "May be internal planning material unless the manuscript is framed as a benchmark/resource paper.",
+      "next_action": "Keep in checkpoint; decide later whether it becomes supplement."
+    }
+  ]
+}

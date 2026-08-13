@@ -1,0 +1,10 @@
+check,current,required,passes_now
+send_log_all_rows_point_to_v2,5,5,yes
+send_log_no_stale_v1_rows,0,0,yes
+send_log_sha_matches_v2,5,5,yes
+tracker_summary_path_matches_v2,True,true,yes
+tracker_summary_sha_matches_v2,True,true,yes
+overlay_summary_pass,True,true,yes
+response_log_guarded,True,true,yes
+receipt_validator_guarded,True,true,yes
+submission_ready,False,false,yes

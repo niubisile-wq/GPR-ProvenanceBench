@@ -1,0 +1,5 @@
+check,result,detail
+FMR intake template imported,PASS,fmr_rows=6; fmr001_rows=1
+writeback preflight follows 19.60 candidate state,PASS,candidate_complete=False; writeback_preflight_allowed=False
+default mode does not modify real FMR template,PASS,execute_writeback=False; real_fmr_template_modified=False
+submission remains false,PASS,guarded_recheck_allowed=false; submission_ready=false

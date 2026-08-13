@@ -1,0 +1,7 @@
+check,result,detail
+readiness_gate_is_no_go,PASS,gate_status=NO-GO
+external_workspace_has_no_payload_files,PASS,payload_files=0
+acquisition_materials_ready_but_no_asset,PASS,package_ready=True; creates_result=False
+all_acceptance_gates_currently_missing,PASS,acceptance_rows=5
+request_handoff_rights_inputs_imported,PASS,request=5; handoff=7; rights=5
+no_external_validation_claimed,PASS,"This register prepares acquisition triage only; it does not acquire, intake or evaluate a real external asset."

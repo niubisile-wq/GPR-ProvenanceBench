@@ -1,0 +1,9 @@
+canonical_term,first_use,variants_to_avoid,decision
+ground-penetrating radar (GPR),ground-penetrating radar (GPR),Ground Penetrating Radar; GPR radar,"spell out once, then use GPR"
+GPR-ProvenanceBench,GPR-ProvenanceBench,GPR Provenance Bench; provenance benchmark,use as benchmark/workflow name
+Res-SAM,Res-SAM,ResSAM; RES-SAM,use dataset/model-source name as currently recorded
+Mojahid,Mojahid,Mojahid dataset if not introduced; MJH,use as dataset name
+4TU,4TU,Four TU; 4-TU,use as asset/source name
+TIGPR,TIGPR,TI-GPR; tigpr,use only with NO-GO local-core boundary
+balanced accuracy,balanced accuracy,BA unless abbreviation is introduced,prefer spelled-out form in main text
+blind external validation,blind external validation,external validation if blind labels are not held,use only as open gate until real evaluation exists

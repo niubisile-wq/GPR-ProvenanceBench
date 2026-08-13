@@ -1,0 +1,6 @@
+criterion,current,required,passes_now
+RB001_closed,False,true,no
+writeback_allowed_rows,0,>0,no
+receipt_rows_completed,0,one row per actual writeback,no
+protected_targets_documented,9,>=1,yes
+submission_ready,False,false until all gates close,yes

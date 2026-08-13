@@ -1,0 +1,6 @@
+order,command_or_action,condition,expected_evidence,stop_rule
+1,Author confirms software licence,public code repository scope is known,licence file and repository release tag,Do not claim code DOI or public code availability before release exists.
+2,Rights lead reviews derived source-data files,final source-data scope is locked,decision allowing derived CSV/JSON/Markdown release or excluding sensitive rows,"Do not publish derived artifacts that expose raw-data paths, label hints or third-party restricted content."
+3,Raw third-party data exclusion or permission is finalized,provider licences are checked,provider permission or restricted-access wording,Default is exclusion without written permission.
+4,Final figures and panel Source Data are rendered and QAed,backend/scope selected and figure workflow completed,"figure exports, visual QA and panel-level Source Data manifest",Do not finalize figure/source-data rights before final figure artifacts exist.
+5,Repository DOI/accession and code DOI are created,licence and rights decisions are recorded,repository landing pages and archive identifiers,Do not mark public_release_ready before identifiers resolve.

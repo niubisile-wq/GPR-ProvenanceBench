@@ -1,0 +1,56 @@
+\begin{thebibliography}{10}
+\providecommand{\url}[1]{\normalfont{#1}}
+\providecommand{\urlprefix}{Available from: }
+
+\bibitem{cheng2023runway}
+Cheng~L, Lu~J, Zhou~C, et~al. Non-destructive compaction quality evaluation of
+  runway construction based on {GPR} data. Nondestructive Testing and
+  Evaluation. 2023;\hspace{0pt}.
+
+\bibitem{wang2024crack}
+Wang~Y, Jia~Y, Liang~J, et~al. Crack depth measurement and key points of
+  accurate identification in concrete structures: a review. Nondestructive
+  Testing and Evaluation. 2024;\hspace{0pt}.
+
+\bibitem{artagan2022thermal}
+Artagan~SS, Borecky~V, Yurdakul~{\"O}, et~al. Assessing concrete strength loss
+  at elevated temperatures as a function of dielectric variation measured by
+  {GPR}: an empirical study. Nondestructive Testing and Evaluation.
+  2022;\hspace{0pt}.
+
+\bibitem{plati2012structural}
+Plati~C, Loizos~A. Using ground-penetrating radar for assessing the structural
+  needs of asphalt pavements. Nondestructive Testing and Evaluation.
+  2012;\hspace{0pt}27(3):273--284.
+
+\bibitem{benedetto2012bridges}
+Benedetto~A, Manacorda~G, Simi~A, et~al. Novel perspectives in bridges
+  inspection using {GPR}. Nondestructive Testing and Evaluation.
+  2012;\hspace{0pt}27(3):239--251.
+
+\bibitem{economou2012deconvolution}
+Economou~N, Vafidis~A, Hamdan~H, et~al. Time-varying deconvolution of {GPR}
+  data in civil engineering. Nondestructive Testing and Evaluation.
+  2012;\hspace{0pt}27(3):285--292.
+
+\bibitem{poikajarvi2012road}
+Poikaj{\"a}rvi~J, Peisa~K, Herronen~T, et~al. {GPR} in road investigations:
+  equipment tests and quality assurance of new asphalt pavement. Nondestructive
+  Testing and Evaluation. 2012;\hspace{0pt}27(3):293--303.
+
+\bibitem{hu2016pavement}
+Hu~J, Vennapusa~PKR, White~DJ, et~al. Pavement thickness and stabilised
+  foundation layer assessment using ground-coupled {GPR}. Nondestructive
+  Testing and Evaluation. 2016;\hspace{0pt}31(3):267--287.
+
+\bibitem{lualdi2014polarisation}
+Lualdi~M, Lombardi~F. Significance of {GPR} polarisation for improving target
+  detection and characterisation. Nondestructive Testing and Evaluation.
+  2014;\hspace{0pt}29(4):345--356.
+
+\bibitem{kilic2014moisture}
+Kilic~G, Unluturk~MS. Performance evaluation of the neural networks for
+  moisture detection using {GPR}. Nondestructive Testing and Evaluation.
+  2014;\hspace{0pt}29(4):283--296.
+
+\end{thebibliography}

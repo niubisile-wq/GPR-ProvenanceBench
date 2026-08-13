@@ -1,0 +1,6 @@
+blocker,evidence,blocks
+19.46 author/final closeout blocks submission,author_final_closeout_allowed=False; open_master_gates=8,final submission master gate
+submission completion ledger has open gates,open_gate_rows=6; gate_closure_allowed=False,submission completion
+NatComms final lock remains blocked,open_master_gates=8; blocked_commands=8; portal_upload_ready_rows=0,portal upload and final lock
+portal file preflight blocks upload,upload_allowed_now=False; portal_file_rows=10,portal file upload
+submission readiness dashboard still has no-go areas,open_gates=6; hard_no_go_or_not_ready_areas=6,submission-ready state

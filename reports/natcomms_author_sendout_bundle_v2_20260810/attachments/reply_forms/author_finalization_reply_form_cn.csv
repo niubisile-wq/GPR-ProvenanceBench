@@ -1,0 +1,13 @@
+field_id,decision_area,question_cn,recommended_default,author_reply,required_to_close_gate,blocks_if_blank
+AFR-001,corresponding_author_identity,请确认通讯作者姓名、单位、邮箱、ORCID（如使用）和投稿系统账户。,留空，必须由通讯作者填写。,,FM-001; FM-008,title page; cover letter; portal metadata
+AFR-002,author_order_and_affiliations,请确认全部作者顺序、单位、共同一作/共同通讯说明和单位编号。,留空，必须由作者组确认。,,FM-001,title page; author contributions; final manuscript file
+AFR-003,author_contributions,请逐位确认 Author Contributions，至少覆盖概念、方法、代码、实验、数据、写作和监督。,使用 CRediT 风格，但不得编造贡献。,,FM-001,author contribution statement; portal metadata
+AFR-004,competing_interests,请确认所有作者是否存在 financial 或 non-financial competing interests。,无利益冲突时填写 The authors declare no competing interests.,,FM-001,competing interests statement; portal metadata
+AFR-005,funding_acknowledgements,请确认基金编号、资助机构、非作者贡献和致谢对象。,留空，必须由作者确认。,,FM-001,Acknowledgements; funding metadata
+AFR-006,ethics_consent_governance,请确认是否涉及 ethics、consent、敏感数据或机构数据治理要求。,如完全不涉及，明确填写 Not applicable，并说明依据。,,FM-001; FM-005,Reporting Summary; editorial policy metadata
+AFR-007,manuscript_branch,请确认当前是否按 Track B（benchmark/resource + evidence-boundary）投稿；若有真实盲外部数据持有人，请提供姓名/机构/可用时间。,若现在没有真实盲外部数据，确认 Track B。,,FM-002,title; abstract; cover letter; limitation wording
+AFR-008,figure_backend,请选择唯一正式出图后端：Python 或 R。当前推荐 Python。,Python,,FM-003,formal figure rendering; Source Data mapping; Reporting Summary
+AFR-009,licence_rights_repository,请确认代码 licence、派生 Source Data licence、第三方数据权限和是否允许公开仓库/Zenodo DOI。,Code: MIT or BSD-3-Clause; derived data: CC BY 4.0 unless rights review fails.,,FM-004,Data Availability; Code Availability; repository DOI; portal upload
+AFR-010,reviewer_editorial_policy,请提供 suggested reviewers、excluded reviewers，并确认 preprint、previous editor discussion 和 transparent peer review 选择。,留空，必须由通讯作者确认。,,FM-001; FM-008,cover letter; portal metadata
+AFR-011,reporting_summary_confirmation,请确认 Reporting Summary 中 blinding、randomization、sample size、data exclusion 和 availability 相关答案。,保持 prelock 答案为非最终，逐项确认后再锁定。,,FM-005,Reporting Summary; submission package
+AFR-012,final_submission_author_approval,请确认所有作者在最终文件生成后同意投稿版本、作者列表和贡献声明。,最终文件生成前不得预先视为已同意。,,FM-007; FM-008,portal upload; actual submission

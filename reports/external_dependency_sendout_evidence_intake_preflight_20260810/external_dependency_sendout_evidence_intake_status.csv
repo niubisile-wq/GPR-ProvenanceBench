@@ -1,0 +1,6 @@
+send_receipt_id,receipt_id,metadata_complete,evidence_file_exists,computed_sent_message_sha256,candidate_ready,blocking_reason
+EDS-001,FMR-001,no,no,,no,sent_datetime_local; sender; recipient_or_channel; sent_message_path file missing
+EDS-002,FMR-002,no,no,,no,sent_datetime_local; sender; recipient_or_channel; sent_message_path file missing
+EDS-003,FMR-003,no,no,,no,sent_datetime_local; sender; recipient_or_channel; sent_message_path file missing
+EDS-004,FMR-004,no,no,,no,sent_datetime_local; sender; recipient_or_channel; sent_message_path file missing
+EDS-005,FMR-005,no,no,,no,sent_datetime_local; sender; recipient_or_channel; sent_message_path file missing

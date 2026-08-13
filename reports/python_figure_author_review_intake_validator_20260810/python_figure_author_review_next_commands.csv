@@ -1,0 +1,5 @@
+order,condition,command,run_now,purpose
+1,after_any_author_review_form_change,py scripts\build_python_figure_author_review_intake_validator.py,yes,Re-validate figure review statuses and comments.
+2,if_any_status_request_revision,py scripts\build_python_figure_preview_package.py,no,Regenerate previews only after requested figure revisions are implemented.
+3,if_all_six_figures_approved,build final figure candidate package,no,Create final candidates only after all author approvals are recorded.
+4,after_final_candidate_package,"final export QA, source-data panel mapping lock and caption lock",no,Required before final_figures_ready can become true.

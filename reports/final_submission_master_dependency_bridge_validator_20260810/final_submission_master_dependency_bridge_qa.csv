@@ -1,0 +1,6 @@
+check,result,detail
+all upstream summaries loaded,PASS,"author closeout, ledger, final lock, portal preflight and readiness dashboard summaries loaded."
+19.46 closeout bridge remains blocking,PASS,author_closeout_allows_submission=False
+NatComms final lock remains blocking,PASS,natcomms_final_lock_allows_submission=False
+portal upload remains blocked,PASS,portal_file_preflight_allows_upload=False
+submission remains false,PASS,submission_ready=False

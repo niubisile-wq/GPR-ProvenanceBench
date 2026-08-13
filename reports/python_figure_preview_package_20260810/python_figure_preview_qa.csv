@@ -1,0 +1,6 @@
+check,result,detail
+six_figures_rendered,PASS,figures=6
+all_export_quads_exist,PASS,PNG/SVG/PDF/TIFF checked for each figure
+python_backend_only,PASS,Rendered with matplotlib only; no R backend used.
+preview_not_final_boundary,PASS,All figures marked preview_not_final.
+external_validation_not_claimed,PASS,Open-gate placeholder only; no completed blind external validation.

@@ -1,0 +1,7 @@
+rule_id,forbidden_action,reason,enforced_by
+NG-001,Do not mark submission_ready true.,Eight master finalization gates remain open.,natcomms_submission_final_lock_validator
+NG-002,Do not rerun branch/finalization commands after manual edits.,safe_rerun_rows=0 and branch_commands_safe_to_run_now=0.,manual_evidence_final_intake_validator
+NG-003,Do not generate final figures.,approved_rows=0 and final_candidate_generation_allowed=false.,python_figure_author_review_intake_validator
+NG-004,Do not finalize repository/data/code availability wording.,"repository DOI, code DOI, licence and rights gates remain false.",availability_repository_finalization_validator
+NG-005,Do not replace citation markers or export final references.,manual reference verification is not closed and final_export_allowed_rows=0.,reference_final_lock_validator
+NG-006,Do not upload files to the Nature Communications portal.,portal_upload_ready_rows=0 and portal_file_upload_allowed_rows=0.,natcomms_submission_final_lock_validator

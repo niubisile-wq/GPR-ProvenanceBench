@@ -1,0 +1,6 @@
+gate_id,requirement,current_state,passes_now,blocking_reason
+REF-FINAL-001,All candidate marker replacements are allowed,allowed=0 of 5,no,"Final prose, figure/table calls and final citation order are not locked."
+REF-FINAL-002,Manual DOI/title/support verification is closed,closed=0 of 8,no,Manual publisher/support verification queue remains open.
+REF-FINAL-003,Public metadata rows are final-reference ready,ready=0 of 6; metadata_failures=0,no,"Metadata verification passes, but final_reference_ready remains false until final sentence support and numbering are locked."
+REF-FINAL-004,"Sentence support lock is final, not prelock",sentence_rows=5; final_references_ready=False,no,Sentence support mapping is prelock only and candidate markers have not been replaced.
+REF-FINAL-005,Final reference exports are allowed,allowed_exports=0 of 3,no,Final numbered reference list and exports require stable citation order and replaced markers.

@@ -1,0 +1,6 @@
+order,workstream,start_condition,stop_condition,main_output
+1,Decision collection,Author opens action packet,D001-D006 decisions recorded,Resolved author_decision_form_cn.csv
+2,Figure rendering,D001 backend confirmed,Fig. 1-Fig. 6 rendered and QAed,Rendered main figures
+3,External validation,Named real blind asset holder confirms feasibility,One-shot locked evaluation complete,Blind external validation result
+4,Repository and rights,Licences and repository route confirmed,DOI/accession and exclusion list verified,Public code/data identifiers or explicit restricted-access wording
+5,Final manuscript lock,"Figures, tables, repositories and validation status frozen",Final Reporting Summary and numbered references locked,Submission-ready manuscript package

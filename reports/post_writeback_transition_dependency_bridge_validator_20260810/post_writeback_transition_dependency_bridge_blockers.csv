@@ -1,0 +1,5 @@
+blocker,evidence,blocks
+RB-002 entry bridge blocked,rb002_entry_allowed=False; transition_allowed=False,post-writeback transition
+no transition rows allowed,transition_allowed_rows=0; open_evidence_requirements=16,route command execution
+guarded runner refuses commands,commands_allowed_now=0; commands_blocked_now=7,route command execution
+master gates remain open,open_master_gates=8; portal_upload_ready_rows=0,gate closure and portal upload

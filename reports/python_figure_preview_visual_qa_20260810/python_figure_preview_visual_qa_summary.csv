@@ -1,0 +1,8 @@
+check,result,detail
+all_preview_figures_present,PASS,manifest_rows=6; figures_rendered=6
+all_triplets_exist,PASS,PNG/SVG/PDF triplets checked
+author_review_dimensions_ok,PASS,Figure 1=2224x1146; Figure 2=2754x1146; Figure 3=2279x864; Figure 4=2732x1082; Figure 5=2124x966; Figure 6=2150x969
+caption_boundaries_match_manifest,PASS,caption required boundary compared with preview manifest boundary
+preflight_qa_imported,PASS,preflight_qa_rows=6
+final_gate_not_closed,PASS,rendered_figures_final=0; final_figures_ready=False
+external_validation_not_claimed,PASS,blind_external_validation_claimed=False

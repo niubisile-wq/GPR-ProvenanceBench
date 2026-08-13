@@ -1,0 +1,6 @@
+check,result,detail
+all upstream summaries loaded,PASS,"transition bridge, binder, execution board and final lock summaries loaded."
+transition bridge remains blocking,PASS,transition_bridge_allows_gate_closure=False
+binder keeps open requirements visible,PASS,open_evidence_requirements=16
+execution board keeps portal blocked,PASS,execution_board_allows_gate_closure=False
+final submission remains false,PASS,submission_ready=False

@@ -1,0 +1,1076 @@
+{
+  "run_id": "20260811_E06_mojahid_lineage_leakage_dose_sweep",
+  "n_runs": 25,
+  "seeds": [
+    20260811,
+    20260812,
+    20260813,
+    20260814,
+    20260815
+  ],
+  "doses": [
+    0.0,
+    0.05,
+    0.1,
+    0.2,
+    0.4
+  ],
+  "test_fold": 0,
+  "val_fold": 1,
+  "leak_fraction_within_group": 0.5,
+  "dose_summary": {
+    "0.00": {
+      "accuracy": {
+        "mean": 0.8668941979522184,
+        "std": 0.0,
+        "min": 0.8668941979522184,
+        "max": 0.8668941979522184
+      },
+      "balanced_accuracy": {
+        "mean": 0.856642287792986,
+        "std": 1.1102230246251565e-16,
+        "min": 0.8566422877929859,
+        "max": 0.8566422877929859
+      },
+      "macro_f1": {
+        "mean": 0.857873240491165,
+        "std": 0.0,
+        "min": 0.857873240491165,
+        "max": 0.857873240491165
+      },
+      "mean_confidence": {
+        "mean": 0.9015074403978025,
+        "std": 0.0012835230494137612,
+        "min": 0.8992442044120058,
+        "max": 0.9029916581619859
+      },
+      "correct_mean_confidence": {
+        "mean": 0.9264283799068685,
+        "std": 0.0012758484627457293,
+        "min": 0.9242841843485461,
+        "max": 0.9279252389287509
+      },
+      "incorrect_mean_confidence": {
+        "mean": 0.7392018343643985,
+        "std": 0.0017469635533631021,
+        "min": 0.7361633094406923,
+        "max": 0.7411509669342536
+      },
+      "ece_10bin": {
+        "mean": 0.03646448996413632,
+        "std": 0.0029916968986764877,
+        "min": 0.033115404448198056,
+        "max": 0.04206308260592459
+      },
+      "worst_class_recall": {
+        "mean": 0.6904761904761905,
+        "std": 0.0,
+        "min": 0.6904761904761905,
+        "max": 0.6904761904761905
+      },
+      "class_recall_spread": {
+        "mean": 0.2995735607675907,
+        "std": 0.0,
+        "min": 0.2995735607675907,
+        "max": 0.2995735607675907
+      },
+      "prediction_entropy": {
+        "mean": 0.9742942005255181,
+        "std": 1.1102230246251565e-16,
+        "min": 0.974294200525518,
+        "max": 0.974294200525518
+      },
+      "leaked_groups": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "leaked_train_samples": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "remaining_test_samples": {
+        "mean": 586.0,
+        "std": 0.0,
+        "min": 586.0,
+        "max": 586.0
+      }
+    },
+    "0.05": {
+      "accuracy": {
+        "mean": 0.8783831282952548,
+        "std": 0.0103317669291382,
+        "min": 0.8611599297012302,
+        "max": 0.8875219683655536
+      },
+      "balanced_accuracy": {
+        "mean": 0.8695558393051996,
+        "std": 0.012008496821329958,
+        "min": 0.8491552839683681,
+        "max": 0.8799466474416723
+      },
+      "macro_f1": {
+        "mean": 0.8709227538223054,
+        "std": 0.01198812327034438,
+        "min": 0.8507590272296155,
+        "max": 0.8814635267955951
+      },
+      "mean_confidence": {
+        "mean": 0.9014433390643802,
+        "std": 0.0026943759653160673,
+        "min": 0.8979295317005583,
+        "max": 0.9060102611247932
+      },
+      "correct_mean_confidence": {
+        "mean": 0.9251223502654902,
+        "std": 0.00235319921926331,
+        "min": 0.9215829941330841,
+        "max": 0.9280714568284452
+      },
+      "incorrect_mean_confidence": {
+        "mean": 0.7302525325896083,
+        "std": 0.010450102627358395,
+        "min": 0.7145242229929736,
+        "max": 0.7418287761972074
+      },
+      "ece_10bin": {
+        "mean": 0.028045201851570733,
+        "std": 0.00969084548593825,
+        "min": 0.01732625055881082,
+        "max": 0.04555195952246015
+      },
+      "worst_class_recall": {
+        "mean": 0.7332372231698866,
+        "std": 0.03529424273747172,
+        "min": 0.675,
+        "max": 0.7672955974842768
+      },
+      "class_recall_spread": {
+        "mean": 0.2534080248468541,
+        "std": 0.03537369819677033,
+        "min": 0.21739828006674367,
+        "max": 0.3096153846153846
+      },
+      "prediction_entropy": {
+        "mean": 0.9794097221331036,
+        "std": 0.004239355596508621,
+        "min": 0.9719610838727974,
+        "max": 0.983408283067108
+      },
+      "leaked_groups": {
+        "mean": 3.0,
+        "std": 0.0,
+        "min": 3.0,
+        "max": 3.0
+      },
+      "leaked_train_samples": {
+        "mean": 17.0,
+        "std": 0.0,
+        "min": 17.0,
+        "max": 17.0
+      },
+      "remaining_test_samples": {
+        "mean": 569.0,
+        "std": 0.0,
+        "min": 569.0,
+        "max": 569.0
+      }
+    },
+    "0.10": {
+      "accuracy": {
+        "mean": 0.8735346358792185,
+        "std": 0.011856709959700607,
+        "min": 0.8596802841918295,
+        "max": 0.8916518650088809
+      },
+      "balanced_accuracy": {
+        "mean": 0.8641252010623607,
+        "std": 0.012675758945349296,
+        "min": 0.8490307321625686,
+        "max": 0.8823634624004413
+      },
+      "macro_f1": {
+        "mean": 0.8656499684437797,
+        "std": 0.01314511427577804,
+        "min": 0.8500028906532971,
+        "max": 0.884726181311353
+      },
+      "mean_confidence": {
+        "mean": 0.9034564024460486,
+        "std": 0.0034808765484653156,
+        "min": 0.8982787018725074,
+        "max": 0.9083286112687236
+      },
+      "correct_mean_confidence": {
+        "mean": 0.9280037075001089,
+        "std": 0.003973444644923822,
+        "min": 0.9208002789169427,
+        "max": 0.9329294577389353
+      },
+      "incorrect_mean_confidence": {
+        "mean": 0.7340540811466886,
+        "std": 0.014548011203993159,
+        "min": 0.7129371989822351,
+        "max": 0.7535940774397643
+      },
+      "ece_10bin": {
+        "mean": 0.039935215292764545,
+        "std": 0.007379854231573562,
+        "min": 0.03183303036596368,
+        "max": 0.05305295515632459
+      },
+      "worst_class_recall": {
+        "mean": 0.7126100375738057,
+        "std": 0.032488670315008995,
+        "min": 0.6728395061728395,
+        "max": 0.7407407407407407
+      },
+      "class_recall_spread": {
+        "mean": 0.2729247588087019,
+        "std": 0.03397327609236281,
+        "min": 0.23853387065822307,
+        "max": 0.31679779952664233
+      },
+      "prediction_entropy": {
+        "mean": 0.9771436843296157,
+        "std": 0.00445657257594662,
+        "min": 0.9724200665307183,
+        "max": 0.9836115242145073
+      },
+      "leaked_groups": {
+        "mean": 5.0,
+        "std": 0.0,
+        "min": 5.0,
+        "max": 5.0
+      },
+      "leaked_train_samples": {
+        "mean": 23.0,
+        "std": 0.0,
+        "min": 23.0,
+        "max": 23.0
+      },
+      "remaining_test_samples": {
+        "mean": 563.0,
+        "std": 0.0,
+        "min": 563.0,
+        "max": 563.0
+      }
+    },
+    "0.20": {
+      "accuracy": {
+        "mean": 0.8883636363636362,
+        "std": 0.010762653517780888,
+        "min": 0.8763636363636363,
+        "max": 0.9054545454545454
+      },
+      "balanced_accuracy": {
+        "mean": 0.8777103422983037,
+        "std": 0.012939543616975524,
+        "min": 0.8646179616028862,
+        "max": 0.8990571686609479
+      },
+      "macro_f1": {
+        "mean": 0.8798622662293487,
+        "std": 0.012436243316268048,
+        "min": 0.8666928634282852,
+        "max": 0.9002639002639002
+      },
+      "mean_confidence": {
+        "mean": 0.9072979191338553,
+        "std": 0.0019187810695039784,
+        "min": 0.9050560912019444,
+        "max": 0.9100964630869118
+      },
+      "correct_mean_confidence": {
+        "mean": 0.9273456876252443,
+        "std": 0.0035083881904959336,
+        "min": 0.9228129266590851,
+        "max": 0.9316082320764718
+      },
+      "incorrect_mean_confidence": {
+        "mean": 0.7473674033768646,
+        "std": 0.009966072342737324,
+        "min": 0.7372486652994829,
+        "max": 0.7604671523694657
+      },
+      "ece_10bin": {
+        "mean": 0.032486740427765545,
+        "std": 0.008459650294019908,
+        "min": 0.016641711069260247,
+        "max": 0.04064067392461522
+      },
+      "worst_class_recall": {
+        "mean": 0.7308874370491358,
+        "std": 0.04495429753053125,
+        "min": 0.6794871794871795,
+        "max": 0.8129032258064516
+      },
+      "class_recall_spread": {
+        "mean": 0.25678328847503173,
+        "std": 0.04440163693836758,
+        "min": 0.17689269256089535,
+        "max": 0.31025641025641026
+      },
+      "prediction_entropy": {
+        "mean": 0.9765402372759906,
+        "std": 0.007447296183931553,
+        "min": 0.9644793785215198,
+        "max": 0.9875175607282249
+      },
+      "leaked_groups": {
+        "mean": 9.0,
+        "std": 0.0,
+        "min": 9.0,
+        "max": 9.0
+      },
+      "leaked_train_samples": {
+        "mean": 36.0,
+        "std": 0.0,
+        "min": 36.0,
+        "max": 36.0
+      },
+      "remaining_test_samples": {
+        "mean": 550.0,
+        "std": 0.0,
+        "min": 550.0,
+        "max": 550.0
+      }
+    },
+    "0.40": {
+      "accuracy": {
+        "mean": 0.9108,
+        "std": 0.012106196760337255,
+        "min": 0.892,
+        "max": 0.928
+      },
+      "balanced_accuracy": {
+        "mean": 0.8983429443366188,
+        "std": 0.012447264912200977,
+        "min": 0.8774545303570846,
+        "max": 0.9151906082559217
+      },
+      "macro_f1": {
+        "mean": 0.9017512542985047,
+        "std": 0.01304570472038278,
+        "min": 0.8803207078824763,
+        "max": 0.9194359555888703
+      },
+      "mean_confidence": {
+        "mean": 0.9154547756927276,
+        "std": 0.004118944879008305,
+        "min": 0.9084735608446827,
+        "max": 0.9214254793217691
+      },
+      "correct_mean_confidence": {
+        "mean": 0.9336243914620365,
+        "std": 0.004709488240400501,
+        "min": 0.9244086821300046,
+        "max": 0.9377480141845438
+      },
+      "incorrect_mean_confidence": {
+        "mean": 0.7281265301588979,
+        "std": 0.02115695312698394,
+        "min": 0.7030875531671976,
+        "max": 0.7551872954912017
+      },
+      "ece_10bin": {
+        "mean": 0.022976641646809605,
+        "std": 0.003694126084802386,
+        "min": 0.018738640901899722,
+        "max": 0.027964747285918544
+      },
+      "worst_class_recall": {
+        "mean": 0.7666479769865004,
+        "std": 0.023325649008251376,
+        "min": 0.725925925925926,
+        "max": 0.7894736842105263
+      },
+      "class_recall_spread": {
+        "mean": 0.21808647019707647,
+        "std": 0.020655443898181268,
+        "min": 0.19977362761743067,
+        "max": 0.25233494363929143
+      },
+      "prediction_entropy": {
+        "mean": 0.9765686995307895,
+        "std": 0.0036779141643385215,
+        "min": 0.9726545125009243,
+        "max": 0.983481202613656
+      },
+      "leaked_groups": {
+        "mean": 20.0,
+        "std": 0.0,
+        "min": 20.0,
+        "max": 20.0
+      },
+      "leaked_train_samples": {
+        "mean": 86.0,
+        "std": 0.0,
+        "min": 86.0,
+        "max": 86.0
+      },
+      "remaining_test_samples": {
+        "mean": 500.0,
+        "std": 0.0,
+        "min": 500.0,
+        "max": 500.0
+      }
+    }
+  },
+  "detailed_runs": [
+    {
+      "seed": 20260811,
+      "dose": 0.0,
+      "train_n": 1512,
+      "test_n": 586,
+      "leaked_group_count": 0,
+      "leaked_train_samples": 0,
+      "remaining_test_samples": 586,
+      "metrics": {
+        "accuracy": 0.8668941979522184,
+        "balanced_accuracy": 0.8566422877929859,
+        "macro_f1": 0.857873240491165,
+        "mean_confidence": 0.9029916581619859,
+        "correct_mean_confidence": 0.9279252389287509,
+        "incorrect_mean_confidence": 0.7406037218861324,
+        "ece_10bin": 0.04206308260592459,
+        "worst_class_recall": 0.6904761904761905,
+        "class_recall_spread": 0.2995735607675907,
+        "prediction_entropy": 0.974294200525518
+      },
+      "per_class_recall": {
+        "cavity": 0.6904761904761905,
+        "intact": 0.9900497512437811,
+        "utility": 0.8894009216589862
+      }
+    },
+    {
+      "seed": 20260811,
+      "dose": 0.05,
+      "train_n": 1529,
+      "test_n": 569,
+      "leaked_group_count": 3,
+      "leaked_train_samples": 17,
+      "remaining_test_samples": 569,
+      "metrics": {
+        "accuracy": 0.8875219683655536,
+        "balanced_accuracy": 0.8799466474416723,
+        "macro_f1": 0.8814635267955951,
+        "mean_confidence": 0.9060102611247932,
+        "correct_mean_confidence": 0.9268553229469737,
+        "incorrect_mean_confidence": 0.7415296951841501,
+        "ece_10bin": 0.022462251754173372,
+        "worst_class_recall": 0.7672955974842768,
+        "class_recall_spread": 0.21739828006674367,
+        "prediction_entropy": 0.983408283067108
+      },
+      "per_class_recall": {
+        "cavity": 0.7672955974842768,
+        "intact": 0.9846938775510204,
+        "utility": 0.8878504672897196
+      }
+    },
+    {
+      "seed": 20260811,
+      "dose": 0.1,
+      "train_n": 1535,
+      "test_n": 563,
+      "leaked_group_count": 5,
+      "leaked_train_samples": 23,
+      "remaining_test_samples": 563,
+      "metrics": {
+        "accuracy": 0.8614564831261101,
+        "balanced_accuracy": 0.8505087446509437,
+        "macro_f1": 0.8516654478714099,
+        "mean_confidence": 0.9011781669081363,
+        "correct_mean_confidence": 0.928503144730504,
+        "incorrect_mean_confidence": 0.7312728560895673,
+        "ece_10bin": 0.042441125402330804,
+        "worst_class_recall": 0.6728395061728395,
+        "class_recall_spread": 0.31161645237638325,
+        "prediction_entropy": 0.9724200665307183
+      },
+      "per_class_recall": {
+        "cavity": 0.6728395061728395,
+        "intact": 0.9844559585492227,
+        "utility": 0.8942307692307693
+      }
+    },
+    {
+      "seed": 20260811,
+      "dose": 0.2,
+      "train_n": 1548,
+      "test_n": 550,
+      "leaked_group_count": 9,
+      "leaked_train_samples": 36,
+      "remaining_test_samples": 550,
+      "metrics": {
+        "accuracy": 0.8763636363636363,
+        "balanced_accuracy": 0.8646485665104103,
+        "macro_f1": 0.8666928634282852,
+        "mean_confidence": 0.9076164960074828,
+        "correct_mean_confidence": 0.928376154446041,
+        "incorrect_mean_confidence": 0.7604671523694657,
+        "ece_10bin": 0.038518637393742367,
+        "worst_class_recall": 0.7096774193548387,
+        "class_recall_spread": 0.2801184990125082,
+        "prediction_entropy": 0.9762579712810608
+      },
+      "per_class_recall": {
+        "cavity": 0.7096774193548387,
+        "intact": 0.9897959183673469,
+        "utility": 0.8944723618090452
+      }
+    },
+    {
+      "seed": 20260811,
+      "dose": 0.4,
+      "train_n": 1598,
+      "test_n": 500,
+      "leaked_group_count": 20,
+      "leaked_train_samples": 86,
+      "remaining_test_samples": 500,
+      "metrics": {
+        "accuracy": 0.928,
+        "balanced_accuracy": 0.9151906082559217,
+        "macro_f1": 0.9194359555888703,
+        "mean_confidence": 0.9084735608446827,
+        "correct_mean_confidence": 0.9244086821300046,
+        "incorrect_mean_confidence": 0.7030875531671976,
+        "ece_10bin": 0.023258023305863025,
+        "worst_class_recall": 0.7894736842105263,
+        "class_recall_spread": 0.19977362761743067,
+        "prediction_entropy": 0.9746541576988755
+      },
+      "per_class_recall": {
+        "cavity": 0.7894736842105263,
+        "intact": 0.989247311827957,
+        "utility": 0.9668508287292817
+      }
+    },
+    {
+      "seed": 20260812,
+      "dose": 0.0,
+      "train_n": 1512,
+      "test_n": 586,
+      "leaked_group_count": 0,
+      "leaked_train_samples": 0,
+      "remaining_test_samples": 586,
+      "metrics": {
+        "accuracy": 0.8668941979522184,
+        "balanced_accuracy": 0.8566422877929859,
+        "macro_f1": 0.857873240491165,
+        "mean_confidence": 0.8992442044120058,
+        "correct_mean_confidence": 0.9242841843485461,
+        "incorrect_mean_confidence": 0.7361633094406923,
+        "ece_10bin": 0.033115404448198056,
+        "worst_class_recall": 0.6904761904761905,
+        "class_recall_spread": 0.2995735607675907,
+        "prediction_entropy": 0.974294200525518
+      },
+      "per_class_recall": {
+        "cavity": 0.6904761904761905,
+        "intact": 0.9900497512437811,
+        "utility": 0.8894009216589862
+      }
+    },
+    {
+      "seed": 20260812,
+      "dose": 0.05,
+      "train_n": 1529,
+      "test_n": 569,
+      "leaked_group_count": 3,
+      "leaked_train_samples": 17,
+      "remaining_test_samples": 569,
+      "metrics": {
+        "accuracy": 0.8611599297012302,
+        "balanced_accuracy": 0.8491552839683681,
+        "macro_f1": 0.8507590272296155,
+        "mean_confidence": 0.9022135099569728,
+        "correct_mean_confidence": 0.9280714568284452,
+        "incorrect_mean_confidence": 0.7418287761972074,
+        "ece_10bin": 0.04555195952246015,
+        "worst_class_recall": 0.675,
+        "class_recall_spread": 0.3096153846153846,
+        "prediction_entropy": 0.9719610838727974
+      },
+      "per_class_recall": {
+        "cavity": 0.675,
+        "intact": 0.9846153846153847,
+        "utility": 0.8878504672897196
+      }
+    },
+    {
+      "seed": 20260812,
+      "dose": 0.1,
+      "train_n": 1535,
+      "test_n": 563,
+      "leaked_group_count": 5,
+      "leaked_train_samples": 23,
+      "remaining_test_samples": 563,
+      "metrics": {
+        "accuracy": 0.8596802841918295,
+        "balanced_accuracy": 0.8490307321625686,
+        "macro_f1": 0.8500028906532971,
+        "mean_confidence": 0.9038801286676524,
+        "correct_mean_confidence": 0.9329294577389353,
+        "incorrect_mean_confidence": 0.7259070239777681,
+        "ece_10bin": 0.05305295515632459,
+        "worst_class_recall": 0.6728395061728395,
+        "class_recall_spread": 0.31679779952664233,
+        "prediction_entropy": 0.9725972919444622
+      },
+      "per_class_recall": {
+        "cavity": 0.6728395061728395,
+        "intact": 0.9896373056994818,
+        "utility": 0.8846153846153846
+      }
+    },
+    {
+      "seed": 20260812,
+      "dose": 0.2,
+      "train_n": 1548,
+      "test_n": 550,
+      "leaked_group_count": 9,
+      "leaked_train_samples": 36,
+      "remaining_test_samples": 550,
+      "metrics": {
+        "accuracy": 0.8872727272727273,
+        "balanced_accuracy": 0.8763792838836189,
+        "macro_f1": 0.8787211594826415,
+        "mean_confidence": 0.9050560912019444,
+        "correct_mean_confidence": 0.9236885303418252,
+        "incorrect_mean_confidence": 0.7584007637783666,
+        "ece_10bin": 0.03219460524862264,
+        "worst_class_recall": 0.7151898734177216,
+        "class_recall_spread": 0.2640847379812422,
+        "prediction_entropy": 0.974950168775842
+      },
+      "per_class_recall": {
+        "cavity": 0.7151898734177216,
+        "intact": 0.9792746113989638,
+        "utility": 0.9346733668341709
+      }
+    },
+    {
+      "seed": 20260812,
+      "dose": 0.4,
+      "train_n": 1598,
+      "test_n": 500,
+      "leaked_group_count": 20,
+      "leaked_train_samples": 86,
+      "remaining_test_samples": 500,
+      "metrics": {
+        "accuracy": 0.892,
+        "balanced_accuracy": 0.8774545303570846,
+        "macro_f1": 0.8803207078824763,
+        "mean_confidence": 0.9160508882323005,
+        "correct_mean_confidence": 0.9355276460978145,
+        "incorrect_mean_confidence": 0.7551872954912017,
+        "ece_10bin": 0.027964747285918544,
+        "worst_class_recall": 0.725925925925926,
+        "class_recall_spread": 0.25233494363929143,
+        "prediction_entropy": 0.9756533486880641
+      },
+      "per_class_recall": {
+        "cavity": 0.725925925925926,
+        "intact": 0.9782608695652174,
+        "utility": 0.9281767955801105
+      }
+    },
+    {
+      "seed": 20260813,
+      "dose": 0.0,
+      "train_n": 1512,
+      "test_n": 586,
+      "leaked_group_count": 0,
+      "leaked_train_samples": 0,
+      "remaining_test_samples": 586,
+      "metrics": {
+        "accuracy": 0.8668941979522184,
+        "balanced_accuracy": 0.8566422877929859,
+        "macro_f1": 0.857873240491165,
+        "mean_confidence": 0.9023655422264217,
+        "correct_mean_confidence": 0.9274923998001092,
+        "incorrect_mean_confidence": 0.7387188287977902,
+        "ece_10bin": 0.03627172284618335,
+        "worst_class_recall": 0.6904761904761905,
+        "class_recall_spread": 0.2995735607675907,
+        "prediction_entropy": 0.974294200525518
+      },
+      "per_class_recall": {
+        "cavity": 0.6904761904761905,
+        "intact": 0.9900497512437811,
+        "utility": 0.8894009216589862
+      }
+    },
+    {
+      "seed": 20260813,
+      "dose": 0.05,
+      "train_n": 1529,
+      "test_n": 569,
+      "leaked_group_count": 3,
+      "leaked_train_samples": 17,
+      "remaining_test_samples": 569,
+      "metrics": {
+        "accuracy": 0.8857644991212654,
+        "balanced_accuracy": 0.8779480190111032,
+        "macro_f1": 0.8793605459135474,
+        "mean_confidence": 0.8979295317005583,
+        "correct_mean_confidence": 0.9215829941330841,
+        "incorrect_mean_confidence": 0.7145242229929736,
+        "ece_10bin": 0.01732625055881082,
+        "worst_class_recall": 0.75625,
+        "class_recall_spread": 0.2334935897435898,
+        "prediction_entropy": 0.98207287387133
+      },
+      "per_class_recall": {
+        "cavity": 0.75625,
+        "intact": 0.9897435897435898,
+        "utility": 0.8878504672897196
+      }
+    },
+    {
+      "seed": 20260813,
+      "dose": 0.1,
+      "train_n": 1535,
+      "test_n": 563,
+      "leaked_group_count": 5,
+      "leaked_train_samples": 23,
+      "remaining_test_samples": 563,
+      "metrics": {
+        "accuracy": 0.8792184724689165,
+        "balanced_accuracy": 0.8705128205128205,
+        "macro_f1": 0.8723351960488789,
+        "mean_confidence": 0.9083286112687236,
+        "correct_mean_confidence": 0.9295850724815907,
+        "incorrect_mean_confidence": 0.7535940774397643,
+        "ece_10bin": 0.03628614964357416,
+        "worst_class_recall": 0.7375,
+        "class_recall_spread": 0.24711538461538463,
+        "prediction_entropy": 0.9808430204254823
+      },
+      "per_class_recall": {
+        "cavity": 0.7375,
+        "intact": 0.9846153846153847,
+        "utility": 0.8894230769230769
+      }
+    },
+    {
+      "seed": 20260813,
+      "dose": 0.2,
+      "train_n": 1548,
+      "test_n": 550,
+      "leaked_group_count": 9,
+      "leaked_train_samples": 36,
+      "remaining_test_samples": 550,
+      "metrics": {
+        "accuracy": 0.8945454545454545,
+        "balanced_accuracy": 0.8838487308336554,
+        "macro_f1": 0.8858662308886913,
+        "mean_confidence": 0.9100964630869118,
+        "correct_mean_confidence": 0.9302425946027983,
+        "incorrect_mean_confidence": 0.7392016922969765,
+        "ece_10bin": 0.04064067392461522,
+        "worst_class_recall": 0.7371794871794872,
+        "class_recall_spread": 0.25256410256410255,
+        "prediction_entropy": 0.9794961070733056
+      },
+      "per_class_recall": {
+        "cavity": 0.7371794871794872,
+        "intact": 0.9897435897435898,
+        "utility": 0.9246231155778895
+      }
+    },
+    {
+      "seed": 20260813,
+      "dose": 0.4,
+      "train_n": 1598,
+      "test_n": 500,
+      "leaked_group_count": 20,
+      "leaked_train_samples": 86,
+      "remaining_test_samples": 500,
+      "metrics": {
+        "accuracy": 0.916,
+        "balanced_accuracy": 0.9025833154262218,
+        "macro_f1": 0.9067094468060021,
+        "mean_confidence": 0.9156438269121732,
+        "correct_mean_confidence": 0.9348609445594749,
+        "incorrect_mean_confidence": 0.7060857344725511,
+        "ece_10bin": 0.018738640901899722,
+        "worst_class_recall": 0.7573529411764706,
+        "class_recall_spread": 0.23171809707489555,
+        "prediction_entropy": 0.9726545125009243
+      },
+      "per_class_recall": {
+        "cavity": 0.7573529411764706,
+        "intact": 0.9890710382513661,
+        "utility": 0.9613259668508287
+      }
+    },
+    {
+      "seed": 20260814,
+      "dose": 0.0,
+      "train_n": 1512,
+      "test_n": 586,
+      "leaked_group_count": 0,
+      "leaked_train_samples": 0,
+      "remaining_test_samples": 586,
+      "metrics": {
+        "accuracy": 0.8668941979522184,
+        "balanced_accuracy": 0.8566422877929859,
+        "macro_f1": 0.857873240491165,
+        "mean_confidence": 0.9017616261349142,
+        "correct_mean_confidence": 0.9264223179019447,
+        "incorrect_mean_confidence": 0.7411509669342536,
+        "ece_10bin": 0.03557466492435703,
+        "worst_class_recall": 0.6904761904761905,
+        "class_recall_spread": 0.2995735607675907,
+        "prediction_entropy": 0.974294200525518
+      },
+      "per_class_recall": {
+        "cavity": 0.6904761904761905,
+        "intact": 0.9900497512437811,
+        "utility": 0.8894009216589862
+      }
+    },
+    {
+      "seed": 20260814,
+      "dose": 0.05,
+      "train_n": 1529,
+      "test_n": 569,
+      "leaked_group_count": 3,
+      "leaked_train_samples": 17,
+      "remaining_test_samples": 569,
+      "metrics": {
+        "accuracy": 0.8717047451669596,
+        "balanced_accuracy": 0.8624547720663593,
+        "macro_f1": 0.8634843603787702,
+        "mean_confidence": 0.8998838762551357,
+        "correct_mean_confidence": 0.9257357585406838,
+        "incorrect_mean_confidence": 0.7242327308629173,
+        "ece_10bin": 0.030296260970612447,
+        "worst_class_recall": 0.7098765432098766,
+        "class_recall_spread": 0.27976076248960524,
+        "prediction_entropy": 0.9774592592914819
+      },
+      "per_class_recall": {
+        "cavity": 0.7098765432098766,
+        "intact": 0.9896373056994818,
+        "utility": 0.8878504672897196
+      }
+    },
+    {
+      "seed": 20260814,
+      "dose": 0.1,
+      "train_n": 1535,
+      "test_n": 563,
+      "leaked_group_count": 5,
+      "leaked_train_samples": 23,
+      "remaining_test_samples": 563,
+      "metrics": {
+        "accuracy": 0.8756660746003553,
+        "balanced_accuracy": 0.8682102455850297,
+        "macro_f1": 0.8695201263339593,
+        "mean_confidence": 0.9056164035132236,
+        "correct_mean_confidence": 0.9282005836325709,
+        "incorrect_mean_confidence": 0.7465592492441077,
+        "ece_10bin": 0.03606281589562947,
+        "worst_class_recall": 0.7407407407407407,
+        "class_recall_spread": 0.23853387065822307,
+        "prediction_entropy": 0.9836115242145073
+      },
+      "per_class_recall": {
+        "cavity": 0.7407407407407407,
+        "intact": 0.9792746113989638,
+        "utility": 0.8846153846153846
+      }
+    },
+    {
+      "seed": 20260814,
+      "dose": 0.2,
+      "train_n": 1548,
+      "test_n": 550,
+      "leaked_group_count": 9,
+      "leaked_train_samples": 36,
+      "remaining_test_samples": 550,
+      "metrics": {
+        "accuracy": 0.9054545454545454,
+        "balanced_accuracy": 0.8990571686609479,
+        "macro_f1": 0.9002639002639002,
+        "mean_confidence": 0.90526866922145,
+        "correct_mean_confidence": 0.9228129266590851,
+        "incorrect_mean_confidence": 0.7372486652994829,
+        "ece_10bin": 0.016641711069260247,
+        "worst_class_recall": 0.8129032258064516,
+        "class_recall_spread": 0.17689269256089535,
+        "prediction_entropy": 0.9875175607282249
+      },
+      "per_class_recall": {
+        "cavity": 0.8129032258064516,
+        "intact": 0.9897959183673469,
+        "utility": 0.8944723618090452
+      }
+    },
+    {
+      "seed": 20260814,
+      "dose": 0.4,
+      "train_n": 1598,
+      "test_n": 500,
+      "leaked_group_count": 20,
+      "leaked_train_samples": 86,
+      "remaining_test_samples": 500,
+      "metrics": {
+        "accuracy": 0.914,
+        "balanced_accuracy": 0.9025152369105266,
+        "macro_f1": 0.9063227496202592,
+        "mean_confidence": 0.9214254793217691,
+        "correct_mean_confidence": 0.9377480141845438,
+        "incorrect_mean_confidence": 0.7479510971755366,
+        "ece_10bin": 0.01894096715079158,
+        "worst_class_recall": 0.7737226277372263,
+        "class_recall_spread": 0.20429935028475166,
+        "prediction_entropy": 0.9764002761524277
+      },
+      "per_class_recall": {
+        "cavity": 0.7737226277372263,
+        "intact": 0.978021978021978,
+        "utility": 0.9558011049723757
+      }
+    },
+    {
+      "seed": 20260815,
+      "dose": 0.0,
+      "train_n": 1512,
+      "test_n": 586,
+      "leaked_group_count": 0,
+      "leaked_train_samples": 0,
+      "remaining_test_samples": 586,
+      "metrics": {
+        "accuracy": 0.8668941979522184,
+        "balanced_accuracy": 0.8566422877929859,
+        "macro_f1": 0.857873240491165,
+        "mean_confidence": 0.9011741710536848,
+        "correct_mean_confidence": 0.9260177585549916,
+        "incorrect_mean_confidence": 0.7393723447631235,
+        "ece_10bin": 0.03529757499601858,
+        "worst_class_recall": 0.6904761904761905,
+        "class_recall_spread": 0.2995735607675907,
+        "prediction_entropy": 0.974294200525518
+      },
+      "per_class_recall": {
+        "cavity": 0.6904761904761905,
+        "intact": 0.9900497512437811,
+        "utility": 0.8894009216589862
+      }
+    },
+    {
+      "seed": 20260815,
+      "dose": 0.05,
+      "train_n": 1529,
+      "test_n": 569,
+      "leaked_group_count": 3,
+      "leaked_train_samples": 17,
+      "remaining_test_samples": 569,
+      "metrics": {
+        "accuracy": 0.8857644991212654,
+        "balanced_accuracy": 0.8782744740384958,
+        "macro_f1": 0.8795463087939991,
+        "mean_confidence": 0.9011795162844409,
+        "correct_mean_confidence": 0.9233662188782648,
+        "incorrect_mean_confidence": 0.7291472377107924,
+        "ece_10bin": 0.0245892864517969,
+        "worst_class_recall": 0.7577639751552795,
+        "class_recall_spread": 0.22677210731894737,
+        "prediction_entropy": 0.9821471105628001
+      },
+      "per_class_recall": {
+        "cavity": 0.7577639751552795,
+        "intact": 0.9845360824742269,
+        "utility": 0.8925233644859814
+      }
+    },
+    {
+      "seed": 20260815,
+      "dose": 0.1,
+      "train_n": 1535,
+      "test_n": 563,
+      "leaked_group_count": 5,
+      "leaked_train_samples": 23,
+      "remaining_test_samples": 563,
+      "metrics": {
+        "accuracy": 0.8916518650088809,
+        "balanced_accuracy": 0.8823634624004413,
+        "macro_f1": 0.884726181311353,
+        "mean_confidence": 0.8982787018725074,
+        "correct_mean_confidence": 0.9208002789169427,
+        "incorrect_mean_confidence": 0.7129371989822351,
+        "ece_10bin": 0.03183303036596368,
+        "worst_class_recall": 0.7391304347826086,
+        "class_recall_spread": 0.2505602868668759,
+        "prediction_entropy": 0.9762465185329092
+      },
+      "per_class_recall": {
+        "cavity": 0.7391304347826086,
+        "intact": 0.9896907216494846,
+        "utility": 0.9182692307692307
+      }
+    },
+    {
+      "seed": 20260815,
+      "dose": 0.2,
+      "train_n": 1548,
+      "test_n": 550,
+      "leaked_group_count": 9,
+      "leaked_train_samples": 36,
+      "remaining_test_samples": 550,
+      "metrics": {
+        "accuracy": 0.8781818181818182,
+        "balanced_accuracy": 0.8646179616028862,
+        "macro_f1": 0.8677671770832257,
+        "mean_confidence": 0.9084518761514871,
+        "correct_mean_confidence": 0.9316082320764718,
+        "incorrect_mean_confidence": 0.7415187431400309,
+        "ece_10bin": 0.034438074502587276,
+        "worst_class_recall": 0.6794871794871795,
+        "class_recall_spread": 0.31025641025641026,
+        "prediction_entropy": 0.9644793785215198
+      },
+      "per_class_recall": {
+        "cavity": 0.6794871794871795,
+        "intact": 0.9897435897435898,
+        "utility": 0.9246231155778895
+      }
+    },
+    {
+      "seed": 20260815,
+      "dose": 0.4,
+      "train_n": 1598,
+      "test_n": 500,
+      "leaked_group_count": 20,
+      "leaked_train_samples": 86,
+      "remaining_test_samples": 500,
+      "metrics": {
+        "accuracy": 0.904,
+        "balanced_accuracy": 0.8939710307333391,
+        "macro_f1": 0.895967411594916,
+        "mean_confidence": 0.915680123152712,
+        "correct_mean_confidence": 0.9355766703383449,
+        "incorrect_mean_confidence": 0.7283209704880025,
+        "ece_10bin": 0.025980829589575156,
+        "worst_class_recall": 0.7867647058823529,
+        "class_recall_spread": 0.2023063323690132,
+        "prediction_entropy": 0.983481202613656
+      },
+      "per_class_recall": {
+        "cavity": 0.7867647058823529,
+        "intact": 0.9890710382513661,
+        "utility": 0.9060773480662984
+      }
+    }
+  ],
+  "claim_boundary": "Intentional lineage leakage injection; not a valid generalization protocol."
+}

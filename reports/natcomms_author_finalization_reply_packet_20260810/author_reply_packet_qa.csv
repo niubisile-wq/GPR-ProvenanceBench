@@ -1,0 +1,7 @@
+check,result,detail
+Reply form fields,PASS,12 reply fields.
+All master gates remain open,PASS,8 master gates imported.
+Manual reply preservation,PASS,0 existing manual fields preserved; no new author replies are inferred.
+Backend decision ticket exists,PASS,2 backend tickets.
+Reviewer/policy sheet exists,PASS,7 reviewer/policy rows.
+Reporting author sheet exists,PASS,4 Reporting Summary confirmation rows.

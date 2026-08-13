@@ -1,0 +1,7 @@
+order,receipt_id,command_type,command,allowed_now,required_before_running
+1,FMR-001,guarded_writeback_after_real_evidence,py scripts/build_fmr001_guarded_writeback_applier.py --execute-writeback,no,corresponding evidence validator and writeback preflight produce one complete candidate; explicit operator approval
+2,FMR-002,guarded_writeback_after_real_evidence,py scripts/build_fmr002_guarded_writeback_applier.py --execute-writeback,no,corresponding evidence validator and writeback preflight produce one complete candidate; explicit operator approval
+3,FMR-003,guarded_writeback_after_real_evidence,py scripts/build_fmr003_guarded_writeback_applier.py --execute-writeback,no,corresponding evidence validator and writeback preflight produce one complete candidate; explicit operator approval
+4,FMR-004,guarded_writeback_after_real_evidence,py scripts/build_fmr004_guarded_writeback_applier.py --execute-writeback,no,corresponding evidence validator and writeback preflight produce one complete candidate; explicit operator approval
+5,FMR-005,guarded_writeback_after_real_evidence,py scripts/build_fmr005_guarded_writeback_applier.py --execute-writeback,no,corresponding evidence validator and writeback preflight produce one complete candidate; explicit operator approval
+6,FMR-006,guarded_writeback_after_real_evidence,py scripts/build_fmr006_guarded_writeback_applier.py --execute-writeback,no,corresponding evidence validator and writeback preflight produce one complete candidate; explicit operator approval

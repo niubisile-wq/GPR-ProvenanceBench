@@ -1,0 +1,15 @@
+{
+  "package": "external_dependency_escalation_sendout_receipt_validator_20260810",
+  "sendout_receipt_rows": 5,
+  "sent_receipt_rows": 0,
+  "missing_send_receipts": 5,
+  "escalation_sent": false,
+  "fmr001_unlock_allowed": false,
+  "receipt_completion_allowed": false,
+  "portal_upload_allowed": false,
+  "submission_ready": false,
+  "qa_rows": 4,
+  "qa_pass": true,
+  "status": "external_dependency_escalation_sendout_receipt_validator_ready_waiting_sendout",
+  "desktop_plan_updated": true
+}

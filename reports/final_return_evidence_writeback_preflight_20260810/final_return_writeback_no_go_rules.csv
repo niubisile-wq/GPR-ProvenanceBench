@@ -1,0 +1,5 @@
+rule_id,rule,reason
+WB-NG-001,Do not write raw returned files directly into generated tracker summaries.,Only protected target fields may be edited after evidence is manually inspected.
+WB-NG-002,Do not rerun finalization validators as if evidence passed when candidate_return_files=0.,The scanner reports no returned evidence.
+WB-NG-003,Do not edit portal upload overlay fields before all upstream gates close.,submission_ready=false and portal upload remains blocked.
+WB-NG-004,Do not overwrite protected author/manual fields by regenerating blank packets.,Manual field preservation targets must remain protected across reruns.

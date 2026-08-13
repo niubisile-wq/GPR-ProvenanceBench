@@ -1,0 +1,16 @@
+{
+  "package": "figure_backend_decision_validator_20260810",
+  "ticket_rows": 2,
+  "preflight_backend_option_rows": 2,
+  "backend_choice": "Python",
+  "scope_choice": "Figure 1-Figure 6",
+  "backend_selected": true,
+  "scope_confirmed": true,
+  "preflight_ready": true,
+  "missing_sources": 0,
+  "rendering_allowed": true,
+  "rendered_figures": 0,
+  "submission_ready": false,
+  "qa_pass": true,
+  "status": "figure_backend_decision_validator_ready_for_formal_rendering"
+}

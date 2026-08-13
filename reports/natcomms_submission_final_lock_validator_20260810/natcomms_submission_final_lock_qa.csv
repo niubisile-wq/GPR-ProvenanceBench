@@ -1,0 +1,6 @@
+check,result,detail
+master_gates_all_open,PASS,master_gates=8; open_gates=8
+commands_all_blocked,PASS,blocked_commands=8
+portal_upload_all_blocked,PASS,blocked_portal_rows=9; upload_ready_rows=0
+portal_file_upload_disallowed,PASS,upload_allowed_rows=0; upload_allowed_now=False
+submission_not_ready,PASS,assembly=False; portal=False; dashboard=False

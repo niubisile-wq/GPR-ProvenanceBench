@@ -1,0 +1,7 @@
+field,required,format,notes
+receipt_id,yes,FMR-###,Do not change predefined IDs.
+owner,yes,person or role,Must identify accountable human owner.
+required_evidence,yes,text,Evidence must be real and inspectable.
+value_to_fill_after_manual_action,yes,replace placeholder after action,Placeholders do not unlock gates.
+current_status,yes,missing|complete|rejected|waiting_for_*,Current generated state is missing/waiting only.
+first_validator,yes,command,Run only after real evidence is present.

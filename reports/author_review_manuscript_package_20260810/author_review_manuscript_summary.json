@@ -1,0 +1,15 @@
+{
+  "run_id": "20260810_author_review_manuscript_package_v0_1",
+  "sections_assembled": 7,
+  "body_words_excluding_title_abstract": 1942,
+  "abstract_words": 127,
+  "nat_comms_body_limit_reference": 5000,
+  "qa_rows": 5,
+  "qa_failures": 0,
+  "qa_warnings": 1,
+  "claim_audit_status": "claim_readiness_audit_ready_submission_not_ready",
+  "gap_matrix_status": "gap_closure_matrix_ready_submission_not_ready",
+  "submission_ready": false,
+  "status": "author_review_manuscript_ready_not_submission_final",
+  "boundary": "Assembled manuscript is for author review only; final submission remains blocked by figures, external validation, DOI, rights, Reporting Summary and references."
+}

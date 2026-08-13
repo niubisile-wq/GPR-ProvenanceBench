@@ -1,0 +1,5 @@
+confirmation_id,owner,question,blocks,current_author_reply_state,after_reply_validation
+RS-C001,corresponding author,Confirm final figure set and whether Figure 1-Figure 6 or a reduced set will be used.,"Study design, randomization/split strategy, source-data mapping",blank,rerun reporting_summary_completion_handoff and full M0-M2 checks
+RS-C002,analysis/statistics reviewer,Confirm whether the final paper reports descriptive metrics only or adds inferential tests/uncertainty intervals.,Statistical analysis Reporting Summary fields,blank,rerun reporting_summary_completion_handoff and full M0-M2 checks
+RS-C003,external data holder,"Confirm whether a real blind external asset exists, whether labels can be held back and whether aggregate metrics may be published.",Blinding and external validation fields,blank,rerun reporting_summary_completion_handoff and full M0-M2 checks
+RS-C004,repository/rights lead,"Confirm data DOI/accession, code DOI, licences and third-party redistribution boundaries.",Data availability and software/code availability fields,blank,rerun reporting_summary_completion_handoff and full M0-M2 checks

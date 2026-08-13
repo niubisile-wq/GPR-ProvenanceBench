@@ -1,0 +1,6 @@
+check,result,detail
+track_a_marked_inactive,PASS,Track A requires real external evidence before activation.
+track_b_current_fallback,PASS,Track B preserves external validation as an open gate.
+no_completed_external_validation_claim,PASS,blind_external_gate_status=NO-GO
+submission_ready_not_claimed,PASS,submission_ready=False
+claim_boundary_preserved,PASS,claim_readiness_audit_ready_submission_not_ready

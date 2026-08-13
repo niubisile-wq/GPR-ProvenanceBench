@@ -1,0 +1,11 @@
+submission_item,current_status,assembly_status,blocking_condition,text_preassembly_effect
+Main manuscript text,author_review_ready_not_final,preassemblable,"Requires final figures, final references, final availability statements and final Reporting Summary alignment.",included_as_preassembled_text
+Track B title and abstract,track_b_prelocked,preassemblable,Requires author route confirmation and final external-validation status.,included_as_preassembled_text
+Main figures,inputs_locked_figures_not_rendered,blocked,"Figure backend is undecided; rendered figures, vector exports and visual QA are absent.",kept_as_open_gate
+Source Data,derived_source_data_ready_for_audit,blocked,Final rendered figure panel mapping and release identifiers are absent.,kept_as_open_gate
+Data Availability statement,prelock_not_final,blocked,"Repository DOI/accession, licence, rights and final source data are missing.",kept_as_open_gate
+Code Availability statement,prelock_not_final,blocked,"Code repository URL, release tag, software licence and code DOI are missing.",kept_as_open_gate
+Repository/DOI package,predeposit_manifest_locked_release_not_public,blocked,"Repository DOI, code DOI, licence and rights clearance are not created.",kept_as_open_gate
+Reporting Summary,prelock_not_final,blocked,"Blinding, external validation, DOI/rights and final figures are unresolved.",kept_as_open_gate
+References,sentence_support_mapped_not_final,blocked,"Final prose, figure/table calls and citation order are not locked.",kept_as_open_gate
+Cover letter,skeleton_ready,preassemblable,"Needs final title, branch and significance framing.",included_as_preassembled_text

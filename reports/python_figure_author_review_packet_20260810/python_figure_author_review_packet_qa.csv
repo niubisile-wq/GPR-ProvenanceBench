@@ -1,0 +1,6 @@
+check,result,detail
+visual_qa_ready_imported,PASS,author_review_preview_ready_rows=6
+png_pdf_copied_for_each_figure,PASS,copied_rows=12
+author_review_form_blank,PASS,approval fields intentionally blank
+finalization_remains_blocked,PASS,finalization_rows=6
+desktop_zip_created,PASS,desktop_zip_exists=True; zip_members=16

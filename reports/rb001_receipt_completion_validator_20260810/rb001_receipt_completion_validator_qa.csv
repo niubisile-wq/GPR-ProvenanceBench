@@ -1,0 +1,6 @@
+check,result,detail
+all_receipt_rows_validated,PASS,validation_rows=7
+empty_state_not_complete,PASS,receipt_complete=False; scanner_rows=0
+no_writeback_entry_without_real_files,PASS,writeback_preflight_entry_allowed=False
+no_false_ready_rows,PASS,ready_rows=0
+submission_guard_preserved,PASS,submission_ready=False

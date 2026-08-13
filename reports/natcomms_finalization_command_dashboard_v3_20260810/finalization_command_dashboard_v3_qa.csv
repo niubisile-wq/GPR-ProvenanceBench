@@ -1,0 +1,6 @@
+check,result,detail
+Eight command rows,PASS,8 rows.
+No false command unlock,PASS,8 blocked commands.
+Portal overlay covers uploads,PASS,9 upload rows.
+Portal remains blocked,PASS,9 blocked upload rows.
+No-go register active,PASS,5 no-go rows.

@@ -1,0 +1,11 @@
+order,command,purpose,writes_manual_evidence,can_close_gate
+1,py scripts\build_manual_evidence_inbox_audit.py,Re-scan manual evidence inbox folders and checksums after returned files are placed.,no,no
+2,py scripts\build_inbox_to_tracker_writeback_queue.py,Refresh writeback eligibility from audited inbox status.,no,no
+3,py scripts\build_post_dispatch_evidence_intake_validator.py,Validate whether any returned manual evidence row is complete enough to unlock a branch.,no,no
+4,py scripts\build_manual_evidence_entry_preflight.py,"Check manual-entry targets, editable fields and blockers before any writeback.",no,no
+5,py scripts\build_manual_evidence_lifecycle_dashboard.py,Refresh lifecycle status after inbox and validator updates.,no,no
+6,py scripts\build_gate_closure_execution_board.py,Refresh gate prerequisites and stop rules without closing gates.,no,no
+7,py scripts\build_submission_completion_ledger.py,Refresh top-level completion ledger after status-only packages change.,no,no
+8,py scripts\build_portal_submission_file_preflight.py,Refresh upload blockers after gate ledger changes.,no,no
+9,py scripts\check_manuscript_text_encoding.py,Check generated text artifacts for mojibake markers.,no,no
+10,powershell -ExecutionPolicy Bypass -File scripts\run_m0_m2_checks.ps1,Optional full-chain verification after evidence-dependent status packages are refreshed.,no,no

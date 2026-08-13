@@ -1,0 +1,20 @@
+{
+  "package": "rb001_hash_manifest_readiness_validator_20260810",
+  "manifest_rows": 7,
+  "filled_manifest_rows": 0,
+  "scanner_file_rows": 0,
+  "reconciled_rows": 0,
+  "missing_source_register_rows": 0,
+  "hash_mismatch_rows": 0,
+  "crosswalk_drop_ready": false,
+  "hash_manifest_ready": false,
+  "receipt_closeout_allowed": false,
+  "writeback_preflight_allowed": false,
+  "candidate_return_files": 0,
+  "writeback_allowed_rows": 0,
+  "submission_ready": false,
+  "qa_rows": 5,
+  "qa_pass": true,
+  "status": "rb001_hash_manifest_readiness_validator_ready_blocked_empty_manifest",
+  "desktop_plan_updated": true
+}

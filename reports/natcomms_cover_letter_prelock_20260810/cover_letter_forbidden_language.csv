@@ -1,0 +1,8 @@
+forbidden_statement,why_forbidden,cover_letter_replacement
+Completed blind external validation,Contradicts current hard-gate status.,Use bounded/open-gate wording from the Track B branch lock matrix.
+Data/code are deposited under DOI,Contradicts current hard-gate status.,Use bounded/open-gate wording from the Track B branch lock matrix.
+Final figures and Source Data are ready,Contradicts current hard-gate status.,Use bounded/open-gate wording from the Track B branch lock matrix.
+Final Reporting Summary is ready,Contradicts current hard-gate status.,Use bounded/open-gate wording from the Track B branch lock matrix.
+Final numbered references are complete,Contradicts current hard-gate status.,Use bounded/open-gate wording from the Track B branch lock matrix.
+The benchmark demonstrates deployment robustness across GPR settings.,No completed blind external validation exists.,The benchmark exposes environment-transfer fragility within the current executable evidence boundary.
+All source data and code are publicly available under DOI.,"Repository DOI, code DOI, licence and rights clearance are not complete.",Availability statements remain prelock until identifiers and rights are resolved.

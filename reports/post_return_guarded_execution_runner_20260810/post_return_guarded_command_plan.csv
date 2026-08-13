@@ -1,0 +1,8 @@
+guard_id,route_id,worksheet_id,mapped_gate_id,command,guard_decision,would_execute_now,blocking_reason
+GUARD-001,RTE-001,MEW-001,FM-001,py scripts\build_natcomms_author_response_log_validator.py,block,no,Blocked by guard: protected writeback and gate transition are not both allowed.
+GUARD-002,RTE-002,MEW-002,FM-001,py scripts\build_natcomms_author_reply_ingestion_validator.py,block,no,Blocked by guard: protected writeback and gate transition are not both allowed.
+GUARD-003,RTE-003,MEW-003,FM-003,py scripts\build_figure_backend_decision_validator.py,block,no,Blocked by guard: protected writeback and gate transition are not both allowed.
+GUARD-004,RTE-004,MEW-005,FM-004,py scripts\build_rights_licence_completion_handoff.py,block,no,Blocked by guard: protected writeback and gate transition are not both allowed.
+GUARD-005,RTE-005,MEW-006,FM-005,py scripts\build_reporting_summary_completion_handoff.py,block,no,Blocked by guard: protected writeback and gate transition are not both allowed.
+GUARD-006,RTE-006,MEW-007,FM-006,py scripts\build_reference_completion_handoff.py,block,no,Blocked by guard: protected writeback and gate transition are not both allowed.
+GUARD-007,RTE-007,PORTAL-LOCK,FM-008,py scripts/build_natcomms_submission_final_lock_validator.py,block,no,Blocked by guard: protected writeback and gate transition are not both allowed.

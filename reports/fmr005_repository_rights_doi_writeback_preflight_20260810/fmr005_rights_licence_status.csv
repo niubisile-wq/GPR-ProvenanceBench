@@ -1,0 +1,5 @@
+component,current_status,current_decision,candidate_decision,required_evidence_to_close,blocks_fmr005_now
+Code/scripts,needs_author_confirmation,open,MIT or BSD-3-Clause,"Corresponding author confirms software licence, public repository URL, release tag and archive DOI.",yes
+Derived source-data CSV/JSON/Markdown,needs_rights_review,open,CC BY 4.0 or CC0 if permitted,Rights lead confirms derived metadata can be redistributed and no third-party raw data or label hints are exposed.,yes
+Third-party raw GPR data,exclude_by_default,exclude_by_default_not_public_release,exclude raw files by default; cite providers or access routes,Written provider permission is required for any redistribution; otherwise exclusion remains final.,no
+Rendered figures and panel Source Data,not_created,open,same as article/source-data policy after journal decision,"Final rendered figures, visual QA and panel-level Source Data mapping exist.",yes

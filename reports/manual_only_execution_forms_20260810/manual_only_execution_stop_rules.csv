@@ -1,0 +1,5 @@
+rule_id,rule,current_state
+MOF-NOGO-001,Leave form rows blank until the real manual action has occurred.,filled_evidence_rows=0
+MOF-NOGO-002,"Do not use these forms as evidence by themselves; attach the real source file, receipt or decision record.",support_reports_count_as_evidence=no
+MOF-NOGO-003,Do not run FMR writeback from a filled form unless the matching validator emits an allowed candidate.,allowed_commands_now=0
+MOF-NOGO-004,Do not upload portal files from this package.,portal_upload_allowed=false; submission_ready=false

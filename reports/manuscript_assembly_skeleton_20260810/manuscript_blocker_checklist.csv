@@ -1,0 +1,9 @@
+blocker,severity,current_status,required_action
+Real blind external validation,critical,NO-GO,"Acquire an unused external GPR asset, strict-SHA validate intake, freeze predictions and run one locked evaluation after label unlock."
+Rendered main figures,critical,source data only,"Select Python or R backend, render Figure 2/Table 2 first, then Figures 3-6 with panel-level source mapping."
+Data repository DOI/accession,critical,missing,Create a public or controlled-access repository record and replace placeholders in Data Availability.
+Code release DOI and licence,critical,missing,"Prepare repository, release tag, licence file and archival DOI."
+Reporting Summary final answers,major,checklist only,"Complete final study-design, blinding, exclusion, statistics and software answers."
+Third-party data rights,major,not cleared,Verify redistribution rights for reused public/third-party data and keep raw data out of public release if rights are unclear.
+Full Res-SAM model replication,major,NO-GO,Restore SAM ViT-L checkpoint and compatible runtime before claiming full method replication.
+TIGPR executable asset,major,NO-GO,Restore authorized five-class image tree and rebuild the 7169-row index before counting TIGPR as a core executable asset.

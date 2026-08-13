@@ -1,0 +1,5 @@
+check,result,detail
+all_current_state_summaries_exist,PASS,five status summaries checked
+referenced_scripts_exist,PASS,all referenced scripts present
+runner_is_status_only,PASS,command_rows=10
+blocked_state_preserved,PASS,evidence_rows_passed=0; submission_ready=False; gate_closure_allowed=False

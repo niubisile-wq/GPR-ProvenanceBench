@@ -1,0 +1,6 @@
+order,action,allowed_now
+1,Copy real returned evidence into the mapped RB-001 route folders only after real files are received.,manual_only_after_returns
+2,"Calculate SHA256 for each copied file and fill expected_file_name, source_person_or_system, received_date and sha256.",after_real_file_drop_only
+3,Run scanner and hash reconciliation diagnostics.,after_manifest_filled_only
+4,Do not proceed to RB-001 closeout receipt until hash_manifest_ready=true.,blocked_now
+5,Do not run writeback preflight until RB-001 is actually closed.,blocked_now

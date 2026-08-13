@@ -1,0 +1,887 @@
+{
+  "run_id": "20260811_E18_zenodo_gpr_trackc_metadata_baseline",
+  "manifest": "data_manifests/zenodo_gpr_14637589_raw_manifest_20260811.csv",
+  "dataset": {
+    "n_samples": 914,
+    "label_counts": {
+      "pipe": 553,
+      "rebar": 217,
+      "tunnel": 144
+    },
+    "n_groups": 20,
+    "group_label_counts": {
+      "pipe": 13,
+      "rebar": 4,
+      "tunnel": 3
+    },
+    "extensions": {
+      ".dt": 674,
+      ".rd3": 78,
+      ".dat": 82,
+      ".sgy": 4,
+      ".srd": 76
+    }
+  },
+  "features": {
+    "description": "log file size, raw size, path depth, filename length, extension one-hot, and 4096-byte head/tail byte histogram/signature features",
+    "n_features": 269,
+    "semantic_gpr_signal_used": false
+  },
+  "split_protocols": {
+    "random_stratified_70_30": "sample-level stratified split; can share project groups across train/test",
+    "project_group_stratified_70_30": "project group split stratified by majority group label; zero shared split groups"
+  },
+  "model_contrasts": [
+    {
+      "model": "sgd_logistic",
+      "random_balanced_accuracy": {
+        "mean": 0.9022328866417434,
+        "std": 0.016414857173108865,
+        "min": 0.8839658786184339,
+        "max": 0.9209995036760112
+      },
+      "group_balanced_accuracy": {
+        "mean": 0.7845782249221612,
+        "std": 0.1557047677565539,
+        "min": 0.5925925925925926,
+        "max": 0.9032051282051282
+      },
+      "random_minus_group_balanced_accuracy": {
+        "mean": 0.11765466171958217,
+        "std": 0.1628510538981117,
+        "min": -0.019239249586694318,
+        "max": 0.31279020174717154
+      },
+      "random_shared_groups": {
+        "mean": 17.8,
+        "std": 0.8366600265340756,
+        "min": 17.0,
+        "max": 19.0
+      },
+      "group_shared_groups": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      }
+    },
+    {
+      "model": "extra_trees",
+      "random_balanced_accuracy": {
+        "mean": 0.9677357985281672,
+        "std": 0.009083009290917153,
+        "min": 0.9552522861254236,
+        "max": 0.9782760061272803
+      },
+      "group_balanced_accuracy": {
+        "mean": 0.839906344122333,
+        "std": 0.13925666644839646,
+        "min": 0.6868827160493827,
+        "max": 0.9925093632958801
+      },
+      "random_minus_group_balanced_accuracy": {
+        "mean": 0.12782945440583432,
+        "std": 0.1423652181516152,
+        "min": -0.02961797255321519,
+        "max": 0.281368973773119
+      },
+      "random_shared_groups": {
+        "mean": 17.8,
+        "std": 0.8366600265340756,
+        "min": 17.0,
+        "max": 19.0
+      },
+      "group_shared_groups": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      }
+    }
+  ],
+  "detailed_runs": [
+    {
+      "model": "sgd_logistic",
+      "split": "random_stratified_70_30",
+      "seed": 0,
+      "n_train": 639,
+      "n_test": 275,
+      "train_groups": 19,
+      "test_groups": 18,
+      "shared_groups": 17,
+      "test_label_counts": {
+        "pipe": 167,
+        "rebar": 65,
+        "tunnel": 43
+      },
+      "accuracy": 0.92,
+      "balanced_accuracy": 0.9053827943397641,
+      "confusion_matrix_labels": [
+        "pipe",
+        "rebar",
+        "tunnel"
+      ],
+      "confusion_matrix": [
+        [
+          157,
+          3,
+          7
+        ],
+        [
+          7,
+          58,
+          0
+        ],
+        [
+          5,
+          0,
+          38
+        ]
+      ]
+    },
+    {
+      "model": "sgd_logistic",
+      "split": "random_stratified_70_30",
+      "seed": 1,
+      "n_train": 639,
+      "n_test": 275,
+      "train_groups": 19,
+      "test_groups": 18,
+      "shared_groups": 17,
+      "test_label_counts": {
+        "pipe": 167,
+        "rebar": 65,
+        "tunnel": 43
+      },
+      "accuracy": 0.9418181818181818,
+      "balanced_accuracy": 0.9209995036760112,
+      "confusion_matrix_labels": [
+        "pipe",
+        "rebar",
+        "tunnel"
+      ],
+      "confusion_matrix": [
+        [
+          161,
+          5,
+          1
+        ],
+        [
+          4,
+          61,
+          0
+        ],
+        [
+          6,
+          0,
+          37
+        ]
+      ]
+    },
+    {
+      "model": "sgd_logistic",
+      "split": "random_stratified_70_30",
+      "seed": 2,
+      "n_train": 639,
+      "n_test": 275,
+      "train_groups": 19,
+      "test_groups": 19,
+      "shared_groups": 18,
+      "test_label_counts": {
+        "pipe": 167,
+        "rebar": 65,
+        "tunnel": 43
+      },
+      "accuracy": 0.9454545454545454,
+      "balanced_accuracy": 0.9141073845154057,
+      "confusion_matrix_labels": [
+        "pipe",
+        "rebar",
+        "tunnel"
+      ],
+      "confusion_matrix": [
+        [
+          164,
+          2,
+          1
+        ],
+        [
+          5,
+          60,
+          0
+        ],
+        [
+          7,
+          0,
+          36
+        ]
+      ]
+    },
+    {
+      "model": "sgd_logistic",
+      "split": "random_stratified_70_30",
+      "seed": 3,
+      "n_train": 639,
+      "n_test": 275,
+      "train_groups": 20,
+      "test_groups": 18,
+      "shared_groups": 18,
+      "test_label_counts": {
+        "pipe": 167,
+        "rebar": 65,
+        "tunnel": 43
+      },
+      "accuracy": 0.92,
+      "balanced_accuracy": 0.8839658786184339,
+      "confusion_matrix_labels": [
+        "pipe",
+        "rebar",
+        "tunnel"
+      ],
+      "confusion_matrix": [
+        [
+          163,
+          4,
+          0
+        ],
+        [
+          12,
+          53,
+          0
+        ],
+        [
+          6,
+          0,
+          37
+        ]
+      ]
+    },
+    {
+      "model": "sgd_logistic",
+      "split": "random_stratified_70_30",
+      "seed": 4,
+      "n_train": 639,
+      "n_test": 275,
+      "train_groups": 19,
+      "test_groups": 20,
+      "shared_groups": 19,
+      "test_label_counts": {
+        "pipe": 167,
+        "rebar": 65,
+        "tunnel": 43
+      },
+      "accuracy": 0.9163636363636364,
+      "balanced_accuracy": 0.8867088720591019,
+      "confusion_matrix_labels": [
+        "pipe",
+        "rebar",
+        "tunnel"
+      ],
+      "confusion_matrix": [
+        [
+          163,
+          3,
+          1
+        ],
+        [
+          16,
+          49,
+          0
+        ],
+        [
+          3,
+          0,
+          40
+        ]
+      ]
+    },
+    {
+      "model": "sgd_logistic",
+      "split": "project_group_stratified_70_30",
+      "seed": 0,
+      "n_train": 641,
+      "n_test": 273,
+      "train_groups": 14,
+      "test_groups": 6,
+      "shared_groups": 0,
+      "test_label_counts": {
+        "pipe": 90,
+        "rebar": 135,
+        "tunnel": 48
+      },
+      "accuracy": 0.45787545787545786,
+      "balanced_accuracy": 0.5925925925925926,
+      "confusion_matrix_labels": [
+        "pipe",
+        "rebar",
+        "tunnel"
+      ],
+      "confusion_matrix": [
+        [
+          85,
+          4,
+          1
+        ],
+        [
+          135,
+          0,
+          0
+        ],
+        [
+          8,
+          0,
+          40
+        ]
+      ]
+    },
+    {
+      "model": "sgd_logistic",
+      "split": "project_group_stratified_70_30",
+      "seed": 1,
+      "n_train": 478,
+      "n_test": 436,
+      "train_groups": 14,
+      "test_groups": 6,
+      "shared_groups": 0,
+      "test_label_counts": {
+        "pipe": 355,
+        "rebar": 33,
+        "tunnel": 48
+      },
+      "accuracy": 0.9151376146788991,
+      "balanced_accuracy": 0.8991979655712051,
+      "confusion_matrix_labels": [
+        "pipe",
+        "rebar",
+        "tunnel"
+      ],
+      "confusion_matrix": [
+        [
+          329,
+          12,
+          14
+        ],
+        [
+          0,
+          33,
+          0
+        ],
+        [
+          11,
+          0,
+          37
+        ]
+      ]
+    },
+    {
+      "model": "sgd_logistic",
+      "split": "project_group_stratified_70_30",
+      "seed": 2,
+      "n_train": 646,
+      "n_test": 268,
+      "train_groups": 14,
+      "test_groups": 6,
+      "shared_groups": 0,
+      "test_label_counts": {
+        "pipe": 85,
+        "rebar": 135,
+        "tunnel": 48
+      },
+      "accuracy": 0.4925373134328358,
+      "balanced_accuracy": 0.6373456790123456,
+      "confusion_matrix_labels": [
+        "pipe",
+        "rebar",
+        "tunnel"
+      ],
+      "confusion_matrix": [
+        [
+          85,
+          0,
+          0
+        ],
+        [
+          130,
+          5,
+          0
+        ],
+        [
+          6,
+          0,
+          42
+        ]
+      ]
+    },
+    {
+      "model": "sgd_logistic",
+      "split": "project_group_stratified_70_30",
+      "seed": 3,
+      "n_train": 443,
+      "n_test": 471,
+      "train_groups": 14,
+      "test_groups": 6,
+      "shared_groups": 0,
+      "test_label_counts": {
+        "pipe": 390,
+        "rebar": 33,
+        "tunnel": 48
+      },
+      "accuracy": 0.7898089171974523,
+      "balanced_accuracy": 0.9032051282051282,
+      "confusion_matrix_labels": [
+        "pipe",
+        "rebar",
+        "tunnel"
+      ],
+      "confusion_matrix": [
+        [
+          293,
+          33,
+          64
+        ],
+        [
+          0,
+          33,
+          0
+        ],
+        [
+          1,
+          1,
+          46
+        ]
+      ]
+    },
+    {
+      "model": "sgd_logistic",
+      "split": "project_group_stratified_70_30",
+      "seed": 4,
+      "n_train": 756,
+      "n_test": 158,
+      "train_groups": 14,
+      "test_groups": 6,
+      "shared_groups": 0,
+      "test_label_counts": {
+        "pipe": 89,
+        "rebar": 21,
+        "tunnel": 48
+      },
+      "accuracy": 0.9240506329113924,
+      "balanced_accuracy": 0.8905497592295345,
+      "confusion_matrix_labels": [
+        "pipe",
+        "rebar",
+        "tunnel"
+      ],
+      "confusion_matrix": [
+        [
+          86,
+          1,
+          2
+        ],
+        [
+          4,
+          17,
+          0
+        ],
+        [
+          5,
+          0,
+          43
+        ]
+      ]
+    },
+    {
+      "model": "extra_trees",
+      "split": "random_stratified_70_30",
+      "seed": 0,
+      "n_train": 639,
+      "n_test": 275,
+      "train_groups": 19,
+      "test_groups": 18,
+      "shared_groups": 17,
+      "test_label_counts": {
+        "pipe": 167,
+        "rebar": 65,
+        "tunnel": 43
+      },
+      "accuracy": 0.9745454545454545,
+      "balanced_accuracy": 0.9682516898225016,
+      "confusion_matrix_labels": [
+        "pipe",
+        "rebar",
+        "tunnel"
+      ],
+      "confusion_matrix": [
+        [
+          164,
+          3,
+          0
+        ],
+        [
+          2,
+          63,
+          0
+        ],
+        [
+          1,
+          1,
+          41
+        ]
+      ]
+    },
+    {
+      "model": "extra_trees",
+      "split": "random_stratified_70_30",
+      "seed": 1,
+      "n_train": 639,
+      "n_test": 275,
+      "train_groups": 19,
+      "test_groups": 18,
+      "shared_groups": 17,
+      "test_label_counts": {
+        "pipe": 167,
+        "rebar": 65,
+        "tunnel": 43
+      },
+      "accuracy": 0.9709090909090909,
+      "balanced_accuracy": 0.9782760061272803,
+      "confusion_matrix_labels": [
+        "pipe",
+        "rebar",
+        "tunnel"
+      ],
+      "confusion_matrix": [
+        [
+          160,
+          7,
+          0
+        ],
+        [
+          0,
+          65,
+          0
+        ],
+        [
+          1,
+          0,
+          42
+        ]
+      ]
+    },
+    {
+      "model": "extra_trees",
+      "split": "random_stratified_70_30",
+      "seed": 2,
+      "n_train": 639,
+      "n_test": 275,
+      "train_groups": 19,
+      "test_groups": 19,
+      "shared_groups": 18,
+      "test_label_counts": {
+        "pipe": 167,
+        "rebar": 65,
+        "tunnel": 43
+      },
+      "accuracy": 0.9745454545454545,
+      "balanced_accuracy": 0.9740076198229658,
+      "confusion_matrix_labels": [
+        "pipe",
+        "rebar",
+        "tunnel"
+      ],
+      "confusion_matrix": [
+        [
+          163,
+          4,
+          0
+        ],
+        [
+          2,
+          63,
+          0
+        ],
+        [
+          1,
+          0,
+          42
+        ]
+      ]
+    },
+    {
+      "model": "extra_trees",
+      "split": "random_stratified_70_30",
+      "seed": 3,
+      "n_train": 639,
+      "n_test": 275,
+      "train_groups": 20,
+      "test_groups": 18,
+      "shared_groups": 18,
+      "test_label_counts": {
+        "pipe": 167,
+        "rebar": 65,
+        "tunnel": 43
+      },
+      "accuracy": 0.9709090909090909,
+      "balanced_accuracy": 0.9552522861254236,
+      "confusion_matrix_labels": [
+        "pipe",
+        "rebar",
+        "tunnel"
+      ],
+      "confusion_matrix": [
+        [
+          164,
+          3,
+          0
+        ],
+        [
+          0,
+          65,
+          0
+        ],
+        [
+          5,
+          0,
+          38
+        ]
+      ]
+    },
+    {
+      "model": "extra_trees",
+      "split": "random_stratified_70_30",
+      "seed": 4,
+      "n_train": 639,
+      "n_test": 275,
+      "train_groups": 19,
+      "test_groups": 20,
+      "shared_groups": 19,
+      "test_label_counts": {
+        "pipe": 167,
+        "rebar": 65,
+        "tunnel": 43
+      },
+      "accuracy": 0.96,
+      "balanced_accuracy": 0.9628913907426649,
+      "confusion_matrix_labels": [
+        "pipe",
+        "rebar",
+        "tunnel"
+      ],
+      "confusion_matrix": [
+        [
+          160,
+          7,
+          0
+        ],
+        [
+          3,
+          62,
+          0
+        ],
+        [
+          1,
+          0,
+          42
+        ]
+      ]
+    },
+    {
+      "model": "extra_trees",
+      "split": "project_group_stratified_70_30",
+      "seed": 0,
+      "n_train": 641,
+      "n_test": 273,
+      "train_groups": 14,
+      "test_groups": 6,
+      "shared_groups": 0,
+      "test_label_counts": {
+        "pipe": 90,
+        "rebar": 135,
+        "tunnel": 48
+      },
+      "accuracy": 0.5421245421245421,
+      "balanced_accuracy": 0.6868827160493827,
+      "confusion_matrix_labels": [
+        "pipe",
+        "rebar",
+        "tunnel"
+      ],
+      "confusion_matrix": [
+        [
+          90,
+          0,
+          0
+        ],
+        [
+          124,
+          11,
+          0
+        ],
+        [
+          1,
+          0,
+          47
+        ]
+      ]
+    },
+    {
+      "model": "extra_trees",
+      "split": "project_group_stratified_70_30",
+      "seed": 1,
+      "n_train": 478,
+      "n_test": 436,
+      "train_groups": 14,
+      "test_groups": 6,
+      "shared_groups": 0,
+      "test_label_counts": {
+        "pipe": 355,
+        "rebar": 33,
+        "tunnel": 48
+      },
+      "accuracy": 0.8853211009174312,
+      "balanced_accuracy": 0.9230242566510172,
+      "confusion_matrix_labels": [
+        "pipe",
+        "rebar",
+        "tunnel"
+      ],
+      "confusion_matrix": [
+        [
+          310,
+          45,
+          0
+        ],
+        [
+          0,
+          33,
+          0
+        ],
+        [
+          4,
+          1,
+          43
+        ]
+      ]
+    },
+    {
+      "model": "extra_trees",
+      "split": "project_group_stratified_70_30",
+      "seed": 2,
+      "n_train": 646,
+      "n_test": 268,
+      "train_groups": 14,
+      "test_groups": 6,
+      "shared_groups": 0,
+      "test_label_counts": {
+        "pipe": 85,
+        "rebar": 135,
+        "tunnel": 48
+      },
+      "accuracy": 0.5559701492537313,
+      "balanced_accuracy": 0.6972222222222223,
+      "confusion_matrix_labels": [
+        "pipe",
+        "rebar",
+        "tunnel"
+      ],
+      "confusion_matrix": [
+        [
+          85,
+          0,
+          0
+        ],
+        [
+          117,
+          18,
+          0
+        ],
+        [
+          2,
+          0,
+          46
+        ]
+      ]
+    },
+    {
+      "model": "extra_trees",
+      "split": "project_group_stratified_70_30",
+      "seed": 3,
+      "n_train": 443,
+      "n_test": 471,
+      "train_groups": 14,
+      "test_groups": 6,
+      "shared_groups": 0,
+      "test_label_counts": {
+        "pipe": 390,
+        "rebar": 33,
+        "tunnel": 48
+      },
+      "accuracy": 0.7664543524416136,
+      "balanced_accuracy": 0.8998931623931624,
+      "confusion_matrix_labels": [
+        "pipe",
+        "rebar",
+        "tunnel"
+      ],
+      "confusion_matrix": [
+        [
+          281,
+          56,
+          53
+        ],
+        [
+          0,
+          33,
+          0
+        ],
+        [
+          1,
+          0,
+          47
+        ]
+      ]
+    },
+    {
+      "model": "extra_trees",
+      "split": "project_group_stratified_70_30",
+      "seed": 4,
+      "n_train": 756,
+      "n_test": 158,
+      "train_groups": 14,
+      "test_groups": 6,
+      "shared_groups": 0,
+      "test_label_counts": {
+        "pipe": 89,
+        "rebar": 21,
+        "tunnel": 48
+      },
+      "accuracy": 0.9873417721518988,
+      "balanced_accuracy": 0.9925093632958801,
+      "confusion_matrix_labels": [
+        "pipe",
+        "rebar",
+        "tunnel"
+      ],
+      "confusion_matrix": [
+        [
+          87,
+          2,
+          0
+        ],
+        [
+          0,
+          21,
+          0
+        ],
+        [
+          0,
+          0,
+          48
+        ]
+      ]
+    }
+  ],
+  "blind_external_eligible": false,
+  "interpretation": "The public Zenodo raw-GPR asset is now executable as a Track C non-blind stress test. Any high accuracy from metadata/byte-signature features should be interpreted as source or format separability, not as proof that semantic GPR defect reasoning generalizes. The hard blind-external gate remains open.",
+  "status": "complete_nonblind_trackc_baseline"
+}

@@ -1,0 +1,6 @@
+check,result,detail
+Nat Comms abstract length,PASS,127 words; limit is 150 words.
+Blind external validation overclaim,PASS,Draft states blind external validation remains open/no-go.
+Repository/DOI overclaim,PASS,Draft states identifiers remain unresolved.
+Main claim calibration,PASS,Res-SAM is lead result; Mojahid and 4TU are downgraded.
+Tables available for context,PASS,Manuscript table drafts present.

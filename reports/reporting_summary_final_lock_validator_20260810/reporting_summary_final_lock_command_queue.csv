@@ -1,0 +1,6 @@
+order,command,run_now,purpose
+1,py scripts\build_reporting_summary_draft.py,yes,Refresh draft answers.
+2,py scripts\build_reporting_summary_completion_handoff.py,yes,Refresh author confirmation handoff.
+3,py scripts\build_reporting_summary_finalization_prelock.py,yes,Refresh finalization prelock.
+4,py scripts\build_reporting_summary_final_lock_validator.py,yes,Refresh this final lock validator.
+5,Create final Reporting Summary answers,no,Allowed only after all final lock gates pass.

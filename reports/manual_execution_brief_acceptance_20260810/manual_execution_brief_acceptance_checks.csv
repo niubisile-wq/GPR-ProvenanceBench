@@ -1,0 +1,8 @@
+check_id,check,expected,observed,passes
+MEA-001,Desktop brief exists,true,true,yes
+MEA-002,Desktop brief contains all five FMR action labels,FMR-001 through FMR-005 present,FMR-001=True;FMR-002=True;FMR-003=True;FMR-004=True;FMR-005=True,yes
+MEA-003,Action CSV matches brief summary,5,5,yes
+MEA-004,No-go CSV matches brief summary,4,4,yes
+MEA-005,No-go text is present in Desktop brief,all no-go rows present,4,yes
+MEA-006,Monitor still allows no commands,0,0,yes
+MEA-007,Submission remains blocked,false,false,yes

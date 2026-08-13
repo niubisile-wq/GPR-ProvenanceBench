@@ -1,0 +1,18 @@
+{
+  "package": "natcomms_manual_sendout_execution_guard_20260810",
+  "manual_execution_steps": 9,
+  "evidence_capture_rows": 5,
+  "return_integrity_checks": 5,
+  "post_send_validation_commands": 6,
+  "report_zip_members": 24,
+  "desktop_zip_members": 24,
+  "zip_member_count_match": true,
+  "desktop_plan_updated": true,
+  "qa_rows": 7,
+  "qa_pass": true,
+  "email_sent": false,
+  "author_replies_collected": false,
+  "backend_selected": false,
+  "submission_ready": false,
+  "status": "natcomms_manual_sendout_execution_guard_ready_waiting_manual_sendout"
+}

@@ -1,0 +1,5 @@
+order,command,purpose,run_now
+1,py scripts\build_natcomms_author_reply_ingestion_validator.py,Ingest filled author reply sheets after manual return.,no
+2,py scripts\build_natcomms_gate_closure_evidence_binder.py,Rebind gate closure evidence after ingestion.,no
+3,py scripts\build_natcomms_finalization_command_dashboard_v3.py,Refresh command dashboard after evidence binder update.,no
+4,& scripts\run_m0_m2_checks.ps1,Run full artifact and boundary checks.,no

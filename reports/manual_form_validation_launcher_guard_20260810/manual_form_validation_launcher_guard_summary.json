@@ -1,0 +1,15 @@
+{
+  "package": "manual_form_validation_launcher_guard_20260810",
+  "guard_rows": 5,
+  "launch_allowed_rows": 0,
+  "global_launch_allowed": false,
+  "blocked_rows": 6,
+  "missing_required_cells": 50,
+  "candidate_files_detected": 0,
+  "allowed_commands_now": 0,
+  "submission_ready": false,
+  "qa_rows": 4,
+  "qa_pass": true,
+  "status": "manual_form_validation_launcher_guard_refusing_current_state",
+  "desktop_plan_updated": true
+}

@@ -1,0 +1,51 @@
+form_id,primary_fmr,field_order,field_name,meaning,acceptance_requirement,current_value,currently_filled
+MOF-001,FMR-001,1,performed_by,human executor name or accountable owner,non-empty; not placeholder,,no
+MOF-001,FMR-001,2,performed_at_local_time,local execution timestamp,ISO-like timestamp or unambiguous local time,,no
+MOF-001,FMR-001,3,evidence_file_or_folder,path to real evidence file or folder,existing path after real action,,no
+MOF-001,FMR-001,4,evidence_sha256,SHA256 of evidence file or manifest,64 lowercase/uppercase hex characters,,no
+MOF-001,FMR-001,5,source_channel,real channel used,email; cloud drive; portal; chat; meeting note; repository,,no
+MOF-001,FMR-001,6,counterparty_or_owner,"recipient, author, reviewer, repository owner or decision owner",non-empty,,no
+MOF-001,FMR-001,7,decision_or_return_summary,"short summary of what was sent, returned or decided",non-empty,,no
+MOF-001,FMR-001,8,sensitive_content_checked,sensitive leakage check result,yes after check; not_checked before action,not_checked,no
+MOF-001,FMR-001,9,validator_ran,whether the next validator was run after evidence,no until allowed; yes only after form complete,no,no
+MOF-001,FMR-001,10,validator_result,validator result,not_run until allowed; pass/fail after validator,not_run,no
+MOF-002,FMR-002,1,performed_by,human executor name or accountable owner,non-empty; not placeholder,,no
+MOF-002,FMR-002,2,performed_at_local_time,local execution timestamp,ISO-like timestamp or unambiguous local time,,no
+MOF-002,FMR-002,3,evidence_file_or_folder,path to real evidence file or folder,existing path after real action,,no
+MOF-002,FMR-002,4,evidence_sha256,SHA256 of evidence file or manifest,64 lowercase/uppercase hex characters,,no
+MOF-002,FMR-002,5,source_channel,real channel used,email; cloud drive; portal; chat; meeting note; repository,,no
+MOF-002,FMR-002,6,counterparty_or_owner,"recipient, author, reviewer, repository owner or decision owner",non-empty,,no
+MOF-002,FMR-002,7,decision_or_return_summary,"short summary of what was sent, returned or decided",non-empty,,no
+MOF-002,FMR-002,8,sensitive_content_checked,sensitive leakage check result,yes after check; not_checked before action,not_checked,no
+MOF-002,FMR-002,9,validator_ran,whether the next validator was run after evidence,no until allowed; yes only after form complete,no,no
+MOF-002,FMR-002,10,validator_result,validator result,not_run until allowed; pass/fail after validator,not_run,no
+MOF-003,FMR-003,1,performed_by,human executor name or accountable owner,non-empty; not placeholder,,no
+MOF-003,FMR-003,2,performed_at_local_time,local execution timestamp,ISO-like timestamp or unambiguous local time,,no
+MOF-003,FMR-003,3,evidence_file_or_folder,path to real evidence file or folder,existing path after real action,,no
+MOF-003,FMR-003,4,evidence_sha256,SHA256 of evidence file or manifest,64 lowercase/uppercase hex characters,,no
+MOF-003,FMR-003,5,source_channel,real channel used,email; cloud drive; portal; chat; meeting note; repository,,no
+MOF-003,FMR-003,6,counterparty_or_owner,"recipient, author, reviewer, repository owner or decision owner",non-empty,,no
+MOF-003,FMR-003,7,decision_or_return_summary,"short summary of what was sent, returned or decided",non-empty,,no
+MOF-003,FMR-003,8,sensitive_content_checked,sensitive leakage check result,yes after check; not_checked before action,not_checked,no
+MOF-003,FMR-003,9,validator_ran,whether the next validator was run after evidence,no until allowed; yes only after form complete,no,no
+MOF-003,FMR-003,10,validator_result,validator result,not_run until allowed; pass/fail after validator,not_run,no
+MOF-004,FMR-004,1,performed_by,human executor name or accountable owner,non-empty; not placeholder,,no
+MOF-004,FMR-004,2,performed_at_local_time,local execution timestamp,ISO-like timestamp or unambiguous local time,,no
+MOF-004,FMR-004,3,evidence_file_or_folder,path to real evidence file or folder,existing path after real action,,no
+MOF-004,FMR-004,4,evidence_sha256,SHA256 of evidence file or manifest,64 lowercase/uppercase hex characters,,no
+MOF-004,FMR-004,5,source_channel,real channel used,email; cloud drive; portal; chat; meeting note; repository,,no
+MOF-004,FMR-004,6,counterparty_or_owner,"recipient, author, reviewer, repository owner or decision owner",non-empty,,no
+MOF-004,FMR-004,7,decision_or_return_summary,"short summary of what was sent, returned or decided",non-empty,,no
+MOF-004,FMR-004,8,sensitive_content_checked,sensitive leakage check result,yes after check; not_checked before action,not_checked,no
+MOF-004,FMR-004,9,validator_ran,whether the next validator was run after evidence,no until allowed; yes only after form complete,no,no
+MOF-004,FMR-004,10,validator_result,validator result,not_run until allowed; pass/fail after validator,not_run,no
+MOF-005,FMR-005,1,performed_by,human executor name or accountable owner,non-empty; not placeholder,,no
+MOF-005,FMR-005,2,performed_at_local_time,local execution timestamp,ISO-like timestamp or unambiguous local time,,no
+MOF-005,FMR-005,3,evidence_file_or_folder,path to real evidence file or folder,existing path after real action,,no
+MOF-005,FMR-005,4,evidence_sha256,SHA256 of evidence file or manifest,64 lowercase/uppercase hex characters,,no
+MOF-005,FMR-005,5,source_channel,real channel used,email; cloud drive; portal; chat; meeting note; repository,,no
+MOF-005,FMR-005,6,counterparty_or_owner,"recipient, author, reviewer, repository owner or decision owner",non-empty,,no
+MOF-005,FMR-005,7,decision_or_return_summary,"short summary of what was sent, returned or decided",non-empty,,no
+MOF-005,FMR-005,8,sensitive_content_checked,sensitive leakage check result,yes after check; not_checked before action,not_checked,no
+MOF-005,FMR-005,9,validator_ran,whether the next validator was run after evidence,no until allowed; yes only after form complete,no,no
+MOF-005,FMR-005,10,validator_result,validator result,not_run until allowed; pass/fail after validator,not_run,no

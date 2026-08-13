@@ -1,0 +1,6 @@
+blocker_id,blocker,evidence,next_required_evidence
+AVAIL-BLOCK-001,repository_identifier_missing,repository_doi_created=false and repository_record_created=false,"Repository landing page, DOI/accession, file list, README, licence and version."
+AVAIL-BLOCK-002,licence_and_rights_not_cleared,licence_selected=false and third_party_rights_cleared=false,Author-selected software/data licences and rights lead clearance.
+AVAIL-BLOCK-003,upload_queue_blocked,37 files are queued only after rights and identifier clearance,Release upload queue with public_release_status allowed after DOI/rights closure.
+AVAIL-BLOCK-004,final_source_data_not_locked,final rendered figures and panel-level Source Data remain blocked,"Final figure exports, visual QA and panel-level Source Data manifest."
+AVAIL-BLOCK-005,blind_external_data_open,blind external validation data are not acquired,"Data-holder agreement, manifest, label-holdout route and shareability decision."

@@ -1,0 +1,5 @@
+check,result,detail
+all_source_files_present,PASS,missing_files=0
+all_guard_layers_imported,PASS,manifest_rows=20; expected=20
+desktop_zip_created,PASS,local_zip=True; desktop_zip=True; zip_members=23
+blocked_state_preserved,PASS,commands_allowed_now=0; submission_ready=False

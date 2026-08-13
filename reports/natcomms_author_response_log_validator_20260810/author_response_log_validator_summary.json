@@ -1,0 +1,14 @@
+{
+  "package": "natcomms_author_response_log_validator_20260810",
+  "send_rows_validated": 5,
+  "return_rows_validated": 8,
+  "send_log_valid": true,
+  "return_log_valid": true,
+  "all_sent": false,
+  "all_returned": false,
+  "author_reply_ingestion_allowed": false,
+  "backend_selected": false,
+  "submission_ready": false,
+  "qa_pass": true,
+  "status": "natcomms_author_response_log_validator_ready_waiting_manual_sendout"
+}

@@ -1,0 +1,22 @@
+{
+  "package": "figure_final_candidate_review_packet_20260811",
+  "figures_packaged": 6,
+  "preview_exports_packaged": 24,
+  "support_controls_packaged": 4,
+  "gate_rows": 6,
+  "review_packet_ready": true,
+  "caption_lock_rows": 6,
+  "source_data_panel_map_rows": 6,
+  "export_qa_rows": 6,
+  "stop_rules": 5,
+  "captions_locked_final": false,
+  "source_data_panel_map_locked": false,
+  "final_figures_ready": false,
+  "figure_portal_upload_allowed": false,
+  "submission_ready": false,
+  "qa_rows": 4,
+  "qa_pass": false,
+  "desktop_report": "C:\\Users\\刘子轩\\Desktop\\NatComms_20260811_figure_final_candidate_review_packet.md",
+  "status": "figure_final_candidate_review_packet_ready_final_blocked",
+  "desktop_plan_updated": true
+}

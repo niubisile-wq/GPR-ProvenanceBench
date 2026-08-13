@@ -1,0 +1,5 @@
+blocker,evidence,blocks
+FMR-001 through FMR-005 not complete,FMR-001;FMR-002;FMR-003;FMR-004;FMR-005,FMR-006 writeback candidate and final guarded recheck receipt
+receipt completion validator does not allow guarded recheck,receipt_completion_allowed=False; guarded_recheck_allowed=False,FMR-006 writeback candidate
+guarded recheck not allowed or not executed,launcher_execution_allowed=False; recheck_executed=False,FMR-006 writeback candidate
+M0-M2 pass log missing or not detected,log_exists=True; pass_detected=False,FMR-006 writeback candidate

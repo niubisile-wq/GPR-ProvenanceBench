@@ -1,0 +1,4 @@
+check,result,detail
+valid case counts all preserved EDS rows,PASS,"{""corrupt_one_hash"": false, ""escalation_sent"": true, ""fmr001_unlock_allowed"": true, ""missing_send_receipts"": 0, ""preserved_manual_fields"": true, ""qa_pass"": true, ""receipt_completion_allowed"": true, ""sent_receipt_rows"": 5, ""submission_ready"": false}"
+corrupt hash case remains blocked,PASS,"{""corrupt_one_hash"": true, ""escalation_sent"": false, ""fmr001_unlock_allowed"": false, ""missing_send_receipts"": 1, ""preserved_manual_fields"": true, ""qa_pass"": true, ""receipt_completion_allowed"": false, ""sent_receipt_rows"": 4, ""submission_ready"": false}"
+regression does not alter real submission state,PASS,Both synthetic cases keep submission_ready=false.
